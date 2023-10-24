@@ -50,20 +50,20 @@ Mods: {
 			ModifierID: {
 				Tooltip: ""
 				Armored.Label: 装甲
-				Impenetrable.Label: 不可侵
-				Light.Label: Light
-				Menacing.Label: Menacing
-				Rampaging.Label: Rampaging
-				Regenerating.Label: Regenerating
-				Slow.Label: Slow
-				Sluggish.Label: Sluggish
-				Splitting.Label: Splitting
-				Swift.Label: Swift
-				Unrelenting.Label: Unrelenting
-				Wealthy.Label: Wealthy
-				Accelerating.Label: Accelerating
-				Bloodthirsty.Label: Bloodthirsty
-				Bulletproof.Label: Bulletproof
+				Impenetrable.Label: 貫通不可
+				Light.Label: 軽い
+				Menacing.Label: 威嚇
+				Rampaging.Label: 暴れる
+				Regenerating.Label: 再生
+				Slow.Label: 遅い
+				Sluggish.Label: 愚鈍
+				Splitting.Label: 分裂
+				Swift.Label: 素早い
+				Unrelenting.Label: 屈強
+				Wealthy.Label: 裕福
+				Accelerating.Label: 加速
+				Bloodthirsty.Label: 血に飢えた
+				Bulletproof.Label: 弾丸耐性
 				Fortifying.Label: Fortifying
 				Hexproof.Label: Hexproof
 				Huge.Label: でかい
@@ -84,7 +84,7 @@ Mods: {
 				Worm.Label: Worm
 				Delerious.Label: Delerious
 				Duke.Label: Duke
-				Healthy.Label: Healthy
+				Healthy.Label: 体力増加
 				Flaming.Label: Flaming
 				Medic.Label: Medic
 				Metallic.Label: Metallic
@@ -99,13 +99,13 @@ Mods: {
 				Nested.Label: Nested
 				Royal.Label: Royal
 				Showman.Label: Showman
-				Red.Label: Red
+				Red.Label: 赤色
 				Lethal.Label: Lethal
-				Blue.Label: Blue
-				Green.Label: Green
-				Orange.Label: Orange
-				Purple.Label: Purple
-				Yellow.Label: Yellow
+				Blue.Label: 青色
+				Green.Label: 緑色
+				Orange.Label: 橙色
+				Purple.Label: 紫色
+				Yellow.Label: 黄色
 			}
 			ModifierPicker: {
 				Tooltip: ""
