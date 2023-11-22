@@ -401,19 +401,19 @@ Mods: {
 				DisplayName: Automaton
 
 				TownNPCMood: {
-					Content: システム カドウ チュウ...
-					NoHome: アメ ニ サラサレル ト サビ ガ ハヤマリ マス
-					LoveSpace: キョヨウカノウ ナ セイカツ ノ トリキメ ガ シュトク サレマシタ
-					FarFromHome: ワタシ ハ ハヤク イエニカエッテ ブルーマジック コンデンサ ヲ ジュウデン シナケレバ ナリマセン
-					DislikeCrowded: シキンキョリ デ ケンシュツサレタ ヒト ガ オオスギ マス
-					HateCrowded: ワタシ ハ コドク ガ スキデス
+					Content: "システム カドウ チュウ..."
+					NoHome: "アメ ニ サラサレル ト サビ ガ ハヤマリ マス"
+					LoveSpace: "キョヨウカノウ ナ セイカツ ノ トリキメ ガ シュトク サレマシタ"
+					FarFromHome: "ワタシ ハ ハヤク イエニカエッテ ブルーマジック コンデンサ ヲ ジュウデン シナケレバ ナリマセン"
+					DislikeCrowded: "シキンキョリ デ ケンシュツサレタ ヒト ガ オオスギ マス"
+					HateCrowded: "ワタシ ハ コドク ガ スキデス"
 					LikeBiome: "{BiomeName} ハ ブルーマジック ニ ヨイ カンキョウ デス"
 					LoveBiome: "{BiomeName} ハ ブルーマジック ヲ カンペキ ニ ドウササセ マス"
-					DislikeBiome: {BiomeName} ハ Bluemagic ノ コウリツ ヲ テイカ サセマス
-					HateBiome: {BiomeName} デハ Bluemagic ノ ドウサ ガ フアンテイ ニ ナリマス
+					DislikeBiome: "{BiomeName} ハ Bluemagic ノ コウリツ ヲ テイカ サセマス"
+					HateBiome: "{BiomeName} デハ Bluemagic ノ ドウサ ガ フアンテイ ニ ナリマス"
 					LikeNPC: "{NPCName} ハ Bluemagic ノ チカラ ヲ タカク ヒョウカ シテクレテ イマス"
-					LoveNPC: ワタシ ハ {NPCName} ガ ソノ ハグルマ ヲ シラベテモ キニシマセン
-					DislikeNPC: ワタシ ハ {NPCName} ニ Bluemagic ニ ツイテ ゲンキュウシタ コト ヲ コウカイ シテイマス
+					LoveNPC: "ワタシ ハ {NPCName} ガ ソノ ハグルマ ヲ シラベテモ キニシマセン"
+					DislikeNPC: "ワタシ ハ {NPCName} ニ Bluemagic ニ ツイテ ゲンキュウシタ コト ヲ コウカイ シテイマス"
 					HateNPC: "{NPCName} ハ Bluemagic ヲ エイリモクテキ デ シヨウデキナイコト ヲ リカイ シナケレバ ナリマセン"
 					LikeNPC_Princess: "{NPCName} は私の作成者と親友です。"
 					Princess_LovesNPC: "{NPCName} はとても興味深い機械ですけど、どうやって動いているんでしょうか?"
