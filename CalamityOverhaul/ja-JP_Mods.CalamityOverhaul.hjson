@@ -2137,7 +2137,7 @@ RemakeItems: {
 			刃が敵に命中すると、さらに地面から亡霊が召喚される
 			「この剣の前の持ち主は、すでに亡霊の一部となっている」
 			'''
-		DisplayName: 深淵の刃
+		DisplayName: 深淵の剣
 	}
 
 	RVirulence: {
@@ -4107,7 +4107,7 @@ TextContent: {
 		BloodAltar_Text3: 終わりなき血と肉の狂乱に囚われた...
 		BloodAltar_Text2: クリムゾンキングへの供物が足りない...
 		BloodAltar_Text1: 深紅の眼差しが迫る...
-		Item_LegendOnMouseLang: より近くで聴くには「左シフト」を押す]
+		Item_LegendOnMouseLang: より近くで聴くには「左シフト」を押す
 		Event_TungstenRiot_Text_2: タングステン軍が撃退された！
 		Event_TungstenRiot_Text_1: 大量のタングステン生物が侵攻している！
 		Event_TungstenRiot_Name: Tungsten Riot
@@ -5546,7 +5546,7 @@ Items: {
 	WeaverGrievances: {
 		Legend:
 			'''
-			　　　永遠の地下牢は大地を覆い、その壁には古の戦士たちの碑文と悲鳴が刻まれている。
+			永遠の地下牢は大地を覆い、その壁には古の戦士たちの碑文と悲鳴が刻まれている。
 			一つひとつの石は滲み出る悪意に満ち、まるで呪われし者たちの鎖のように、時の終焉へと続く無限の闇に縛られている。
 			かつて彼らは王の刃であり、幾多の戦場を駆け抜けた。
 			彼らの剣は無数の戦地を照らし、彼らの血はそびえ立つ帝国を鍛え上げた。
@@ -5916,7 +5916,7 @@ Items: {
 			槍にチャージがある場合、攻撃後に太陽からのレーザーが降り注ぎ、すべての運命を封じる
 			[legend]
 			'''
-		DisplayName: Spear of Longinus
+		DisplayName: ロンギヌスの槍
 	}
 
 	CosmicCalamity: {
