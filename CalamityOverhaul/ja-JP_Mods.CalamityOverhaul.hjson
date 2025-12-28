@@ -9,6 +9,64 @@ Tools: {
 }
 
 Items: {
+	WGGLifeWeaver: {
+		Tooltip: ""
+		DisplayName: 荒野のライフウィーバー
+	}
+
+	WGGLumberjack: {
+		Tooltip: ""
+		DisplayName: 荒野のランバージャック
+	}
+
+	LifeWeaver: {
+		Tooltip: 電力を消費して周囲に木を植える
+		DisplayName: ライフウィーバー
+		NoEnergyText: 電力が不足している！
+		NoValidPositionText: 近くに植えられる場所がない！
+	}
+
+	Lumberjack: {
+		Tooltip:
+			'''
+			電力を消費して木材を伐採する
+			周囲の木を自動で伐採する
+			右クリックで循環モードと伐採モードを切り替える
+			循環モードでは木を伐採し続け、苗木を植え直す
+			伐採モードでは木を伐採するのみで、植え直しは行わない
+			'''
+		DisplayName: ランバージャック
+		ClearModeText: 伐採モード
+		CycleModeText: 循環モード
+		Text2: 電力不足！
+		Text1: 数が多すぎる！
+	}
+
+	GodslayerScabbard: {
+		Tooltip:
+			'''
+			近接武器を持ったまま攻撃しないことでチャージを蓄積する
+			最大チャージ状態で攻撃すると2秒間の無敵を得る
+			「刃は鞘に収められているが、その殺意ははっきりと伝わってくる
+			　時が来れば、神を斬るのに必要なのは一瞬だけだ」
+			'''
+		DisplayName: 神殺しの鞘
+	}
+
+	UniversalFrost: {
+		Tooltip:
+			'''
+			雪玉を弾薬として使用する
+			雹弾と冷気のオーブを発射する
+			オーブは跳ね返り、敵を追尾し、爆発時に氷結ビームを放つ
+			連続射撃で氷のエネルギーを蓄積する
+			最大チャージ時、次の攻撃で氷河期を解き放つ
+			氷河期はカーソル位置に大量の氷柱と吹雪の領域を発生させる
+			「万物が静寂に沈むとき、世界を覆うのは永遠の霜のみ」
+			'''
+		DisplayName: ユニバーサルフロスト
+	}
+
 	ElementWhip: {
 		DisplayName: 元素の鞭
 		Tooltip: 月と元素のエネルギーを宿した鞭
@@ -10164,6 +10222,28 @@ QuestLogs: {
 			}
 
 			DetailedDescription: あちこちに落ちた戦利品を拾うために、いちいち屈むのに疲れていないだろうか。この装置は、近くに落ちたアイテムを自動的に回収する。自動化された物流や仕分けシステムを構築するための中核コンポーネントであり、手作業から完全に解放してくれる。
+		}
+
+		LifeWeaverQuest: {
+			DetailedDescription: 森林の再生は通常ゆっくりと進むが、この機械は電力を使って苗木を正確に植え、荒れ果てた土地に素早く生命を取り戻す。完全自動で持続可能な植林を構築するための、最後のピースとなる装置だ。
+
+			QuestObjective: {
+				Description: ライフウィーバーを入手する。
+			}
+
+			Description: ライフウィーバーを入手する。
+			DisplayName: 植林の時間
+		}
+
+		LumberjackQuest: {
+			DetailedDescription: 木材は産業と建築の基盤だ。原始的な斧とは別れを告げよう。この機械は電力を消費し、安定した木材供給を実現する。
+
+			QuestObjective: {
+				Description: ランバージャックを入手する。
+			}
+
+			Description: ランバージャックを入手する。
+			DisplayName: 伐採の時間
 		}
 	}
 }
