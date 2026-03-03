@@ -21,6 +21,41 @@ Configs: {
 			Label: ズーム切り替え遅延時間（秒）
 			Tooltip: ""
 		}
+
+		zoomOutHurt: {
+			Label: ダメージ時にズームアウト（町でも）
+			Tooltip: ""
+		}
+
+		zoomOutSwim: {
+			Label: 水泳時にズームアウト（町でも）
+			Tooltip: ""
+		}
+
+		zoomRunFastThreshold: {
+			Label: 「高速走行」の判定速度（ゲーム内mph）
+			Tooltip: ""
+		}
+
+		zoomOutHurtTime: {
+			Label: 被弾後のズームアウト時間
+			Tooltip: ""
+		}
+
+		zoomOutRunFast: {
+			Label: 高速走行時にズームアウト（町でも）
+			Tooltip: ""
+		}
+
+		extraZoomOutWhenBoss: {
+			Label: ボス戦中に追加ズームアウト
+			Tooltip: ""
+		}
+
+		extraZoomOutWhenBossMult: {
+			Label: ボス戦追加ズーム倍率
+			Tooltip: ""
+		}
 	}
 }
 

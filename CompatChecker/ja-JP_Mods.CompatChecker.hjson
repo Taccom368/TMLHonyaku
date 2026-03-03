@@ -1,3 +1,15 @@
+Commands: {
+	Detours: {
+		Description: 適用されているMonoModデトアを解析する
+		Usage:
+			'''
+			/detours list - すべてのMODによって適用されたデトア一覧を表示
+			/detours conflicting - 競合の可能性があるデトア対象メソッドを表示
+			/detours count - すべてのMODによるデトア総数を出力
+			'''
+	}
+}
+
 Configs: {
 	CompatConfig: {
 		DisplayName: クライアント設定
@@ -49,6 +61,11 @@ Configs: {
 		CheckMultiplayerCompat: {
 			Label: マルチプレイヤーサポート
 			Tooltip: Modがマルチプレイヤーに対応しているかどうかを確認します。
+		}
+
+		EnableDetoursCommand: {
+			Label: MonoModデトア解析コマンドを有効化
+			Tooltip: /detoursコマンドを使用可能にします
 		}
 	}
 }

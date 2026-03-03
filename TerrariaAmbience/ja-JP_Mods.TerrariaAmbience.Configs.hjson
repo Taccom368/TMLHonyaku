@@ -190,6 +190,7 @@ AmbientConfig: {
 	Headers: {
 		Debugging: デバッグ設定
 		AmbienceTrackVolumes: 環境音の調整
+		RealTimeTweaks: リアルタイム調整
 	}
 
 	debugInterface: {
@@ -294,6 +295,21 @@ AmbientConfig: {
 	underwaterVolume: {
 		Label: 水没
 		Tooltip: ""
+	}
+
+	bossFightMusicAdjust: {
+		Label: ボス戦音量調整
+		Tooltip: 有効時、ボスの有無に応じて音量を段階的に切り替えます
+	}
+
+	bossFightMusicVolume: {
+		Label: ボス戦音量（戦闘時）
+		Tooltip: ボス戦音量調整が有効時、ボス出現で音量がこの値までゆっくり上昇する
+	}
+
+	bossFightMusicMin: {
+		Label: ボス戦音量（非戦闘時）
+		Tooltip: ボス戦音量調整が有効時、ボスがいない際の音量がこの値までゆっくり減少する
 	}
 }
 

@@ -28,7 +28,7 @@ Configs: {
 
 		BackgroundDarkness: {
 			Label: 背景暗度
-			Tooltip: 
+			Tooltip:
 				'''
 				背景濃さを調整します
 				（0.1＝薄い、1.0＝濃い）
@@ -49,6 +49,35 @@ Configs: {
 			Tooltip: 死亡時のメインメッセージ（大きな赤い文字）を非表示にします
 			Label: メインテキストを無効化
 		}
+
+		Headers: {
+			Layout: レイアウト
+			Configs: 設定
+		}
+
+		LayoutPreset: {
+			Label: レイアウトプリセット
+			Tooltip: 複数プリセットから選択
+		}
+	}
+
+	DeathLayoutPreset: {
+		Normal: {
+			Label: ノーマル
+			Tooltip: 通常のレイアウト
+		}
+
+		Spaced: {
+			Label: スペース
+			Tooltip: 余白を広めに取ったレイアウト
+		}
+
+		InvertedSpaced: {
+			Label: 反転スペース
+			Tooltip: 『スペース』レイアウトの反転版
+		}
+
+		Tooltip: ""
 	}
 }
 

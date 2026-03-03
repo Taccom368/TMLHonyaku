@@ -1,55 +1,914 @@
-		NPCs.BabySpider.DisplayName: 赤ちゃん蜘蛛
-		Configs: {
-			EnemyModifiersConfig: {
-				DisplayName: Enemy Modifiers Config
-				Header1: 能力設定
-				Header2: ブラックリスト
-				ModifierAnnouncements: {
-					Label: 能力のお知らせ
-					Tooltip: しばらくの間、敵の頭上に能力が表示される
-				}
-				BossModifiers: {
-					Label: ボスが能力を持てるか
-					Tooltip: ""
-				}
-				ChanceForModifier: {
-					Label: 能力適用の確率 (%)
-					Tooltip: ""
-				}
-				ForceModifier: {
-					Label: 能力の強制
-					Tooltip: ""
-				}
-				ModifierEnum: {
-					Label: 強制する能力
-					Tooltip: ""
-				}
-				NPCBlacklist: {
-					Label: NPCブラックリスト
-					Tooltip: ここにいれたNPCは、決して能力を受けることができない。
-				}
-				ModifierBlacklist: {
-					Label: 能力ブラックリスト
-					Tooltip: これらの能力は表示されない
-				}
-				ModifierAmount: {
-					Label: 能力の最大量
-					Tooltip: ""
-				}
-				ChanceForExtraModifier: {
-					Label: 追加の能力の確率 (%)
-					Tooltip: ""
-				}
-				AnnouncementsForever: {
-					Label: お知らせを表示したままにするか
-					Tooltip: 能力名は常に敵の上に表示される
-				}
-			}
-			ModifierPicker: {
-				Tooltip: ""
-				ModifierEnum: {
-					Label: ブラックリストに入れる能力
-					Tooltip: ""
-				}
-			}
+NPCs: {
+	BabySpider.DisplayName: 子グモ
+	SkeleArm.DisplayName: スケルトロンハンド
+	Creeper.DisplayName: クリーパー
+}
+
+Configs: {
+	EnemyModifiersServerConfig: {
+		DisplayName: サーバー設定
+		ModifierConfiguration: モディファイア設定
+		Blacklists: ブラックリスト
+
+		ModifierAnnouncements: {
+			Label: モディファイア表示
+			Tooltip: 敵のモディファイアが一定時間表示される
 		}
+
+		BossModifiers: {
+			Label: ボスにモディファイアを付与
+			Tooltip: ""
+		}
+
+		ChanceForModifier: {
+			Label: モディファイア発生率 (%)
+			Tooltip: ""
+		}
+
+		ForceModifier: {
+			Label: モディファイアを強制付与
+			Tooltip: ""
+		}
+
+		ModifierEnum: {
+			Label: 強制付与するモディファイア
+			Tooltip: ""
+		}
+
+		NPCBlacklist: {
+			Label: NPCブラックリスト
+			Tooltip: 登録したNPCにはモディファイアが付与されません
+		}
+
+		ModifierBlacklist: {
+			Label: モディファイアブラックリスト
+			Tooltip: 登録したモディファイアは発生しません
+			Enabled.Tooltip: Hi
+		}
+
+		ModifierAmount: {
+			Label: 最大モディファイア数
+			Tooltip: ""
+		}
+
+		ChanceForExtraModifier: {
+			Label: 追加モディファイア発生率 (%)
+			Tooltip: ""
+		}
+
+		AnnouncementsForever: {
+			Label: モディファイア名を常時表示
+			Tooltip: モディファイアを常時表示
+		}
+
+		Headers: {
+			ModifierConfiguration: モディファイア設定
+			Blacklists: ブラックリスト
+			ModifierToggleHeader: モディファイア切替
+			Rarity1Header: コモンモディファイア
+			Rarity2Header: アンコモンモディファイア
+			Rarity3Header: レアモディファイア
+			Rarity4Header: スーパーレアモディファイア
+		}
+
+		ModifierToggles: {
+			Label: モディファイア切替
+			Tooltip: ""
+		}
+
+		Armored: {
+			Label: 鉄壁
+			Tooltip: 防御力が50%増加
+		}
+
+		Blue: {
+			Label: 青
+			Tooltip: 青色になる
+		}
+
+		Green: {
+			Label: 緑
+			Tooltip: 緑色になる
+		}
+
+		Healthy: {
+			Label: 強健
+			Tooltip: ライフが50%増加
+		}
+
+		Impenetrable: {
+			Label: 貫通無効
+			Tooltip: 貫通効果を持つ弾が破壊される
+		}
+
+		Light: {
+			Label: 軽やか
+			Tooltip: ノックバックを受けやすく、重力が軽減される
+		}
+
+		Menacing: {
+			Label: 凶暴
+			Tooltip: ダメージが50%増加
+		}
+
+		Orange: {
+			Label: 橙
+			Tooltip: 橙色になる
+		}
+
+		Purple: {
+			Label: 紫
+			Tooltip: 紫色になる
+		}
+
+		Rampaging: {
+			Label: 狂乱
+			Tooltip: 強烈なノックバックを与える
+		}
+
+		Red: {
+			Label: 赤
+			Tooltip: 赤色になる
+		}
+
+		Regenerating: {
+			Label: 自己再生
+			Tooltip: 毎秒ライフを2%回復する
+		}
+
+		Slow: {
+			Label: 鈍足
+			Tooltip: 移動速度が50%低下
+		}
+
+		Sluggish: {
+			Label: 鈍重
+			Tooltip: あらゆる行動が半分の速度になる
+		}
+
+		Splitting: {
+			Label: 分裂
+			Tooltip: 死亡時に小さい個体を2〜3体生み出す
+		}
+
+		Swift: {
+			Label: 俊足
+			Tooltip: 移動速度が50%増加
+		}
+
+		Unrelenting: {
+			Label: 不屈
+			Tooltip: ノックバックを無効化する
+		}
+
+		Wealthy: {
+			Label: 財宝
+			Tooltip: コインのドロップ量が5倍になる
+		}
+
+		Yellow: {
+			Label: 黄
+			Tooltip: 黄色になる
+		}
+
+		Stinky: {
+			Label: 悪臭
+			Tooltip: 悪臭状態を付与し、ダメージが25%増加
+		}
+
+		Shiny: {
+			Label: 発光
+			Tooltip: 暗闇で光り、松明をドロップする
+		}
+
+		Lovestruck: {
+			Label: 魅了
+			Tooltip: ダメージが半減し、ハートを発生させ、ドロップが2倍になる
+		}
+
+		Poor: {
+			Label: 貧弱
+			Tooltip: ドロップなし、速度が25%低下し、HPが25%減少
+		}
+
+		Pink: {
+			Label: 桃
+			Tooltip: 桃色になる
+		}
+
+		Big: {
+			Label: 巨大
+			Tooltip: サイズとライフが25%増加し、ダメージが20%増加、移動速度が10%減少
+		}
+
+		Small: {
+			Label: 小型
+			Tooltip: サイズ・ダメージ・HPが25%減少し、移動速度が20%増加
+		}
+
+		Fishy: {
+			Label: 魚臭い
+			Tooltip: クエスト用の魚をドロップし、常に濡れた状態になっている
+		}
+
+		Accelerating: {
+			Label: 加速
+			Tooltip: 最大で通常の4倍まで速度が上昇（攻撃を受けるとリセットされる）
+		}
+
+		Bulletproof: {
+			Label: 防弾
+			Tooltip: 遠距離ダメージを80%軽減
+		}
+
+		Flaming: {
+			Label: 炎上
+			Tooltip: 炎上効果を付与し、炎の跡を残し、移動速度が50%増加
+		}
+
+		Fortifying: {
+			Label: 防護
+			Tooltip: 周囲の敵にダメージ軽減50%を与えるオーラを放つ
+		}
+
+		Hexproof: {
+			Label: 呪耐
+			Tooltip: 継続ダメージを受けない
+		}
+
+		Huge: {
+			Label: 超大型
+			Tooltip: ライフと大きさ、攻撃力が増加し、移動速度が減少
+		}
+
+		Infested: {
+			Label: 宿主
+			Tooltip: 定期的に子グモを生み出す
+		}
+
+		Metallic: {
+			Label: 金属化
+			Tooltip: 防御力が2倍になり、ノックバックを受けにくく、鉱石をドロップする
+		}
+
+		Miniature: {
+			Label: 極小
+			Tooltip: 体力と大きさ、攻撃力が減少し、移動速度が増加
+		}
+
+		Possessed: {
+			Label: 憑依
+			Tooltip: 行動パターンがゴーストAIになる
+		}
+
+		Rallying: {
+			Label: 鼓舞
+			Tooltip: 周囲の敵のダメージと速度を強化するオーラを放つ
+		}
+
+		Shielded: {
+			Label: 盾持ち
+			Tooltip: 近接ダメージを80%軽減
+		}
+
+		Stealthy: {
+			Label: 潜伏
+			Tooltip: 徐々に透明になる（攻撃を受けるとリセットされる）
+		}
+
+		Vaccinated: {
+			Label: 免疫
+			Tooltip: あらゆる状態異常を無効化
+		}
+
+		Vampiric: {
+			Label: 吸血
+			Tooltip: プレイヤーにダメージを与えるとライフを回復し、ダメージが25%増加
+		}
+
+		Veiled: {
+			Label: 魔法衣
+			Tooltip: 魔法と召喚ダメージを80%軽減
+		}
+
+		Reflective: {
+			Label: 反射
+			Tooltip: まれに弾を跳ね返す
+		}
+
+		Volatile: {
+			Label: 自爆
+			Tooltip: 死亡時に爆発する
+		}
+
+		Frenzied: {
+			Label: 逆上
+			Tooltip: ライフが減るほどダメージと速度が上昇
+		}
+
+		Scary: {
+			Label: 恐怖
+			Tooltip: 混乱を与えるオーラを放つ
+		}
+
+		Sleepy: {
+			Label: うたた寝
+			Tooltip: 10秒間ダメージを受けないと眠りにつく
+		}
+
+		Polite: {
+			Label: 紳士的
+			Tooltip: 遭遇時と倒されるときに挨拶する
+		}
+
+		Smoky: {
+			Label: 煙
+			Tooltip: 煙を発生させる
+		}
+
+		Chained: {
+			Label: 鎖縛
+			Tooltip: プレイヤーに繋がれ、一定範囲から離れられない
+		}
+
+		Devouring: {
+			Label: 喰らう者
+			Tooltip: 自身以下のライフを持つ敵を飲み込む
+		}
+
+		Hyper: {
+			Label: 過敏
+			Tooltip: 行動速度が2倍になる
+		}
+
+		Imaginery: {
+			Label: 幻影
+			Tooltip: 半透明で、接触すると消滅する
+		}
+
+		Juggernaut: {
+			Label: 重装巨兵
+			Tooltip: 全体的に強化され、吹き飛ばされず、動きは遅い。ドロップ2倍
+		}
+
+		Merchant: {
+			Label: 行商人
+			Tooltip: 友好的で、ランダムなアイテムを1つ渡した後に姿を消す
+		}
+
+		Showman: {
+			Label: 道化
+			Tooltip: 死亡時に煙と鳥に変わって消える
+		}
+
+		Solidifed: {
+			Label: 固体化
+			Tooltip: ブロックを通過できなくなる
+		}
+
+		Undying: {
+			Label: 執念
+			Tooltip: 残りライフ5で5秒間生存する
+		}
+
+		Worm: {
+			Label: ワーム化
+			Tooltip: 複数の胴体を伴って出現する
+		}
+
+		Swarming: {
+			Label: 群体
+			Tooltip: 出現と同時に複数体で現れる
+		}
+
+		Aquarian: {
+			Label: 水棲
+			Tooltip: ときどきデュークフィッシュロンのように突進する
+		}
+
+		Flucuating: {
+			Label: 変動
+			Tooltip: ライフが2倍になり、時間とともに大きさが変化する
+		}
+
+		Skeletal: {
+			Label: スケルトン化
+			Tooltip: スケルトロンハンドを2つ持って出現する
+		}
+
+		Disguised: {
+			Label: 擬態
+			Tooltip: 見た目がブルースライムに変わる
+		}
+
+		Shimmering: {
+			Label: シマー
+			Tooltip: 半透明に出入りし、速度が25%上昇、ドロップ2倍
+		}
+
+		Celebratory: {
+			Label: 祝祭
+			Tooltip: ときどき紙吹雪を撒き、死亡時に花火となって爆発する
+		}
+
+		Sticky: {
+			Label: 粘着
+			Tooltip: 定期的にクモの巣を残す
+		}
+
+		Medic: {
+			Label: 衛生兵
+			Tooltip: 周囲のすべての敵を回復する
+		}
+
+		Sorcerous: {
+			Label: 魔術
+			Tooltip: まれにカオスボールを放つ
+		}
+
+		Creepy: {
+			Label: クリーピィ
+			Tooltip: 10体のクリーパーを持って出現する
+		}
+
+		Shy: {
+			Label: 恥ずかしがり
+			Tooltip: 見られていると停止し、受けるダメージが大きく減少
+		}
+
+		Dramatic: {
+			Label: 演出家
+			Tooltip: 専用の出現メッセージと撃破メッセージを持つ
+		}
+
+		Buzzing: {
+			Label: 蜂群
+			Tooltip: ダメージを受けると蜂を発生させる
+		}
+
+		Royal: {
+			Label: 王族
+			Tooltip: ステータスが強化され、小さい個体を生み出す
+		}
+
+		Rainbow: {
+			Label: 虹
+			Tooltip: 虹色に輝き、ドロップが5倍になる
+		}
+
+		Modifying: {
+			Label: 進化
+			Tooltip: 10秒ごとに追加のモディファイアを獲得する（上限値まで）
+		}
+
+		Tricky: {
+			Label: 狡猾
+			Tooltip: 幻影のクローンと共に出現する
+		}
+
+		Molten: {
+			Label: モルテン
+			Tooltip: ダメージ150%、ダメージ耐性50%。濡れると大ダメージを受ける
+		}
+
+		Festive: {
+			Tooltip: プレゼント爆弾を発射し、プレゼントをドロップする
+			Label: 聖夜
+		}
+	}
+
+	EnemyModifiersClientConfig: {
+		DisplayName: クライアント設定
+		Headers.Announcements: モディファイア表示設定
+
+		announcementsEnabled: {
+			Label: 表示を有効化
+			Tooltip: 敵のモディファイアを表示します
+		}
+
+		announcementsForever: {
+			Label: 常時表示
+			Tooltip: 敵を倒すまで表示され続けます
+		}
+
+		announcementsDuration: {
+			Label: 表示時間
+			Tooltip: モディファイアの表示時間を設定します
+		}
+	}
+
+	ModifierPicker: {
+		Tooltip: ""
+
+		ModifierEnum: {
+			Label: モディファイア一覧
+			Tooltip: ""
+		}
+	}
+
+	ConfigModifierID: {
+		Tooltip: ""
+
+		Armored: {
+			Label: 鉄壁
+			Tooltip: ""
+		}
+
+		Blue: {
+			Label: 青
+			Tooltip: ""
+		}
+
+		Green: {
+			Label: 緑
+			Tooltip: ""
+		}
+
+		Healthy: {
+			Label: 強健
+			Tooltip: ""
+		}
+
+		Impenetrable: {
+			Label: 貫通無効
+			Tooltip: ""
+		}
+
+		Light: {
+			Label: 軽やか
+			Tooltip: ""
+		}
+
+		Menacing: {
+			Label: 凶暴
+			Tooltip: ""
+		}
+
+		Orange: {
+			Label: 橙
+			Tooltip: ""
+		}
+
+		Purple: {
+			Label: 紫
+			Tooltip: ""
+		}
+
+		Rampaging: {
+			Label: 狂乱
+			Tooltip: ""
+		}
+
+		Red: {
+			Label: 赤
+			Tooltip: ""
+		}
+
+		Regenerating: {
+			Label: 自己再生
+			Tooltip: ""
+		}
+
+		Slow: {
+			Label: 鈍足
+			Tooltip: ""
+		}
+
+		Sluggish: {
+			Label: 鈍重
+			Tooltip: ""
+		}
+
+		Splitting: {
+			Label: 分裂
+			Tooltip: ""
+		}
+
+		Swift: {
+			Label: 俊足
+			Tooltip: ""
+		}
+
+		Unrelenting: {
+			Label: 不屈
+			Tooltip: ""
+		}
+
+		Wealthy: {
+			Label: 財宝
+			Tooltip: ""
+		}
+
+		Yellow: {
+			Label: 黄
+			Tooltip: ""
+		}
+
+		Shiny: {
+			Label: 発光
+			Tooltip: ""
+		}
+
+		Stinky: {
+			Label: 悪臭
+			Tooltip: ""
+		}
+
+		Lovestruck: {
+			Label: 魅了
+			Tooltip: ""
+		}
+
+		Poor: {
+			Label: 貧弱
+			Tooltip: ""
+		}
+
+		Pink: {
+			Label: 桃
+			Tooltip: ""
+		}
+
+		Big: {
+			Label: 巨大
+			Tooltip: ""
+		}
+
+		Small: {
+			Label: 小型
+			Tooltip: ""
+		}
+
+		Fishy: {
+			Label: 魚臭い
+			Tooltip: ""
+		}
+
+		Accelerating: {
+			Label: 加速
+			Tooltip: ""
+		}
+
+		Bulletproof: {
+			Label: 防弾
+			Tooltip: ""
+		}
+
+		Flaming: {
+			Label: 炎上
+			Tooltip: ""
+		}
+
+		Fortifying: {
+			Label: 防護
+			Tooltip: ""
+		}
+
+		Hexproof: {
+			Label: 呪耐
+			Tooltip: ""
+		}
+
+		Huge: {
+			Label: 超大型
+			Tooltip: ""
+		}
+
+		Infested: {
+			Label: 宿主
+			Tooltip: ""
+		}
+
+		Metallic: {
+			Label: 金属化
+			Tooltip: ""
+		}
+
+		Miniature: {
+			Label: 極小
+			Tooltip: ""
+		}
+
+		Possessed: {
+			Label: 憑依
+			Tooltip: ""
+		}
+
+		Rallying: {
+			Label: 鼓舞
+			Tooltip: ""
+		}
+
+		Shielded: {
+			Label: 盾持ち
+			Tooltip: ""
+		}
+
+		Stealthy: {
+			Label: 潜伏
+			Tooltip: ""
+		}
+
+		Vaccinated: {
+			Label: 免疫
+			Tooltip: ""
+		}
+
+		Vampiric: {
+			Label: 吸血
+			Tooltip: ""
+		}
+
+		Veiled: {
+			Label: 魔法衣
+			Tooltip: ""
+		}
+
+		Reflective: {
+			Label: 反射
+			Tooltip: ""
+		}
+
+		Volatile: {
+			Label: 自爆
+			Tooltip: ""
+		}
+
+		Frenzied: {
+			Label: 逆上
+			Tooltip: ""
+		}
+
+		Scary: {
+			Label: 恐怖
+			Tooltip: ""
+		}
+
+		Sleepy: {
+			Label: うたた寝
+			Tooltip: ""
+		}
+
+		Polite: {
+			Label: 紳士的
+			Tooltip: ""
+		}
+
+		Smoky: {
+			Label: 煙
+			Tooltip: ""
+		}
+
+		Chained: {
+			Label: 鎖縛
+			Tooltip: ""
+		}
+
+		Devouring: {
+			Label: 喰らう者
+			Tooltip: ""
+		}
+
+		Hyper: {
+			Label: 過敏
+			Tooltip: ""
+		}
+
+		Imaginary: {
+			Label: 幻影
+			Tooltip: ""
+		}
+
+		Juggernaut: {
+			Label: 重装巨兵
+			Tooltip: ""
+		}
+
+		Merchant: {
+			Label: 行商人
+			Tooltip: ""
+		}
+
+		Rainbow: {
+			Label: 虹
+			Tooltip: ""
+		}
+
+		Showman: {
+			Label: 道化
+			Tooltip: ""
+		}
+
+		Solidified: {
+			Label: 固体化
+			Tooltip: ""
+		}
+
+		Undying: {
+			Label: 執念
+			Tooltip: ""
+		}
+
+		Worm: {
+			Label: ワーム化
+			Tooltip: ""
+		}
+
+		Swarming: {
+			Label: 群体
+			Tooltip: ""
+		}
+
+		Aquarian: {
+			Label: 水棲
+			Tooltip: ""
+		}
+
+		Fluctuating: {
+			Label: 変動
+			Tooltip: ""
+		}
+
+		Skeletal: {
+			Label: スケルトン化
+			Tooltip: ""
+		}
+
+		Disguised: {
+			Label: 擬態
+			Tooltip: ""
+		}
+
+		Shimmering: {
+			Label: シマー
+			Tooltip: ""
+		}
+
+		Celebratory: {
+			Label: 祝祭
+			Tooltip: ""
+		}
+
+		Sticky: {
+			Label: 粘着
+			Tooltip: ""
+		}
+
+		Medic: {
+			Label: 衛生兵
+			Tooltip: ""
+		}
+
+		Sorcerous: {
+			Label: 魔術
+			Tooltip: ""
+		}
+
+		Creepy: {
+			Label: クリーピィ
+			Tooltip: ""
+		}
+
+		Shy: {
+			Label: 恥ずかしがり
+			Tooltip: ""
+		}
+
+		Dramatic: {
+			Label: 演出家
+			Tooltip: ""
+		}
+
+		Buzzing: {
+			Label: 蜂群
+			Tooltip: ""
+		}
+
+		Royal: {
+			Label: 王族
+			Tooltip: ""
+		}
+
+		Modifying: {
+			Label: 進化
+			Tooltip: ""
+		}
+
+		Tricky: {
+			Label: 狡猾
+			Tooltip: 幻影のクローンと共に出現する
+		}
+
+		Molten: {
+			Label: モルテン
+			Tooltip: ダメージ150%、ダメージ耐性50%。濡れると大ダメージを受ける
+		}
+
+		Festive: {
+			Tooltip: プレゼント爆弾を発射し、プレゼントをドロップする
+			Label: 聖夜
+		}
+	}
+}
+
+Projectiles.Explosion.DisplayName: 爆発

@@ -50,11 +50,11 @@ ExportEnabledMods:
 	右クリックでSteamワークショップのリンクなしでエクスポート
 	'''
 
-Dependencies: "[c/CC88AA:Middle click] で依存関係を有効にする"
+Dependencies: "[c/CC88AA:中クリック] で依存関係を有効にする"
 
-Delete: "[c/CC88AA:Right click] でMODを削除する"
+Delete: "[c/CC88AA:右クリック] でMODを削除する"
 
-ModsMoreInfo: "[c/CC88AA:Press Ctrl] で詳細を見る"
+ModsMoreInfo: "[c/CC88AA:Ctrlキー] で詳細を見る"
 
-ModsOpenConfig: "[c/CC88AA:Right click] で設定を開く"
+ModsOpenConfig: "[c/CC88AA:右クリック] で設定を開く"
 

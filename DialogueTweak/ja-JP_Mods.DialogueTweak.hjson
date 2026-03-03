@@ -12,6 +12,15 @@ Configs: {
 			Tooltip: NPCのバイオームや他のNPCへの好みを表示します
 		}
 
+		DisplayHappiness: {
+			Label: NPC幸福度％表示
+			Tooltip: 
+				'''
+				NPCの幸福度（ショップ価格の補正）を％で表示します
+				Terraria v1.4.5からの便利機能です
+				'''
+		}
+
 		VanillaUI: {
 			Tooltip:
 				'''
@@ -45,14 +54,22 @@ Configs: {
 
 		LiveReaction: {
 			Label: リアルタイム
+			Tooltip: ""
 		}
 
-		Static: {
-			Label: 静止
+		Portrait: {
+			Label: ポートレート
+			Tooltip: Terraria (v1.4.5) スタイル
 		}
 
-		Bestiary: {
-			Label: 図鑑
+		Retro: {
+			Label: 全身
+			Tooltip: ""
+		}
+
+		Profile: {
+			Label: プロファイル
+			Tooltip: ""
 		}
 	}
 }
@@ -69,3 +86,4 @@ Dislike: 苦手：
 Like: 好き：
 
 Love: 大好き：
+

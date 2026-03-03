@@ -66,22 +66,27 @@ Configs: {
 
 		None: {
 			Label: なし - パーティクルなし
+			Tooltip: パーティクル描画を無効にします
 		}
 
 		Low: {
 			Label: 低 - 設定パーティクルの1/8の量
+			Tooltip: パーティクルを通常の1/8だけ表示します
 		}
 
 		Medium: {
 			Label: 中 - 設定パーティクルの1/4
+			Tooltip: パーティクルを通常の1/4だけ表示します
 		}
 
 		High: {
 			Label: 高 - 設定パーティクルの1/2
+			Tooltip: パーティクルを通常の1/2だけ表示します
 		}
 
 		Unlimited: {
 			Label: 無制限 - 任意の量のパーティクル
+			Tooltip: 制限なしでパーティクルを表示します
 		}
 	}
 }
