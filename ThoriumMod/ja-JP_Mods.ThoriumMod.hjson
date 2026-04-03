@@ -2065,7 +2065,7 @@ Items: {
 			投擲速度10%増加
 			投擲ダメージの25%分の追加ダメージが発生する
 			'''
-		DisplayName: 投擲の達人ガイド Vol.3
+		DisplayName: 投擲術の指南書 第三巻
 	}
 
 	ThrowingGuideVolume2: {
@@ -2074,12 +2074,12 @@ Items: {
 			投擲ダメージ10%増加
 			投擲ダメージの20%分の追加ダメージが発生する
 			'''
-		DisplayName: 投擲の達人ガイド Vol.2
+		DisplayName: 投擲術の指南書 第二巻
 	}
 
 	ThrowingGuide: {
 		Tooltip: 投擲ダメージの15%分の追加ダメージが発生する
-		DisplayName: 投擲の達人ガイド
+		DisplayName: 投擲術の指南書
 	}
 
 	ThiefsWallet: {
@@ -2146,7 +2146,7 @@ Items: {
 
 	SpikyCaltrop: {
 		Tooltip: ""
-		DisplayName: スパイキーカルトロップ
+		DisplayName: 撒きびし
 	}
 
 	SpikeBomb: {
@@ -2189,7 +2189,7 @@ Items: {
 
 	ShadowPurgeCaltrop: {
 		Tooltip: シャドウフレイムを炸裂させる
-		DisplayName: シャドウパージカルトロップ
+		DisplayName: 影祓いの撒きびし
 	}
 
 	ShadeMasterTreads: {
@@ -2267,7 +2267,7 @@ Items: {
 
 	ProximityMine: {
 		Tooltip: ""
-		DisplayName: プロキシミティマイン
+		DisplayName: 感知地雷
 	}
 
 	PlasmaVial: {
@@ -2343,9 +2343,9 @@ Items: {
 		Tooltip:
 			'''
 			投擲アイテムを拾うと、25%の確率でそのアイテムが複製される
-			この効果は戦闘中、半秒に1回のみ発動する
+			この効果は戦闘中、0.5秒に1回のみ発動する
 			'''
-		DisplayName: パッド付きグリップ
+		DisplayName: パッド付きグローブ
 	}
 
 	OlympicTorch: {
@@ -2669,16 +2669,16 @@ Items: {
 
 	BudBomb: {
 		Tooltip: ブロックに当たると跳ね返る花に成長する
-		DisplayName: バドボム
+		DisplayName: つぼみ爆弾
 	}
 
 	BoneGrip: {
 		Tooltip:
 			'''
 			33%の確率で投擲アイテムが複製され、投擲速度が増加する
-			この効果は戦闘中、半秒に1回のみ発動する
+			この効果は戦闘中、0.5秒に1回のみ発動する
 			'''
-		DisplayName: 骨のグリップ
+		DisplayName: 骨のグローブ
 	}
 
 	Bolas: {
@@ -11109,7 +11109,7 @@ Items: {
 			カーソルの周りが照らされるようになる
 			カーソルの周りにいる敵が短時間表示され、受けるダメージが15%増加する
 			'''
-		DisplayName: ミラー・オブ・ザ・ビホルダー
+		DisplayName: ビホルダーの鏡
 	}
 
 	HellRoller: {
@@ -12545,7 +12545,7 @@ Items: {
 
 	ShadowFlareBow: {
 		Tooltip: 矢を跳ね返るシャドウビームに変える
-		DisplayName: シャドウフレアボウ
+		DisplayName: 影炎の弓
 	}
 
 	SerpentShield: {
@@ -15671,7 +15671,7 @@ Items: {
 
 	Glacier: {
 		Tooltip: 4秒ごとに、次の攻撃でアイススパイクを放つ
-		DisplayName: グレイシャー
+		DisplayName: グレイシャル
 	}
 
 	GlacialSting: {
