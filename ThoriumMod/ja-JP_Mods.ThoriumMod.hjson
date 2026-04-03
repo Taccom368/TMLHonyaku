@@ -45,8 +45,8 @@ Items: {
 	}
 
 	SacredLyre: {
-		Tooltip: Releases hymns that can heal one ally and damage one enemy before dissipating
-		DisplayName: Sacred Lyre
+		Tooltip: 賛歌を放ち、味方1体を回復しつつ敵1体にダメージを与え、その後消滅する
+		DisplayName: 神聖なリラ
 	}
 
 	FrostPelter: {
@@ -2063,23 +2063,23 @@ Items: {
 			'''
 			投擲ダメージ10%増加
 			投擲速度10%増加
-			投擲ダメージの25%が重複する
+			投擲ダメージの25%分の追加ダメージが発生する
 			'''
-		DisplayName: 投擲の達人ガイド Vol.3
+		DisplayName: 投擲術の指南書 第三巻
 	}
 
 	ThrowingGuideVolume2: {
 		Tooltip:
 			'''
 			投擲ダメージ10%増加
-			投擲ダメージの20%が重複する
+			投擲ダメージの20%分の追加ダメージが発生する
 			'''
-		DisplayName: 投擲の達人ガイド Vol.2
+		DisplayName: 投擲術の指南書 第二巻
 	}
 
 	ThrowingGuide: {
-		Tooltip: 投擲ダメージの15%が重複する
-		DisplayName: 投擲の達人ガイド
+		Tooltip: 投擲ダメージの15%分の追加ダメージが発生する
+		DisplayName: 投擲術の指南書
 	}
 
 	ThiefsWallet: {
@@ -2146,7 +2146,7 @@ Items: {
 
 	SpikyCaltrop: {
 		Tooltip: ""
-		DisplayName: スパイキーカルトロップ
+		DisplayName: 撒きびし
 	}
 
 	SpikeBomb: {
@@ -2188,8 +2188,8 @@ Items: {
 	}
 
 	ShadowPurgeCaltrop: {
-		Tooltip: シャドーフレイムを炸裂させる
-		DisplayName: シャドーパージカルトロップ
+		Tooltip: シャドウフレイムを炸裂させる
+		DisplayName: 影祓いの撒きびし
 	}
 
 	ShadeMasterTreads: {
@@ -2267,7 +2267,7 @@ Items: {
 
 	ProximityMine: {
 		Tooltip: ""
-		DisplayName: プロキシミティマイン
+		DisplayName: 感知地雷
 	}
 
 	PlasmaVial: {
@@ -2343,9 +2343,9 @@ Items: {
 		Tooltip:
 			'''
 			投擲アイテムを拾うと、25%の確率でそのアイテムが複製される
-			この効果は戦闘中、半秒に1回のみ発動する
+			この効果は戦闘中、0.5秒に1回のみ発動する
 			'''
-		DisplayName: パッド付きグリップ
+		DisplayName: パッド付きグローブ
 	}
 
 	OlympicTorch: {
@@ -2669,16 +2669,16 @@ Items: {
 
 	BudBomb: {
 		Tooltip: ブロックに当たると跳ね返る花に成長する
-		DisplayName: バドボム
+		DisplayName: つぼみ爆弾
 	}
 
 	BoneGrip: {
 		Tooltip:
 			'''
 			33%の確率で投擲アイテムが複製され、投擲速度が増加する
-			この効果は戦闘中、半秒に1回のみ発動する
+			この効果は戦闘中、0.5秒に1回のみ発動する
 			'''
-		DisplayName: 骨のグリップ
+		DisplayName: 骨のグローブ
 	}
 
 	Bolas: {
@@ -9241,7 +9241,7 @@ Items: {
 		Tooltip:
 			'''
 			左クリックでマナを消費して回復エネルギーのオーブを放つ
-			右クリックでシャドーエネルギーのオーブを放つ
+			右クリックでシャドウエネルギーのオーブを放つ
 			'''
 		DisplayName: 黄昏の杖
 	}
@@ -11109,7 +11109,7 @@ Items: {
 			カーソルの周りが照らされるようになる
 			カーソルの周りにいる敵が短時間表示され、受けるダメージが15%増加する
 			'''
-		DisplayName: ミラー・オブ・ザ・ビホルダー
+		DisplayName: ビホルダーの鏡
 	}
 
 	HellRoller: {
@@ -12357,8 +12357,8 @@ Items: {
 	}
 
 	SubterraneanBulb: {
-		Tooltip: 海の底から釣り人を呼び出す
-		DisplayName: 地中の球根
+		Tooltip: 海の底からチョウチンアンコウを呼び出す
+		DisplayName: 地中の電球
 	}
 
 	SubspaceWings: {
@@ -12538,14 +12538,14 @@ Items: {
 			'''
 			ターゲット位置に純粋な影のオーブを召喚する
 			右クリックでカーソルの位置に向かって召喚したすべてのオーブを放つ
-			ミニオンスロットの最大数と同じ数のシャドーオーブを召喚できる
+			ミニオンスロットの最大数と同じ数のシャドウオーブを召喚できる
 			'''
-		DisplayName: シャドーオーブスタッフ
+		DisplayName: シャドウオーブスタッフ
 	}
 
 	ShadowFlareBow: {
-		Tooltip: 矢を跳ね返るシャドービームに変える
-		DisplayName: シャドーフレアボウ
+		Tooltip: 矢を跳ね返るシャドウビームに変える
+		DisplayName: 影炎の弓
 	}
 
 	SerpentShield: {
@@ -12734,7 +12734,7 @@ Items: {
 	QuakeGauntlet: {
 		Tooltip:
 			'''
-			「ゼニス... ゼニスは実在する！」
+			「ゼニス...ゼニスは実在する！」
 			振動するパンチの連打を放ち、敵に当たるとエネルギーを得る
 			エネルギーが満タンになると、右クリックでカーソル位置に現実のヒビが入る
 			'''
@@ -14074,7 +14074,7 @@ Items: {
 		Tooltip:
 			'''
 			左クリックで回転させ、右クリックで叩きつける
-			ブラッドで敵にダメージを与えると、グランドスラムがパワーアップする
+			ブラッドで敵にダメージを与えると、叩きつけがパワーアップする
 			'''
 		DisplayName: 血と栄光
 	}
@@ -14254,7 +14254,7 @@ Items: {
 		Tooltip:
 			'''
 			伝説のヴァルファーレを召喚する
-			ヴァルファーレは一体まで召喚可能
+			一体まで召喚可能
 			'''
 		DisplayName: イオンスタッフ
 	}
@@ -14585,7 +14585,7 @@ Items: {
 	}
 
 	NagaRecurve: {
-		Tooltip: シングル・ショット、デュアル・ショット、トリプル・ショットの切り替えが可能
+		Tooltip: シングルショット、デュアルショット、トリプルショットの切り替えが可能
 		DisplayName: ナーガのリカーブボウ
 	}
 
@@ -14610,8 +14610,8 @@ Items: {
 	}
 
 	BubbleConch: {
-		Tooltip: Creates a barrage of rising bubbles
-		DisplayName: Bubble Conch
+		Tooltip: 上昇する泡の連射を生成する
+		DisplayName: バブルシェル
 	}
 
 	Lobster: {
@@ -14727,7 +14727,7 @@ Items: {
 		Tooltip:
 			'''
 			自分の基本移動速度を{0}%増加させる
-			"{1}回まで使用可能"
+			{1}回まで使用可能
 			'''
 		DisplayName: クリスタルウェーブ
 	}
@@ -14741,13 +14741,13 @@ Items: {
 		Tooltip:
 			'''
 			泡を 深海の洞窟 に引き寄せる
-			保持している間は 新鮮な泡 の効果時間を2倍にする
+			保持している間は新鮮な泡の効果時間を2倍にする
 			'''
 		DisplayName: バブルマグネット
 	}
 
 	BrackishClump: {
-		Tooltip: " 取り出し機 で使用できる"
+		Tooltip: 取り出し機で使用できる
 		DisplayName: 汽水域の塊
 	}
 
@@ -15662,7 +15662,7 @@ Items: {
 	IceBoundStriderHide: {
 		Tooltip:
 			'''
-			「ブリザードの中心で生き残れるものはほとんどない」
+			「猛吹雪の中心で生き残れるものはほとんどない」
 			スロウ状態のターゲットに対して与えるダメージが15%増加する
 			スロウ状態の敵に与えたダメージは確率で軽く回復する
 			'''
@@ -15671,7 +15671,7 @@ Items: {
 
 	Glacier: {
 		Tooltip: 4秒ごとに、次の攻撃でアイススパイクを放つ
-		DisplayName: グレイシャー
+		DisplayName: グレイシャル
 	}
 
 	GlacialSting: {
@@ -15824,7 +15824,7 @@ Items: {
 
 	SilverSpearTip: {
 		Tooltip: 槍で攻撃すると遠距離攻撃を放つ
-		DisplayName: 銀の槍の穂先
+		DisplayName: 銀の槍先
 	}
 
 	SilverBulwark: {
@@ -15872,7 +15872,7 @@ Items: {
 
 	MoltenSpearTip: {
 		Tooltip: 槍で攻撃すると遠距離攻撃を放つ
-		DisplayName: 溶岩槍の穂先
+		DisplayName: 溶岩の槍先
 	}
 
 	MoltenScale: {
@@ -16025,7 +16025,7 @@ Items: {
 
 	CrystalSpearTip: {
 		Tooltip: 槍で攻撃すると遠距離攻撃を放つ
-		DisplayName: クリスタルスピアの穂先
+		DisplayName: クリスタルの槍先
 	}
 
 	CrashBoots: {
@@ -17002,7 +17002,7 @@ Items: {
 		Tooltip:
 			'''
 			凍りつくような振動を放つシンバル
-			溜める時間が長いほど、氷の弾の数、スピード、フリーズ時間が長くなる
+			溜める時間が長いほど、氷の弾の数、スピード、凍結時間が長くなる
 			'''
 		DisplayName: 霜風のシンバル
 	}
@@ -17315,7 +17315,6 @@ Items: {
 			'''
 			表面や敵に付着する爆弾を発射する
 			右クリックで{0}のインスピレーションを消費してすべての爆弾を爆発させ、命中した敵にスリップダメージを与える
-
 			'''
 		DisplayName: ファゴット
 	}
@@ -17331,7 +17330,6 @@ Items: {
 			旋律ダメージが8%増加
 			演奏速度が8%増加
 			インスピレーション再生率が8%増加
-
 			'''
 		DisplayName: バンドキット
 	}
@@ -18357,12 +18355,12 @@ AccessoryType: {
 	Normal: Normal
 }
 
-BardInstrumentType: {
-	Electronic: 電子楽器
-	Percussion: 打楽器
-	String: 弦楽器
-	Brass: 金管楽器
-	Wind: 管楽器
+BardInstrumentType: { 
+	Electronic: 電子
+	Percussion: 打
+	String: 弦
+	Brass: 金管
+	Wind: 管
 	Other: その他
 }
 
@@ -18748,7 +18746,7 @@ Common: {
 		Bard: {
 			InspirationCost: 消費：{0}インスピレーション
 			ClassTag: -Bard Class-
-			InstrumentTag: -{0} Instrument-
+			InstrumentTag: 種類：{0}楽器
 		}
 
 		InvalidMeleeItemForSheath: この武器は鞘に収めることができない

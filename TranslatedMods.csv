@@ -85,6 +85,7 @@ steam_id,display_name,internal_name,version,translators,internal_note,display_no
 3015412343,Calamity Mod Infernum Mode,InfernumMode,2.0.1.21,Hurugitune,,
 2824688266,Calamity Mod Music,CalamityModMusic,2.1,Hurugitune,全て翻訳済み,
 3473002944,Calamity Mod Music (but it's lofi),InertLofi,1.1.0,Hurugitune,,
+3661278242,Calamity QoL Restored,CalamityQoLRestored,1.0.14,Hurugitune,,
 2860270524,Calamity Ranger Expansion,CalamityAmmo,1.2.1.6,gaba,,
 2824688804,Calamity's Vanities,CalValEX,11.3.1,Chuzume,ほぼ翻訳完了、マップでのタイル名、Projectile名など未翻訳。,マップでのタイル名、Projectile名など未翻訳
 3486967746,Calamity: Wrath of the Machines,WoTM,1.0.0,Hurugitune(下地作成)、ogatass(翻訳),全て翻訳済み。,
@@ -195,7 +196,7 @@ steam_id,display_name,internal_name,version,translators,internal_note,display_no
 3169047479,Hidable Vanity Accessory Slots,HideVanityAccessories,1.2.4,d5991,,
 3119712528,High FPS Support,HighFPSSupport,0.6.6.5,まめ,,
 3561388295,Holospark Boots,HolosparkBoots,1.1.0,ぽぷのべり,,
-2930931197,Homeward Journey,ContinentOfJourney,0.8.70.58,Hurugitune,,仮翻訳
+2930931197,Homeward Journey,ContinentOfJourney,0.8.70.72,Hurugitune,,仮翻訳
 3327581209,Homura,Homura,0.1.6,ぽぷのべり,,
 2564503881,HP Awareness,HPAware,1.0.5.1,Hurugitune,全て翻訳済み,
 3659880859,Husk mod,Huskmod,1.0,ぽぷのべり,,
@@ -208,8 +209,8 @@ steam_id,display_name,internal_name,version,translators,internal_note,display_no
 2816557864,Improved Movement Visuals,LookMod,1.3.4.1,ぽぷのべり,,
 2817952707,Improved Teleporters,ImprovedTeleporters,1.2.1,ぽぷのべり,,
 3001536716,In-game Translate (Supports both v1.4.4 and v1.4.3),MachineTranslate,1.0,Hurugitune,すべて翻訳済み,
+3485175010,Infernal Arsenal Mod,InfernalEclipseWeaponsDLC,1.4.1,Hurugitune,,
 3456517686,Infernal Eclipse of Ragnarok,InfernalEclipseAPI,0.10.1,Hurugitune,全て翻訳済み,
-3485175010,Infernal Eclipse of Ragnarok: Weapon DLC,InfernalEclipseWeaponsDLC,1.3.1.1,Hurugitune,,
 3015416182,Infernum Mode Music,InfernumModeMusic,2.0.1.4,Hurugitune,全て翻訳済み,
 2924167544,Info Slot,InfoSlot,0.7.4.0,katudonsan,,
 3148310222,InfraSonic,TerraVoice,2.1.2,+チック,,カスタムフォントの部分は未翻訳
@@ -341,7 +342,7 @@ steam_id,display_name,internal_name,version,translators,internal_note,display_no
 3243145478,Q.O.L. 3000,BlockQoL,1.0.10,Umekobucha、ぽぷのべり（修正）,,
 2797518634,Quality of Terraria,ImproveGame,1.8.1.22,hazamax405 Hurugitune,,
 3419141018,Quite Enough Recipes,QuiteEnoughRecipes,1.2.3,ぽぷのべり,,
-3114886209,Ragnarok,RagnarokMod,1.4.4.3,Hurugitune,全て翻訳済み。ほとんど推敲済み。,
+3114886209,Ragnarok,RagnarokMod,1.5.2.2,Hurugitune,全て翻訳済み。ほとんど推敲済み。,
 2981525206,Rain Overhaul,RainOverhaul,1.7.2,ぽぷのべり,,
 3514345811,Rain++,Sloprain,1.3.0.0,ぽぷのべり,,
 3305559044,Rainbow Solution (Spreading Any Block),RainbowSolution,1.0.1.0,ぽぷのべり,,
@@ -442,7 +443,7 @@ steam_id,display_name,internal_name,version,translators,internal_note,display_no
 3123513619,Underground Mana Crystals,CaveMana,1.1.2,ぽぷのべり,,
 2618902706,Unlimited Fishing Quests,UnlimitedFishingQuests,1.2.1,ぽぷのべり,,
 3592068613,UnOfficial Calamity Amend,UCA,0.0.0.14,gaba,projectile未翻訳,
-3142064272,Unofficial Calamity Bard & Healer,CalamityBardHealer,0.10.1,Hurugitune,,
+3142064272,Unofficial Calamity Bard & Healer,CalamityBardHealer,0.12.6,Hurugitune,,
 2839001756,Unofficial Calamity Whips,UnofficialCalamityWhips,1.1.6,hazamax405,,
 3404410551,"Unofficial SOTS Bard, Thrower and Healer",SOTSBardHealer,0.2.6,gaba,Projectile未翻訳,
 3345264991,"Unofficial Spirit Bard, Thrower & Healer",SpiritBardHealer,0.4.4,ぽぷのべり,,
@@ -462,7 +463,7 @@ steam_id,display_name,internal_name,version,translators,internal_note,display_no
 2827634634,Where's My Items,WheresMyItems,0.8,ぽぷのべり,,
 2563851005,Which Mod Is This From? (WMITF),WMITF,2.7.1,katudonsan,,
 2931940759,Whip Accessories,Gauntlets,1.4.0,d5991,,
-3452171528,WHummus' Calamity/Thorium Balancing,WHummusMultiModBalancing,1.3.5,Hurugitune,全て翻訳済み。,
+3452171528,WHummus' Calamity/Thorium Balancing,WHummusMultiModBalancing,1.5.9.5,Hurugitune,全て翻訳済み。,
 2832487441,Wikithis,Wikithis,2.5.1.5,Hurugitune,全て翻訳済み。,
 2597324266,Wing Slot Extra,WingSlotExtra,1.4.5,ぽぷのべり,,
 3006139970,Wing Time UI,WingTimeUI,0.1.4.1,ぽぷのべり,,

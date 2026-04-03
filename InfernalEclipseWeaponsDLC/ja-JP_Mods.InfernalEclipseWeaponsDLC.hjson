@@ -1,16 +1,32 @@
-ItemTooltip: {
-	PBGBardALore2: そしてもう一つは、色鮮やかなマイクロ波を撃ち出すギターだった。
-	NeonRipperLore2: そして二つの武器を作り上げた。その一つは、カミのようにオーラを吸収する鎌であった。
-	NeonRipperLore1: ゴライアスを倒した後、エレリアンはその装甲を再利用することにした。
-	TwoSideLore2: 無限の淵に立ったその時、レンは彼らに問いかけた...「どちらの道を選ぶ？」
-	TwoSideLore1: 彼らはラグナロクを超え、日蝕を崩壊させ、スライムの嵐を生き延びた。
-	ParallelLore2: 突如、何の前触れもなく全員が鏡の世界へと転送され、第二の従者シグナスが呼び出された。
-	ParallelLore1: 予想通り、彼らはストームウィーバーを討ち果たした。だがゴースにはまだ最後の手が残されていた。
-	UniversalLore2: 魂に残る最後の力を振り絞り、真なる神殺しを召喚した。
-	UniversalLore1: ゴースは最後の抵抗を見せ、手の内の策をすべて使い果たした。敗北はしたが、日蝕が敗れたわけではない。
-	DuesFluteLore3: そこから現れたものは、まさにこの世界の理を超えた存在だった。だが彼らの驚嘆は、星の従者が迫ったことで遮られた。
-	DuesFluteLore2: しかし祭壇は予期せぬ反応を示し......二つの光が空へと弾け、上空に裂け目を開いた。
-	DuesFluteLore: 彼らは星の感染源を突き止め、それを破壊するために感染した祭壇でスターコアを使用した。
+Configs: {
+	WeaponConfig: {
+		UnfinishedContent: {
+			Tooltip: ""
+			Label: 未完成コンテンツ
+		}
+
+		EnableScreenEffects: {
+			Tooltip: ""
+			Label: 画面エフェクトを有効化
+		}
+
+		GitGudWeapon: {
+			Tooltip: Verveineの「Which AI Makes the Best Terraria Weapons?」でGitGudWOが作成した武器コンセプトを読み込むかを切り替える
+			Label: GitGudWOの武器コンセプト
+		}
+
+		AIGenedWeapons: {
+			Tooltip: Verveineの「Which AI Makes the Best Terraria Weapons?」のAI生成武器コンセプトを読み込むかを切り替える
+			Label: AI生成武器コンセプト
+		}
+
+		Headers: {
+			General: 一般
+			VerveineWeapons: Verveine武器
+		}
+
+		DisplayName: 武器設定
+	}
 }
 
 Buffs: {
@@ -31,6 +47,146 @@ Buffs: {
 }
 
 Projectiles: {
+	VoidBolt: {
+		DisplayName: Void Bolt
+	}
+
+	CatastrophicLongbladeHoldoutVoid: {
+		DisplayName: Catastrophic Longblade Holdout Void
+	}
+
+	CatastrophicLongbladeHoldout: {
+		DisplayName: Catastrophic Longblade Holdout
+	}
+
+	EclipseEclipse: {
+		DisplayName: Eclipse Eclipse
+	}
+
+	MagicPurpleBouncyBall: {
+		DisplayName: Magic Purple Bouncy Ball
+	}
+
+	NecrosingerNote: {
+		DisplayName: Necrosinger Note
+	}
+
+	MiniaturizedRequiemEngineTheBigOnePro3: {
+		DisplayName: Miniaturized Requiem Engine The Big One Pro3
+	}
+
+	MiniaturizedRequiemEngineTheBigOnePro2: {
+		DisplayName: Miniaturized Requiem Engine The Big One Pro2
+	}
+
+	MiniaturizedRequiemEngineLaserPro2: {
+		DisplayName: Miniaturized Requiem Engine Laser Pro2
+	}
+
+	MiniaturizedRequiemEngineTheBigOnePro: {
+		DisplayName: Miniaturized Requiem Engine The Big One Pro
+	}
+
+	MiniaturizedRequiemEngineLaserPro: {
+		DisplayName: Miniaturized Requiem Engine Laser Pro
+	}
+
+	MiniaturizedRequiemEngineGatlingPro: {
+		DisplayName: Miniaturized Requiem Engine Gatling Pro
+	}
+
+	GrandAmplifierLightning: {
+		DisplayName: Grand Amplifier Lightning
+	}
+
+	GammaSlashProjectile: {
+		DisplayName: Gamma Slash Projectile
+	}
+
+	GammaKnifeThrownProjectile: {
+		DisplayName: Gamma Knife Thrown Projectile
+	}
+
+	GammaKnifeProjectile: {
+		DisplayName: Gamma Knife Projectile
+	}
+
+	GammaExplosionProjectile: {
+		DisplayName: Gamma Explosion Projectile
+	}
+
+	MusicalNoteProjectile: {
+		DisplayName: Musical Note Projectile
+	}
+
+	GrandAmplifierPro2: {
+		DisplayName: Grand Amplifier Pro2
+	}
+
+	GrandAmplifierPro: {
+		DisplayName: Grand Amplifier Pro
+	}
+
+	StormCarverPro: {
+		DisplayName: Storm Carver Pro
+	}
+
+	StormTalonPro: {
+		DisplayName: Storm Talon Pro
+	}
+
+	GlowstringBeam: {
+		DisplayName: Glowstring Beam
+	}
+
+	GlowstringBiwaPro: {
+		DisplayName: Glowstring Biwa Pro
+	}
+
+	IlluminantCrossPro: {
+		DisplayName: Illuminant Cross Pro
+	}
+
+	StormCrossbowArrow: {
+		DisplayName: Storm Crossbow Arrow
+	}
+
+	TetherBladeProjectileBlink: {
+		DisplayName: Tether Blade Projectile Blink
+	}
+
+	TetherBladeProjectile: {
+		DisplayName: Tether Blade Projectile
+	}
+
+	ShadowflameAxeProjectile: {
+		DisplayName: Shadowflame Axe Projectile
+	}
+
+	ShadowflameAxeBolt: {
+		DisplayName: Shadowflame Axe Bolt
+	}
+
+	ObsidianSickleProjectile: {
+		DisplayName: Obsidian Sickle Projectile
+	}
+
+	StarScepterStar: {
+		DisplayName: Star Scepter Star
+	}
+
+	StarScepterBolt: {
+		DisplayName: Star Scepter Bolt
+	}
+
+	LightChainProjectile: {
+		DisplayName: Light Chain Projectile
+	}
+
+	FroststeelPulse: {
+		DisplayName: Froststeel Pulse
+	}
+
 	IlluminantBolt: {
 		DisplayName: Illuminant Bolt
 	}
@@ -358,6 +514,10 @@ Projectiles: {
 	}
 
 	Magic: {
+		DamagingLightningArc: {
+			DisplayName: Damaging Lightning Arc
+		}
+
 		HealingLightningArc: {
 			DisplayName: Healing Lightning Arc
 		}
@@ -376,16 +536,367 @@ Projectiles: {
 	}
 }
 
+ItemTooltip: {
+	Dedicated: {
+		Goldsock: Goldsockz2
+		cat: StarlightCat
+		Puzzles: Mr. Puzzles
+		cheese: cheesenuggets
+		Ropro: Ropro0923
+		Pudding: Pudd1ng
+		Yob: Yob
+		Mae: ma3allim
+		Eduarrdo: Eduarrdo
+		Jill: JillyFish
+		rose: ros 
+		eviil81: evil81
+		bryce: bryce27
+		Soltan: Soltan
+		Tyr: Tyr
+		Advantaje: Advantaje
+		WH: WardrobeHummus
+		Akira: Akira
+	}
+
+	DedTo: - Dedicated to {0} -
+	Donor: - Donor Item -
+	Contributor: - Contributor Item -
+	Playtester: - Playtester Item -
+	EngineTheBigOneMode: ビッグワン
+	EngineTheBigOne:
+		'''
+		「ビッグワン」モード：
+		凝縮されたエネルギーの巨大な球体を発射し、一定時間後に爆発する
+		爆発は中心に近い敵ほど大きなダメージを与える
+		同時に存在できる「ビッグワン」は1つのみ
+		'''
+	EngineLaserMode: レーザー
+	EngineLaser:
+		'''
+		レーザーモード：
+		無限貫通するレーザーを発射し、持続ダメージの軌跡を残す
+		レーザーは最大3回まで地形で反射する
+		'''
+	EngineGatlingMode: ガトリング
+	EngineGatling:
+		'''
+		ガトリングモード：
+		射撃を続けることで拡散が徐々に減少し、発射速度が上限まで上昇
+		弾は最大4回まで貫通する
+		'''
+	VerveineItem: 「蘭の祝福よりもたらされた一品」
+	ArcticSpearTip: 基本ダメージが115%増加
+	SearingSpearTip: 基本ダメージが150%増加
+	PBGBardALore2: そしてもう一つは、色鮮やかなマイクロ波を撃ち出すギターだった。
+	NeonRipperLore2: そして二つの武器を作り上げた。その一つは、カミのようにオーラを吸収する鎌であった。
+	NeonRipperLore1: ゴライアスを倒した後、エレリアンはその装甲を再利用することにした。
+	TwoSideLore2: 無限の淵に立ったその時、レンは彼らに問いかけた...「どちらの道を選ぶ？」
+	TwoSideLore1: 彼らはラグナロクを超え、日蝕を崩壊させ、スライムの嵐を生き延びた。
+	ParallelLore2: 突如、何の前触れもなく全員が鏡の世界へと転送され、第二の従者シグナスが呼び出された。
+	ParallelLore1: 予想通り、彼らはストームウィーバーを討ち果たした。だがゴースにはまだ最後の手が残されていた。
+	UniversalLore2: 魂に残る最後の力を振り絞り、真なる神殺しを召喚した。
+	UniversalLore1: ゴースは最後の抵抗を見せ、手の内の策をすべて使い果たした。敗北はしたが、日蝕が敗れたわけではない。
+	DuesFluteLore3: そこから現れたものは、まさにこの世界の理を超えた存在だった。だが彼らの驚嘆は、星の従者が迫ったことで遮られた。
+	DuesFluteLore2: しかし祭壇は予期せぬ反応を示し......二つの光が空へと弾け、上空に裂け目を開いた。
+	DuesFluteLore: 彼らは星の感染源を突き止め、それを破壊するために感染した祭壇でスターコアを使用した。
+}
+
 Items: {
+	AllSeersGlass: {
+		Tooltip:
+			'''
+			クリティカル率が10%上昇
+			クリティカルダメージが増加
+			最大セントリー数が2増加
+			常時ズーム効果を付与
+			ズーム効果はアクセサリー表示設定で無効化可能
+			'Keybinds.AccessoryAbility.DisplayName'キーでカメラを固定
+			「お前の未来には、壊れることのない要塞が見える」
+			'''
+		DisplayName: 全視の眼鏡
+	}
+
+	ThunderboltActionSniper: {
+		Tooltip:
+			'''
+			高威力、高速の弾丸を発射する
+			さらにヴォイドエネルギーを帯びた雷撃を放つ
+			右クリックでズームアウト
+			'''
+		DisplayName: サンダーボルト式スナイパーライフル
+	}
+
+	ThunderboltActionSniperVoid: {
+		Tooltip:
+			'''
+			高威力、高速の弾丸を発射する
+			さらにヴォイドエネルギーを帯びた雷撃を放つ
+			右クリックでズームアウト
+			'''
+		DisplayName: サンダーボルト式スナイパーライフル
+	}
+
+	GarudaWings: {
+		Tooltip: 「神なる乗り手の翼」
+		DisplayName: ガルーダの翼
+	}
+
+	MagicPurpleBouncyBalls: {
+		Tooltip: 「紫のエネルギーは27の過ちの力で唸っている」
+		DisplayName: 27個の魔法の紫バウンドボール
+	}
+
+	MiniaturizedRequiemEngine: {
+		Tooltip: 右クリックで3種類の射撃モードを切り替え
+		DisplayName: 小型レクイエムエンジン
+	}
+
+	GammaKnife: {
+		Tooltip:
+			'''
+			防御貫通+15
+			左クリックで方向に応じて振り、強力なガンマ放射斬撃を放つ
+			斬撃は近距離で大ダメージだが、距離とともに減衰する
+			右クリックでナイフを投げ、敵または地形に当たると爆発して戻る
+			投擲中はナイフを使用できない
+			'''
+		DisplayName: ガンマナイフ
+	}
+
+	PocketConcert: {
+		Tooltip:
+			'''
+			色の異なる音符を放つ
+			音符は色に応じた様々なデバフを付与
+			レベル2以上のエンパワーメントごとに追加音符を発生（最大5）
+			[c/1FFBFF:「かつて私はトラッカーと名乗る戦士集団の調査を命じられた。]
+			[c/1FFBFF:　そこで彼らが見せてくれたのは、口のついた音符の形をした奇妙な楽器だった。]
+			[c/1FFBFF:　奇妙ではあったが、使用者の強化数に応じて強くなる武器に改造した。]
+			[c/1FFBFF:　ただし、そのためには大型化する必要があった。」]
+			'''
+		DisplayName: メカマトーン
+	}
+
+	GrandAmplifier: {
+		Tooltip:
+			'''
+			左クリックで帯電を付与する小さな雷を放つ
+			右クリックで帯電状態の敵すべてに落雷を発生させる
+			この雷は帯電を解除するが高ダメージを与える
+			'''
+		DisplayName: グランドアンプ
+	}
+
+	StormCarver: {
+		Tooltip:
+			'''
+			この鎌は回転ではなく方向指定で振る
+			命中した地形から嵐の突風を発生させる
+			「大地を断て！」
+			'''
+		DisplayName: ストームカーヴァー
+	}
+
+	GlowstringBiwa: {
+		Tooltip: 光の糸で結ばれた2つの発光球を発射
+		DisplayName: 発光弦の琵琶
+	}
+
+	IlluminantCross: {
+		Tooltip:
+			'''
+			カーソル位置に光の爆発をチャージする
+			チャージするほどサイズとダメージが大幅増加する
+			最大チャージで3つの光魔法を放ち、味方を回復する
+			'''
+		DisplayName: 光輝の十字架
+	}
+
+	StarScepter: {
+		Tooltip:
+			'''
+			最大5つの星を周囲に召喚する
+			各星は最も近い敵を継続的に攻撃（ボス優先）
+			'''
+		DisplayName: 星の王笏
+	}
+
+	ObsidianSickle: {
+		Tooltip:
+			'''
+			闇の鎌を放つ
+			「人工知能ではなく、ただの馬鹿だ」
+			'''
+		DisplayName: 黒曜石の鎌
+	}
+
+	StormCrossbow: {
+		Tooltip: 木の矢を敵に当たると跳ね返る嵐の矢に変換する
+		DisplayName: ストームブレイカークロスボウ
+	}
+
+	LightChain: {
+		Tooltip:
+			'''
+			敵をクリックするとプレイヤーとリンクする
+			鎖は1秒ごとにダメージを与える
+			離れすぎると鎖は切れる
+			最大3体までリンク可能
+			'''
+		DisplayName: 光の拘束鎖
+	}
+
+	TetherBlade: {
+		Tooltip:
+			'''
+			右クリックで刃を投げる
+			刃は数秒間その場に留まる
+			消える前に再度右クリックで刃へテレポート
+			テレポート後、周囲の敵に3倍ダメージで突き刺す
+			'''
+		DisplayName: テザーブレード
+	}
+
+	ShadowflameAxe: {
+		Tooltip: 3回攻撃ごとに追尾する影炎弾を放つ
+		DisplayName: シャドウフレイムリーパー
+	}
+
+	SuperCellSabatons: {
+		Tooltip:
+			'''
+			ローグダメージが5%増加
+			ローグ武器のクリティカル率が10%上昇
+			移動速度が30%上昇
+			'''
+		DisplayName: ガルーダの脚具
+	}
+
+	SuperCellGuard: {
+		Tooltip:
+			'''
+			ローグダメージが10%増加
+			ローグ武器の使用速度が20%上昇
+			ローグ武器の弾速が30%上昇
+			翼の飛行時間が15%増加
+			'''
+		DisplayName: ガルーダガード
+	}
+
+	SuperCellCirclet: {
+		SetBonus:
+			'''
+			翼を装備していない時に簡易飛行を付与する
+			最大テクニックポイントが2増加
+			ステルス上限が110増加
+			'''
+		Tooltip: ローグダメージが5%増加
+		DisplayName: ガルーダサークレット
+	}
+
+	NecrosingerSkull: {
+		SetBonus:
+			'''
+			音符が周囲を回転し、各1回まで弾を防ぐ
+			すべて破壊されると5秒後に再生成される
+			'''
+		Tooltip:
+			'''
+			旋律ダメージが5%増加
+			演奏速度が10%上昇
+			旋律クリティカル率が5%上昇
+			インスピレーション回復速度が15%増加
+			'''
+		DisplayName: 死の頭蓋
+	}
+
+	NecrosingerRibs: {
+		Tooltip:
+			'''
+			旋律ダメージが14%増加
+			旋律クリティカル率が5%上昇
+			インスピレーション音符のドロップ率が10%増加
+			エンパワーメント持続時間が3秒増加
+			'''
+		DisplayName: 死後の肋骨
+	}
+
+	NecrosingerAnkles: {
+		Tooltip:
+			'''
+			旋律ダメージが10%増加
+			旋律クリティカル率が5%上昇
+			移動速度が20%上昇
+			'''
+		DisplayName: 死後の足首
+	}
+
+	EclipseHelm: {
+		SetBonus:
+			'''
+			凝縮された日蝕を召喚する
+			敵が近くにいると光と闇を放つ
+			光は味方を追尾し回復する
+			闇は敵を追尾し神聖ダメージを与える
+			'''
+		Tooltip:
+			'''
+			非神聖ダメージ16%減少
+			神聖ダメージが16%増加
+			神聖クリティカル率が3%上昇
+			ライフ自然回復開始が早まる
+			回復系スペルは追加でライフを2回復する
+			'''
+		DisplayName: 日蝕の兜
+	}
+
+	EclipseGreaves: {
+		Tooltip:
+			'''
+			非神聖ダメージ16%減少
+			神聖ダメージが16%増加
+			神聖クリティカル率が4%上昇
+			マナ消費が15%減少
+			移動速度が20%上昇
+			回復系スペルは追加でライフを3回復する
+			'''
+		DisplayName: 日蝕の足甲
+	}
+
+	EclipseBreastplate: {
+		Tooltip:
+			'''
+			非神聖ダメージ20%減少
+			神聖ダメージが20%増加
+			神聖クリティカル率が8%上昇
+			回復および神聖武器の詠唱速度が5%上昇
+			ダメージ軽減が15%増加
+			回復系スペルは追加でライフを3回復する
+			'''
+		DisplayName: 日蝕の鎧
+	}
+
+	FroststeelGong: {
+		Tooltip:
+			'''
+			リズムに合わせてゴングを叩ける
+			3回成功すると凍結振動を8方向に放つ
+			成功するほどダメージとエンパワーメントレベルが上昇する
+			失敗するとこれらが大きく減少し、インスピレーションを10消費する
+			ボーナスは武器切替後も維持されるが非装備中は徐々に減衰する
+			'''
+		DisplayName: フロストスチールのゴング
+	}
+
 	BarrenGarden: {
 		Tooltip:
 			'''
-			左クリック：追尾・貫通・回復の花弁をばらまく
+			左クリック：追尾し、貫通する回復の花弁をばらまく
 			右クリック：大きな凍結の蓮を召喚し、交互にダメージと回復のエネルギーを放つ
 			凍結の蓮は同時に1つまで、持続時間は30秒
 			「冷たすぎて肺が裂けそう」
 			'''
-		DisplayName: 荒れ果てた庭
+		DisplayName: 荒れ果てた蓮
 	}
 
 	CatastrophicLongblade: {

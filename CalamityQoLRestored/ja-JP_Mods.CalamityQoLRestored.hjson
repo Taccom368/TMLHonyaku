@@ -1,0 +1,109 @@
+Configs: {
+	CalamityQoLRestoredConfig: {
+		DisplayName: Calamity QoL Restored 設定
+
+		StarterBagAdditions: {
+			Label: スターターバッグアイテム追加
+			Tooltip: スターターバッグの戦利品に複数のアイテムを再追加します。切り替えには再起動が必要な場合があります。
+		}
+
+		VanillaItemRecipes: {
+			Label: バニラアイテムのレシピ追加
+			Tooltip: クラフト不可だった多くのアイテムにレシピを追加します。切り替えには再起動が必要な場合があります。
+		}
+
+		NPCShopChanges: {
+			Label: 町NPCショップ内容追加
+			Tooltip: 町NPCのショップに多数のアイテムを再追加します。切り替えには再起動が必要な場合があります。
+		}
+
+		CrateAdditions: {
+			Label: Calamityバイオームクレート内容追加
+			Tooltip: Calamityバイオームのクレートから削除されていた多数のアイテムを再追加します。切り替えには再起動が必要な場合があります。
+		}
+
+		EnemyDropRateChanges: {
+			Label: 敵ドロップ率強化
+			Tooltip: 多数のアイテムのドロップ率低下を元に戻します。切り替えには再起動が必要な場合があります。
+		}
+
+		NonConsumableEventSummons: {
+			Label: イベントアイテム非消費化
+			Tooltip: イベントを開始するアイテムを消費しないようにします。切り替えには再起動が必要な場合があります。
+		}
+
+		ExpertGatekeepRemoval: {
+			Label: エキスパート限定アイテム解放
+			Tooltip: エキスパート限定アイテムをノーマルモードでも入手可能にします。切り替えには再起動が必要な場合があります。
+		}
+
+		AlternateGoldenFishingRodObtainmentMethod: {
+			Label: 黄金の釣り竿別入手方法
+			Tooltip: 釣り人との特別な取引を復活させ、黄金の釣り竿を安定して入手できるようにします。
+		}
+
+		AlternateTerraprismaObtainmentMethod: {
+			Label: テラプリズマ別入手方法
+			Tooltip: エンプレス・オブ・ライトの武器ドロップにテラプリズマを通常ドロップとして再追加します。切り替えには再起動が必要な場合があります。
+		}
+
+		AnglingKitsRestored: {
+			Label: 釣りキット追加
+			Tooltip: 釣りキットを再追加し、一部ボスの戦利品に含めるようにします。切り替えには再起動が必要な場合があります。
+		}
+
+		ReaverSharkReturns: {
+			Label: リーバーシャーク採掘力強化
+			Tooltip: リーバーシャークのツルハシパワーを上昇させます。切り替えには再起動が必要な場合があります。
+		}
+
+		AnkhIntoValor: {
+			Label: シールド系アクセサリにデバフ無効統合
+			Tooltip: 聖十字の盾の効果をアスガルドの盾およびその強化版に統合します。切り替えには再起動が必要な場合があります。
+		}
+
+		FruitChanceBuffs: {
+			Label: フルーツドロップ率強化
+			Tooltip: ほとんどの木からフルーツがドロップする確率を上昇させます。
+		}
+
+		EarlyCosmolight: {
+			Label: コスモライト早期解禁
+			Tooltip: ハードモード開始直後からコスモライトを入手可能にします。切り替えには再起動が必要な場合があります。
+		}
+
+		NewAdditionsHeader: 新規追加要素
+
+		EarlyBakidon: {
+			Label: バキドン早期解禁
+			Tooltip: プレハードモード終盤でバキドンを入手可能にします。切り替えには再起動が必要な場合があります。
+		}
+
+		ShimmerCycles: {
+			Label: ボス武器のシマー変換
+			Tooltip: ボスがドロップする非レジェンダリー武器同士をシマーで相互変換可能にします。切り替えには再起動が必要な場合があります。
+		}
+	}
+}
+
+Items: {
+	TreasureBags: {
+		BleachedAnglingKit: {
+			DisplayName: 漂白された釣り箱
+			Tooltip:
+				'''
+				様々な釣り道具が入っている
+				<right>で開く
+				'''
+		}
+
+		SandyAnglingKit: {
+			DisplayName: 砂まみれの釣り箱
+			Tooltip:
+				'''
+				様々な釣り道具が入っている
+				<right>で開く
+				'''
+		}
+	}
+}

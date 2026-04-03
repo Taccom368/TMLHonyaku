@@ -1,7 +1,78 @@
+Conditions: {
+	ArmsDealerNearNurse: With the Nurse nearby
+}
+
+Projectiles: {
+	ThoriumHeavyScytheSpark: {
+		DisplayName: Thorium Heavy Scythe Spark
+	}
+
+	PlayerBrimstoneGigablast: {
+		DisplayName: Player Brimstone Gigablast
+	}
+
+	FireAxeSS: {
+		DisplayName: Fire Axe S S
+	}
+
+	TidalWaveWhirlpool: {
+		DisplayName: Tidal Wave Whirlpool
+	}
+
+	RadioMicShadowBurst: {
+		DisplayName: Radio Mic Shadow Burst
+	}
+
+	RadioMicPro: {
+		DisplayName: Radio Mic Pro
+	}
+
+	PlayerBrimstoneBarrage: {
+		DisplayName: Player Brimstone Barrage
+	}
+
+	PlayerBrimstoneFireblast: {
+		DisplayName: Player Brimstone Fireblast
+	}
+
+	BountifulHarvestStinger: {
+		DisplayName: Bountiful Harvest Stinger
+	}
+
+	RogueSpectreBlast: {
+		DisplayName: Rogue Spectre Blast
+	}
+}
+
+ItemTooltips: {
+	SecCooldown: "{0}秒のクールダウンで使用可能"
+	ChampionWing: ダメージが10%増加
+	HolyGlare:
+		'''
+		鎌に命中した敵に「聖なる光」を付与
+		聖なる睨み状態の敵へのダメージが15%増加
+		'''
+	PhoenixStaff:
+		'''
+		右クリックで炎の奔流を放ち、「聖なる光」を付与
+		聖なる睨み状態の敵へのダメージが15%増加
+		'''
+	ScytheThrow:
+		'''
+		右クリックで鎌を投げ、弧を描いて戻ってくる
+		投げた鎌のダメージが10%減少
+		'''
+}
+
 Buffs: {
 	BrokenOath: {
 		DisplayName: 破られた誓い
 		Description: 神聖ダメージが半減
+	}
+
+	DefaultSummonTag: {
+		DisplayName: Default Summon Tag
+		Description: Mods.WHummusMultiModBalancing.Buffs.DefaultSummonTag.Description
 	}
 }
 
@@ -15,8 +86,8 @@ Configs: {
 		}
 
 		RadiantMultiClassNerf: {
-			Label: ヒーラーサブクラス弱体化
-			Tooltip: 他のクラスでダメージを与えると、10秒間神聖ダメージが減少する
+			Label: 吟遊詩人サブクラス弱体化
+			Tooltip: 他のクラスでダメージを与えると、10秒間旋律ダメージが減少する
 		}
 
 		MultiModShieldMerges: {
@@ -84,9 +155,14 @@ Configs: {
 			Label: 複数Modの靴統合
 		}
 
-		RadiantMultiClassNerf: {
-			Label: 吟遊詩人サブクラス弱体化
-			Tooltip: 他のクラスでダメージを与えると、10秒間旋律ダメージが減少する
+		BardMultiClassNerf: {
+			Tooltip: 吟遊詩人以外の武器を使用すると、付与していたエンパワーメントが自身から解除される
+			Label: 吟遊詩人のマルチクラス連携弱体化
+		}
+
+		DuplicateArmorEctoMist: {
+			Label: 防具重複エクトミスト
+			Tooltip: 非公式のCalamityバード／ヒーラーヘルムを優先し、Ragnarok版はエクトミストから入手可能になる
 		}
 	}
 }
@@ -96,57 +172,12 @@ Config: {
 	MultiModMergeOptions: 複数Mod間のクラフト統合オプション
 	ClassChanges: クラス変更内容
 	DebugOptions: デバッグ用設定
+	Other: Other
 }
 
 DamageClasses: {
 	MergedThrowerRogue: {
 		DisplayName: ローグダメージ
-	}
-}
-
-ItemTooltips: {
-	ScytheThrow:
-		'''
-		右クリックで鎌を投げ、弧を描いて戻ってくる
-		投げた鎌のダメージは10%減少する
-		'''
-}
-
-Projectiles: {
-	RogueSpectreBlast: {
-		DisplayName: Rogue Spectre Blast
-	}
-
-	BountifulHarvestStinger: {
-		DisplayName: Bountiful Harvest Stinger
-	}
-
-	PlayerBrimstoneFireblast: {
-		DisplayName: Player Brimstone Fireblast
-	}
-
-	PlayerBrimstoneBarrage: {
-		DisplayName: Player Brimstone Barrage
-	}
-
-	RadioMicPro: {
-		DisplayName: Radio Mic Pro
-	}
-
-	RadioMicShadowBurst: {
-		DisplayName: Radio Mic Shadow Burst
-	}
-
-	TidalWaveWhirlpool: {
-		DisplayName: Tidal Wave Whirlpool
-	}
-
-	FireAxeSS: {
-		DisplayName: Fire Axe S S
-	}
-
-	PlayerBrimstoneGigablast: {
-		DisplayName: Player Brimstone Gigablast
 	}
 }
 
