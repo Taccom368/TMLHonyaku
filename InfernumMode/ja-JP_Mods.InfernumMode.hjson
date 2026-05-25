@@ -189,6 +189,7 @@ Biomes: {
 	ProfanedTempleBiome: {
 		DisplayName: 冒涜された神殿
 		TownNPCDialogueName: 冒涜された神殿
+		DeathByThousandCrystals: "{0} was somehow impaled by a pillar of crystals"
 	}
 }
 
@@ -312,6 +313,11 @@ Configs: {
 			Label: シースレスヴォイド戦カメラ挙動
 			Tooltip: 戦闘中にCeaseless Voidがカメラの挙動を変更するかどうかを決定します。
 		}
+
+		CustomAbyssGeneration: {
+			Label:深淵の生成の変更
+			Tooltip: ワールド生成時に有効にしていると、深淵がInfernum固有の生成方式になります。
+		}
 	}
 }
 
@@ -325,7 +331,7 @@ DifficultyUI: {
 	Name: Infernum
 	ShortDescription:
 		'''
-		[c/B32E81:Deathモードとはまったく異なり、より過酷なものを求める人には、新たな挑戦となる。　　　　　　　　　　　　]
+		[c/B32E81:Deathモードとはまったく異なり、より過酷なものを求める人には、新たな挑戦となる。]
 		[c/B32E81:このモードはMasterやFor the Worthyのシードでは機能しない。]
 		'''
 	ExpandedDescription:
@@ -811,6 +817,7 @@ IntroScreen: {
 Items: {
 	EnrageTooltip: 憤怒
 	DeveloperItem: "[c/{0}:~ Developer Item ~]"
+	InfernumOnly: "[c/{0}:Infernum]"
 	InfernalRelicText: 地獄の炎に包まれている
 
 	Lore: {
@@ -823,6 +830,7 @@ Items: {
 				彼の辿った運命は、誤った独善の結果だ。大義を追い求めるあまり、無意味な苦痛を与えてはならない。
 				'''
 			DisplayName: 遺された臣下
+			Tooltip: ""
 		}
 	}
 
@@ -833,6 +841,11 @@ Items: {
 			プレイヤーの位置にアリーナを生成する
 			消耗品ではない
 			'''
+	}
+
+	ProfanedCore: {
+		SummoningText: 地底世界の右端にある冒涜された神殿の祭壇で使用すると、プロヴィデンスを召喚する
+		EnrageText: 夜間に使用すると怒りを買うかもしれない。
 	}
 
 	ProfanedShard: {
@@ -848,16 +861,16 @@ Items: {
 		SummoningText: 夜間に使用すると {0} を召喚する
 	}
 
-	ProfanedCore: {
-		SummoningText: 地底世界の右端にある冒涜された神殿の祭壇で使用すると、プロヴィデンスを召喚する
-	}
-
 	RuneofKos: {
 		DeveloperText: シースレスヴォイドはダンジョンの奥底でしか戦えない
 	}
 
 	SandstormsCore: {
-		PortalDetail: 忘れられた闘技場への扉を開く
+		PortalDetail:
+			'''
+			忘れられた闘技場への扉を開く
+			地下砂漠にあるロストゲートウェイの祭壇で使用できる
+			'''
 		GatewayWarning: あなたのワールドには現在ロスト・ゲートウェイがありません。狂気の崇拝者をもう一度倒して生成してください。
 	}
 
@@ -1044,88 +1057,88 @@ Items: {
 	}
 
 	ProvidenceSpawnerItem: {
-		DisplayName: Providence Shrine Debug Item
+		DisplayName: Providence Shrine (DEBUG)
 		Tooltip: Summons Providence when right clicked with a Profaned Core
 	}
 
 	AEWRelic: {
 		DisplayName: 原初の竜のレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	AquaticScourgeRelic: {
 		DisplayName: アクアティック・スカージのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	AstrumAureusRelic: {
 		DisplayName: アストラムアウレウスのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	AstrumDeusRelic: {
 		DisplayName: アストラムデウスのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	BereftVassalRelic: {
 		DisplayName: 遺された臣下のレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	BetsyRelic: {
 		DisplayName: ベッツィーのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	BrainOfCthulhuRelic: {
 		DisplayName: クトゥルフの脳のレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	BrimstoneElementalRelic: {
 		DisplayName: ブリムストーンエレメンタルのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	CeaselessVoidRelic: {
 		DisplayName: シースレスヴォイドのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	CrabulonRelic: {
 		DisplayName: クラブロンのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	CryogenRelic: {
 		DisplayName: クライオジェンのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	DarkMageRelic: {
 		DisplayName: ダークメイジのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	DeerclopsRelic: {
 		DisplayName: ディアクロップスのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	DesertScourgeRelic: {
 		DisplayName: デザードスカージのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	DestroyerRelic: {
 		DisplayName: デストロイヤーのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	DevourerOfGodsRelic: {
 		DisplayName: デバウアーオブゴッドのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 		PersonalMessage:
 			'''
 			純粋な反応速度こそ、培うべき最も価値のあるものであったりする。
@@ -1136,7 +1149,7 @@ Items: {
 
 	DraedonRelic: {
 		DisplayName: ドレイドンのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 
 		PersonalMessage: {
 			DefaultMessage:
@@ -1154,33 +1167,33 @@ Items: {
 
 	DragonfollyRelic: {
 		DisplayName: ドラゴンフォーリーのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	DreadnautilusRelic: {
 		DisplayName: ドレッドノーチラスのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	DukeFishronRelic: {
 		DisplayName: デュークフィッシュロンのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	EaterOfWorldsRelic: {
 		DisplayName: イーターオブワールドのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	EmpressOfLightRelic: {
 		DisplayName: エンプレスオブライトのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 		PersonalMessage: 本筋とは関係のないボスは、時として最も手ごわいかもしれない。だからこそ、最大の報酬が得られるかもしれない。
 	}
 
 	EyeOfCthulhuRelic: {
 		DisplayName: クトゥルフの目のレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 		PersonalMessage:
 			'''
 			勝利を追い求めるあまり、無理をしないことを忘れないでほしい。必要なら休憩を取ること。
@@ -1190,44 +1203,44 @@ Items: {
 
 	ForgottenShadowOfCalamitasRelic: {
 		DisplayName: カラミタスの影のレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	GiantClamRelic: {
 		DisplayName: 巨大ハマグリのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	GolemRelic: {
 		DisplayName: ゴーレムのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 		PersonalMessage: シンプルな計画は、長い道のりを歩む。それは将来の障害に対してかけがえのないものとなるだろう。
 	}
 
 	HiveMindRelic: {
 		DisplayName: ハイブマインドのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	KingSlimeRelic: {
 		DisplayName: キングスライムのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 		PersonalMessage: ベテランプレイヤーであっても、慣れない新しいものを前にすると、多少苦戦するかもしれない。適応力が鍵となる。
 	}
 
 	LeviathanRelic: {
 		DisplayName: リヴァイアサンのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	LunaticCultistRelic: {
 		DisplayName: 狂気の崇拝者のレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	MoonLordRelic: {
 		DisplayName: ムーンロードのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 		PersonalMessage:
 			'''
 			ここまでよく頑張ってきた。
@@ -1237,12 +1250,12 @@ Items: {
 
 	OgreRelic: {
 		DisplayName: オーガのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	OldDukeRelic: {
 		DisplayName: オールドデュークのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 		PersonalMessage:
 			'''
 			戦いは困難かもしれないが、それに耐え、克服するのは賢明なことだ。
@@ -1252,17 +1265,17 @@ Items: {
 
 	PerforatorsRelic: {
 		DisplayName: パーフォレーターのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	PlaguebringerGoliathRelic: {
 		DisplayName: プラグブリンガーのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	PlanteraRelic: {
 		DisplayName: プランテラのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 		PersonalMessage:
 			'''
 			自分の死んだ数に誇りを持て！
@@ -1272,17 +1285,17 @@ Items: {
 
 	PolterghastRelic: {
 		DisplayName: ポルターガストのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	ProfanedGuardiansRelic: {
 		DisplayName: 冒涜された守護者たちのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	ProvidenceRelic: {
 		DisplayName: プロヴィデンスのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 
 		PersonalMessage: {
 			DefaultMessage:
@@ -1300,48 +1313,48 @@ Items: {
 
 	QueenBeeRelic: {
 		DisplayName: 女王蜂のレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	QueenSlimeRelic: {
 		DisplayName: クイーンスライムのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	RavagerRelic: {
 		DisplayName: ラヴェジャーのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	SignusRelic: {
 		DisplayName: シグナスのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	SkeletronPrimeRelic: {
 		DisplayName: スケルトロンプライムのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	SkeletronRelic: {
 		DisplayName: スケルトロンのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 		PersonalMessage: 最初の大きな障害。あなたはそれに直面する前よりも上手くなっている。ボスのパターンを学ぶのは楽しかったですか？
 	}
 
 	SlimeGodRelic: {
 		DisplayName: スライムゴッドのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	StormWeaverRelic: {
 		DisplayName: ストームウィーバーのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	SupremeCalamitasRelic: {
 		DisplayName: 至高の魔女カラミタスのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 
 		PersonalMessage: {
 			DefaultMessage:
@@ -1359,17 +1372,17 @@ Items: {
 
 	TwinsRelic: {
 		DisplayName: ツインズのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	WallOfFleshRelic: {
 		DisplayName: ウォールオブフレッシュのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	YharonRelic: {
 		DisplayName: ヤーロンのレリック
-		Tooltip: GetsChanged
+		Tooltip: "{0}"
 	}
 
 	SakuraBud: {
@@ -4587,6 +4600,7 @@ Status: {
 	DraedonDefeat10: それでは、お別れです。
 	SCalCongratulations: …おめでとう。
 	MultiplayerWarning: InfernumMode: Infernum Modeはシングルプレイ向けのModです。マルチプレイヤーのバグを報告しないでください。
+	Nurse: I cannot help you. Good luck.
 
 	Death: {
 		RedElectrified: " {0} は赤い稲妻に耐えることができなかった。"
@@ -4612,9 +4626,15 @@ Tiles: {
 	SeaShell: {
 		MapEntry: Sea Shell
 	}
+
+	ArenaTile: {
+		MapEntry: Arena Tile
+	}
 }
 
 UI: {
+	MenuStyle: Infernum Style
+	InfernumDrop: This is an Infernum Mode drop rate
 	NotExpertWarning: "[c/ff00000: Infernumモードはエキスパートモードでのみ有効]"
 	AchievementsHeader: Death Wishes
 	AchievementsLabelText: 次
