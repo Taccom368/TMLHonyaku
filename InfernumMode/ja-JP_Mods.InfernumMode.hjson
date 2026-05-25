@@ -189,7 +189,7 @@ Biomes: {
 	ProfanedTempleBiome: {
 		DisplayName: 冒涜された神殿
 		TownNPCDialogueName: 冒涜された神殿
-		DeathByThousandCrystals: "{0} was somehow impaled by a pillar of crystals"
+		DeathByThousandCrystals: "{0}はなぜか結晶の柱に串刺しにされました。"
 	}
 }
 
@@ -869,9 +869,9 @@ Items: {
 		PortalDetail:
 			'''
 			忘れられた闘技場への扉を開く
-			地下砂漠にあるロストゲートウェイの祭壇で使用できる
+			地下砂漠にある忘却の門の祭壇で使用できる
 			'''
-		GatewayWarning: あなたのワールドには現在ロスト・ゲートウェイがありません。狂気の崇拝者をもう一度倒して生成してください。
+		GatewayWarning: あなたのワールドには現在忘却の門がありません。狂気の崇拝者をもう一度倒して生成してください。
 	}
 
 	LihzahrdPowerCell: {
