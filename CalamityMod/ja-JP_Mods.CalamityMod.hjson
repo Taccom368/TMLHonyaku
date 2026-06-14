@@ -3656,7 +3656,7 @@ Items: {
 			}
 
 			WitherBlossomsStaff: {
-				Tooltip: 頭上に[cbuff:CalamityMod/Plague]を付与する枯れた花を4つ召喚する
+				Tooltip: 周囲に[cbuff:CalamityMod/Plague]を付与する枯れた花を4つ召喚する
 				DisplayName: 朽ちた花の杖
 			}
 
