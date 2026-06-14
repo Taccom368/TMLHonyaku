@@ -16053,8 +16053,8 @@ Items: {
 		CrimsonEffigy: {
 			SalesPitch:
 				'''
-				'You know that neat treasure you found when I was definitely not following you?'
-				'Turns out there was a whole pile of those trinkets, stashed conveniently close to the treasure chest! Finders keepers - or perhaps you wanna seal a deal?'
+				「君が見つけたあの素敵なお宝、覚えてるか？いや、後をつけていたわけではないんだが...
+				　どうやらああいうブツが山ほどあったらしくてな、都合よく宝箱の近くに隠されていたんだ！早い者勝ちだが...取引したいなら話は別だ！」
 				'''
 			Tooltip:
 				'''
@@ -16118,8 +16118,8 @@ Items: {
 		CorruptionEffigy: {
 			SalesPitch:
 				'''
-				'You know that neat treasure you found when I was definitely not following you?'
-				'Turns out there was a whole pile of those trinkets, stashed conveniently close to the treasure chest! Finders keepers - or perhaps you wanna seal a deal?'
+				「君が見つけたあの素敵なお宝、覚えてるか？いや、後をつけていたわけではないんだが...
+				　どうやらああいうブツが山ほどあったらしくてな、都合よく宝箱の近くに隠されていたんだ！早い者勝ちだが...取引したいなら話は別だ！」
 				'''
 			Tooltip:
 				'''
@@ -22284,7 +22284,7 @@ Items: {
 			EquippedDebuff: 現在の冷気デバフ強化: +{0}%
 			SalesPitch:
 				'''
-				「私が絶対について行ってなかった時に見つけたあの素敵なお宝、覚えてるか？
+				「君が見つけたあの素敵なお宝、覚えてるか？いや、後をつけていたわけではないんだが...
 				　どうやらああいうブツが山ほどあったらしくてな、都合よく宝箱の近くに隠されていたんだ！早い者勝ちだが...取引したいなら話は別だ！」
 				'''
 			Tooltip:
@@ -22531,8 +22531,8 @@ Items: {
 		TrinketofChi: {
 			SalesPitch:
 				'''
-				'You know that neat treasure you found when I was definitely not following you?'
-				'Turns out there was a whole pile of those trinkets, stashed conveniently close to the treasure chest! Finders keepers - or perhaps you wanna seal a deal?'
+				「君が見つけたあの素敵なお宝、覚えてるか？いや、後をつけていたわけではないんだが...
+				　どうやらああいうブツが山ほどあったらしくてな、都合よく宝箱の近くに隠されていたんだ！早い者勝ちだが...取引したいなら話は別だ！」
 				'''
 			Tooltip:
 				'''
@@ -22718,8 +22718,8 @@ Items: {
 		StressPills: {
 			SalesPitch:
 				'''
-				'Some people enjoy simple truths in life: good and evil, health and sickness.'
-				'I'm not sure how healthy they are, but these edgy gadgets are bound to get your blood pumping! Help me give them simple labels and I'll give you a heart-stopping discount!'
+				「世の中には、"善と悪"とか"健康と病気"みたいな、単純な真理を好む連中がいるだろ？そいつらがどれだけ健康かは知らないが、このイカしたガジェットは確実に血がたぎる代物だ！
+				　どうだ、こいつらにわかりやすいラベルをつけるのを手伝ってくれたら...心臓が止まるほどの特別割引をしてやってもいいぞ！」
 				'''
 			Tooltip:
 				'''
@@ -23492,8 +23492,8 @@ Items: {
 		LuxorsGift: {
 			SalesPitch:
 				'''
-				'You know that neat treasure you found when I was definitely not following you?'
-				'Turns out there was a whole pile of those trinkets, stashed conveniently close to the treasure chest! Finders keepers - or perhaps you wanna seal a deal?'
+				「君が見つけたあの素敵なお宝、覚えてるか？いや、後をつけていたわけではないんだが...
+				　どうやらああいうブツが山ほどあったらしくてな、都合よく宝箱の近くに隠されていたんだ！早い者勝ちだが...取引したいなら話は別だ！」
 				'''
 			Tooltip:
 				'''
@@ -23658,8 +23658,8 @@ Items: {
 		HeartofDarkness: {
 			SalesPitch:
 				'''
-				'Some people enjoy simple truths in life: good and evil, health and sickness.'
-				'I'm not sure how healthy they are, but these edgy gadgets are bound to get your blood pumping! Help me give them simple labels and I'll give you a heart-stopping discount!'
+				「世の中には、"善と悪"とか"健康と病気"みたいな、単純な真理を好む連中がいるだろ？そいつらがどれだけ健康かは知らないが、このイカしたガジェットは確実に血がたぎる代物だ！
+				　どうだ、こいつらにわかりやすいラベルをつけるのを手伝ってくれたら...心臓が止まるほどの特別割引をしてやってもいいぞ！」
 				'''
 			Tooltip:
 				'''
@@ -23723,8 +23723,8 @@ Items: {
 		GladiatorsLocket: {
 			SalesPitch:
 				'''
-				'You know that neat treasure you found when I was definitely not following you?'
-				'Turns out there was a whole pile of those trinkets, stashed conveniently close to the treasure chest! Finders keepers - or perhaps you wanna seal a deal?'
+				「君が見つけたあの素敵なお宝、覚えてるか？いや、後をつけていたわけではないんだが...
+				　どうやらああいうブツが山ほどあったらしくてな、都合よく宝箱の近くに隠されていたんだ！早い者勝ちだが...取引したいなら話は別だ！」
 				'''
 			Tooltip:
 				'''
@@ -23767,8 +23767,8 @@ Items: {
 		FungalSymbiote: {
 			SalesPitch:
 				'''
-				'You know that neat treasure you found when I was definitely not following you?'
-				'Turns out there was a whole pile of those trinkets, stashed conveniently close to the treasure chest! Finders keepers - or perhaps you wanna seal a deal?'
+				「君が見つけたあの素敵なお宝、覚えてるか？いや、後をつけていたわけではないんだが...
+				　どうやらああいうブツが山ほどあったらしくてな、都合よく宝箱の近くに隠されていたんだ！早い者勝ちだが...取引したいなら話は別だ！」
 				'''
 			Tooltip:
 				'''
@@ -24054,10 +24054,10 @@ Items: {
 		CrushingEgo: {
 			Tooltip:
 				'''
-				Multiplies all damage by 1.3x, but at the cost of taking 20% increased damage
-				[c/ff00ff:'Don the mask of arrogance, and dance by your lonesome. Once the ball has gone quiet, you'll be the last man standing.']
+				すべてのダメージが1.3倍になるが、受けるダメージが20%増加する
+				[c/ff00ff:「傲慢の仮面をかぶり、孤独に舞い踊れ。宴が静まり返ったとき、最後に立っているのはお前だ。」]
 				'''
-			DisplayName: Crushing Ego
+			DisplayName: クラッシングエゴ
 		}
 
 		DiamondOfTheDeep: {
@@ -25500,7 +25500,7 @@ Common: {
 		'''
 	WingStatsFull:
 		'''
-		飛行時間: {0} seconds
+		飛行時間: {0} 秒
 		最大水平速度: {1} ({2} mph)
 		最大垂直速度: {3} ({4} mph)
 		最大水平加速度: {5} ({6} mph/s)
@@ -25549,8 +25549,8 @@ Common: {
 	AverageDamageInfo: この武器の性能は、すべての攻撃力ステータスの平均値に応じて変化する
 	SalesmanShrinePitch:
 		'''
-		「おい、前に見つけたあの良い感じの宝物、覚えてるか？俺が絶対についてきてなかったときのやつだ。
-		　実は同じような物が他にも山ほどあって、宝箱のすぐ近くに隠してあったんだよ！普通なら見つけた者勝ち...なんだが、どうだ？ちゃんと取引して、ちゃんとした契約を結ばないか？」
+		「君が見つけたあの素敵なお宝、覚えてるか？いや、後をつけていたわけではないんだが...
+		　どうやらああいうブツが山ほどあったらしくてな、都合よく宝箱の近くに隠されていたんだ！早い者勝ちだが...取引したいなら話は別だ！」
 		'''
 	ArmorPenetration: 敵の防御力を{0}無視
 	AlcoholWarning: 3種類以上のアルコールを飲むと肝臓に悪影響を及ぼす可能性がある
@@ -26968,13 +26968,13 @@ Buffs: {
 	WindChilled: {
 		ItemTooltipEnemy:
 			'''
-			冷気 - 6 DPS
+			冷気属性- 6 DPS
 			水属性デバフ中の敵には1.5倍のダメージ
 			水属性デバフのダメージを強化
 			'''
 		ItemTooltipPlayer:
 			'''
-			冷気 - 2 DPS
+			冷気属性- 2 DPS
 			移動速度低下
 			'''
 		Description: コートを着てくればよかったな
