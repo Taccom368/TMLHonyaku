@@ -9081,7 +9081,7 @@ Items: {
 		Magic: {
 			YharimsCrystal: {
 				TooltipGFB: 「...ドニマイトのかけらを通して」
-				TooltipNormal: [cbuff:CalamityMod/Dragonfire]を付与する強力なドラゴンのビームを発射する
+				TooltipNormal: "[cbuff:CalamityMod/Dragonfire]を付与する強力なドラゴンのビームを発射する"
 				Tooltip: "[GFB]"
 				GFBName: エルメスのクリスタル
 				DisplayName: ヤリムのクリスタル
