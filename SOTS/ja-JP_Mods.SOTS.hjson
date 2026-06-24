@@ -9,13 +9,13 @@ Common: {
 	SOTSTexturePackName: Secrets of the Shadows テクスチャパック
 	Void: "ヴォイド: "
 	Damage: ダメージ
-	Void2: "{0} ヴォイド {1}"
-	VoidM: "{0} ヴォイド+近接 {1}"
-	VoidR: "{0} ヴォイド+遠距離 {1}"
-	VoidM2: "{0} ヴォイド+魔法 {1}"
-	VoidS: "{0} ヴォイド+召喚 {1}"
-	VoidSDouble: "{0} ヴォイド+ {1} 召喚 {2}"
-	VoidSPercent: ??? ヴォイド+召喚 {0}
+	Void2: "{0} ヴォイドダメージ"
+	VoidM: "{0} ヴォイド+近接ダメージ"
+	VoidR: "{0} ヴォイド+遠距離ダメージ"
+	VoidM2: "{0} ヴォイド+魔法ダメージ"
+	VoidS: "{0} ヴォイド+召喚ダメージ"
+	VoidSDouble: "{0} ヴォイド+ {1} 召喚ダメージ"
+	VoidSPercent: ??? ヴォイド+召喚ダメージ
 	CV: 消費ヴォイド: {0}
 	GenSOTSOres: SOTSの鉱石を生成中
 	GenSOTSGeodes: きれいなジオードを生成中
