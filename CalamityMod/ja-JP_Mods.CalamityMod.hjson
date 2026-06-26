@@ -314,7 +314,7 @@ Vanilla: {
 		MoonLordDefeated3: ダンジョンにいる間、ずっと聞こえ続けていた声がまた聞こえた...。何かがあったに違いない。
 		MoonLordDefeated2: あの悲鳴...。なぜだかわからないが、何とも言えない恐怖が心の中で目覚めたような気がする。
 		MoonLordDefeated1: 誰に連絡するんだ？
-		PolterghastDefeated: 声が止んだ... あなたがそこで何をしたのか知りたくないけど、ありがとう。
+		PolterghastDefeated: 声が止んだ...あなたがそこで何をしたのかあまり考えたくはないが...ありがとう。
 	}
 
 	ArmsDealerChat: {
@@ -3777,7 +3777,7 @@ Items: {
 			TacticalPlagueEngine: {
 				Tooltip:
 					'''
-					共に戦うプレイグジェットを召喚する
+					共に戦う[cbuff:CalamityMod/Plague]のジェットを召喚する
 					インベントリの弾丸を消費する
 					弾丸の代わりにミサイルを撃つことがある
 					50%の確率で弾薬を消費しない
@@ -3806,7 +3806,11 @@ Items: {
 			}
 
 			StarspawnHelixStaff: {
-				Tooltip: 共に戦うアストラル探査機を召喚する
+				Tooltip: 
+					'''
+					共に戦うアストラル探査機を召喚する
+					[cbuff:CalamityMod/AstralInfectionDebuff]を付与する
+					'''
 				DisplayName: 螺旋の杖
 			}
 
@@ -3861,8 +3865,7 @@ Items: {
 			ShellfishStaff: {
 				Tooltip:
 					'''
-					共に戦う貝を召喚する
-					貝はミニオンのスロットを2つ使用する
+					[cbuff:CalamityMod/ShellfishClaps]で攻撃する共に戦う貝を召喚する
 					'''
 				DisplayName: 貝の杖
 			}
@@ -3892,7 +3895,7 @@ Items: {
 				Tooltip:
 					'''
 					冒涜の使者を召喚し、プレイヤー付近で漂う
-					冒涜の使者は近くの敵に追尾するフレアを素早く連射する
+					冒涜の使者は近くの敵に追尾する[cbuff:CalamityMod/HolyFlames]のフレアを素早く連射する
 					攻撃後、所持している召喚スロット4ごとに1発、回復魔法をプレイヤーへ放つ
 					「少しベタつくけど、少なくとも暖かい」
 					'''
@@ -3903,7 +3906,7 @@ Items: {
 				Tooltip:
 					'''
 					共に戦う古びたドローンを召喚する
-					ドローンはその場でホバリングし、放射線と毒で敵を攻撃する
+					ドローンはその場でホバリングし、[cbuff:CalamityMod/Irradiated]を付与し敵を攻撃する
 					'''
 				DisplayName: 錆びた試作型ビーコン
 			}
@@ -3949,7 +3952,11 @@ Items: {
 			}
 
 			OrthoceraShell: {
-				Tooltip: カーソルの位置にオルソセラのセントリーを召喚する
+				Tooltip: 
+					'''
+					セントリーを召喚する
+					敵へ[cbuff:CalamityMod/Irradiated]と[cbuff:Venom]を付与する体液を吐く飛行する直角貝を召喚する
+					'''
 				DisplayName: オルソセラの貝殻
 			}
 
@@ -4037,7 +4044,7 @@ Items: {
 					"ヴィリリ"と呼ばれる、ヒューマノイドとのハイブリッドのプレイグブリンガーを召喚する
 					ヴィリリの召喚には3つのミニオンスロットが必要で、1体のみ召喚できる
 					ヴィリリは様々な攻撃を使い、それを一定周期で繰り返す
-					すべての攻撃は、彼女の本来の設計目的である疫病を広げる
+					すべての攻撃は、彼女の本来の設計目的である[cbuff:CalamityMod/Plague]を広げる
 					「背面にはラベルが貼られている...」
 					[c/1FFBFF: 『警告：対象物は極めて腐食性が高く、伝染性があるため、直接の接触を避けること』]
 					'''
@@ -4054,7 +4061,11 @@ Items: {
 			}
 
 			HivePod: {
-				Tooltip: 共に戦うアストラルハイブを召喚する
+				Tooltip:
+					'''
+					セントリーを召喚する
+					敵に星塊を放ち、命中時に[cbuff:CalamityMod/AstralInfectionDebuff]を拡散する
+					'''
 				DisplayName: ハイブポッド
 			}
 
@@ -4246,7 +4257,7 @@ Items: {
 					'''
 					共に戦うブリムシーカーを召喚する
 					ミニオンのスロットがすべて埋まった状態でもう1体のブリムシーカーを発射すると、オーラを召喚する
-					オーラはブリムシーカーに力を与え、ダメージを与える火球を生み出す
+					オーラはブリムシーカーに力を与え、[cbuff:CalamityMod/BrimstoneFlames]を与える火球を生み出す
 					同時に存在できるオーラは1つだけ
 					「鏡に映る彼らを見たとき、さらに恐ろしい姿に変わったように見えた」
 					'''
@@ -4332,9 +4343,9 @@ Items: {
 				Tooltip:
 					'''
 					共に戦う宇宙のオーブを召喚する
-					オーブが敵を感知すると、追尾するエネルギーを発射する
-					使用するにはミニオンのスロットが10個必要で、オーブは1つしか召喚できない
-					召喚士のアーマーセットボーナスがない場合、このミニオンの与えるダメージは少なくなる
+					オーブが敵を感知すると、追尾するエネルギーを放つ
+					命中した敵を[cbuff:CalamityMod/MiracleBlight]で浄化する
+					オーブは1つしか召喚できない
 					'''
 				DisplayName: コズミックインマテリアライザー
 			}
@@ -4343,7 +4354,7 @@ Items: {
 				Tooltip:
 					'''
 					共に戦う強力なカラスを召喚する
-					'Nevermore'
+					「Nevermore」
 					'''
 				DisplayName: 先駆者のカラスの杖
 			}
@@ -4396,10 +4407,10 @@ Items: {
 			CausticStaff: {
 				HoldShiftTooltip:
 					'''
-					Always inflicts [cbuff:OnFire3]
-					Inflicts [cbuff:CursedInferno] with 2 dragons summoned
-					Inflicts [cbuff:Venom] with 3 dragons summoned
-					Inflicts [cbuff:Ichor] and [cbuff:CalamityMod/MarkedforDeath] with 4 dragons summoned
+					常に[cbuff:OnFire3]を付与する
+					ドラゴンを2体召喚すると[cbuff:CursedInferno]を付与する
+					ドラゴンを3体召喚すると[cbuff:Venom]を付与する
+					ドラゴンを4体召喚すると[cbuff:Ichor]と[cbuff:CalamityMod/MarkedforDeath]を付与する
 					'''
 				Tooltip:
 					'''
@@ -4449,6 +4460,7 @@ Items: {
 				Tooltip:
 					'''
 					共に戦う不安定な惑星を召喚する
+					[cbuff:CalamityMod/AstralInfectionDebuff]を付与する
 					惑星は、敵にぶつかると大爆発する
 					ミニオンスロットを消費しない
 					'''
@@ -4531,6 +4543,7 @@ Items: {
 			AbandonedSlimeStaff: {
 				Tooltip:
 					'''
+					[cbuff:CalamityMod/AstralInfectionDebuff]を拡散するアストラルスライムを召喚する
 					使用時に残りのミニオンスロットをすべて消費する
 					ホットバーから使用する必要がある
 					ミニオンスロットの数に応じて強化される
@@ -4578,7 +4591,7 @@ Items: {
 			Wrathwing: {
 				Tooltip:
 					'''
-					常に火を噴き続ける、追尾する有翼の槍を投げる
+					絶えず[cbuff:CalamityMod/Dragonfire]を噴き続ける、追尾する有翼の槍を投げる
 					ステルス攻撃はヒット時に噴火を起こす
 					'''
 				DisplayName: ラースウイング
@@ -4600,7 +4613,7 @@ Items: {
 				Tooltip:
 					'''
 					敵をクモの巣で覆い、動きを鈍らせるクモの巣ボールを投げる
-					ステルス攻撃は敵の動きを遅くする時間が長くなる
+					ステルス攻撃は敵を[cbuff:Webbed]にさせる
 					'''
 				DisplayName: クモの巣ボール
 			}
@@ -4650,7 +4663,7 @@ Items: {
 				Tooltip:
 					'''
 					敵に突き刺さり、非常に強力な毒を注入する
-					ステルス攻撃ではより長時間突き刺さり、毒を与える
+					ステルス攻撃ではより長時間突き刺さり、[cbuff:Poisoned]を与える
 					ステルス攻撃の針が刺さった敵に合計7本の針を刺すと、爆発が発生する
 					'''
 				DisplayName: ウニの針
@@ -4691,7 +4704,7 @@ Items: {
 				Tooltip:
 					'''
 					可燃性の黒いタールを爆発させる
-					黒いタールは敵に油をまとわせ、火をつける
+					黒いタールは敵に[cbuff:Oiled]まみれにさせ、火をつける
 					ステルス攻撃は更に多くの黒いタールを撒き散らすようになる
 					「もっと大きな破壊力が必要だ」
 					'''
@@ -4711,7 +4724,7 @@ Items: {
 			TimeBolt: {
 				Tooltip:
 					'''
-					時間を歪ませるナイフを投げる
+					[cbuff:CalamityMod/TimeDistortion]を発生させるナイフを投げる
 					ステルス攻撃は、より多くの敵に命中し、更に大きなタイムフィールドを作り出すことができる
 					「人間の努力に限界はないはずだ」
 					'''
@@ -4731,8 +4744,8 @@ Items: {
 				Tooltip:
 					'''
 					時間経過でダメージが増加する注射器を投げる
-					何かにぶつかるとガラスと疫病の燃え殻を撒き散らす
-					ステルス攻撃は粉々になったあとに疫病蜂を放つようになる
+					何かにぶつかるとガラスと[cbuff:CalamityMod/Plague]の燃え殻を撒き散らす
+					ステルス攻撃は粉々になったあとに[cbuff:CalamityMod/Plague]蜂を放つようになる
 					「体に悪そうだ...」
 					'''
 				DisplayName: 汚染された注射器
@@ -4824,6 +4837,7 @@ Items: {
 				Tooltip:
 					'''
 					ある程度の高さで止まり、敵に飛んでいくナイフを投げる
+					[cbuff:CalamityMod/AstralInfectionDebuff]を付与する
 					ステルス攻撃は10本のナイフを投げつける
 					「ザ・ワールド！」
 					'''
@@ -4855,7 +4869,7 @@ Items: {
 					'''
 					核爆発を引き起こす微量のプルトニウムが入った燃料容器を投げる
 					下にブロックがない場合、爆発は起こらない
-					ステルス攻撃は、爆発が消滅した後にも汚染エリアが残る
+					ステルス攻撃は、爆発が消滅した後にも[cbuff:CalamityMod/Irradiated]エリアが残る
 					「戦争は...決して変わらない」
 					'''
 				DisplayName: 使用済み燃料コンテナ
@@ -4883,10 +4897,10 @@ Items: {
 			SnapClam: {
 				Tooltip:
 					'''
-					敵に取り付き、時間経過とともにダメージを与える
+					敵に取り付き、[cbuff:CalamityMod/SnapClamDebuff]で時間経過とともにダメージを与える
 					ステルス攻撃は一度に5つのハマグリを投げ、時間の経過とともにダメージが増加する
 					'''
-				DisplayName: スナップクラム
+				DisplayName: かみつきハマグリ
 			}
 
 			SludgeSplotch: {
@@ -4974,8 +4988,8 @@ Items: {
 			ScourgeoftheSeas: {
 				Tooltip:
 					'''
-					敵にぶつかると毒の煙を撒き散らす
-					ステルス攻撃は強力なデバフを付与するようになる
+					敵に命中すると[cbuff:CalamityMod/Irradiated]させる煙を撒き散らす
+					ステルス攻撃は[cbuff:Venom]も付与するようになる
 					'''
 				DisplayName: 海の災厄の槍
 			}
@@ -5037,7 +5051,7 @@ Items: {
 			RegulusRiot: {
 				Tooltip:
 					'''
-					追尾するディスクを発射
+					追尾し、[cbuff:CalamityMod/AstralInfectionDebuff]を付与するディスクを発射する
 					ステルス攻撃は爆発し、エネルギースターを放出する
 					'''
 				DisplayName: レギルスライオット
@@ -5075,6 +5089,7 @@ Items: {
 				Tooltip:
 					'''
 					しばらくすると爆発して分裂する短剣を投げる
+					[cbuff:CalamityMod/AstralInfectionDebuff]を付与する
 					ステルス攻撃は、破壊的な爆発で敵を吸い込む
 					'''
 				DisplayName: レディアントスター
@@ -5102,7 +5117,7 @@ Items: {
 			Plaguenade: {
 				Tooltip:
 					'''
-					疫病の蜂の大群を放つ
+					[cbuff:CalamityMod/Plague]の蜂の大群を放つ
 					ステルス攻撃はより多くの蜂を生み出し、より大きな爆発を発生させる
 					'''
 				DisplayName: プレイグレネード
@@ -5261,7 +5276,8 @@ Items: {
 			Lionfish: {
 				Tooltip:
 					'''
-					敵にくっつき、強力な毒素を注入する
+					敵にくっつき、強力な[cbuff:Venom]を注入する
+					より多くのミノカサゴが敵に張り付くほど、[cbuff:Venom]は累積する
 					ステルス攻撃は追尾するウニのトゲで攻撃する
 					'''
 				DisplayName: ミノカサゴ
@@ -5280,7 +5296,7 @@ Items: {
 			LeonidProgenitor: {
 				Tooltip:
 					'''
-					隕石を投げ、爆発すると空から流星を降らせる
+					隕石を投げ、爆発すると空から[cbuff:CalamityMod/AstralInfectionDebuff]を付与する流星を降らせる
 					<right> を押すと、彗星を放つ
 					ステルス攻撃は、ヒットするとさらに広範囲に攻撃する隕石を投げる
 					'''
@@ -5317,8 +5333,8 @@ Items: {
 			JawsOfOblivion: {
 				Tooltip:
 					'''
-					敵に突き刺さる6本の毒牙を投げる
-					この毒は敵に刺さった歯が多いほどスタックする
+					敵に突き刺さる6本の[cbuff:Venom]牙を投げる
+					[cbuff:Venom]は敵に刺さった歯が多いほどスタックする
 					ステルス攻撃は、歯が砕けるような衝撃波を発生させる
 					「この船じゃ小さすぎる...」
 					'''
@@ -5355,7 +5371,7 @@ Items: {
 			IchorSpear: {
 				Tooltip:
 					'''
-					敵を貫通する高速のジャベリンを投げる
+					敵を貫通する高速の[cbuff:Ichor]のジャベリンを投げる
 					ステルス攻撃は敵に突き刺さり、持続ダメージを与える
 					'''
 				DisplayName: 霊液の槍
@@ -5472,7 +5488,7 @@ Items: {
 					'''
 					弾むダーツを投げる
 					ステルス攻撃は重力を無視し、さらに勢いよくバウンドする
-					さらに、敵をスライムまみれにする
+					さらに、敵を[cbuff:Slimed]にする
 					'''
 				DisplayName: ジェルのダーツ
 			}
@@ -5559,7 +5575,7 @@ Items: {
 			Equanimity: {
 				Tooltip:
 					'''
-					敵の間を跳ね回るブーメランを投げる
+					敵の間を跳ね回り、[cbuff:Confused]を付与するブーメランを投げる
 					敵に当たるたびに、追尾する光の破片と貫通する闇の破片を交互に発生させる
 					ステルス攻撃では跳ね返るたびに光または闇の爆発を交互に起こし、反対属性の破片を強化する
 					'''
@@ -5569,8 +5585,8 @@ Items: {
 			EpidemicShredder: {
 				Tooltip:
 					'''
-					敵やブロックに当たるとプレイグシーカーを放つブーメランを投げる
-					ステルス攻撃は、ブーメランが移動しながら常にプレイグシーカーを放つようになる
+					敵やブロックに当たると[cbuff:CalamityMod/Plague]のシーカーを放つブーメランを投げる
+					ステルス攻撃は、ブーメランが移動しながら常に[cbuff:CalamityMod/Plague]のシーカーを放つようになる
 					「使い方を間違えれば伝染病を引き起こすだろう」
 					'''
 				DisplayName: 疫病の輪刃
@@ -5672,7 +5688,7 @@ Items: {
 				Tooltip:
 					'''
 					邪悪な泡を爆発させる水入り瓶を投げる
-					ステルス攻撃は、霊液と呪炎を与える追加の泡を生み出す
+					ステルス攻撃は、[cbuff:Ichor]と[cbuff:CursedInferno]を与える追加の泡を生み出す
 					'''
 				DisplayName: 穢れた水入り瓶
 			}
@@ -5711,7 +5727,7 @@ Items: {
 				Tooltip:
 					'''
 					呪いの短剣と、精度の低い2本の短剣を素早く投げる
-					ステルス攻撃は、呪われた炎の渦を引き起こす短剣を一本投げる
+					ステルス攻撃は、[cbuff:CursedInferno]の渦を引き起こす短剣を一本投げる
 					'''
 				DisplayName: 呪われた短剣
 			}
@@ -5813,6 +5829,7 @@ Items: {
 				Tooltip:
 					'''
 					放射化した胆汁の瓶を投げ、割れたあと有毒な雲がしばらく残る
+					触れると[cbuff:CalamityMod/Irradiated]を付与する
 					ステルス攻撃では雲から硫黄の泡が素早く噴き上がる
 					'''
 				DisplayName: 汚染された胆汁入りの瓶
@@ -5844,6 +5861,7 @@ Items: {
 					'''
 					敵に当たると分裂する鎌を投げる
 					ステルス攻撃は敵にヒットした後、一度プレイヤーの元に戻り、再度敵に向かって飛んでいく
+					命中した敵に[cbuff:CalamityMod/MiracleBlight]を付与する
 					'''
 				DisplayName: セレスタス
 			}
@@ -5861,7 +5879,7 @@ Items: {
 			BurningStrife: {
 				Tooltip:
 					'''
-					シャドウフレイムのスパイクボールを投げる
+					[cbuff:CalamityMod/Shadowflame]のスパイクボールを投げる
 					ステルス攻撃は命中すると触手が出現する
 					「ポケットの中に入れると危険！」
 					'''
@@ -5922,7 +5940,7 @@ Items: {
 			BallisticPoisonBomb: {
 				Tooltip:
 					'''
-					トゲと毒煙を撒き散らす粘着爆弾を投げる
+					トゲと[cbuff:Venom]煙を撒き散らす粘着爆弾を投げる
 					ステルス攻撃は一度に3つ投擲する
 					'''
 				DisplayName: バリスティックポイズンボム
@@ -5934,6 +5952,7 @@ Items: {
 					分裂する星を投げる
 					分裂した星は数秒後に近くの敵を追尾する
 					ステルス攻撃は敵にヒットした時に流星を降らせる
+					[cbuff:CalamityMod/AstralInfectionDebuff]を拡散させる
 					'''
 				DisplayName: オーロラディカルスロー
 			}
@@ -6046,7 +6065,7 @@ Items: {
 				Tooltip:
 					'''
 					マスケット銃の弾丸を70口径の狙撃弾に変換し、壊滅的なダメージを与える
-					敵のヒット時に死の刻印を与え、防御力を無視する
+					敵のヒット時に[cbuff:CalamityMod/MarkedforDeath]を与え、防御力を無視する
 					クリティカルヒットで6発の追加弾を発射する
 					「どんな重装甲でも貫ける」
 					'''
@@ -6054,7 +6073,7 @@ Items: {
 			}
 
 			Toxibow: {
-				Tooltip: 木の矢を、ヒットした敵を放射能に汚染させる矢に変える
+				Tooltip: 木の矢を、ヒットした敵を[cbuff:CalamityMod/Irradiated]させる矢に変える
 				DisplayName: 汚染された弓
 			}
 
@@ -6130,7 +6149,7 @@ Items: {
 					'''
 					敵やブロックに接触すると爆発する4発のミサイルを広範囲に発射する
 					ランチャーをチャージすると拡散が減少し、ミサイルの連射速度が増加する
-					ランチャーをフルチャージすると、着弾と同時に広範囲を破壊する核弾頭を発射する
+					ランチャーをフルチャージすると、着弾と同時に広範囲を破壊する[cbuff:CalamityMod/Plague]の核弾頭を発射する
 					'''
 				DisplayName: ハイヴ
 			}
@@ -6227,7 +6246,7 @@ Items: {
 			StarSputter: {
 				Tooltip:
 					'''
-					彗星を放つ
+					[cbuff:CalamityMod/AstralInfectionDebuff]を付与する彗星を放つ
 					4発目ごとに、より大きく強力な彗星を放つ
 					「遥か遠くの銀河を探すために星々を見上げよ」
 					'''
@@ -6269,7 +6288,7 @@ Items: {
 			}
 
 			Spyker: {
-				Tooltip: マスケット銃の弾をスパイクに変え、敵やブロックにくっついた後、爆発する
+				Tooltip: マスケット銃の弾を[cbuff:Venom]のスパイクに変え、敵やブロックにくっついた後、爆発する
 				DisplayName: スパイカー
 			}
 
@@ -6311,9 +6330,10 @@ Items: {
 				Tooltip:
 					'''
 					この武器は、クリティカル率が100%を超えるとスーパークリティカルが発生することがある
-					発射されるすべての弾丸は「裂傷」という累積可能な出血デバフを付与する
-					「裂傷」は1スタックごとに150の秒間ダメージを与え、遠距離ステータスに応じて強化される
-					「裂傷」のダメージでクリティカルやスーパークリティカルが発生することがある
+					発射したすべての弾丸は5%の確率で累積する出血デバフ[cbuff:CalamityMod/Shred]を付与する
+					クリティカルヒットは2倍ではなく3倍のダメージを与え、30%の確率で[cbuff:CalamityMod/Shred]を付与する
+					[cbuff:CalamityMod/Shred]は1スタックごとに毎秒600ダメージを与え、遠隔攻撃力に応じて威力が上昇する
+					[cbuff:CalamityMod/Shred]のダメージでクリティカルやスーパークリティカルが発生することがある
 					マスケット銃の弾丸が強化された高速弾に変換される
 					{0}%の確率で弾薬を消費しない
 					'''
@@ -6321,7 +6341,7 @@ Items: {
 			}
 
 			SlagMagnum: {
-				Tooltip: マスケット銃の弾を分裂する化石の破片に変える
+				Tooltip: マスケット銃の弾を分裂する化石の破片に変え、命中時に[cbuff:CalamityMod/ArmorCrunch]を付与する
 				DisplayName: スラグマグナム
 			}
 
@@ -6362,7 +6382,7 @@ Items: {
 			Shadethrower: {
 				Tooltip:
 					'''
-					陰の雲を放ち、脳の腐敗を付与する
+					陰の雲を放ち、[cbuff:CalamityMod/BrainRot]を付与する
 					弾薬としてジェルを使用する
 					'''
 				DisplayName: 影の焔射器
@@ -6372,7 +6392,7 @@ Items: {
 				Tooltip:
 					'''
 					毒に侵された鎖付きハープーンを放つ
-					ハープーンは敵に突き刺さり、長時間硫黄中毒を付与する
+					ハープーンは敵に突き刺さり、長時間[cbuff:CalamityMod/SulphuricPoisoning]を付与する
 					1秒後、突き刺さったハープーンは自動で引き抜かれ、ダメージを与える肉片を撒き散らす
 					<right>を押すとすべてのハープーンを強制的に引き抜き、追加ダメージを与える
 					瀕死の敵は戻ってくるハープーンに接触すると即死する
@@ -6496,7 +6516,7 @@ Items: {
 					'''
 				Tooltip:
 					'''
-					螺旋状の熱線を放ち、やがて煙の柱へと噴き上がる
+					[cbuff:CalamityMod/HolyFlames]の熱線を放ち、やがて煙の柱へと噴き上がる
 					<right> を押すと、時間経過で補充される可燃性の結晶の粉末を散布する
 					熱線や周囲の爆発でも粉末は引火する
 					弾薬としてジェルを使用する
@@ -6508,7 +6528,7 @@ Items: {
 				Tooltip:
 					'''
 					4発目ごとに135%のダメージを与える
-					マスケット弾を稲妻に変換する
+					マスケット弾を[cbuff:Electrified]を付与する稲妻に変換する
 					稲妻は非常に高速で飛び、敵を倒すと爆発する
 					稲妻がクリティカルヒットすると、プレイヤーに速度ブーストが付与される
 					このブーストは移動速度と加速度が最大20%までスタックする
@@ -6548,9 +6568,9 @@ Items: {
 			PlagueTaintedSMG: {
 				Tooltip:
 					'''
-					クリティカルヒット時にドローンを生み出す疫病の弾を発射する
+					クリティカルヒット時にドローンを生み出す[cbuff:CalamityMod/Plague]の弾を発射する
 					敵に近いほどダメージとノックバックが大きくなる
-					ドローンは疫病にかかった敵に攻撃した際のクリティカル率が非常に高くなる
+					ドローンは[cbuff:CalamityMod/Plague]にかかった敵に攻撃した際のクリティカル率が非常に高くなる
 					<right>を押してドローン群を放つ
 					'''
 				DisplayName: インフェクターサブマシンガン
@@ -6569,7 +6589,7 @@ Items: {
 			}
 
 			PestilentDefiler: {
-				Tooltip: マスケット銃の弾丸を、死亡時に爆発して分裂する疫病の弾に変える
+				Tooltip: マスケット銃の弾丸を、死亡時に爆発して分裂する[cbuff:CalamityMod/Plague]の弾に変える
 				DisplayName: ペスティレントデフィラー
 			}
 
@@ -6610,7 +6630,7 @@ Items: {
 				Tooltip:
 					'''
 					貫通する熱エネルギー・ボルトを発射する
-					フルチャージされたショットは追加ダメージを与え、より速く移動する
+					フルチャージされたショットは追加ダメージを与え、[cbuff:OnFire3]を付与する
 					'''
 				DisplayName: オパールストライカー
 			}
@@ -6705,7 +6725,7 @@ Items: {
 			}
 
 			Needler: {
-				Tooltip: マスケット銃の弾を針に変え、敵に突き刺して爆発させる
+				Tooltip: マスケット銃の弾を[cbuff:Venom]の針に変え、敵に突き刺して爆発させる
 				DisplayName: ニードラー
 			}
 
@@ -6791,7 +6811,7 @@ Items: {
 			MagnomalyCannon: {
 				Tooltip:
 					'''
-					強力なエクソロケットを発射する
+					強力なエクソロケットを発射し、命中時に[cbuff:CalamityMod/MiracleBlight]を付与する
 					ロケットは目に見えないダメージオーラに包まれ、命中するとダメージビームに分裂する
 					{0}%の確率で弾薬を消費しない
 					'''
@@ -6844,7 +6864,7 @@ Items: {
 					'''
 					高速で弾丸を発射する
 					発射を止めるとオーリック弾の一斉射撃を行う
-					オーリック弾は敵に追尾し、50ポイントの防御を無視する
+					オーリック弾は敵に追尾し、50ポイントの防御を無視し、命中時に[cbuff:CalamityMod/AuricRebuke]を付与する
 					使用中は常に弾薬を消費する
 					{0}%の確率で弾薬を消費しない
 					'''
@@ -6869,7 +6889,7 @@ Items: {
 			Hydra: {
 				Tooltip:
 					'''
-					毒の散弾を広範囲に発射する
+					[cbuff:Venom]の散弾を発射する
 					3秒ごとに銃が1つ増え、最大で3つまで増える
 					<left> を押して、既存の銃に発射命令を出す
 					<right> を押して銃本体を発射し、強力な爆発ダメージを与える
@@ -6914,6 +6934,7 @@ Items: {
 					エクソクリスタルを発射する
 					弓を持った状態で、しばらく待ってから射ると、クリスタルがより強力になる
 					クリスタルが強化されると、命中した対象の上空に雷の奔流を呼び起こす
+					[cbuff:CalamityMod/MiracleBlight]を付与する
 					'''
 				DisplayName: ヘブンリーゲール
 			}
@@ -6921,7 +6942,7 @@ Items: {
 			HavocsBreath: {
 				Tooltip:
 					'''
-					灼熱の硫黄炎を円錐状に放射する
+					灼熱の[cbuff:CalamityMod/BrimstoneFlames]を円錐状に放射する
 					弾薬としてジェルを使用する
 					'''
 				DisplayName: ハボックスブレス
@@ -7083,9 +7104,9 @@ Items: {
 			DragonsBreath: {
 				Tooltip:
 					'''
-					ドラゴンの火球を発射する
+					[cbuff:CalamityMod/Dragonfire]を発射する
 					長時間発射すると、エネルギーのカートリッジを使用するようになる
-					カートリッジを使用している間は、弾薬を消費せずにドラゴンのようなビームを発射する
+					カートリッジを使用している間は、弾薬を消費せずに[cbuff:CalamityMod/Dragonfire]のビームを発射する
 					カートリッジが排出されると、元の発射速度に戻る
 					{0}%の確率で弾薬を消費しない
 					'''
@@ -7204,7 +7225,7 @@ Items: {
 			CleansingBlaze: {
 				Tooltip:
 					'''
-					ブロックを貫通する炎の奔流を解き放つ
+					ブロックを貫通する[cbuff:CalamityMod/GodSlayerInferno]の奔流を解き放つ
 					弾薬としてジェルを使用する
 					'''
 				DisplayName: 浄化の炎
@@ -7226,7 +7247,7 @@ Items: {
 			}
 
 			ChickenCannon: {
-				Tooltip: 巨大な爆発を起こすニワトリロケットを発射する
+				Tooltip: 巨大な爆発を起こし、[cbuff:CalamityMod/Dragonfire]を付与するニワトリロケットを発射する
 				DisplayName: ニワトリキャノン
 			}
 
@@ -7296,8 +7317,13 @@ Items: {
 			}
 
 			BlightSpewer: {
-				Tooltip: ""
-				DisplayName: ブライトスピュワー
+				Tooltip:
+					'''
+					ブロックに張り付く[cbuff:CalamityMod/Plague]のナノマシン群を放つ
+					ナノマシンは近くの敵を積極的に追尾する
+					{0}%の確率で弾薬を消費しない
+					'''
+				DisplayName: ウイルス散布機
 			}
 
 			BladedgeRailbow: {
@@ -7334,7 +7360,7 @@ Items: {
 			Auralis: {
 				Tooltip:
 					'''
-					敵の防御力を低下させる高速の光弾を発射する
+					[cbuff:CalamityMod/MarkedforDeath]を付与する高速の光弾を発射する
 					<right> を押してスコープを使用
 					静止すると、ダメージボーナスが最大25%増加する
 					スコープ能力使用中に5秒以上静止すると、オーロラが召喚される
@@ -7350,7 +7376,7 @@ Items: {
 			}
 
 			AstralBlaster: {
-				Tooltip: マスケット銃の弾を追尾するアストラル弾に変換する
+				Tooltip: マスケット銃の弾を追尾し、[cbuff:CalamityMod/AstralInfectionDebuff]を付与する弾に変換する
 				DisplayName: アストラルブラスター
 			}
 
@@ -7367,8 +7393,8 @@ Items: {
 			Arietes41: {
 				Tooltip:
 					'''
-					ライフ吸収と電気を帯びた弾丸を交互に発射する
-					電気を帯びた弾丸は命中時に小さな衝撃波を発生させ、追加ダメージを与える
+					ライフ吸収と[cbuff:Electrified]を帯びた弾丸を交互に発射する
+					[cbuff:Electrified]を帯びた弾丸は命中時に小さな衝撃波を発生させ、追加ダメージを与える
 					'''
 				DisplayName: Arietes 41
 			}
@@ -7406,7 +7432,7 @@ Items: {
 			AntiMaterielRifle: {
 				Tooltip:
 					'''
-					マスケット銃の弾丸を50口径の狙撃弾に変換し、敵の防御力とダメージ軽減率を低下させる
+					マスケット銃の弾丸を50口径の狙撃弾に変換し、命中時に[cbuff:CalamityMod/MarkedforDeath]を付与する
 					クリティカルヒットで5発の弾で追撃する
 					'''
 				DisplayName: 対物ライフル
@@ -7415,8 +7441,8 @@ Items: {
 			Animosity: {
 				TooltipGFB:
 					'''
-					[c/9c0b0b:憎悪に満ちたショットガンの弾幕を発射...おまけつき]
-					[c/ac14ba:右クリックで呪いのライフル弾を使用する]
+					[c/9c0b0b:憎悪に満ちたショットガンの弾幕を発射...[cbuff:CalamityMod/BrimstoneFlames]のおまけつき]
+					[c/ac14ba:右クリックで[cbuff:CalamityMod/MarkedforDeath]を付与するライフル弾を使用する]
 					[c/454545:「クトゥルフの瞳、ヤーロンの牙によって...」]
 					'''
 				TooltipNormal:
@@ -7432,7 +7458,7 @@ Items: {
 			AngelicShotgun: {
 				Tooltip:
 					'''
-					発砲するごとに空から聖なる光を放つ
+					発砲するごとに空から[cbuff:CalamityMod/HolyFlames]を付与する光を放つ
 					マスケット銃の弾丸を聖なる弾丸に変換する
 					「戦争に勝つまでは諦めない」
 					'''
@@ -7530,7 +7556,7 @@ Items: {
 			}
 
 			Virulence: {
-				Tooltip: 疫病の煙を発射する
+				Tooltip: "[cbuff:CalamityMod/Plague]の煙を発射する"
 				DisplayName: ヴィルレンス
 			}
 
@@ -7538,7 +7564,7 @@ Items: {
 				Tooltip:
 					'''
 					<left>でトライデントをカーソルに追従させ、凄まじい速度で敵を切り裂く
-					<right>でトライデントを投擲し、絶大な威力で敵を貫通しつつ脆弱の呪いを付与するカーソルに追従する槍を投げる
+					<right>でトライデントを投擲し、絶大な威力で敵を貫通しつつ[cbuff:CalamityMod/VulnerabilityHex]を付与するカーソルに追従する槍を投げる
 					「終わりなき流血をもたらす呪われた武器」
 					'''
 				DisplayName: ヴァイオレンス
@@ -7593,7 +7619,7 @@ Items: {
 				Tooltip:
 					'''
 					跳ね返る毒のビームを発射
-					敵に毒を与える
+					敵に[cbuff:Venom]を与える
 					'''
 				DisplayName: コースティックエッジ
 			}
@@ -7733,7 +7759,7 @@ Items: {
 			TheBurningSky: {
 				Tooltip:
 					'''
-					カーソルにドラゴンの炎を降らせる
+					カーソルに[cbuff:CalamityMod/Dragonfire]を降らせる
 					「刃を天に掲げ、終焉を見よ」
 					'''
 				DisplayName: 焔空の刃
@@ -7774,7 +7800,7 @@ Items: {
 			}
 
 			TaintedBlade: {
-				Tooltip: 敵に毒を与える
+				Tooltip: 敵に[cbuff:Poisoned]を与える
 				DisplayName: 汚染された剣
 			}
 
@@ -7887,7 +7913,7 @@ Items: {
 				Tooltip:
 					'''
 					時期によって発射物の色が変わる
-					日中は暁炎、夜間はナイトウィザーのデバフを付与する
+					日中は[cbuff:CalamityMod/Daybroken]、夜間は[cbuff:CalamityMod/Nightwither]のデバフを付与する
 					'''
 				DisplayName: ソルスティスクレイモア
 			}
@@ -7997,8 +8023,8 @@ Items: {
 			RemsRevenge: {
 				Tooltip:
 					'''
-					命中時に血の爆発を起こし、敵の防御力を低下させる
-					「最強のファイターが使う武器」
+					命中時に血の爆発を発生させ、[cbuff:CalamityMod/WitherDebuff]を付与する
+					「悪魔の持ち主にふさわしい、死を招くモーニングスター」
 					'''
 				DisplayName: レムのモーニングスター
 			}
@@ -8159,7 +8185,7 @@ Items: {
 			}
 
 			Nebulash: {
-				Tooltip: ヒット時に粒子爆発を起こす鞭剣を放つ
+				Tooltip: 命中時に粒子の爆発を発生させ、[cbuff:CalamityMod/AstralInfectionDebuff]を付与する
 				DisplayName: ネビュラッシュ
 			}
 
@@ -8434,7 +8460,7 @@ Items: {
 			}
 
 			GeliticBlade: {
-				Tooltip: 敵に当たると減速するジェルの波を発射する
+				Tooltip: 高速のジェル波を放ち、[cbuff:Slimed]を付与する
 				DisplayName: ジェルブレード
 			}
 
@@ -8574,8 +8600,9 @@ Items: {
 				Tooltip:
 					'''
 					<left> を押すと複数のエネルギービームを放ち、敵に命中すると切り裂く
-					 <right> を押すとカーソルの方向にダッシュ斬りを行う
-					ダッシュ攻撃がヒットした直後に <left> を押すと、敵のヒット時に爆発する強力な斬撃を繰り出す
+					<right> を押すとカーソルの方向にダッシュ斬りを行う
+					ダッシュ攻撃がヒットした直後に <left> を押すと、ライフを回復し、敵のヒット時に爆発する強力な斬撃を繰り出す
+					命中した敵を[cbuff:CalamityMod/MiracleBlight]で引き裂く
 					'''
 				DisplayName: エクソブレード
 			}
@@ -8667,8 +8694,8 @@ Items: {
 			DragonRage: {
 				Tooltip:
 					'''
-					敵に当たると爆発する
-					10ヒットごとに火の玉のリングが召喚される
+					敵に命中すると[cbuff:CalamityMod/Dragonfire]の爆発を発生させる
+					2秒ごとに一度、命中時に最もライフの多い敵を狙う火球の輪を放つ
 					'''
 				DisplayName: ドラゴンレイジ
 			}
@@ -8676,8 +8703,8 @@ Items: {
 			DragonPow: {
 				Tooltip:
 					'''
-					ドラゴンの頭を射出し、ヒット時に複数のデバフを付与する
-					ある程度離れた敵に攻撃がヒットすると、花びらと水の弾幕を召喚する
+					ドラゴンの頭を射出し、ヒット時に[cbuff:CalamityMod/Dragonfire]を付与する
+					敵に命中すると花びらと水の弾幕を召喚する
 					'''
 				DisplayName: ドラゴンパウ
 			}
@@ -8793,8 +8820,8 @@ Items: {
 			ClamCrusher: {
 				Tooltip:
 					'''
-					敵を短時間スタンさせる巨大な貝を発射する
-					滞空時間が長いと落下速度が増し、ダメージが大きくなる
+					巨大なハマグリを放ち、[cbuff:CalamityMod/Eutrophication]を付与して敵を短時間スタンさせる
+					滞空時間が長くなるにつれ重力の影響を受け始め、大幅にダメージが増加する
 					'''
 				DisplayName: クラムクラッシャー
 			}
@@ -8854,8 +8881,8 @@ Items: {
 			BrimstoneSword: {
 				Tooltip:
 					'''
-					ヒットすると煉獄の間欠泉を召喚する
-					<right> を押すと、命中すると爆発する剣を投げることができる
+					命中時に[cbuff:CalamityMod/BrimstoneFlames]の間欠泉を発生させる
+					<right>で剣を投げ、命中時に爆発する
 					'''
 				DisplayName: 煉獄の剣
 			}
@@ -8866,8 +8893,8 @@ Items: {
 			}
 
 			Brimlance: {
-				Tooltip: 敵に命中した際に爆発を起こす
-				DisplayName: ブリムランス
+				Tooltip: 敵に命中すると[cbuff:CalamityMod/BrimstoneFlames]の爆発を発生させる
+				DisplayName: 煉獄の槍
 			}
 
 			BotanicPiercer: {
@@ -8945,7 +8972,7 @@ Items: {
 			}
 
 			AstralScythe: {
-				Tooltip: 時間経過とともに加速する鎌のリングを放つ
+				Tooltip: 時間経過で加速する大鎌の輪を放ち、拡散して[cbuff:CalamityMod/AstralInfectionDebuff]を付与する
 				DisplayName: アストラルサイス
 			}
 
@@ -9979,7 +10006,7 @@ Items: {
 			ChronomancersScythe: {
 				Tooltip:
 					'''
-					つららを放ち、敵に[cbuff:CalamityMod/TimeDistortion]を付与する
+					つららを放ち、[cbuff:CalamityMod/TimeDistortion]を発生させる
 					<right> を押すと、鎌を一回転させ、追尾するつららを周囲に召喚する
 					鎌が直撃すると時計を生成することがある
 					生成された時計を集めると、1つにつき移動速度と加速度が5%上昇する
@@ -27066,7 +27093,7 @@ Buffs: {
 	SnapClamDebuff: {
 		ItemTooltipEnemy: 無属性- 張り付いている貝1体につき7.5 DPS
 		Description: 身を固く閉ざしている
-		DisplayName: 閉じた貝
+		DisplayName: ハマグリ挟み
 	}
 
 	Shred: {
