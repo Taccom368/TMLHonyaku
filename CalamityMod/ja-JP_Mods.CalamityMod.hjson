@@ -25599,10 +25599,10 @@ Common: {
 	AggroBoost: 敵に狙われやすくなる
 	MinionSlotCostSingle: 使用ミニオンスロット：{0}
 	MinionSlotCost: 使用ミニオンスロット：{0}
-	DoubleTapDown: "{0}を2回押す"
-	ArmorSetBonusKey: "{0}を押す"
+	DoubleTapDown: "{0}キーを2回押す"
+	ArmorSetBonusKey: "{0}キーを押す"
 	NoArmorSetBonusKey: 防具セットボーナスキーを押す
-	BothArmorSetBonusKeys: "{0}を押すか、{1}を2回押す"
+	BothArmorSetBonusKeys: "{0}キーを押すか、{1}キーを2回押す"
 	CritDamageTootip: "クリティカルダメージ+{0}%"
 	RogueStealth: 最大ステルス量が+{0}増加
 	RogueVelocity: ローグ弾速が{0}%増加
