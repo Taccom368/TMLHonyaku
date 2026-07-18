@@ -153,7 +153,7 @@ FishSkill: {
 	}
 
 	FishDoubleCod: {
-		Studied: なんとも奇妙な種だ...
+		Studied: なんとも奇妙だ...
 		Tooltip:
 			'''
 			射撃中、一定間隔で追尾する鱈を放つ
@@ -173,7 +173,7 @@ FishSkill: {
 	}
 
 	FishNeonTetra: {
-		Studied: この鱗の輝きは見惚れるほどだ
+		Studied: この鱗の輝きは見惚れるほどだ...
 		Tooltip:
 			'''
 			移動時、発光するネオンテトラを残す
@@ -183,7 +183,7 @@ FishSkill: {
 	}
 
 	FishTropicalBarracuda: {
-		Studied: 驚くほどの速度だ
+		Studied: 驚くほどの速度だ...
 		Tooltip:
 			'''
 			射撃時、画面端からバラクーダの群れを召喚
@@ -193,7 +193,7 @@ FishSkill: {
 	}
 
 	FishCrimsonTiger: {
-		Studied: 非常に獰猛な性質をしている
+		Studied: 非常に獰猛な性質をしているらしい...
 		Tooltip:
 			'''
 			右クリックで紅虎魚の群れを召喚
@@ -299,7 +299,7 @@ FishSkill: {
 	}
 
 	FishJewel: {
-		Studied: 六色の旋律...虹の交響曲が作れそうだ
+		Studied: 六色の旋律...虹の交響曲が作れそうだ...
 		Tooltip:
 			'''
 			射撃時、宝石弾を一定の順序で放つ
@@ -309,7 +309,7 @@ FishSkill: {
 	}
 
 	FishofCthulu: {
-		Studied: ...見つめられている
+		Studied: ...見つめられている。
 		Tooltip:
 			'''
 			射撃時、敵を監視する瞳を召喚する
@@ -319,7 +319,7 @@ FishSkill: {
 	}
 
 	FishDrizzle: {
-		Studied: 焚き火以外にも使い道がありそうだ
+		Studied: 焚き火以外にも使い道がありそうだ...
 		Tooltip:
 			'''
 			射撃中、一定間隔で硫黄弾を吐く魚を召喚する
@@ -489,7 +489,7 @@ FishSkill: {
 	}
 
 	FishBone: {
-		Studied: 出汁にすればうまそうだ。カルシウムも豊富だ。
+		Studied: 出汁にすればうまそうだ...カルシウムも豊富だ。
 		Tooltip:
 			'''
 			射撃中、一定間隔で骨を召喚して周囲を回転させる
@@ -509,7 +509,7 @@ FishSkill: {
 	}
 
 	FishDemonicHell: {
-		Studied: 炎獄の中で燃え盛っている
+		Studied: 炎獄の中で燃え盛っている...
 		Tooltip:
 			'''
 			射撃中、一定間隔で炎獄の紋章を召喚する
@@ -648,15 +648,15 @@ Configs: {
 		}
 
 		Headers: {
-			CWRWorldGen: World Gen Configs
+			CWRWorldGen: ワールド生成設定
 			CWRUI: UI設定
 			CWRWeapon: 武器設定
 			CWRSystem: システム設定
 		}
 
 		DomainConciseDisplay: {
-			Tooltip: Off by default. When enabled, most visual effects within the domain will be hidden.
-			Label: Domain Minimal Display
+			Tooltip: 有効にすると、領域内のほとんどの視覚効果が非表示になります
+			Label: 領域簡易表示
 		}
 
 		MurasamaSpaceFragmentationBool: {
@@ -687,25 +687,25 @@ Configs: {
 		}
 
 		DisplayName: コンテンツ設定
-		ConfigChangeSuffix: modified the server configuration
-		ConfigChangePrefix: User
+		ConfigChangeSuffix: サーバー設定を変更しました
+		ConfigChangePrefix: ユーザー
 	}
 }
 
 Buffs: {
 	GravitationalCollapse: {
-		Description: Dragged into the abyss by its own weight
-		DisplayName: Gravitational Collapse
+		Description: 自身の重量によって奈落へ引きずり込まれる
+		DisplayName: 重力崩壊
 	}
 
 	TemporalStasis: {
-		Description: Time freezes around it
-		DisplayName: Temporal Stasis
+		Description: 周囲の時間が停止する
+		DisplayName: 時間静止
 	}
 
 	HyperDisintegration: {
 		Description: Mods.CalamityOverhaul.Buffs.HyperDisintegration.Description
-		DisplayName: Hyper Disintegration
+		DisplayName: 超分解
 	}
 
 	FishoilBuff: {
