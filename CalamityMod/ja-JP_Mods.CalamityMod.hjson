@@ -198,7 +198,7 @@ Vanilla: {
 	TaxCollectorChat: {
 		Has500Plat: そのお金はどこから、どうやって得ているんだ？
 		Has100Plat: もう町の借金に悩まされることはなさそうだな！
-		HasWalkingCane: Goodness! That cane has swagger!
+		HasWalkingCane: おお！なんて粋な杖なんだ！
 		PreBrimmy: アザフレのチンピラどもは、私の土地でタダで暮らせると思っているのか？私の仕事の手伝いをすれば、ボーナスを出すかもしれないのにな！
 		DoGDefeated: 私が破壊者だって？ああ、そうさ！資金を破壊する者さ！
 	}
@@ -10718,7 +10718,7 @@ NPCs: {
 			NamedRowan: 通常、私は動物を食べ物か獲物としてしか考えないけど、ドラゴンは例外さ。
 			NamedValerie: 通貨のかわりに使えそうな食料も持っていこう。
 			NamedPenelope: もっと手があれば、いっぱい物を投げられるのに...
-			NamedTaylor: The nice thing about maps is I can track anything that has fallen.
+			NamedTaylor: 地図のいいところは、落としたものを追跡できるところだな。
 			NurseArmsDealer: "{0}に{1}の怪我は私のせいじゃないって言ってきてよ。嘘ついてなんかない、ホントだよ！"
 			Merchant: "{0}には内緒だけど、アイツの売り物をこっそり天使の像とすり替えたんだ。"
 			BrimstoneWitch: おいおい、{0}はマジでここに引っ越してきたの？なんで？？？
@@ -10824,7 +10824,7 @@ NPCs: {
 	}
 
 	VolatileSlime: {
-		DisplayName: Volatile Slime
+		DisplayName: 不安定なスライム
 	}
 
 	SupremeCatastrophe: {
@@ -17765,8 +17765,8 @@ Items: {
 			TheWand: {
 				SalesPitch:
 					'''
-					'Hey buddy. I know we've had our differences, but you've been a real pal to me. This is a special offer, just for you!'
-					'Apparently this stick is from the Dragon Aerie, and I've heard that even the tiniest branches there have unfathomable power! This is literally a steal!'
+					「今まで色々あったけど、本当に世話になったよ。これは君だけの特別サービスだ！
+					　どうやらこの杖は竜の聖域から持ち込まれたものらしくてな。あそこではどんなに小さな枝にさえ、計り知れない力が宿っているらしい！　文字通り破格の値段だぞ！」
 					'''
 				Tooltip: 「究極の杖！」
 				DisplayName: ザ・ワンド
@@ -19692,7 +19692,7 @@ Items: {
 		}
 
 		ProfanedCore: {
-			EnrageText: "[c/64c8fa:The nature of this world will unleash Her perfect fury, beware!]"
+			EnrageText: "[c/64c8fa:この世界の理が、彼女の完全なる怒りを解き放つ...]"
 			Tooltip:
 				'''
 				聖域または地底世界で使用するとプロヴィデンスを召喚する
