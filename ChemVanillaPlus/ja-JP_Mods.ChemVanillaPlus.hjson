@@ -1,0 +1,378 @@
+Items: {
+	SpartanShield: {
+		DisplayName: グラディエーターシールド
+		Tooltip:
+			'''
+			攻撃してきた敵をノックバックする
+			「狂気の沙汰だ！」$SET
+			'''
+		SetBonus:
+			'''
+			セット効果：防御力が6増加
+			古代ギリシャに関連する武器のダメージが50%増加
+			'''
+	}
+
+	PhalanxShield: {
+		DisplayName: ファランクスシールド(WIP)
+		Tooltip:
+			'''
+			接触した敵を強力にノックバックする
+			「これぞスパルタだ！」$SET
+			'''
+		SetBonus:
+			'''
+			セット効果：防御力が12増加
+			受けるダメージを15%軽減
+			古代ギリシャに関連する武器のダメージが50%増加
+			'''
+	}
+
+	CatsEye: {
+		DisplayName: キャッツアイ
+		Tooltip: ドロップしたコインを3倍の価値を持つジェムコインに変換することがある
+	}
+
+	LapelOfAvarice: {
+		DisplayName: 強欲のラペル
+		Tooltip:
+			'''
+			コインの拾得範囲が広がり、ショップの価格が20%割引される
+			敵を攻撃した際、時々追加のコインをドロップする
+			ドロップしたコインを3倍の価値を持つジェムコインに変換することがある
+			「とにかく...金だ！金がいるんだ！」
+			'''
+	}
+
+	GemCoin1: {
+		DisplayName: アメジストコイン
+		Tooltip: ""
+	}
+
+	GemCoin2: {
+		DisplayName: サファイアコイン
+		Tooltip: ""
+	}
+
+	GemCoin3: {
+		DisplayName: ルビーコイン
+		Tooltip: ""
+	}
+
+	GemCoin4: {
+		DisplayName: ダイヤモンドコイン
+		Tooltip: ""
+	}
+
+	GlacierShard: {
+		DisplayName: 氷河の欠片
+		Tooltip: 忘れ去られたツンドラのプリンスを召喚する
+	}
+
+	VindictiveHeart: {
+		DisplayName: 執念深き心臓
+		Tooltip:
+			'''
+			最大体力が25%減少
+			敵に攻撃を当てるとハートをドロップするようになる
+			ハートの拾得範囲が広がる
+			「全部お前のせいだ」
+			'''
+	}
+
+	GarlicString: {
+		DisplayName: ニンニクの紐
+		Tooltip:
+			'''
+			周囲の敵に、自身の防御力の半分に等しいダメージを定期的に与える
+			「1日1片のニンニクは、吸血鬼を遠ざける」
+			'''
+	}
+
+	SoulSiphon: {
+		DisplayName: 魂喰らい
+		Tooltip:
+			'''
+			最大体力が10%減少
+			周囲の敵に、自身の防御力に等しいダメージを定期的に与える
+			敵に攻撃を当てるとハートをドロップするようになる
+			ハートの拾得範囲が広がる
+			「ンッン～、ソウルだ」
+			'''
+	}
+
+	OldRod: {
+		DisplayName: ボロのつりざお
+		Tooltip:
+			'''
+			なぜか糸が絶対に切れないが、ゴミしか釣ることができない
+			「わしゃ、もう年寄りじゃ！」
+			'''
+	}
+
+	ShimmerBullet: {
+		DisplayName: シマー弾
+		Tooltip: 時間を逆行して進む
+	}
+
+	HarpyFlechettes: {
+		DisplayName: ハーピーフレシェット
+		Tooltip: 鋭利な羽を素早く投げつける
+	}
+
+	ThousandEdge: {
+		DisplayName: サウザンド・ナイフズ
+		Tooltip:
+			'''
+			様々なダガーを素早く投げつける
+			「ほう...向かってくるのか......」
+			'''
+	}
+
+	ForbiddenJug: {
+		DisplayName: 強欲な壺
+		Tooltip:
+			'''
+			ほとんどの戦利品のドロップ数が+1される
+			「それはどうかな」
+			'''
+	}
+
+	BenevolentJug: {
+		DisplayName: 無欲な壺
+		Tooltip:
+			'''
+			ほとんどの戦利品のドロップ数が2倍になる
+			「これが俺の、究極の切り札だ！」
+			'''
+	}
+
+	SlimeBow: {
+		DisplayName: スライムの弓
+		Tooltip: "「本日の天気予報：スライムレインの恐れあり！」"
+	}
+
+	IceCream: {
+		DisplayName: シーソルトアイス
+		Tooltip:
+			'''
+			全てのステータスが大きく増加
+			「夕焼けがなぜ赤いか、お前は知らないだろ」
+			'''
+	}
+
+	CrownCharm: {
+		DisplayName: クラウンチャーム
+		Tooltip:
+			'''
+			致命傷を受けても、わずかな体力を残して生き残る
+			一定時間が経過すると再チャージされ、ライフが満タンのときは再チャージが早くなる
+			「どんなに深くても、奥のほうには、消えない光が残っているんだ！」
+			'''
+	}
+
+	SeventySevenLeafClover: {
+		DisplayName: 77つ葉のクローバー
+		Tooltip: 「ーそれは希望を思い出させるもの。」
+	}
+}
+
+Buffs: {
+	PrinceBlizzardBuff: {
+		DisplayName: プリンスブリザード
+		Description:
+			'''
+			凍てついた玉座の継承者があなたに従っている
+			「彼の審判は冷酷かもしれないが、その心までは凍りついていない」
+			'''
+	}
+
+	SecondChance: {
+		DisplayName: セカンドチャンス
+		Description: 致命傷を受けても、わずかな体力を残して生き残る
+	}
+}
+
+Projectiles: {
+	PrinceBlizzard: {
+		DisplayName: Prince Blizzard
+	}
+
+	OldBobber: {
+		DisplayName: Old Bobber
+	}
+
+	ShimmerBulletSpawner: {
+		DisplayName: Shimmer Bullet Spawner
+	}
+
+	ShimmerBullet: {
+		DisplayName: Shimmer Bullet
+	}
+
+	HarpyFletchette: {
+		DisplayName: Harpy Fletchette
+	}
+
+	ThousandEdgeDagger: {
+		DisplayName: Thousand Edge
+	}
+
+	GemCoinShot1: {
+		DisplayName: Amethyst Coin
+	}
+
+	GemCoinShot2: {
+		DisplayName: Sapphire Coin
+	}
+
+	GemCoinShot3: {
+		DisplayName: Ruby Coin
+	}
+
+	GemCoinShot4: {
+		DisplayName: Diamond Coin
+	}
+
+	SlimeArrow: {
+		DisplayName: Slime Arrow
+	}
+
+	SlimeArrowShimmer: {
+		DisplayName: Pink Slime Arrow
+	}
+}
+
+Configs: {
+	Common: {
+		ContentToggleLabel: "{0}"
+		ContentToggleTooltip: これにより {0} も切り替わります
+	}
+
+	ChemContentConfig: {
+		DisplayName: コンテンツの有効/無効
+
+		Headers: {
+			Accessories: アクセサリー
+			Pets: ペット
+			Weapons: 武器
+			Ammo: 弾薬
+			Tools: ツール
+		}
+
+		SpartanShield: {
+			Label: グラディエーターシールド
+			Tooltip: ""
+		}
+
+		CatsEye: {
+			Label: キャッツアイ
+			Tooltip: ""
+		}
+
+		GlacierShard: {
+			Label: 氷河の欠片
+			Tooltip: ""
+		}
+
+		VindictiveHeart: {
+			Label: 執念深き心臓
+			Tooltip: ""
+		}
+
+		GarlicString: {
+			Label: ニンニクの紐
+			Tooltip: ""
+		}
+
+		HarpyFlechettes: {
+			Label: ハーピーフレシェット
+			Tooltip: ""
+		}
+
+		OldRod: {
+			Label: ボロのつりざお
+			Tooltip: ""
+		}
+
+		ShimmerBullet: {
+			Label: シマー弾
+			Tooltip: ""
+		}
+
+		SlimeBow: {
+			Label: スライムの弓
+			Tooltip: ""
+		}
+
+		ForbiddenJug: {
+			Label: 強欲な壺
+			Tooltip: ""
+		}
+
+		CrownCharm: {
+			Label: クラウンチャーム
+			Tooltip: ""
+		}
+
+		SeventySevenLeafClover: {
+			Label: 77つ葉のクローバー
+			Tooltip: ""
+		}
+	}
+
+	ChemRecipeConfig: {
+		DisplayName: その他の有効/無効
+
+		Headers: {
+			Recipes: レシピ
+			Drops: ドロップ
+			Other: その他の微調整
+		}
+
+		BaitConversion: {
+			Label: 釣り餌の変換レシピ
+			Tooltip:
+				'''
+				見習いの餌5個を仕事人の餌1個に、
+				仕事人の餌5個を玄人の餌1個に合成できるようになります(逆の変換も可能)。
+				効率が必ず良くなるわけではありませんが、玄人の餌を集めやすくなります。
+				'''
+		}
+
+		TaoShardConversion: {
+			Label: 陰陽の欠片のシマー変換レシピ
+			Tooltip: 光の欠片をシマーに落とすことで闇の欠片に変換できるようになります(逆も同様)。
+		}
+
+		PurificationPowder: {
+			Label: 浄化の粉のレシピ
+			Tooltip: キノコとデイブルームを使って、瓶詰めの水(または調合瓶)で浄化の粉をクラフトできるようになります(というかマジで、なぜバニラにこれが無いんだ？)
+		}
+
+		BeeStingers: {
+			Label: ハチが毒針をドロップ
+			Tooltip: 文字通りの機能です。女王蜂にも影響します。
+		}
+
+		WallHellstone: {
+			Label: ウォールオブフレッシュがヘルストーンをドロップ
+			Tooltip: 文字通りの機能です。
+		}
+
+		PlanteraChlorophyte: {
+			Label: プランテラがクロロファイト鉱石をドロップ
+			Tooltip: 文字通りの機能です。
+		}
+
+		EoCLenses: {
+			Label: クトゥルフの目がレンズをドロップ
+			Tooltip: 文字通りの機能です。
+		}
+
+		CalmDownTurtles: {
+			Label: おとなしくなったカメ
+			Tooltip: ジャングル地表でのジャイアントタートルのスポンを阻止し、時間帯に応じてダープリングまたはジャイアントフライングフォックスに置き換えます。
+		}
+	}
+}

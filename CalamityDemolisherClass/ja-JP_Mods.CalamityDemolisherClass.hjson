@@ -1,6 +1,6 @@
 Items: {
 	VictidePopperHelmet: {
-		SetBonus: 水中でライフの秒間回復量が1.5増加し、爆発ダメージが10%増加
+		SetBonus: 液体内でライフの秒間回復量が1.5増加し、爆発ダメージが10%増加
 		DisplayName: ヴィクタイドの重兜
 		Tooltip:
 			'''
@@ -120,8 +120,8 @@ Items: {
 		DisplayName: マイコブリタレーター
 		Tooltip:
 			'''
-			ロケットをフャンギグレネードに変換する
-			敵に当たるとキノコ愛好家を3秒間得る
+			ロケットを敵に当たるとキノコ愛好家を3秒間得る、
+			ファンギグレネードに変換する
 			2発ごとに胞子を、4発ごとにファンギオーブを発射する
 			弾薬としてロケットを使用する
 			'''
@@ -131,7 +131,7 @@ Items: {
 		DisplayName: サンドブラスター
 		Tooltip:
 			'''
-			弾速が非常に速い弾を発射する
+			爆発弾を非常に高速で撃つ
 			弾薬として爆発弾を使用する
 			'''
 	}
@@ -140,9 +140,9 @@ Items: {
 		DisplayName: カラミタスキャノン
 		Tooltip:
 			'''
-			砲丸を災厄の砲丸に変換し、敵を追尾し、爆発するまでダメージを与え続ける
-			災厄の砲丸は敵に当たると5%の確率で爆発する
-			2発ごとにグリードソウルを、4発ごとにロストソウルを、
+			砲丸を敵に当たると5%の確率で爆発し、
+			敵を追尾し、爆発するまでダメージを与え続ける災厄の砲丸に変換する
+			2発ごとにギルデッドソウルを、4発ごとにロストソウルを、
 			6発ごとにウェンジフルソウルを発射する
 			弾薬として砲丸を使用する
 			'''
@@ -152,8 +152,7 @@ Items: {
 		DisplayName: スペクトラルロケットミニガン
 		Tooltip:
 			'''
-			ロケットをスペクトルロケットに変換する
-			スペクトルロケットはブロックを貫通する
+			ロケットをブロックを貫通する、スペクトルロケットに変換する
 			撃ち続けていると攻撃速度が上昇していく
 			直撃させるとダメージが増加
 			「ロケットを大量に消費する」
@@ -165,8 +164,7 @@ Items: {
 		DisplayName: グーリッシュグレネーダー
 		Tooltip:
 			'''
-			ロケットをスペクターグレネードに変換する
-			スペクターグレネードは爆発時に弾をばら撒く
+			ロケットを爆発時に弾をばら撒くスペクターグレネードに変換する
 			4点バースト
 			初弾のみロケットを消費
 			弾薬としてロケットを使用する
@@ -177,66 +175,63 @@ Items: {
 		DisplayName: コズミックグレネードランチャー
 		Tooltip:
 			'''
-			ロケットをコズミックグレネードに変換する
+			ロケットを大爆発を起こすコズミックグレネードに変換する
 			弾薬としてロケットを使用する
 			'''
 	}
 
 	UltimusTrap: {
-		DisplayName: アルティマストラップ
 		Tooltip:
 			'''
-			粘着爆弾をスーパー粘着爆弾に変換する
-			スーパー粘着爆弾は敵に接触時、一度だけ2倍のダメージを与え、
-			爆発時に敵を追尾するスパークを複数放つ
+			粘着爆弾を敵に触れると、一度だけ2倍のダメージを与え、
+			爆発時に敵を追尾するスパークを複数放つスーパー粘着爆弾に変換する
 			弾薬として粘着爆弾を使用する
 			'''
+		DisplayName: アルティマストラップ
 	}
 
 	BlessedStickybombLauncher: {
-		DisplayName: 祝福された粘着爆弾ランチャー
 		Tooltip:
 			'''
-			ロケットを祝福された粘着爆弾に変換する
-			祝福された粘着爆弾は敵に触れると聖なる炎の爆発を起こし、
-			爆発時に敵を追尾する聖なる炎を複数放つ
+			ロケットを敵に触れると聖なる炎の爆発を起こし、
+			爆発時に敵を追尾する聖なる炎を複数放つ祝福された粘着爆弾に変換する
 			弾薬として粘着爆弾を使用する
 			'''
+		DisplayName: 祝福された粘着爆弾ランチャー
 	}
 
 	DeepseaDetonator: {
-		DisplayName: ディープシーデトネーター
 		Tooltip:
 			'''
-			ロケットをアビッサルグレネードに変換する
-			アビッサルグレネードは爆発時、放射線雲を放つ
+			ロケットを爆発時、放射線雲を放つアビサルグレネードに変換する
 			弾薬としてロケットを使用する
 			'''
+		DisplayName: ディープシーデトネーター
 	}
 
 	TheStickler: {
-		DisplayName: スティックラー
 		Tooltip:
 			'''
 			粘着爆弾が爆発時に不安定な黒檀の塊を放ち、エルドリッチの触手で攻撃する
 			弾薬として粘着爆弾を使用する
 			'''
+		DisplayName: スティックラー
 	}
 
 	AmalgamObliterator: {
-		DisplayName: アマルガム・アナイアレイター
 		Tooltip:
 			'''
 			あなたの敵を全滅させる...そしてあなたの敵の声を聞く能力も全滅させる
 			弾薬としてロケットを使用する
 			'''
+		DisplayName: アマルガムアナイアレイター
 	}
 
 	ChillShatter: {
 		DisplayName: チルシャッター
 		Tooltip:
 			'''
-			冷却ロケットを発射する
+			氷の爆弾に変化し、3秒後に爆発し、氷の破片をばら撒く冷却ロケットを発射する
 			弾薬としてロケットを使用する
 			'''
 	}
@@ -245,7 +240,7 @@ Items: {
 		DisplayName: ヘルボーン
 		Tooltip:
 			'''
-			3発の弾を広範囲に発射する
+			爆発弾を広範囲に3発撃つ
 			攻撃中に敵が銃に触れると大爆発が起き、
 			10秒間、この武器のダメージ、攻撃速度、ノックバックが大幅に増加する
 			時間とともにこのボーナスは減少していく
@@ -263,18 +258,18 @@ Items: {
 	}
 
 	ProfanedMineBoots: {
-		DisplayName: 汚れた鉱山ブーツ
+		DisplayName: 汚れた鉱山のブーツ
 		Tooltip: 移動中、聖なる炎の爆発と衝撃波を発生させる
 	}
 
 	AscendantSnipesploder: {
-		DisplayName: アセンダント・スナイプスプローダー
 		Tooltip:
 			'''
 			直撃させるとダメージが増加
 			巨大なダイナマイトを高速で発射する
 			弾薬としてロケットを使用する
 			'''
+		DisplayName: アセンダントスナイプスプローダー
 	}
 
 	StormGrenadeItem: {
@@ -287,18 +282,29 @@ Items: {
 	}
 
 	ElementalBulwark: {
-		DisplayName: エレメンタルブルワーク
+		DisplayName: 元素の防壁
 		Tooltip:
 			'''
 			爆発の自爆ダメージを350%軽減
 			爆発で自爆ダメージを受けた後、最大ライフが一時的に100増加する [c/FF0000:40秒のクールダウン]
 			'''
 	}
+
+	AcidSplash: {
+		DisplayName: アシッドスプラッシュ
+		Tooltip:
+			'''
+			4発に1回、弾むアシッドショットを発射する
+			弾薬としてロケットを使用する
+			'''
+		AcidSplashCounterCombatText: 射撃: {0}
+		AcidSplashReadyCombatText: アシッドショット
+	}
 }
 
 Projectiles: {
 	ShardExplosion.DisplayName: クリスタルの欠片
-	ScourgeExplodingBullet.DisplayName: スカージ爆発弾
+	ScourgeExplodingBullet.DisplayName: スカージの爆発弾
 	MycobliteratorGrenade.DisplayName: フャンギグレネード
 	CalamityCannonball.DisplayName: 災厄の砲丸
 	SpectralRocket.DisplayName: スペクトルロケット
@@ -307,7 +313,7 @@ Projectiles: {
 	CosmicGrenadeExplosion.DisplayName: コズミックショックウェーブ
 	UltraSpikyStickybomb.DisplayName: スーパー粘着爆弾
 	BlessedStickybomb.DisplayName: 祝福された粘着爆弾
-	AbyssalGrenade.DisplayName: アビッサルグレネード
+	AbyssalGrenade.DisplayName: アビサルグレネード
 	SticklerStickybomb.DisplayName: スティックラーの粘着爆弾
 	MiracleRocket.DisplayName: ミラクルロケット
 	MiracleRocketExplosion.DisplayName: ミラクルショックウェーブ
@@ -317,11 +323,13 @@ Projectiles: {
 	BigStickofDynamite.DisplayName: 巨大なダイナマイト
 	LightningBolt.DisplayName: 電撃
 	StormGrenade.DisplayName: ストームグレネード
+	SpecialRainProj.DisplayName: 特殊な雨
+	AcidSpecialProj.DisplayName: アシッドショット
 }
 
 Buffs: {
 	ElementalBulwarkBuff: {
-		DisplayName: エレメンタルブルワーク
+		DisplayName: 元素の防壁
 		Description: 最大ライフが100増加
 	}
 }

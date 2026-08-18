@@ -112,7 +112,7 @@ Items: {
 	}
 
 	IyonMask: {
-		DisplayName: Iyonのマスク
+		DisplayName: イヨンのマスク
 		Tooltip: 「Mod開発者に成りすますのに最適！」
 	}
 
@@ -222,8 +222,8 @@ Items: {
 	}
 
 	PlayerProposesIceWolfDisposes: {
-		DisplayName: プレイヤーが提案し、ウルフが処分する
-		Tooltip: 「C. Rystlon」
+		DisplayName: 絵画『プレイヤーが提案し、ウルフが処分する』
+		Tooltip: 「C.リストロン」
 	}
 
 	ChlorophyteWhip: {
@@ -236,23 +236,23 @@ Items: {
 	}
 
 	Glow: {
-		DisplayName: 輝き
-		Tooltip: 「C. Rystlon」
+		DisplayName: 絵画『輝き』
+		Tooltip: 「C.リストロン」
 	}
 
 	Brine: {
-		DisplayName: 塩水
-		Tooltip: 「C. Rystlon」
+		DisplayName: 絵画『塩水』
+		Tooltip: 「C.リストロン」
 	}
 
 	Fade: {
-		DisplayName: フェード
-		Tooltip: 「C. Rystlon」
+		DisplayName: 絵画『フェード』
+		Tooltip: 「C.リストロン」
 	}
 
 	Sweet: {
-		DisplayName: 甘さ
-		Tooltip: 「C. Rystlon」
+		DisplayName: 絵画『甘さ』
+		Tooltip: 「C.リストロン」
 	}
 
 	ScrapBlock: {
@@ -266,13 +266,13 @@ Items: {
 	}
 
 	DeepPurple: {
-		DisplayName: 深い紫
-		Tooltip: 「C. Rystlon」
+		DisplayName: 絵画『深い紫』
+		Tooltip: 「C.リストロン」
 	}
 
 	RadiantShatter: {
-		DisplayName: ラディアントシャッター
-		Tooltip: 「C. Rystlon」
+		DisplayName: 絵画『ラディアントシャッター』
+		Tooltip: 「C.リストロン」
 	}
 
 	EndlessDartPouch: {
@@ -296,18 +296,18 @@ Items: {
 	}
 
 	CavernousDepths: {
-		DisplayName: 洞窟の深淵
-		Tooltip: 「C. Rystlon」
+		DisplayName: 絵画『洞窟の深淵』
+		Tooltip: 「C.リストロン」
 	}
 
 	Daynight: {
-		DisplayName: 昼夜
-		Tooltip: 「C. Rystlon」
+		DisplayName: 絵画『昼夜』
+		Tooltip: 「C.リストロン」
 	}
 
 	TwoShrooms: {
-		DisplayName: 二つのキノコ
-		Tooltip: 「C. Rystlon」
+		DisplayName: 絵画『二つのキノコ』
+		Tooltip: 「C.リストロン」
 	}
 
 	HallowedGun: {
@@ -347,8 +347,8 @@ Items: {
 	}
 
 	TemporaryTaxCollector: {
-		DisplayName: 臨時の税務収税吏
-		Tooltip: 「I. Needa」
+		DisplayName: 絵画『臨時の税務収税吏』
+		Tooltip: 「I.ニーダ」
 	}
 
 	FlaskOfSlime: {
@@ -598,7 +598,7 @@ Items: {
 
 	RubberGloves: {
 		Tooltip: 「安全第一！」
-		DisplayName: ゴムの手袋
+		DisplayName: ゴムのグローブ
 	}
 
 	DungeonModel: {
@@ -943,7 +943,7 @@ Items: {
 	}
 
 	SlimeHat: {
-		SetBonus: ノックバックを無効化
+		SetBonus: 落下ダメージを無効化
 		DisplayName: スライムの帽子
 		Tooltip: 移動速度が上昇し、ジャンプ速度が増加
 	}
@@ -964,8 +964,8 @@ Items: {
 	}
 
 	CurePotion: {
-		DisplayName: 治療のポーション
-		Tooltip: ほとんどのデバフを無効化
+		DisplayName: 浄化のポーション
+		Tooltip: ほとんどのデバフを治し、それらを無効化する
 	}
 
 	SafetyGoggles: {
@@ -1302,6 +1302,76 @@ Items: {
 		DisplayName: レンガ（ピンク）の柱
 		Tooltip: ""
 	}
+
+	FrostBullet: {
+		Tooltip: ""
+		DisplayName: 氷の弾丸
+	}
+
+	ActionPotion: {
+		Tooltip: ノックバックと移動を阻害するデバフを無効化
+		DisplayName: 稼働のポーション
+	}
+
+	CobaltJackhammer: {
+		DisplayName: コバルトの機械槌
+		Tooltip: ""
+	}
+
+	AdamantiteJackhammer: {
+		DisplayName: アダマンタイトの機械槌
+		Tooltip: ""
+	}
+
+	MythrilJackhammer: {
+		DisplayName: ミスリルの機械槌
+		Tooltip: ""
+	}
+
+	OrichalcumJackhammer: {
+		DisplayName: オリハルコンの機械槌
+		Tooltip: ""
+	}
+
+	PalladiumJackhammer: {
+		DisplayName: パラジウムの機械槌
+		Tooltip: ""
+	}
+
+	TitaniumJackhammer: {
+		DisplayName: チタンの機械槌
+		Tooltip: ""
+	}
+
+	Excavator: {
+		DisplayName: エクスカベーター
+		Tooltip: ""
+	}
+
+	MetalVase: {
+		DisplayName: 金属の花瓶
+		Tooltip: ""
+	}
+
+	SolarFlareJacksaw: {
+		DisplayName: ソーラーフレアのジャックソー
+		Tooltip: ""
+	}
+
+	NebulaJacksaw: {
+		DisplayName: ネビュラのジャックソー
+		Tooltip: ""
+	}
+
+	StardustJacksaw: {
+		DisplayName: スターダストのジャックソー
+		Tooltip: ""
+	}
+
+	VortexJacksaw: {
+		DisplayName: ボルテックスのジャックソー
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
@@ -1370,6 +1440,24 @@ Projectiles: {
 	PlatinumSpearProjectile.DisplayName: プラチナの槍
 	SilverSpearProjectile.DisplayName: 銀の槍
 	TungstenSpearProjectile.DisplayName: タングステンの槍
+	FrostBulletProjectile.DisplayName: 氷の弾丸
+	CobaltJackhammerProjectile.DisplayName: コバルトの機械槌
+	AdamantiteJackhammerProjectile.DisplayName: アダマンタイトの機械槌
+	MythrilJackhammerProjectile.DisplayName: ミスリルの機械槌
+	OrichalcumJackhammerProjectile.DisplayName: オリハルコンの機械槌
+	PalladiumJackhammerProjectile.DisplayName: パラジウムの機械槌
+	TitaniumJackhammerProjectile.DisplayName: チタンの機械槌
+	CobaltStaffProjectile.DisplayName: コバルトボルト
+	AdamantiteStaffProjectile.DisplayName: アダマンタイトボルト
+	MythrilStaffProjectile.DisplayName: ミスリルボルト
+	OrichalcumStaffProjectile.DisplayName: オリハルコンボルト
+	PalladiumStaffProjectile.DisplayName: パラジウムボルト
+	TitaniumStaffProjectile.DisplayName: チタンボルト
+	ExcavatorProjectile.DisplayName: エクスカベーター
+	SolarFlareJacksawProjectile.DisplayName: ソーラーフレアのジャックソー
+	NebulaJacksawProjectile.DisplayName: ネビュラのジャックソー
+	StardustJacksawProjectile.DisplayName: スターダストのジャックソー
+	VortexJacksawProjectile.DisplayName: ボルテックスのジャックソー
 }
 
 Tiles: {
@@ -1478,7 +1566,7 @@ Buffs: {
 	}
 
 	CureBuff: {
-		DisplayName: 治療
+		DisplayName: 浄化
 		Description: ほとんどのデバフを無効化
 	}
 
@@ -1505,5 +1593,10 @@ Buffs: {
 	GentleBuff: {
 		DisplayName: 温和
 		Description: ノックバックを軽減する
+	}
+
+	ActionBuff: {
+		Description: ノックバックと移動を阻害するデバフを無効化
+		DisplayName: 稼働
 	}
 }

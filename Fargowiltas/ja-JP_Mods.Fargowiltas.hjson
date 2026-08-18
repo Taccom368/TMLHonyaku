@@ -45,7 +45,7 @@ Configs: {
 		}
 
 		NPCSales: {
-			Label: "[i:267] タウンNPCが特別な商品を販売"
+			Label: "[i:267] タウンNPCが特別なアイテムを販売"
 			Tooltip: ""
 		}
 
@@ -1663,7 +1663,7 @@ Items: {
 	}
 
 	EnergizerGolem: {
-		DisplayName: 電池としても使えるエネルゲイザー
+		DisplayName: 電池のエネルゲイザー
 		Tooltip:
 			'''
 			10個の{$OverloadGolem.DisplayName}をまとめて使用すると入手できる
@@ -1681,7 +1681,7 @@ Items: {
 	}
 
 	EnergizerPlant: {
-		DisplayName: 葉っぱのエネルゲイザー
+		DisplayName: 葉のエネルゲイザー
 		Tooltip:
 			'''
 			10個の{$OverloadPlant.DisplayName}をまとめて使用すると入手できる
@@ -1971,7 +1971,7 @@ Items: {
 
 	EchPainting: {
 		DisplayName: 絵画「Ech」
-		Tooltip: by Groalt W. Fai
+		Tooltip: 「グロアルト・W・ファイ」
 	}
 
 	ElementalAssembler: {
@@ -2100,8 +2100,8 @@ Items: {
 	}
 
 	WalkingRick: {
-		DisplayName: 絵画「Walking Rick」
-		Tooltip: 「Kien R. Oco」
+		DisplayName: 絵画『ウォーキング・リック』
+		Tooltip: 「キエン・R・オコ」
 	}
 
 	WoodenToken: {
@@ -2385,7 +2385,7 @@ Items: {
 			何度でも使用できる
 			タウンNPCが汚染されたバイオームに住めるようになる
 			汚染されたブロックが汚染されたバイオームを形成するのを防ぐ
-			墓石が墓地を形成するのを防ぐ
+			墓石がいくつあっても墓場が成立しなくなる
 			'''
 	}
 
@@ -2424,7 +2424,7 @@ Items: {
 	}
 
 	WiresPainting: {
-		DisplayName: 絵画「Wires」
+		DisplayName: 絵画『ワイヤー』
 		Tooltip: 「中を見る」
 	}
 

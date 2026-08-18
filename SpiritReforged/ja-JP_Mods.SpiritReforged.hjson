@@ -50,6 +50,7 @@ DamageSources: {
 }
 
 GameTips: {
+	# Release
 	ReforgedTip0: 常に食べ物を持ち歩こう。いつ役立つかわからないよ！
 	ReforgedTip1: まれに、蝶が地下の木立に隠れていることが知られている。
 	ReforgedTip2: ピンは便利だ！マップの左下にあるピンのインベントリをチェックしよう。
@@ -88,281 +89,22 @@ InfoDisplays: {
 	}
 }
 
-Buffs: {
-	EmpoweredSwim: {
-		DisplayName: 強化された泳ぎ
-		Description: 水中がとても速く泳げる
-	}
-
-	MantarayBuff: {
-		DisplayName: レスキューレイ
-		Description: 潮の流れのように素早い！
-	}
-
-	JellyfishMinion_Buff: {
-		DisplayName: クラゲ
-		Description: かわいくて弾むクラゲが共に戦う！
-	}
-
-	JellyfishPet_Buff: {
-		DisplayName: 友好的なクラゲ
-		Description: この元気なクラゲはあなたについて回るのが大好き！
-	}
-
-	DoubleJumpPotionBuff: {
-		DisplayName: ゼファージャンプ
-		Description: 一時的に追加のジャンプが可能
-	}
-
-	FlightPotionBuff: {
-		DisplayName: 舞い上がる
-		Description: 飛行時間が25%増加
-	}
-
-	BottleMountBuff: {
-		DisplayName: いかだ
-		Description: SOS信号を発信中
-	}
-
-	FairyMinion_Buff: {
-		DisplayName: フェアリー
-		Description: ちょっと！気をつけて！
-	}
-
-	Impaled: {
-		DisplayName: 刺突
-		Description: 槍に刺された。痛い！
-	}
-
-	KoiTotemBuff: {
-		DisplayName: 鯉のトーテム
-		Description: 釣りのスキルが向上
-	}
-
-	ButterflyMinion_Buff: {
-		DisplayName: エーテルバタフライ
-		Description: エーテルの蝶が共に戦う
-	}
-
-	ToucanMinion_Buff: {
-		DisplayName: トゥケイン
-		Description: オオハシが共に戦う
-	}
-
-	QuenchPotion_Buff: {
-		DisplayName: 潤い
-		Description: 他のポーションの効果時間が25%延長
-	}
-
-	TumblerPet_Buff: {
-		DisplayName: 気まぐれタンブラー
-		Description: 友好的なタンブルウィードがあなたを追いかける
-	}
-
-	Frozen: {
-		DisplayName: 凍結
-		Description: 敵の移動速度が低下
-	}
-
-	GildedScarabBuff: {
-		DisplayName: スカラベの盾
-		Description: 防御力が{0}増加
-	}
-
-	PoolNoodleBubbleBuff: {
-		DisplayName: プールヌードルバブルバフ
-		Description: スピリット伝承の秘密の書を見つけた…！我々のスーパーボス、ダークスティール・フォールン・スターにご期待ください！
-	}
-
-	ExplorerSpeed: {
-		DisplayName: 探検者の速度
-		Description: 移動速度が大幅に向上
-	}
-
-	RemedyPotionBuff: {
-		DisplayName: 治療
-		Description: 一部の有害な効果に対する免疫
-	}
-
-	OpenWounds: {
-		DisplayName: 開いた傷
-		Description: 出血しやすい状態
-	}
-
-	ExplorerPot: {
-		DisplayName: 探検者の興奮
-		Description: もっと欲しくなってきた！
-	}
-
-	ExplorerMine: {
-		DisplayName: 探検者の活力
-		Description: 掘り続けろ！
-	}
-
-	JinxMark: {
-		DisplayName: ジンクスマーク
-		Description: Mods.SpiritReforged.Buffs.JinxMark.Description
-	}
-
-	FlaskOfFrost_Buff: {
-		DisplayName: 武器強化：凍結
-		Description: 近接および鞭攻撃で敵を凍らせる
-	}
-
-	Slowed: {
-		DisplayName: 鈍化
-		Description: Mods.SpiritReforged.Buffs.Slowed.Description
-	}
-
-	ToucaneMinion_Buff: {
-		DisplayName: トゥケイン
-		Description: オオハシが共に戦う...？
-	}
-
-	TinyDragonPet_Buff: {
-		DisplayName: ミニドラゴン
-		Description: 小さなドラゴンが後をついてくる
-	}
-
-	EnlilBuff: {
-		DisplayName: エンリルの加護
-		Description: 垂直移動が向上
-	}
-
-	ScarabLightPetBuff: {
-		DisplayName: スカラベビー
-		Description: 「何かを企んでいるようだ...」
-	}
+Ecotones: {
+	SaltFlatsEcotone: Salt Flats
+	SavannaEcotone: Savanna
 }
 
-Configs: {
-	ReforgedClientConfig: {
-		DisplayName: Reforged クライアント設定
-
-		OceanShape: {
-			Label: 海洋形状
-			Tooltip:
-				'''
-				海洋の生成を変更します
-				デフォルトではピースワイズ_V生成です
-				Spirit プレイスルーにはピースワイズ_V生成が推奨されます
-				'''
-		}
-
-		ReflectionDetail: {
-			Label: 反射品質
-			Tooltip:
-				'''
-				反射品質を設定します
-				値が高いほど精細ですが、負荷も増加します
-				'''
-		}
-
-		AmbientSounds: {
-			Label: 環境音
-			Tooltip: 一部のバイオームで環境音を再生します
-		}
-
-		ScreenshakeStrength: {
-			Label: Screenshake Strength
-			Tooltip: ""
-		}
-	}
-
-	OceanShape: {
-		Tooltip: ""
-
-		Default: {
-			Label: デフォルト
-			Tooltip: ""
-		}
-
-		SlantedSine: {
-			Label: 傾斜サイン
-			Tooltip: ""
-		}
-
-		Piecewise: {
-			Label: ピースワイズ
-			Tooltip: ""
-		}
-
-		Piecewise_M: {
-			Label: ピースワイズ_M
-			Tooltip: ""
-		}
-
-		Piecewise_V: {
-			Label: ピースワイズ_V
-			Tooltip: ""
-		}
-	}
-
-	ReforgedServerConfig: {
-		DisplayName: Reforged サーバー設定
-
-		VentCritters: {
-			Label: 噴出孔に沸く生物
-			Tooltip:
-				'''
-				熱水噴出孔の周囲に多数の生き物が現れます
-				これらの生き物は通常の敵のスポーン率に影響を与えません
-				ただし、NPCの最大数には影響します
-				'''
-		}
-
-		MaxFloatingItemCount: {
-			Label: 浮上アイテムの上限
-			Tooltip: 世界に存在できる浮上アイテムの総数を調整します
-		}
-	}
-}
-
-Generation: {
-	Discoveries: 発見の追加
-	Stargrass: きらきらな草木を育む
-	HerosMemorial: 英雄を偲ぶ
-	Butterfly: 蝶の祠を隠す
-	FishingCoves: 釣りスポットの追加
-	PopulateOcean: 海のオブジェクト配置
-	Gravel: 砂利の配置
-	SavannaTerrain: 高原の作成
-	SavannaObjects: サバンナのオブジェクト配置
-	SaltFlats: 塩を投入
-	Ecotones: エコトーンのマッピング
-	Caves: 洞窟を飾る
-	DesertExtras: 砂の中に秘密が隠される
-	NeonMosses: 輝く苔
-	Pottery: 壺を隠す
-	Scarecrow: 鳥を追い払う
-
-	Signs: {
-		Underground: {
-			Common: {
-				0: <wavy>壺に秘密が隠されている...
-				1: <wavy>文字がかすれて読めない。
-				2: <colorful:255,80,80>看板は怪しい液体による解読不能な落書きで覆われている。
-				3: <wavy>......の商品
-				4: <wavy>古い看板はほとんど塵と化している。
-				5: <wavy>粗雑に描かれたスケルトンが手招きしている。
-				6: <wavy>これを読んでいるなら、私はすでに死んでいる。
-				7: これを読んでいるなら、私は絶好調だ！
-				8: <wavy>注意：ワーム
-				9: 看板には理解できないことが延々と書かれている。それ以上読む価値はない。
-				10: ドワーフの文字が看板全体に刻まれている。全く読めない。
-			}
-
-			Rare: {
-				0: <wavy>私のページを集めて...
-				1: ここにはグーボールがないようだ。 -看板画家
-				2:
-					'''
-					<wavy>0
-					日、洞窟事故以来
-					'''
-			}
-		}
-	}
+EcotoneEdges: {
+	Forest: Forest
+	Desert: Desert
+	Ocean: Ocean
+	Snow: Snow
+	Jungle: Jungle
+	Corruption: Corruption
+	Crimson: Crimson
+	Hallow: Hallow
+	Savanna: Savanna
+	SaltFlats: Salt Flats
 }
 
 Items: {
@@ -394,7 +136,7 @@ Items: {
 		DisplayName: 生魚
 		Tooltip:
 			'''
-			{$BuffDescription.WellFed}
+			全ステータスが少し強化
 			「食べられるよ…でも、調理してからの方がいいかな？」
 			'''
 	}
@@ -526,7 +268,7 @@ Items: {
 		DisplayName: 巻き寿司
 		Tooltip:
 			'''
-			{$BuffDescription.WellFed}
+			全ステータスが少し強化
 			水中での呼吸を可能にする
 			「冷たくて新鮮！」
 			'''
@@ -536,7 +278,7 @@ Items: {
 		DisplayName: 握り寿司
 		Tooltip:
 			'''
-			{$BuffDescription.WellFed}
+			全ステータスが少し強化
 			水中で自由に移動可能
 			「完璧な切れ具合だ」
 			'''
@@ -546,21 +288,21 @@ Items: {
 		DisplayName: はちみつ照り焼きサーモン
 		Tooltip:
 			'''
-			{$BuffDescription.WellFed}
+			全ステータスが少し強化
 			「甘味と塩味による絶妙なミックス！」
 			'''
 	}
 
 	FishChips: {
 		DisplayName: フィッシュアンドチップス
-		Tooltip: "{$BuffDescription.WellFed}"
+		Tooltip: 全ステータスが少し強化
 	}
 
 	CrystalFish: {
 		DisplayName: クリスタライズドサーモン
 		Tooltip:
 			'''
-			{$BuffDescription.WellFed2}
+			全ステータスが中程度強化
 			魔法の力を強化
 			'''
 	}
@@ -569,7 +311,7 @@ Items: {
 		DisplayName: 生肉
 		Tooltip:
 			'''
-			{$BuffDescription.WellFed}
+			全ステータスが少し強化
 			「食べられるよ…でも、調理してからの方がいいかな？」
 			'''
 	}
@@ -578,7 +320,7 @@ Items: {
 		DisplayName: 調理済みの肉
 		Tooltip:
 			'''
-			{$BuffDescription.WellFed}
+			全ステータスが少し強化
 			「理想的に焼き上げられた」
 			'''
 	}
@@ -598,7 +340,7 @@ Items: {
 		DisplayName: ココナッツミルク
 		Tooltip:
 			'''
-			{$BuffDescription.WellFed}
+			全ステータスが少し強化
 			「器なんていらないね！」
 			'''
 	}
@@ -657,7 +399,7 @@ Items: {
 		DisplayName: 蒸されたムール貝
 		Tooltip:
 			'''
-			{$BuffDescription.WellFed}
+			全ステータスが少し強化
 			「生き生きとして魅力的だ」
 			'''
 	}
@@ -744,7 +486,7 @@ Items: {
 
 	FishCrate: {
 		DisplayName: 梱包済みの木箱
-		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+		Tooltip: <right>で開く
 	}
 
 	Ambergris: {
@@ -830,7 +572,7 @@ Items: {
 		Tooltip:
 			'''
 			3つの召喚タグのダメージ
-			{$CommonItemTooltip.Whips}
+			攻撃を当てた敵にミニオンが集中攻撃する
 			ミニオンに攻撃された敵がまれに泡の爆発を放つ
 			'''
 	}
@@ -872,7 +614,7 @@ Items: {
 
 	BaobabFruit: {
 		DisplayName: バオバブフルーツ
-		Tooltip: "{$BuffDescription.WellFed}"
+		Tooltip: 全ステータスが少し強化
 	}
 
 	SavannaGrassSeeds: {
@@ -884,19 +626,20 @@ Items: {
 		DisplayName: レザーバックパック
 		Tooltip:
 			'''
-			{$CommonTooltips.Backpack}
+			{0}つのアイテムを収納可能
+			外す前に中身を空にする必要がある
 			「快適で、実用的でありながら、なおかつ魅力的」
 			'''
 	}
 
 	Caryocar: {
 		DisplayName: カリオカール
-		Tooltip: "{$BuffDescription.WellFed}"
+		Tooltip: 全ステータスが少し強化
 	}
 
 	CustardApple: {
 		DisplayName: カスタードアップル
-		Tooltip: "{$BuffDescription.WellFed}"
+		Tooltip: 全ステータスが少し強化
 	}
 
 	BeachUmbrellaItem: {
@@ -906,12 +649,12 @@ Items: {
 
 	BigBuoy: {
 		DisplayName: 大型ブイ
-		Tooltip: "{$ItemTooltip.CoralTorch}"
+		Tooltip: 水中に設置可能
 	}
 
 	SmallBuoy: {
 		DisplayName: 小型ブイ
-		Tooltip: "{$ItemTooltip.CoralTorch}"
+		Tooltip: 水中に設置可能
 	}
 
 	LoungeChairItem: {
@@ -923,14 +666,14 @@ Items: {
 		DisplayName: オムレツ
 		Tooltip:
 			'''
-			{$BuffDescription.WellFed2}
+			全ステータスが中程度強化
 			「完璧な調理だ！」
 			'''
 	}
 
 	OstrichEgg: {
 		DisplayName: ダチョウの卵
-		Tooltip: "{$BuffDescription.WellFed}"
+		Tooltip: 全ステータスが少し強化
 	}
 
 	DrywoodItem: {
@@ -1271,7 +1014,7 @@ Items: {
 		DisplayName: 釣り用ルアー
 		Tooltip:
 			'''
-			{$ItemTooltip.CoralTorch}
+			水中に設置可能
 			近くの水域に魚の群れを引き寄せる
 			'''
 	}
@@ -1298,12 +1041,12 @@ Items: {
 
 	SavannaCrateHardmode: {
 		DisplayName: サファリの箱
-		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+		Tooltip: <right>で開く
 	}
 
 	SavannaCrate: {
 		DisplayName: グラスランドの箱
-		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+		Tooltip: <right>で開く
 	}
 
 	MineralSlag: {
@@ -1348,7 +1091,7 @@ Items: {
 
 	FrostbiteItem: {
 		DisplayName: フロストバイト
-		Tooltip: 
+		Tooltip:
 			'''
 			小さな吹雪を放つ
 			敵の防御力を10無視する
@@ -1468,8 +1211,12 @@ Items: {
 	}
 
 	ArcaneNecklacePlatinum: {
-		DisplayName: "{$ArcaneNecklaceGold.DisplayName}"
-		Tooltip: "{$ArcaneNecklaceGold.Tooltip}"
+		DisplayName: アルケインネックレス
+		Tooltip:
+			'''
+			最大マナを20増加
+			攻撃した敵からまれにマナスターがドロップする
+			'''
 	}
 
 	PinBlue: {
@@ -1536,7 +1283,8 @@ Items: {
 		DisplayName: ファッショナブルバックパック
 		Tooltip:
 			'''
-			{$CommonTooltips.Backpack}
+			{0}つのアイテムを収納可能
+			外す前に中身を空にする必要がある
 			「洗練され、現代的でありながら、しっかり効率的だ」
 			'''
 	}
@@ -1545,7 +1293,8 @@ Items: {
 		DisplayName: ハイキングバックパック
 		Tooltip:
 			'''
-			{$CommonTooltips.Backpack}
+			{0}つのアイテムを収納可能
+			外す前に中身を空にする必要がある
 			「実用的で、耐久性があり、そして何よりも快適だ」
 			'''
 	}
@@ -1554,7 +1303,8 @@ Items: {
 		DisplayName: ミニパック
 		Tooltip:
 			'''
-			{$CommonTooltips.Backpack}
+			{0}つのアイテムを収納可能
+			外す前に中身を空にする必要がある
 			「小さく軽く、非常にコンパクト」
 			'''
 	}
@@ -1563,7 +1313,8 @@ Items: {
 		DisplayName: ピンクパック
 		Tooltip:
 			'''
-			{$CommonTooltips.Backpack}
+			{0}つのアイテムを収納可能
+			外す前に中身を空にする必要がある
 			「最適な色、実用的、遠くからでもよく見える」
 			'''
 	}
@@ -1572,7 +1323,8 @@ Items: {
 		DisplayName: ポーチパック
 		Tooltip:
 			'''
-			{$CommonTooltips.Backpack}
+			{0}つのアイテムを収納可能
+			外す前に中身を空にする必要がある
 			「シンプルで快適、でもこぼれやすい」
 			'''
 	}
@@ -1581,7 +1333,7 @@ Items: {
 		DisplayName: 染料の木箱
 		Tooltip:
 			'''
-			"{$CommonItemTooltip.RightClickToOpen}"
+			<right>で開く
 			「香りは…意外な程に爽やかだ！」
 			'''
 	}
@@ -1593,7 +1345,11 @@ Items: {
 
 	SavannaPylonItem: {
 		DisplayName: サバンナのパイロン
-		Tooltip: "{$CommonItemTooltip.TeleportationPylon}"
+		Tooltip:
+			'''
+			２人以上の住民が近くにいる別のパイロンへテレポート
+			１種につき１つだけ、適したバイオームに設置することができる
+			'''
 	}
 
 	CraneFeather: {
@@ -1610,8 +1366,8 @@ Items: {
 		DisplayName: クレセントメロン
 		Tooltip:
 			'''
-			{$BuffDescription.WellFed}
-			{$ItemTooltip.ManaRegenerationPotion}
+			全ステータスが少し強化
+			マナ自然回復を増進
 			'''
 	}
 
@@ -1619,8 +1375,8 @@ Items: {
 		DisplayName: 闇夜のリンゴ
 		Tooltip:
 			'''
-			{$BuffDescription.WellFed}
-			{$ItemTooltip.ManaRegenerationPotion}
+			全ステータスが少し強化
+			マナ自然回復を増進
 			「星空のようにきらめいている」
 			'''
 	}
@@ -1629,8 +1385,8 @@ Items: {
 		DisplayName: ナイトスカイ
 		Tooltip:
 			'''
-			{$BuffDescription.WellFed2}
-			{$ItemTooltip.ManaRegenerationPotion}
+			全ステータスが中程度強化
+			マナ自然回復を増進
 			「宇宙的な風味がする」
 			'''
 	}
@@ -1639,8 +1395,8 @@ Items: {
 		DisplayName: パールベリー
 		Tooltip:
 			'''
-			{$BuffDescription.WellFed}
-			{$ItemTooltip.ManaRegenerationPotion}
+			全ステータスが少し強化
+			マナ自然回復を増進
 			「キラキラとまばゆく光る」
 			'''
 	}
@@ -1723,7 +1479,11 @@ Items: {
 
 	AncientKoiTotem: {
 		DisplayName: 古代コイのトーテム
-		Tooltip: "{$Items.KoiTotem.Tooltip}"
+		Tooltip:
+			'''
+			近くに設置することで釣りのスキルを向上
+			最後に使用した餌をまれに補充する
+			'''
 	}
 
 	BoomShroom: {
@@ -1742,7 +1502,7 @@ Items: {
 
 	ClayBombSticky: {
 		DisplayName: 粘着粘土爆弾
-		Tooltip: "{$Items.ClayBomb.Tooltip}"
+		Tooltip: 小さな爆発で粘土を広げる
 	}
 
 	SandBomb: {
@@ -1752,7 +1512,7 @@ Items: {
 
 	SandBombSticky: {
 		DisplayName: 粘着砂爆弾
-		Tooltip: "{$Items.SandBomb.Tooltip}"
+		Tooltip: 小さな爆発で砂を広げる
 	}
 
 	CoarseBomb: {
@@ -1762,7 +1522,7 @@ Items: {
 
 	CoarseBombSticky: {
 		DisplayName: 粘着粗い土爆弾
-		Tooltip: "{$Items.CoarseBomb.Tooltip}"
+		Tooltip: 小さな爆発で粗い土を広げる
 	}
 
 	MudBomb: {
@@ -1772,7 +1532,7 @@ Items: {
 
 	MudBombSticky: {
 		DisplayName: 粘着泥爆弾
-		Tooltip: "{$Items.MudBomb.Tooltip}"
+		Tooltip: 小さな爆発で泥を広げる
 	}
 
 	HideTunic: {
@@ -1941,17 +1701,17 @@ Items: {
 
 	SilverFoodPlatterItem: {
 		DisplayName: 銀の料理皿
-		Tooltip: "{$ItemTooltip.FoodPlatter}"
+		Tooltip: <right>でアイテムを置ける
 	}
 
 	RadonMossItem: {
 		DisplayName: 苔（ラドン）
-		Tooltip: "{$ItemTooltip.XenonMoss}"
+		Tooltip: 「忘れられない光景」
 	}
 
 	OganessonMossItem: {
 		DisplayName: 苔（オガネソン）
-		Tooltip: "{$ItemTooltip.XenonMoss}"
+		Tooltip: 「忘れられない光景」
 	}
 
 	RadonMossBrickItem: {
@@ -2019,32 +1779,32 @@ Items: {
 
 	FlaskHelium: {
 		DisplayName: 苔のフラスコ（ヘリウム）
-		Tooltip: "{$Items.FlaskArgon.Tooltip}"
+		Tooltip: 衝撃時に光る苔を広げる
 	}
 
 	FlaskKrypton: {
 		DisplayName: 苔のフラスコ（クリプトン）
-		Tooltip: "{$Items.FlaskArgon.Tooltip}"
+		Tooltip: 衝撃時に光る苔を広げる
 	}
 
 	FlaskNeon: {
 		DisplayName: 苔のフラスコ（ネオン）
-		Tooltip: "{$Items.FlaskArgon.Tooltip}"
+		Tooltip: 衝撃時に光る苔を広げる
 	}
 
 	FlaskOganesson: {
 		DisplayName: 苔のフラスコ（オガネソン）
-		Tooltip: "{$Items.FlaskArgon.Tooltip}"
+		Tooltip: 衝撃時に光る苔を広げる
 	}
 
 	FlaskRadon: {
 		DisplayName: 苔のフラスコ（ラドン）
-		Tooltip: "{$Items.FlaskArgon.Tooltip}"
+		Tooltip: 衝撃時に光る苔を広げる
 	}
 
 	FlaskXenon: {
 		DisplayName: 苔のフラスコ（キセノン）
-		Tooltip: "{$Items.FlaskArgon.Tooltip}"
+		Tooltip: 衝撃時に光る苔を広げる
 	}
 
 	BiomePotsGraniteItem: {
@@ -2059,12 +1819,20 @@ Items: {
 
 	OganessonBobber: {
 		DisplayName: 苔の浮き（オガネソン）
-		Tooltip: "{$ItemTooltip.FishingBobberGlowingArgon}"
+		Tooltip:
+			'''
+			フィッシング・パワーが10向上する
+			君の浮きは光る
+			'''
 	}
 
 	RadonBobber: {
 		DisplayName: 苔の浮き（ラドン）
-		Tooltip: "{$ItemTooltip.FishingBobberGlowingArgon}"
+		Tooltip:
+			'''
+			フィッシング・パワーが10向上する
+			君の浮きは光る
+			'''
 	}
 
 	LandscapingShears: {
@@ -2136,9 +1904,9 @@ Items: {
 
 	Hummus: {
 		DisplayName: フムス
-		Tooltip: 
+		Tooltip:
 			'''
-			{$BuffDescription.WellFed}
+			全ステータスが少し強化
 			「温かくて美味しい！」
 			'''
 	}
@@ -2149,7 +1917,7 @@ Items: {
 	}
 
 	ZenithPotsPaleItem: {
-		DisplayName: "{$Items.ZenithPotsItem.DisplayName}"
+		DisplayName: ゼニスの壺
 		Tooltip: ""
 	}
 
@@ -2180,27 +1948,27 @@ Items: {
 
 	FlaskBrown: {
 		DisplayName: 苔のフラスコ（茶）
-		Tooltip: "{$Items.FlaskBlue.Tooltip}"
+		Tooltip: 衝撃時に苔を広げる
 	}
 
 	FlaskGreen: {
 		DisplayName: 苔のフラスコ（緑）
-		Tooltip: "{$Items.FlaskBlue.Tooltip}"
+		Tooltip: 衝撃時に苔を広げる
 	}
 
 	FlaskLava: {
 		DisplayName: 苔のフラスコ（溶岩）
-		Tooltip: "{$Items.FlaskBlue.Tooltip}"
+		Tooltip: 衝撃時に苔を広げる
 	}
 
 	FlaskPurple: {
 		DisplayName: 苔のフラスコ（紫）
-		Tooltip: "{$Items.FlaskBlue.Tooltip}"
+		Tooltip: 衝撃時に苔を広げる
 	}
 
 	FlaskRed: {
 		DisplayName: 赤苔のフラスコ
-		Tooltip: "{$Items.FlaskBlue.Tooltip}"
+		Tooltip: 衝撃時に苔を広げる
 	}
 
 	TitleMusicBoxItem: {
@@ -2304,14 +2072,18 @@ Items: {
 		DisplayName: 惑乱粉
 		Tooltip:
 			'''
-			{$Items.Flarepowder.Tooltip}
+			漂う魔法の粉を広げる
 			攻撃した敵を混乱させる
 			'''
 	}
 
 	VexpowderRed: {
-		DisplayName: "{$Items.VexpowderBlue.DisplayName}"
-		Tooltip:　"{$Items.VexpowderBlue.Tooltip}"
+		DisplayName: 惑乱粉
+		Tooltip:
+			'''
+			漂う魔法の粉を広げる
+			攻撃した敵を混乱させる
+			'''
 	}
 
 	BreakawayChair: {
@@ -2320,17 +2092,17 @@ Items: {
 	}
 
 	AncientMarksmanHood: {
-		DisplayName: 古代の{$Items.LeatherHood.DisplayName}
-		Tooltip: "{$Items.LeatherHood.Tooltip}"
+		DisplayName: 古代のマークスマンのフード
+		Tooltip: クリティカルヒット率を5%増加
 	}
 
 	AncientMarksmanLegs: {
-		DisplayName: 古代の{$Items.LeatherLegs.DisplayName}
+		DisplayName: 古代のマークスマンのブーツ
 		Tooltip: ""
 	}
 
 	AncientMarksmanPlate: {
-		DisplayName: 古代の{$Items.LeatherPlate.DisplayName}
+		DisplayName: 古代のマークスマンの胸当て
 		Tooltip: ""
 	}
 
@@ -2343,7 +2115,11 @@ Items: {
 
 	InvisibleLure: {
 		DisplayName: 透明なルアー
-		Tooltip:　"{$Items.FishLure.Tooltip}"
+		Tooltip:
+			'''
+			水中に設置可能
+			近くの水域に魚の群れを引き寄せる
+			'''
 	}
 
 	SharpshooterGlove: {
@@ -2397,12 +2173,12 @@ Items: {
 
 	GraniteHead: {
 		DisplayName: キネティックバイザー
-		Tooltip: "{$Items.GraniteBody.Tooltip}"
+		Tooltip: ジャンプの高さがわずかに増加する
 	}
 
 	GraniteLegs: {
 		DisplayName: キネティックのすね当て
-		Tooltip: "{$Items.GraniteBody.Tooltip}"
+		Tooltip: ジャンプの高さがわずかに増加する
 	}
 
 	FingerGun: {
@@ -2505,7 +2281,7 @@ Items: {
 
 	Thornball: {
 		DisplayName: トゲボール
-		Tooltip: ブロックにくっつく
+		Tooltip: ブロックと敵にくっつく
 	}
 
 	SaltBlockDullItem: {
@@ -3144,7 +2920,7 @@ Items: {
 
 	SaltCrate: {
 		DisplayName: 塩漬けのクレート
-		Tooltip:<right>で開く
+		Tooltip: <right>で開く
 	}
 
 	SaltCrateHardmode: {
@@ -3168,7 +2944,8 @@ Items: {
 		DisplayName: 戦利品バッグ
 		Tooltip:
 			'''
-			{$CommonTooltips.Backpack}
+			{0}つのアイテムを収納可能
+			外す前に中身を空にする必要がある
 			「世界中の悪党どもに愛されている一品」
 			'''
 	}
@@ -3185,7 +2962,7 @@ Items: {
 
 	SaltCampfireItem: {
 		DisplayName: 塩のキャンプファイア
-		Tooltip: "{$ItemTooltip.Campfire}"
+		Tooltip: キャンプファイアの近くではライフ自然回復が増進
 	}
 
 	SaltFountainItem: {
@@ -3255,7 +3032,7 @@ Items: {
 
 	BronzeGrateDoorItem: {
 		DisplayName: 青銅格子のドア
-		Tooltip: ""
+		Tooltip: 閉じた状態でも液体が通過できる
 	}
 
 	CalmingBellItem: {
@@ -3280,7 +3057,7 @@ Items: {
 
 	BronzeGrateBlockItem: {
 		DisplayName: 青銅格子
-		Tooltip: ""
+		Tooltip: 液体のみ通過できる
 	}
 
 	BedouinBreastplate: {
@@ -3380,6 +3157,11 @@ Items: {
 	ScarabMusicBox: {
 		DisplayName: オルゴール（スカラベウス）
 		Tooltip: ""
+
+		Toggle: {
+			0: Phase One
+			1: Phase Two
+		}
 	}
 
 	SpiritTreeTopper: {
@@ -3426,6 +3208,96 @@ Items: {
 		DisplayName: 粘液まみれな蜂の巣
 		Tooltip: ""
 	}
+
+	ScarabMountItem: {
+		DisplayName: スイカズラのつぼみ
+		Tooltip: 騎乗(ダンゴムシ)を召喚する
+	}
+
+	SandySandstoneItem: {
+		DisplayName: 砂質の砂岩
+		Tooltip: ""
+	}
+
+	TerracottaTombstoneItem: {
+		DisplayName: テラコッタの墓碑
+		Tooltip: ""
+	}
+
+	TerracottaGraveMarkerItem: {
+		DisplayName: テラコッタの墓標
+		Tooltip: ""
+	}
+
+	TerracottaGravestoneItem: {
+		DisplayName: テラコッタの墓石
+		Tooltip: ""
+	}
+
+	TerracottaObeliskItem: {
+		DisplayName: テラコッタのオベリスク
+		Tooltip: ""
+	}
+
+	DrywoodTombstoneItem: {
+		DisplayName: ドライウッドの墓碑
+		Tooltip: ""
+	}
+
+	SavannaGravestoneItem: {
+		DisplayName: サバンナの墓石
+		Tooltip: ""
+	}
+
+	DrywoodGraveMarkerItem: {
+		DisplayName: ドライウッドの墓標
+		Tooltip: ""
+	}
+
+	DrywoodCrossGraveMarkerItem: {
+		DisplayName: ドライウッドの十字墓標
+		Tooltip: ""
+	}
+
+	ModernObeliskItem: {
+		DisplayName: モダンなオベリスク
+		Tooltip: ""
+	}
+
+	ModernTombscreenItem: {
+		DisplayName: モダンな墓碑スクリーン
+		Tooltip: ""
+	}
+
+	ModernGravestoneItem: {
+		DisplayName: モダンな墓石
+		Tooltip: ""
+	}
+
+	ModernHeadstoneItem: {
+		DisplayName: モダンな墓標
+		Tooltip: ""
+	}
+
+	SaltHeadstoneItem: {
+		DisplayName: 塩の墓標
+		Tooltip: ""
+	}
+
+	SaltTombstoneItem: {
+		DisplayName: 塩の墓碑
+		Tooltip: ""
+	}
+
+	SaltGravestoneItem: {
+		DisplayName: 塩の墓石
+		Tooltip: ""
+	}
+
+	SaltGraveMarkerItem: {
+		DisplayName: 塩の墓標
+		Tooltip: ""
+	}
 }
 
 MusicDisplay: {
@@ -3434,76 +3306,76 @@ MusicDisplay: {
 	Sbubby: Sbubby
 	Moonbird: Moonbird
 	By: by
-	BySalvati: "{$By} {$Salvati}"
+	BySalvati: by Salvati
 
 	Duststorm: {
 		DisplayName: Drifting Prairie (Duststorm Theme)
-		Author: "{$By} {$Sbubby}"
+		Author: by Sbubby
 	}
 
 	Savanna: {
 		DisplayName: Fever Trees (Savanna Day Theme)
-		Author: "{$BySalvati}, {$Sbubby}"
+		Author: by Salvati, Sbubby
 	}
 
 	SavannaNight: {
 		DisplayName: Moonlit Meadow (Savanna Night Theme)
-		Author: "{$BySalvati}"
+		Author: by Salvati
 	}
 
 	DeepOcean: {
 		DisplayName: Deep Ocean
-		Author: "{$BySalvati}"
+		Author: by Salvati
 	}
 
 	SavannaOtherworld: {
 		DisplayName: Otherworldly Savanna Day
-		Author: "{$By} {$Moonbird}"
+		Author: by Moonbird
 	}
 
 	SavannaOtherworldNight: {
 		DisplayName: Otherworldly Savanna Night
-		Author: "{$By} soundbin"
+		Author: by soundbin
 	}
 
 	DuststormOtherworld: {
 		DisplayName: Otherworldly Duststorm
-		Author: "{$By} jakedastardly"
+		Author: by jakedastardly
 	}
 
 	Ziggurat: {
 		DisplayName: Ziggurat
-		Author: "{$By} {$Moonbird}, {$Salvati}"
+		Author: by Moonbird, Salvati
 	}
 
 	Salt: {
 		DisplayName: Reflected Skies (Salt Flats Day Theme)
-		Author: "{$By} {$Sbubby}"
+		Author: by Sbubby
 	}
 
 	SaltNight: {
 		DisplayName: Refracted Stars (Salt Flats Night Theme)
-		Author: "{$By} {$Sbubby}"
+		Author: by Sbubby
 	}
 
 	Scarabeus: {
 		DisplayName: Soaring Complications (Scarabeus Theme)
-		Author: "{$By} {$Sbubby}"
+		Author: by Sbubby
 	}
 
 	ScarabeusP2: {
 		DisplayName: Soaring Complications (Scarabeus Theme, Phase 2)
-		Author: "{$By} {$Sbubby}"
+		Author: by Sbubby
 	}
 
 	RadioScarab: {
 		DisplayName: Soaring Complications (Radio Edit)
-		Author: "{$By} {$Sbubby}"
+		Author: by Sbubby
 	}
 
 	TitleTheme: {
 		DisplayName: Another Journey (Spirit Title Theme)
-		Author: "{$By} {$Salvati}"
+		Author: by Salvati
 	}
 }
 
@@ -4078,7 +3950,6 @@ NPCs: {
 		Entry: 可能性に満ちているが、それと同じくらい不気味でもある。
 	}
 
-
 	CactusZombie: {
 		DisplayName: "{$NPCName.Zombie}"
 		Entry: サボテンで死ぬなんて最悪の部類だろう。サボテンで蘇るのも、きっと同じくらいひどい。
@@ -4106,6 +3977,7 @@ NPCs: {
 
 	BeetleTownPet: {
 		DisplayName: カブトムシ
+		Entry: 抱きしめるには向いていないが、その不器用なしぐさはなんとも愛らしい。
 		Chitter0: *楽しげにカサカサ鳴いている*
 		Chitter1: *虫の鳴き声*
 		Chitter2: *カブトムシの鳴き声*
@@ -4328,14 +4200,10 @@ Projectiles: {
 	PileOfConsequencesPet.DisplayName: Consequences
 	EnergyLaser.DisplayName: Energy Laser
 	BangleImpact.DisplayName: Shockwave
-	SandPillar.DisplayName: Sand Pillar
-	SlamShockwave.DisplayName: Slam Shockwave
 	WindBlast.DisplayName: Wind Blast
-	ClawHitbox.DisplayName: Claw Hitbox
 	DivebombScarab.DisplayName: Divebomb Scarab
 	SwarmScarab.DisplayName: Swarm Scarab
 	SerratedClawsHeld.DisplayName: Serrated Claws
-	AdornedArrow.DisplayName: Adorned Arrow
 	AdornedBowHeld.DisplayName: Adorned Bow Held
 	AdornedFlash.DisplayName: Adorned Flash
 	AdornedArrowDeathTrail.DisplayName: Adorned Arrow Death Trail
@@ -4347,12 +4215,27 @@ Projectiles: {
 	RoyalKhopeshThrown.DisplayName: Royal Khopesh Thrown
 	FloatingGem.DisplayName: Floating Gem
 	BeamOLight.DisplayName: Beam O Light
-	ScarabPetProjectile.DisplayName: Mini Scarabeus
 	SandShockwavePillar.DisplayName: Sand Shockwave Pillar
 	SandballProjectile.DisplayName: Sandball
 	BabyAntlionProjectile.DisplayName: Baby Antlion
 	ScarabLightPet.DisplayName: Scarababy
 	SoilBallProjectile.DisplayName: Soil Ball
+	TerracottaTombstoneProjectile.DisplayName: Terracotta Tombstone
+	TerracottaGraveMarkerProjectile.DisplayName: Terracotta Grave Marker
+	TerracottaGravestoneProjectile.DisplayName: Terracotta Gravestone
+	TerracottaObeliskProjectile.DisplayName: Terracotta Obelisk
+	DrywoodTombstoneProjectile.DisplayName: Drywood Tombstone
+	SavannaGravestoneProjectile.DisplayName: Savanna Gravestone
+	DrywoodGraveMarkerProjectile.DisplayName: Drywood Grave Marker
+	DrywoodCrossGraveMarkerProjectile.DisplayName: Drywood Cross Grave Marker
+	ModernObeliskProjectile.DisplayName: Modern Obelisk
+	ModernTombscreenProjectile.DisplayName: Modern Tombscreen
+	ModernGravestoneProjectile.DisplayName: Modern Gravestone
+	ModernHeadstoneProjectile.DisplayName: Modern Headstone
+	SaltHeadstoneProjectile.DisplayName: Salt Headstone
+	SaltTombstoneProjectile.DisplayName: Salt Tombstone
+	SaltGravestoneProjectile.DisplayName: Salt Gravestone
+	SaltGraveMarkerProjectile.DisplayName: Salt Grave Marker
 }
 
 SetBonuses: {
@@ -4498,4 +4381,1094 @@ Tiles: {
 	# Neither of the moss entries are used by Reforged, but rather used for Recipe Browser for another mod's, Everware's, functionality
 	OganessonMoss.MapEntry: Oganesson Moss
 	RadonMoss.MapEntry: Radon Moss
+}
+
+Buffs: {
+	EmpoweredSwim: {
+		DisplayName: 強化された泳ぎ
+		Description: 水中がとても速く泳げる
+	}
+
+	MantarayBuff: {
+		DisplayName: レスキューレイ
+		Description: 潮の流れのように素早い！
+	}
+
+	JellyfishMinion_Buff: {
+		DisplayName: クラゲ
+		Description: かわいくて弾むクラゲが共に戦う！
+	}
+
+	JellyfishPet_Buff: {
+		DisplayName: 友好的なクラゲ
+		Description: この元気なクラゲはあなたについて回るのが大好き！
+	}
+
+	DoubleJumpPotionBuff: {
+		DisplayName: ゼファージャンプ
+		Description: 一時的に追加のジャンプが可能
+	}
+
+	FlightPotionBuff: {
+		DisplayName: 舞い上がる
+		Description: 飛行時間が25%増加
+	}
+
+	BottleMountBuff: {
+		DisplayName: いかだ
+		Description: SOS信号を発信中
+	}
+
+	FairyMinion_Buff: {
+		DisplayName: フェアリー
+		Description: ちょっと！気をつけて！
+	}
+
+	Impaled: {
+		DisplayName: 刺突
+		Description: 槍に刺された。痛い！
+	}
+
+	KoiTotemBuff: {
+		DisplayName: 鯉のトーテム
+		Description: 釣りのスキルが向上
+	}
+
+	ButterflyMinion_Buff: {
+		DisplayName: エーテルバタフライ
+		Description: エーテルの蝶が共に戦う
+	}
+
+	ToucanMinion_Buff: {
+		DisplayName: トゥケイン
+		Description: オオハシが共に戦う
+	}
+
+	QuenchPotion_Buff: {
+		DisplayName: 潤い
+		Description: 他のポーションの効果時間が25%延長
+	}
+
+	TumblerPet_Buff: {
+		DisplayName: 気まぐれタンブラー
+		Description: 友好的なタンブルウィードがあなたを追いかける
+	}
+
+	Frozen: {
+		DisplayName: 凍結
+		Description: 敵の移動速度が低下
+	}
+
+	GildedScarabBuff: {
+		DisplayName: スカラベの盾
+		Description: 防御力が{0}増加
+	}
+
+	PoolNoodleBubbleBuff: {
+		DisplayName: プールヌードルバブルバフ
+		Description: スピリット伝承の秘密の書を見つけた…！我々のスーパーボス、ダークスティール・フォールン・スターにご期待ください！
+	}
+
+	ExplorerSpeed: {
+		DisplayName: 探検者の速度
+		Description: 移動速度が大幅に向上
+	}
+
+	RemedyPotionBuff: {
+		DisplayName: 治療
+		Description: 一部の有害な効果に対する免疫
+	}
+
+	OpenWounds: {
+		DisplayName: 開いた傷
+		Description: 出血しやすい状態
+	}
+
+	ExplorerPot: {
+		DisplayName: 探検者の興奮
+		Description: もっと欲しくなってきた！
+	}
+
+	ExplorerMine: {
+		DisplayName: 探検者の活力
+		Description: 掘り続けろ！
+	}
+
+	JinxMark: {
+		DisplayName: ジンクスマーク
+		Description: 印を付けられた
+	}
+
+	FlaskOfFrost_Buff: {
+		DisplayName: 武器強化：凍結
+		Description: 近接および鞭攻撃で敵を凍らせる
+	}
+
+	Slowed: {
+		DisplayName: 鈍化
+		Description: 移動が鈍くなっている
+	}
+
+	ToucaneMinion_Buff: {
+		DisplayName: トゥケイン
+		Description: オオハシが共に戦う...？
+	}
+
+	TinyDragonPet_Buff: {
+		DisplayName: ミニドラゴン
+		Description: 小さなドラゴンが後をついてくる
+	}
+
+	EnlilBuff: {
+		DisplayName: エンリルの加護
+		Description: 垂直移動が向上
+	}
+
+	ScarabLightPetBuff: {
+		DisplayName: スカラベビー
+		Description: 「何かを企んでいるようだ...」
+	}
+
+	ScarabMountBuff: {
+		DisplayName: 騎乗（ダンゴムシ）
+		Description: 「しっかりつかまって！」
+	}
+}
+
+Configs: {
+	ReforgedClientConfig: {
+		DisplayName: Reforged クライアント設定
+
+		ReflectionDetail: {
+			Label: 反射品質
+			Tooltip:
+				'''
+				反射品質を設定します
+				値が高いほど精細ですが、負荷も増加します
+				'''
+		}
+
+		AmbientSounds: {
+			Label: 環境音
+			Tooltip: 一部のバイオームで環境音を再生します
+		}
+
+		ScreenshakeStrength: {
+			Label: 画面揺れの強さ
+			Tooltip: ""
+		}
+
+		DisableWater: {
+			Label: 水の描画を無効化
+			Tooltip: Reforgedの水描画を無効化します
+		}
+
+		DebugEcotones: {
+			Label: エコトーンのデバッグ（WorldGen Previewer使用）
+			Tooltip:
+				'''
+				WorldGen Previewerが必要です
+				エコトーンシステムを使用する開発者やプレイヤーが、
+				便利なオーバーレイでエコトーンの問題をデバッグしたり、仕組みを理解したりできるようにします
+				'''
+		}
+
+		Headers.Developer: 開発者ツール
+	}
+
+	ReforgedServerConfig: {
+		DisplayName: Reforged サーバー設定
+
+		VentCritters: {
+			Label: 噴出孔に沸く生物
+			Tooltip:
+				'''
+				熱水噴出孔の周囲に多数の生き物が現れます
+				これらの生き物は通常の敵のスポーン率に影響を与えません
+				ただし、NPCの最大数には影響します
+				'''
+		}
+
+		MaxFloatingItemCount: {
+			Label: 浮上アイテムの上限
+			Tooltip: 世界に存在できる浮上アイテムの総数を調整します
+		}
+	}
+}
+
+GenConfigs: {
+	UI: {
+		Min: すべて最小化
+		MinDescription:
+			'''
+			全設定を、生成量が最も少なくなる値に設定します。
+			例えば「木の最大数」のような値は最小に設定されますが、
+			「木の生成確率（1/x）」のような値は最大に設定されます。
+			'''
+		Max: すべて最大化
+		MaxDescription:
+			'''
+			全設定を、生成量が最も多くなる値に設定します。
+			例えば「木の最大数」のような値は最大に設定されますが、
+			「木の生成確率（1/x）」のような値は最小に設定されます。
+			'''
+		Preset: プリセット:
+		NoPresets: （プリセットなし）
+		None: 未選択
+		Reset: リセット
+		ResetAll: すべてリセット
+		Prior: Prior:
+		Next: Next:
+		True: 有効
+		False: 無効
+		Total: 合計 {0}
+		CustomPresetTooltip: これはカスタムプリセットです！
+		Create: カスタムプリセットとして保存
+		CantSave: （デフォルトプリセットは保存できない）
+		Load: カスタムプリセットを読み込む
+		HoverDescription: Spirit Reforgedのワールド生成に関する詳細設定を開く
+		FailedToLoad: プリセットのページが一致していません。想定されるページ: {0}
+		ConfigNotice:
+			'''
+			[c/AAAAFF:範囲]は、最小値とランダムな加算値を設定することで機能します。
+			表示される値は、ゲーム内でランダム抽選される際に実際に使用される範囲です。
+			'''
+		LoadError: プリセット（{0}）の読み込み中にエラーが発生しました。Discordに報告し、client.logも確認してください:
+		Duplicate: （重複プリセットのため追加されなかった）
+	}
+
+	Pages: {
+		Savanna: {
+			Name: サバンナ
+			Description: サバンナ生成に関する細かな要素を調整します。
+
+			Presets: {
+				Domesticated: {
+					Name: "[i:224] 飼い慣らされたサバンナ"
+					Tooltip: 壺が多く、野生生物が少ない、より人の暮らしを感じるサバンナ。
+				}
+
+				Infested: {
+					Name: "[i:SpiritReforged/TermiteJar] シロアリまみれ"
+					Tooltip: しまった！ シロアリだらけだ！ 木を見つけるのは難しいかもしれない。
+				}
+
+				Bumpy: {
+					Name: "[i:SpiritReforged/Drypowder] でこぼこ"
+					Tooltip: 足元注意！ この荒々しいサバンナには、でこぼこや丘が広がっている。
+				}
+			}
+
+			Members: {
+				OverSpawn: {
+					DisplayName: "[i:50] 初期スポーン地点に生成"
+					Tooltip: 「savanna」シードのように、サバンナを初期スポーン地点の上に生成します。
+				}
+
+				Steps: {
+					DisplayName: "[i:SpiritReforged/DrywoodPlatformItem] 段差"
+					Tooltip: サバンナ生成時に作られる、平坦な段差の数。
+				}
+
+				CampsiteChance: {
+					DisplayName: "[i:SpiritReforged/SavannaCampfireItem] キャンプ地の生成率"
+					Tooltip: キャンプ地が出現する確率を、分母（1/x）で設定します。
+				}
+
+				BaseTreeChance: {
+					DisplayName: "[i:27] アカシアの木の生成率"
+					Tooltip:
+						'''
+						各タイルに木が生成される確率を、分母（1/x）で設定します。
+						木が1本配置されるまでは確率が上がり続け、配置後にリセットされます。
+						'''
+				}
+
+				PotChance: {
+					DisplayName: "[i:SpiritReforged/CommonPotsSavannaItem] 壺の生成率"
+					Tooltip:
+						'''
+						装飾処理で壺が出現する確率を、分母（1/x）で設定します。
+						既存タイルは上書きされないため、1に設定しても全タイルに壺が配置されるわけではありません。
+						'''
+				}
+
+				TermiteChance: {
+					DisplayName: "[i:SpiritReforged/TermiteJar] シロアリ塚の生成率"
+					Tooltip: 装飾処理でシロアリ塚が出現する確率を、分母（1/x）で設定します。
+				}
+			}
+		}
+
+		SaltFlats: {
+			Name: 塩湖
+			Description: 塩湖生成に関する細かな要素を調整します。
+
+			Presets: {
+				SunkenRuin: {
+					Name: "[i:SpiritReforged/CobbledBrickItem] 沈んだ遺跡"
+					Tooltip: 古代文明の遺跡が、水に洗われ削り取られている。
+				}
+
+				BlankCanvas: {
+					Name: "[i:SpiritReforged/GlidingItem] 白紙のキャンバス"
+					Tooltip: 何もない、どこまでも続く鏡のような景色が目の前に広がる。
+				}
+
+				Dessicated: {
+					Name: "[i:1274] 干からびた大地"
+					Tooltip: 水は一滴も見当たらない。すべての木々は枯れ果てている。
+				}
+			}
+
+			Members: {
+				OverSpawn: {
+					DisplayName: "[i:50] 初期スポーン地点に生成"
+					Tooltip: 「salt」シードのように、塩湖を初期スポーン地点の上に生成します。
+				}
+
+				RuinQty: {
+					DisplayName: "[i:SpiritReforged/CalmingBellItem] 塩湖遺跡の数"
+					Tooltip: 配置される塩湖遺跡の上限数。すべて配置されるとは限りません。
+				}
+
+				LakeRadius: {
+					DisplayName: "[i:206] 湖の半径"
+					Tooltip: 塩湖に生成される湖の半径。半径が大きいほど湖も大きくなります。
+				}
+
+				CaveRadius: {
+					DisplayName: "[i:SpiritReforged/SaltWallItem] 洞窟の半径"
+					Tooltip: 塩湖に生成される洞窟の半径。半径が大きいほど洞窟も大きくなります。
+				}
+
+				MaxSteps: {
+					DisplayName: "[i:SpiritReforged/SaltBlockReflectiveItem] 最大ステップ数"
+					Tooltip: 塩湖内に生成される、反射する平地の最大数。
+				}
+
+				StupaChance: {
+					DisplayName: "[i:SpiritReforged/StoneStupasItem] 石造仏塔の生成率"
+					Tooltip:
+						'''
+						装飾処理で石造仏塔が出現する確率を、分母（1/x）で設定します。
+						既存のタイルを上書きしないため、1に設定しても全タイルに壺が配置されるわけではありません。
+						'''
+				}
+
+				TreeChance: {
+					DisplayName: "[i:27] 枯れ木の生成率"
+					Tooltip:
+						'''
+						各タイルに木が生成される確率を、分母（1/x）で設定します。
+						木が1本配置されるまでは確率が上がり続け、配置後にリセットされます。
+						'''
+				}
+			}
+		}
+
+		Surface: {
+			Name: 地表
+			Description: Reforgedが地表に加える要素や編集内容を調整します。
+
+			Presets: {
+				Whimsical: {
+					Name: "[i:SpiritReforged/MidnightApple] 気まぐれ"
+					Tooltip: 巨大で緑豊かな洞窟、うねる星草の丘、穏やかな麦畑……いったい何が起こるというのだろう？
+				}
+
+				Treacherous: {
+					Name: "[i:SpiritReforged/LeatherBackpack] 危険地帯"
+					Tooltip: 広大な峡谷が地形に点在するかもしれない。下を見るな！
+				}
+			}
+
+			Members: {
+				HalfWidth: {
+					DisplayName: "[i:133] （峡谷）半幅"
+					Tooltip: 地表に十分近い場合、峡谷の盛り上がった部分の半幅を調整します。
+				}
+
+				MaxDepth: {
+					DisplayName: "[i:133] （峡谷）最大深度"
+					Tooltip: 峡谷の最大深度を調整します。
+				}
+
+				SizeMultiplier: {
+					DisplayName: "[i:747] （カルスト）サイズ倍率"
+					Tooltip: カルスト（緑豊かな洞窟）による掘削範囲の大きさにかかる倍率。
+				}
+
+				FieldSize: {
+					DisplayName: "[i:SpiritReforged/BotanistHat] （麦畑）畑の大きさ"
+					Tooltip: かかしの小麦畑の幅を調整します。
+				}
+
+				ButterflyCountMax: {
+					DisplayName: "[i:SpiritReforged/ButterflyStaff] （蝶の祠）最大数"
+					Tooltip: 配置される可能性がある蝶の祠の最大数。すべて配置されるとは限りません。
+				}
+
+				HeroChance: {
+					DisplayName: "[i:SpiritReforged/HerosMemorialStatueItem] （英雄の記念碑）生成率"
+					Tooltip: 英雄の記念碑の出現確率を、分母（1/x）で設定します。
+				}
+
+				MaxStargrassCount: {
+					DisplayName: "[i:SpiritReforged/StarPowder] （星草）群生地数"
+					Tooltip: 配置される可能性がある星草の群生地の最大数。すべて配置されるとは限らず、重なる場合もあります。
+				}
+
+				ReforgedCaveWeight: {
+					DisplayName: "[i:30] （洞窟）カスタム生成の重み"
+					Tooltip: バニラの「山岳」洞窟の代わりに、Reforgedのカスタム洞窟が生成される重み。
+				}
+			}
+		}
+
+		Ocean: {
+			Name: 海
+			Description: Reforgedによって刷新された海の細かな要素を調整します。
+
+			Presets: {
+				KelpForest: {
+					Name: "[i:SpiritReforged/Kelp] 昆布の森"
+					Tooltip: 岸辺からでも、昆布の群生地が見える！
+				}
+
+				Volcanic: {
+					Name: "[i:SpiritReforged/GravelItem] 火山の海"
+					Tooltip: 荒々しい岩場に覆われた、ほとんど植物のない火山性の海。
+				}
+			}
+
+			Members: {
+				WaterChestCount: {
+					DisplayName: "[i:1298] 水中宝箱の最大数"
+					Tooltip: 海に配置される可能性がある水中宝箱の最大数。通常、すべて配置されることはありません。
+				}
+
+				SunkenTreasureCount: {
+					DisplayName: "[i:SpiritReforged/SunkenTreasure] 沈没財宝の最大数"
+					Tooltip: 海に配置される可能性がある沈没財宝の最大数。通常、すべて配置されることはありません。
+				}
+
+				SandDepth: {
+					DisplayName: "[i:169] 砂の深さ"
+					Tooltip: 海の下で、砂が地中のどこまで続くかを設定します。
+				}
+
+				SandRange: {
+					DisplayName: "[i:169] 砂層深度の調整範囲"
+					Tooltip: 海における「砂の深さ」にランダムで加算される範囲の上限。
+				}
+
+				CoralLowChance: {
+					DisplayName: "[i:275] サンゴの生成率（下段）"
+					Tooltip: 海の低い段にサンゴが出現する確率を、分母（1/x）で設定します。
+				}
+
+				CoralHighChance: {
+					DisplayName: "[i:275] サンゴの生成率（上段）"
+					Tooltip: 海の一番高い段にサンゴが出現する確率を、分母（1/x）で設定します。
+				}
+
+				DecorLowChance: {
+					DisplayName: "[i:4090] 装飾の生成率（下段）"
+					Tooltip: 海の低い段に装飾物が出現する確率を、分母（1/x）で設定します。
+				}
+
+				DecorHighChance: {
+					DisplayName: "[i:4090] 装飾の生成率（上段）"
+					Tooltip: 海の一番高い段に装飾物が出現する確率を、分母（1/x）で設定します。
+				}
+
+				KelpChance: {
+					DisplayName: "[i:SpiritReforged/Kelp] 昆布の生成率"
+					Tooltip: 海で昆布が出現する確率を、分母（1/x）で設定します。
+				}
+
+				KelpMaxHeight: {
+					DisplayName: "[i:SpiritReforged/Kelp] 昆布の最大高度"
+					Tooltip: 昆布がどこまで高く生成されるか、タイル数で設定します。
+				}
+
+				GravelMultiplier: {
+					DisplayName: "[i:SpiritReforged/GravelItem] 砂利のサイズ倍率"
+					Tooltip: 海に生成される砂利パッチのサイズ補正。マグマストーンも含まれます。
+				}
+
+				Shape: {
+					DisplayName: "[i:4460] 海の形状"
+					Tooltip: 生成される海の形状を設定します。
+				}
+			}
+		}
+
+		Pots: {
+			Name: 壺
+			Description: Reforgedで追加される新しい壺の生成率や生成確率を調整します。
+
+			Members: {
+				WorldMultiplierMultiplier: {
+					DisplayName: "[i:SpiritReforged/PotsCavernItem] 全体倍率"
+					Tooltip: すべての壺の生成率にかかる全体倍率。
+				}
+
+				RollingPotChance: {
+					DisplayName: "[i:SpiritReforged/RollingPotsItem] 転がる壺の生成率"
+					Tooltip: 岩石の代わりに転がる壺が生成される確率を、分母（1/x）で設定します。
+				}
+
+				OrnateScale: {
+					DisplayName: "[i:SpiritReforged/OrnatePotsItem] 装飾壺の生成倍率"
+					Tooltip: 装飾壺の生成試行回数にかかる倍率。
+				}
+
+				PotionScale: {
+					DisplayName: "[i:SpiritReforged/PotionVatsCloningItem] ポーション大釜の生成倍率"
+					Tooltip: ポーション大釜の生成試行回数にかかる倍率。
+				}
+
+				ScryingScale: {
+					DisplayName: "[i:SpiritReforged/ScryingPotItem] 占術壺の生成倍率"
+					Tooltip: 占術壺の生成試行回数にかかる倍率。
+				}
+
+				StuffedScale: {
+					DisplayName: "[i:SpiritReforged/StuffedPotsItem] 詰め込み壺の生成倍率"
+					Tooltip: 詰め込み壺の生成試行回数にかかる倍率。
+				}
+
+				WormScale: {
+					DisplayName: "[i:SpiritReforged/WormPotItem] ワーム壺の生成倍率"
+					Tooltip: ワーム壺の生成試行回数にかかる倍率。
+				}
+
+				PlatterScale: {
+					DisplayName: "[i:SpiritReforged/SilverPlattersItem] 銀の大皿の生成倍率"
+					Tooltip: 銀の大皿の生成試行回数にかかる倍率。
+				}
+
+				AetherScale: {
+					DisplayName: "[i:SpiritReforged/AetherShipmentItem] エーテル積荷の生成倍率"
+					Tooltip: エーテル積荷の生成試行回数にかかる倍率。
+				}
+
+				UpsideDownScale: {
+					DisplayName: "[i:SpiritReforged/UpsideDownPotItem] 逆さ壺の生成倍率"
+					Tooltip: 逆さ壺の生成試行回数にかかる倍率。
+				}
+
+				BoulderScale: {
+					DisplayName: "[i:SpiritReforged/RollingPotsItem] 転がる壺の生成倍率"
+					Tooltip: 転がる壺の生成試行回数にかかる倍率。
+				}
+
+				PicnicScale: {
+					DisplayName: "[i:SpiritReforged/WickerBasketsItem] ピクニックバスケットの生成倍率"
+					Tooltip: ピクニックバスケットの生成試行回数にかかる倍率。
+				}
+
+				StackScale: {
+					DisplayName: "[i:SpiritReforged/PotsCavernItem] 積み重なった壺の生成倍率"
+					Tooltip: 積み重なった壺の生成試行回数にかかる倍率。
+				}
+
+				UncommonScale: {
+					DisplayName: "[i:SpiritReforged/BiomePotsGraniteItem] レア壺の生成倍率"
+					Tooltip: すべてのレア壺の生成試行回数にかかる倍率。
+				}
+
+				ZenithScale: {
+					DisplayName: "[i:SpiritReforged/ZenithPotsItem] ゼニス壺の生成倍率"
+					Tooltip: Zenithワールドのゼニス壺の生成試行回数にかかる倍率。
+				}
+			}
+
+			Presets: {
+				Tasty: {
+					Name: "[i:4029] おいしそう"
+					Tooltip: 誰かが、とんでもない量の食べ物をその辺に置いていった。いったい誰が全部作ったんだ？
+				}
+
+				Occult: {
+					Name: "[i:SpiritReforged/ScryingPotItem] オカルト"
+					Tooltip: 無数の魔術師や妖術師による失敗作が、洞窟中に散らばっている。
+				}
+			}
+		}
+
+		Caves: {
+			Name: 洞窟
+			Description: 洞窟内のさまざまな追加要素を調整します。
+
+			Members: {
+				SignChance: {
+					DisplayName: "[i:171] （住居）看板の生成率"
+					Tooltip: 地下住居で看板が出現する確率を、分母（1/x）で設定します。
+				}
+
+				MannequinChance: {
+					DisplayName: "[i:498] （住居）マネキンの生成率"
+					Tooltip: 地下住居でマネキンが出現する確率を、分母（1/x）で設定します。
+				}
+
+				LoomChance: {
+					DisplayName: "[i:332] （住居）織機部屋の生成率"
+					Tooltip: 旗と織機が追加される「織機付き住居」が生成される確率を、分母（1/x）で設定します。
+				}
+
+				RareSignChance: {
+					DisplayName: "[i:3617] （住居）レア看板の生成率"
+					Tooltip: 地下看板が珍しいメッセージを持つ確率を、分母（1/x）で設定します。
+				}
+
+				CartSpawnRate: {
+					DisplayName: "[i:13]（装飾）鉱石トロッコ生成率"
+					Tooltip: ワールド内に生成される鉱石トロッコの上限数を調整する倍率。
+				}
+
+				BoomshroomRate: {
+					DisplayName: "[i:SpiritReforged/BoomShroom] （装飾）ブームシュルーム生成率"
+					Tooltip: ワールド内に生成されるブームシュルームの上限数を調整する倍率。
+				}
+
+				CovesSpawnRate: {
+					DisplayName: "[i:SpiritReforged/KoiTotem] （釣り入り江）生成倍率"
+					Tooltip:
+						'''
+						ワールドに生成される釣り入り江の最大数にかかる倍率。
+						構造物を生成する他のModと競合する可能性があります。
+						'''
+				}
+
+				NeonMossChance: {
+					DisplayName: "[i:SpiritReforged/FlaskRadon] （ネオン苔）カスタム苔率"
+					Tooltip: バニラの光る苔ではなく、Reforged独自の光る苔が選ばれる確率（x/6）。
+				}
+
+				StatueCountModifier: {
+					DisplayName: "[i:SpiritReforged/WheezerStatueItem] （石像）最大数"
+					Tooltip: ワールド内に生成されるReforgedの石像の最大数。
+				}
+
+				StructuresMax: {
+					DisplayName: "[i:SpiritReforged/PotteryWheelItem] （保管庫）倍率"
+					Tooltip: ワールド内の保管庫構造物の数にかかる倍率。
+				}
+
+				StructureScale: {
+					DisplayName: "[i:SpiritReforged/PotteryWheelItem] （保管庫）サイズ倍率"
+					Tooltip: 保管庫構造物の生成サイズに適用される倍率。
+				}
+
+				PotSpam: {
+					DisplayName: "[i:SpiritReforged/PotteryWheelItem] （保管庫）壺の数"
+					Tooltip: 保管庫構造物が壺を配置しようとする最小試行回数。
+				}
+			}
+
+			Presets: {
+				Inhabited: {
+					Name: "[i:498] 人の気配"
+					Tooltip: 地下の至る所に、友好的な探索者たちの痕跡が残されている……彼らに何があったのだろう？
+				}
+
+				Empty: {
+					Name: "[i:1176] 空虚"
+					Tooltip: 誰か、そこにいるの？
+				}
+			}
+		}
+
+		Ziggurat: {
+			Name: ジッグラト
+			Description: ジッグラトおよび内部に生成される内容を調整します。
+
+			Members: {
+				UsedWidth: {
+					DisplayName: "[i:SpiritReforged/RedSandstoneSlabItem] 基準幅"
+					Tooltip:
+						'''
+						ジッグラトの大きさを決めるために使用される幅。実際の幅と一致するとは限りません。
+						デフォルトより大きい値にすると、ジッグラトはピラミッドを置き換えて生成されます。
+						そうしなければ、まったく生成されない場合があります。
+						'''
+				}
+
+				UsedHeight: {
+					DisplayName: "[i:SpiritReforged/RedSandstoneSlabItem] 基準高"
+					Tooltip:
+						'''
+						ジッグラトの大きさを決めるために使用される高さ。実際の高さと一致するとは限りません。
+						デフォルトより大きい値にすると、ジッグラトはピラミッドを置き換えて生成されます。
+						そうしなければ、まったく生成されない場合があります。
+						'''
+				}
+
+				MaxInfections: {
+					DisplayName: "[i:SpiritReforged/PaleHiveItem] 感染巣の最大数"
+					Tooltip: ジッグラトの各階層に生成される感染巣の数。実際の数は0からこの値の間になります。
+				}
+
+				PotChance: {
+					DisplayName: "[i:SpiritReforged/BronzePotsItem] 壺の生成率"
+					Tooltip: ジッグラト内に壺が配置される確率。
+				}
+
+				LapisPotChance: {
+					DisplayName: "[i:SpiritReforged/LapisPotsItem] ラピス壺の生成率"
+					Tooltip: 配置される壺がラピス壺になる確率。
+				}
+
+				UncommonChance: {
+					DisplayName: "[i:SpiritReforged/BiomePotsDesertItem] レア壺の生成率"
+					Tooltip: 配置される壺がレア壺になる確率。
+				}
+
+				MaxSpikeStripWidth: {
+					DisplayName: "[i:SpiritReforged/NeedleTrapItem] スパイク床の最大幅"
+					Tooltip: スパイク床が生成される際の幅の上限。
+				}
+
+				SpikeStripChance: {
+					DisplayName: "[i:SpiritReforged/NeedleTrapItem] スパイク床の生成率"
+					Tooltip: 特殊部屋以外にスパイク床が配置される確率。
+				}
+
+				SpecialRoomChance: {
+					DisplayName: "[i:SpiritReforged/CarvedLapisWallItem] 特殊部屋の生成率"
+					Tooltip:
+						'''
+						ジッグラト内の各部屋が特殊部屋になる確率。対象となるのは以下の部屋。
+						図書室、保管室、埋葬室
+						'''
+				}
+
+				SkipRoomChance: {
+					DisplayName: "[i:SpiritReforged/RedSandstoneBrickCrackedWallItem] 部屋の省略率"
+					Tooltip: 部屋を建設せず、生成を省略する確率。
+				}
+
+				ChestNormalization: {
+					DisplayName: "[i:SpiritReforged/LapisChestItem] 宝箱の均等化"
+					Tooltip:
+						'''
+						宝箱の戦利品を均等化する度合い。
+						値が高いほど、すべてのアイテムがより均等な確率で抽選されます。
+						'''
+				}
+
+				DresserNormalization: {
+					DisplayName: "[i:SpiritReforged/LapisDresserItem] タンスの均等化"
+					Tooltip:
+						'''
+						タンスの戦利品を均等化する度合い。
+						値が高いほど、すべてのアイテムがより均等な確率で抽選されます。
+						'''
+				}
+
+				AncientBannerChance: {
+					DisplayName: "[i:SpiritReforged/AncientBannerItem] 古代の旗の生成率"
+					Tooltip: 古代の旗が生成される確率。
+				}
+
+				BannerChance: {
+					DisplayName: "[i:340] バニラ旗の生成率"
+					Tooltip: バニラの旗が生成される確率。
+				}
+
+				CenserChance: {
+					DisplayName: "[i:SpiritReforged/CenserItem] 香炉の生成率"
+					Tooltip: 香炉が生成される確率。
+				}
+
+				TabletChance: {
+					DisplayName: "[i:SpiritReforged/ScarabTabletOneItem] 古代の石板の生成率"
+					Tooltip: 宝物部屋以外に古代の石板が生成される確率。
+				}
+
+				FloorDivotChance: {
+					DisplayName: "[i:SpiritReforged/CrackedSandstoneItem] 床のくぼみ生成率"
+					Tooltip: 床のくぼみ（ランダムな風化表現）が発生する確率。
+				}
+
+				SandSplatChance: {
+					DisplayName: "[i:169] 砂跡の生成率"
+					Tooltip: ランダムな風化効果として、砂の飛び散り跡が生成される確率。
+				}
+
+				PillarChance: {
+					DisplayName: "[i:SpiritReforged/RuinedSandstonePillarItem] 柱の生成率"
+					Tooltip: 柱が生成される確率。
+				}
+
+				LightChance: {
+					DisplayName: "[i:SpiritReforged/SunDropper] 光線の生成率"
+					Tooltip: 光線が生成される確率。
+				}
+
+				ChestItemRange: {
+					DisplayName: "[i:SpiritReforged/LapisChestItem] 宝箱のアイテム数"
+					Tooltip: 宝箱に入るアイテム数の範囲。各宝箱には最低3個のアイテムが必ず入ります。
+				}
+
+				DresserItemRange: {
+					DisplayName: "[i:SpiritReforged/LapisDresserItem] タンスのアイテム数"
+					Tooltip: タンスに入るアイテム数の範囲。
+				}
+			}
+
+			Presets: {
+				Plagued: {
+					Name: "[i:SpiritReforged/PaleHiveItem] 蝕まれた"
+					Tooltip: このジッグラトにも、かつては栄えていた時代があった。砂に埋もれていない場所には、スカラベがうごめいている。
+				}
+
+				Opulent: {
+					Name: "[i:SpiritReforged/LapisPotsItem] 豪華絢爛"
+					Tooltip: このジッグラトを築いた者は、費用を惜しまなかったようだ。
+				}
+
+				Perilous: {
+					Name: "[i:SpiritReforged/NeedleTrapItem] 命懸け"
+					Tooltip: より多くの戦利品と、より多くの罠。実にそそられる条件だ。
+				}
+			}
+		}
+
+		Desert: {
+			Name: 砂漠
+			Description: Reforgedの砂漠生成に関するさまざまな要素を調整します。
+
+			Members: {
+				PalmChanceLow: {
+					DisplayName: "[i:2504] （オアシス）ヤシの生成率（低）"
+					Tooltip: ヤシが少なくとも1本植えられた後、さらにヤシが植えられる確率。
+				}
+
+				PalmChanceHigh: {
+					DisplayName: "[i:2504] （オアシス）ヤシの生成率（高）"
+					Tooltip: ヤシがまだ1本も植えられていない場合、最初のヤシが植えられる確率。
+				}
+
+				CattailChance: {
+					DisplayName: "[i:2996] （オアシス）ガマの生成率"
+					Tooltip: オアシスにガマが生成される確率。
+				}
+
+				OasisPlantChance: {
+					DisplayName: "[i:SpiritReforged/PineappleSeeds] （オアシス）オアシス植物の生成率"
+					Tooltip: オアシス固有の植物が生成される確率。
+				}
+
+				GlowflowerChance: {
+					DisplayName: "[i:4045] （オアシス）グロウフラワーの生成率"
+					Tooltip: オアシスにグロウフラワーが生成される確率。
+				}
+
+				PineappleChance: {
+					DisplayName: "[i:4294] （オアシス）パイナップルの生成率"
+					Tooltip: オアシスにパイナップルが生成される確率。
+				}
+
+				SeaOatsChance: {
+					DisplayName: "[i:SpiritReforged/WheatgrassSeedPouch] （オアシス）シーオーツの配置率"
+					Tooltip: 海岸やオアシス付近に生える穀物植物「シーオーツ」が生成される確率。
+				}
+
+				PoolWidth: {
+					DisplayName: "[i:206] （オアシス）池の幅"
+					Tooltip: 地下オアシスに生成される池の幅の範囲。（タイル単位）
+				}
+
+				PoolDepth: {
+					DisplayName: "[i:206] （オアシス）池の深さ"
+					Tooltip: 地下オアシスに生成される池の深さの範囲。（タイル単位）
+				}
+
+				MainNormalization: {
+					DisplayName: "[i:1298] （オアシス）主要アイテム抽選の均等化"
+					Tooltip:
+						'''
+						主要アイテムの戦利品を均等化する度合い。
+						値が高いほど、すべてのアイテムがより均等な確率で抽選されます。
+						'''
+				}
+
+				ItemNormalization: {
+					DisplayName: "[i:1298] （オアシス）その他の戦利品の均等化"
+					Tooltip:
+						'''
+						主要アイテム以外の戦利品を均等化する度合い。
+						値が高いほど、すべてのアイテムがより均等な確率で抽選されます。
+						'''
+				}
+
+				ChestItemCountMin: {
+					DisplayName: "[i:1298] （オアシス）宝箱の最低アイテム数"
+					Tooltip: 地下オアシスの宝箱に入るアイテムの最低数。
+				}
+
+				ChestItemCountRange: {
+					DisplayName: "[i:1298] （オアシス）宝箱の追加アイテム範囲"
+					Tooltip: 地下オアシスの宝箱に入る最低アイテム数に、ランダムに加算される範囲。
+				}
+
+				FossilCount: {
+					DisplayName: "[i:SpiritReforged/PolishedAmberItem] （コハク）最大埋蔵量"
+					Tooltip: 地下砂漠に生成されるコハク鉱脈の最大数。
+				}
+
+				FossilMultiplier: {
+					DisplayName: "[i:SpiritReforged/AmberFossilSafeItem] （コハク）ワールド倍率"
+					Tooltip: ワールドサイズに応じて、コハク鉱脈の数に適用される倍率。
+				}
+
+				PatchScale: {
+					DisplayName: "[i:SpiritReforged/AmberFossilSafeItem] （コハク）鉱脈規模"
+					Tooltip: コハク鉱脈のサイズを調整する倍率。
+				}
+
+				RuinCount: {
+					DisplayName: "[i:SpiritReforged/GildedRedSandstoneItem] （遺跡）生成数の範囲"
+					Tooltip: オアシスごとに生成される地下砂漠遺跡の数の範囲。
+				}
+
+				LightRange: {
+					DisplayName: "[i:SpiritReforged/SunDropper] （オアシス）光線の数"
+					Tooltip: 地下オアシスに生成される光線数の最小値と、ランダムに加算される範囲。
+				}
+
+				ChestItemRange: {
+					DisplayName: "[i:1298] （オアシス）宝箱のアイテム数"
+					Tooltip: 地下オアシスの宝箱に入るアイテム数の範囲。
+				}
+
+				RuinSegments: {
+					DisplayName: "[i:SpiritReforged/RedSandstoneSlabItem] （遺跡）区画数の範囲"
+					Tooltip: 地下遺跡を構成する区画数の範囲。
+				}
+			}
+
+			Presets: {
+				Overgrown: {
+					Name: "[i:2996] 生い茂る"
+					Tooltip: 砂漠のオアシスには草木が密生し、すっかり野生化している。なぜこれほど豊かに育つのだろう？
+				}
+
+				Petrified: {
+					Name: "[i:154] 化石化"
+					Tooltip: 砂漠の砂は、永い時を経て化石となった生態系を隠している。すべて発見できるだろうか？
+				}
+
+				Ruined: {
+					Name: "[i:SpiritReforged/RedSandstoneSlabItem] 廃墟"
+					Tooltip: かつて砂漠の地下には、長く忘れ去られた古代文明が栄えていた。その遺跡だけが今も残っている。
+				}
+			}
+		}
+	}
+
+	Enums: {
+		OceanShape: {
+			Default: {
+				DisplayName: バニラ
+				Tooltip: Terraria本来の海の生成方式。Reforgedの変更のほとんどが適用されなくなる。
+			}
+
+			SlantedSine: {
+				DisplayName: 斜めサイン波
+				Tooltip: 斜めに傾いた正弦波を基準として、海の形を生成します。
+			}
+
+			Piecewise: {
+				DisplayName: 区分関数
+				Tooltip: より複雑な区分関数によって、海の形状を決定します。
+			}
+
+			Piecewise_M: {
+				DisplayName: 区分関数（M）
+				Tooltip: 傾斜をわずかに変更した、区分関数の改良版。
+			}
+
+			Piecewise_V: {
+				DisplayName: Reforged式
+				Tooltip: 区分関数プリセットにさまざまな微調整を施した完成版。
+			}
+		}
+	}
+}
+
+Generation: {
+	Discoveries: 発見の追加
+	Stargrass: きらきらな草木を育む
+	HerosMemorial: 英雄を偲ぶ
+	Butterfly: 蝶の祠を隠す
+	FishingCoves: 釣りスポットの追加
+	PopulateOcean: 海のオブジェクト配置
+	Gravel: 砂利の配置
+	SavannaTerrain: 高原の作成
+	SavannaObjects: サバンナのオブジェクト配置
+	SaltFlats: 塩を投入
+	Ecotones: エコトーンのマッピング
+	Caves: 洞窟を飾る
+	DesertExtras: 砂の中に秘密が隠される
+	NeonMosses: 輝く苔
+	Pottery: 壺を隠す
+	Scarecrow: 鳥を追い払う
+
+	Mapping: {
+		Exit: 『Escape』キーでマッピングを早期終了（一時停止中のみ）
+		Tilde: 『Tilde』（~）を長押ししてオーバーレイを非表示
+		Help:
+			'''
+			エコトーンはワールドの地表全体に複数回マッピングされます
+			エコトーンには「左端」「自身」「右端」の3つの定義が設定されています
+			例えば、Forest < Desert < Forest のような形になります
+			    左端はForest
+			    現在のバイオームはDesert
+			    右端はForest
+			赤い長方形は、その最小値/最大値の範囲を示します
+			青い長方形は開始から終了までのサイズ、つまりマッピングされた地表の開始地点と終了地点を示します
+			エコトーンの上に表示されるサイズは、赤い長方形のサイズと、青い長方形の高さを併記したものです
+			'''
+		Toggle: クリックして、ワールド生成中の手動エコトーン選択を{0}にする
+		Enable: 有効
+		Disable: 無効
+		Select: 範囲をクリックして、そこに{0}を強制的に生成させる
+		Continue: このテキストをクリックして続行
+		OrEscape: （またはEscapeキーを押す）
+		Step: "{0}をマッピング中"
+		Invalid: （無効 - {0}）
+	}
+
+	Signs: {
+		Underground: {
+			Common: {
+				0: <wavy>壺に秘密が隠されている...
+				1: <wavy>文字がかすれて読めない。
+				2: <colorful:255,80,80>看板は怪しい液体による解読不能な落書きで覆われている。
+				3: <wavy>......の商品
+				4: <wavy>古い看板はほとんど塵と化している。
+				5: <wavy>粗雑に描かれたスケルトンが手招きしている。
+				6: <wavy>これを読んでいるなら、私はすでに死んでいる。
+				7: これを読んでいるなら、私は絶好調だ！
+				8: <wavy>注意：ワーム
+				9: 看板には理解できないことが延々と書かれている。それ以上読む価値はない。
+				10: ドワーフの文字が看板全体に刻まれている。全く読めない。
+			}
+
+			Rare: {
+				0: <wavy>私のページを集めて...
+				1: ここにはグーボールがないようだ。 -看板画家
+				2:
+					'''
+					<wavy>0
+					日、洞窟事故以来
+					'''
+			}
+		}
+	}
 }

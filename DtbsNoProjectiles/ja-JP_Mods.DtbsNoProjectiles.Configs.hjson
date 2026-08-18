@@ -1,0 +1,112 @@
+HideProjConfig: {
+	DisplayName: 非表示設定
+
+	Headers: {
+		OtherPlayersProfile: 他プレイヤー
+		YourOwnProfile: 自プレイヤー
+	}
+
+	Friendly: {
+		Label: 他プレイヤー設定を開く
+		Tooltip: ""
+	}
+
+	Own: {
+		Label: 自プレイヤー設定を開く
+		Tooltip: ""
+	}
+}
+
+OtherPlayersHideSettings: {
+	DisplayName: 他プレイヤー
+
+	Headers: {
+		Timing: 表示制御
+		VisualTypes: 非表示項目
+	}
+
+	Mode: {
+		Label: 非表示にするタイミング
+		Tooltip: 他プレイヤーの該当描画をいつ非表示にするか選択します
+	}
+
+	HideProjectiles: {
+		Label: 発射体
+		Tooltip: 他プレイヤーの発射体を非表示にします
+	}
+
+	HideDust: {
+		Label: ダスト
+		Tooltip: 他プレイヤーの発射体から出たダストを非表示にします
+	}
+
+	HideSpecialParticles: {
+		Label: 特殊パーティクル
+		Tooltip: Calamity等を含む、他プレイヤーの対応カスタムパーティクルを非表示にします
+	}
+
+	HideSummonsAndSentries: {
+		Label: ミニオン・セントリー
+		Tooltip: 鞭を除き、他プレイヤーのミニオンとセントリー、そしてそれらが放つ発射体を非表示にします
+	}
+
+	Tooltip: ""
+}
+
+YourOwnHideSettings: {
+	DisplayName: 自プレイヤー
+
+	Headers: {
+		Timing: 表示制御
+		VisualTypes: 非表示項目
+	}
+
+	Mode: {
+		Label: 非表示にするタイミング
+		Tooltip: 自プレイヤーの該当描画をいつ非表示にするか選択します
+	}
+
+	HideProjectiles: {
+		Label: 発射体
+		Tooltip: 自プレイヤーの発射体を非表示にします
+	}
+
+	HideDust: {
+		Label: ダスト
+		Tooltip: 自プレイヤーの発射体から出たダストを非表示にします
+	}
+
+	HideSpecialParticles: {
+		Label: 特殊パーティクル
+		Tooltip: Calamity等を含む、自プレイヤーの対応カスタムパーティクルを非表示にします
+	}
+
+	HideSummonsAndSentries: {
+		Label: ミニオン・セントリー
+		Tooltip: 鞭を除き、自プレイヤーのミニオンとセントリー、そしてそれらが放つ発射体を非表示にします
+	}
+
+	Tooltip: ""
+}
+
+HideMode: {
+	Never: {
+		$parentVal: Mods.DtbsNoProjectiles.Configs.HideMode.Never.$parentVal
+		Label: 常に表示
+		Tooltip: ""
+	}
+
+	OnlyDuringBosses: {
+		$parentVal: Mods.DtbsNoProjectiles.Configs.HideMode.OnlyDuringBosses.$parentVal
+		Label: ボス戦中のみ
+		Tooltip: ""
+	}
+
+	Always: {
+		$parentVal: Mods.DtbsNoProjectiles.Configs.HideMode.Always.$parentVal
+		Label: 常に非表示
+		Tooltip: ""
+	}
+
+	Tooltip: ""
+}

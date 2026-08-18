@@ -139,19 +139,19 @@ CommonItemtooltip: {
 	}
 
 	PresentDeath: {
-		Msg0: "{0}はラッキーブロックが苦手だ"
-		Msg1: "{0}はとても不運だった"
-		Msg2: "{0}は間違ったプレゼントを間違ったタイミングで開けた"
-		Msg3: "{0}は箱の中に何が入っているか知るべきではなかった"
-		Msg4: "{0}は自発的な死という贈り物を解き放った"
-		Msg5: "{0}は今年は本当のいたずらだったに違いない"
-		Msg6: "{0}はオールインして負けた"
-		Msg7: "{0}はリストに載っていたものは確かに得られなかった"
-		Msg8: "{0}は全てのプレゼントが良いプレゼントではないことを学んだ"
-		Msg9: "{0}は彼らにはチャンスすらない"
+		Msg0: "{0}はラッキーブロックが苦手でした。"
+		Msg1: "{0}はとても不運でした。"
+		Msg2: "{0}は間違ったプレゼントを間違ったタイミングで開けてしまいました。"
+		Msg3: "{0}は箱の中に何が入っているか知るべきではありませんでした。"
+		Msg4: "{0}は自発的な死という贈り物を解き放ってしまいました。"
+		Msg5: "{0}は今年は本当のいたずらだったに違いありません。"
+		Msg6: "{0}はオールインして負けてしまいました。"
+		Msg7: "{0}はリストに載っていたものは確かに得られませんでした。"
+		Msg8: "{0}は全てのプレゼントが良いプレゼントではないことを学びました。"
+		Msg9: "{0}は彼らにはチャンスすらありません。"
 	}
 
-	HungryDeath: "{0}はどういうわけか、身悶えする肉を使って死んだ？そんなことは許されないはずだ"
+	HungryDeath: "{0}はどういうわけか、身悶えする肉を使って死んだ？そんなことは許されないはずです。"
 
 }
 
@@ -323,7 +323,7 @@ Buffs: {
 
 	ElectrifiedEnemy: {
 		DisplayName: 感電
-		Description: 敵は徐々にライフが減少する
+		Description: 敵は徐々にライフが減っていく
 	}
 
 	ChampionProtec: {
@@ -407,8 +407,8 @@ Buffs: {
 	}
 
 	SpikeShield: {
-		DisplayName: 棘の盾
-		Description: 防御力を増加し、ダメージの一部を反射
+		DisplayName: トゲの盾
+		Description: 防御力が増加し、ダメージの一部を反射
 	}
 
 	Leech: {
@@ -594,7 +594,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}{$CommonItemtooltip.ForItems.ArcanaStimulator}
-			
+
 			[placeholder]
 			'''
 	}
@@ -604,7 +604,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}{$CommonItemtooltip.ForItems.ArcanaStimulator}
-			
+
 			[placeholder]
 			'''
 	}
@@ -614,9 +614,9 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.NoKnockback}
-			{$CommonItemtooltip.ForItems.ActivatedAbility}カーソルの位置に魔法の盾を召喚する
-			盾はプレイヤーの防御力を増加させ、敵にダメージを与え、引き寄せるオーラを発生する
-			盾は10秒間持続する
+			{$CommonItemtooltip.ForItems.ActivatedAbility}カーソルの位置に10秒間持続する魔法の盾を召喚する
+			盾はオーラを発生させ、オーラ内のプレイヤーの防御力を増加させ、
+			オーラ内の敵にダメージを与え、引き寄せる
 			[placeholder]
 			'''
 	}
@@ -645,7 +645,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}頭上にクリスタルプリズムを召喚し、近くの敵にビームを発射する
-			最大で14回ビームを発射し、それぞれが近接、遠距離、魔法、召喚のダメージタイプをランダムに継承する
+			最大14回ビームを発射し、それぞれが近接、遠距離、魔法、召喚のダメージタイプをランダムに継承する
 			「巨大な力を持つ神話のプリズムの失われた前身...」
 			'''
 	}
@@ -656,7 +656,7 @@ Items: {
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}防具の上に魔法のパワーアーマーを装備する
 			パワーアーマーは10秒間持続し、被ダメージを大きく軽減する
-			「未来的な鎧は、折りたたむことができるように丹念に作られ、起動すると瞬時に展開して着用者を守る。」
+			「未来的な鎧は、折りたたむことができるように丹念に作られ、起動すると瞬時に展開して着用者を守る」
 			'''
 	}
 
@@ -714,7 +714,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}{$CommonItemtooltip.ForItems.ArcanaStimulator}
-			
+
 			[placeholder]
 			'''
 	}
@@ -724,7 +724,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}{$CommonItemtooltip.ForItems.ArcanaStimulator}
-			
+
 			[placeholder]
 			'''
 	}
@@ -735,7 +735,7 @@ Items: {
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}防具の上に魔法の鎧を装備する
 			魔法の鎧は10秒間持続し、被ダメージを大きく軽減する
-			「伝説の鎧は、折りたたむことができるように丹念に作られ、起動すると瞬時に展開して着用者を守る。」
+			「伝説の鎧は、折りたたむことができるように丹念に作られ、起動すると瞬時に展開して着用者を守る」
 			'''
 	}
 
@@ -957,7 +957,7 @@ Items: {
 		DisplayName: リパルスチャージ
 		Tooltip:
 			'''
-			{$CommonItemtooltip.ForItems.ActivatedAbility}強いノックバックを持ち、爆発する弾丸を投下し、地形に当たると、左右に衝撃波を放つ
+			{$CommonItemtooltip.ForItems.ActivatedAbility}強いノックバックを持ち、爆弾を投下し、地形に当たると、左右に衝撃波を放つ
 			「個人的な空間を確保しよう」
 			'''
 	}
@@ -966,7 +966,7 @@ Items: {
 		DisplayName: リパルションロケット
 		Tooltip:
 			'''
-			{$CommonItemtooltip.ForItems.ActivatedAbility}強いノックバックを持ち、爆発するロケットを発射する
+			{$CommonItemtooltip.ForItems.ActivatedAbility}爆発し、強くノックバックさせるロケットを発射する
 			反動が非常に強く、撃った者を射撃方向とは反対方向に飛ばす
 			「ワシの叫び声だ！」
 			'''
@@ -1029,8 +1029,8 @@ Items: {
 		Tooltip:
 			'''
 			ダメージの一部を反射する
-			{$CommonItemtooltip.ForItems.ActivatedAbility}10秒間、防御力を4増加させ、棘の効果を強化する
-			「錆びているにもかかわらず、その棘は簡単に展開と収納ができ、そして最も重要なことに、突き刺すことができる」
+			{$CommonItemtooltip.ForItems.ActivatedAbility}10秒間、防御力を4増加させ、ダメージ反射効果を強化する
+			「錆びているにもかかわらず、そのトゲは簡単に展開と収納ができ、そして最も重要なことに、突き刺すことができる」
 			'''
 	}
 
@@ -1171,7 +1171,7 @@ Items: {
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}オーロラを発生させ、一時的にあらゆる攻撃から身を守る
 			オーロラの近くにいるプレイヤー（使用者自身を含む）の防御力、被ダメージ軽減、ライフ自然回復力を一時的に増加させる
-			オーロラの近くにいる敵は混乱し、被ダメージが短時間増加する
+			オーロラの近くの敵を混乱させ、被ダメージを短時間増加させる
 			「その湧き上がる天上の力は、反転したアルカナの残滓のようだ…」
 			'''
 	}
@@ -1273,7 +1273,7 @@ Items: {
 			'''
 			マナ消費量が12%減少
 			マナポーションを自動で使用してくれる
-			最大マナを20増加
+			最大マナが20増加
 			'''
 	}
 
@@ -1323,7 +1323,7 @@ Items: {
 			ダメージが5%増加
 			クリティカル率が3%上昇
 			移動速度が5%上昇
-			「古くから受け継がれ、古代の金属で補強された貴重なブーツ。きっとあなたの旅の助けになるだろう。」
+			「古くから受け継がれ、古代の金属で補強された貴重なブーツ。きっとあなたの旅の助けになるだろう」
 			'''
 	}
 
@@ -1444,17 +1444,17 @@ Items: {
 
 	PossessedBreastplate: {
 		DisplayName: ポゼストブレストプレート
-		Tooltip: "「この鎧の中にいる闇の魂が、あなたを守ることを妨げている...」"
+		Tooltip: 「この鎧の中の闇の魂が、あなたを守ることを妨げている...」
 	}
 
 	PossessedHelmet: {
 		DisplayName: ポゼストヘルメット
-		Tooltip: "「この鎧の中にいる闇の魂が、あなたを守ることを妨げている...」"
+		Tooltip: 「この鎧の中の闇の魂が、あなたを守ることを妨げている...」
 	}
 
 	PossessedLeggings: {
 		DisplayName: ポゼストレギンス
-		Tooltip: "「この鎧の中にいる闇の魂が、あなたを守ることを妨げている...」"
+		Tooltip: 「この鎧の中の闇の魂が、あなたを守ることを妨げている...」
 	}
 
 	TarnishedBreastplate: {
@@ -1463,7 +1463,7 @@ Items: {
 			'''
 			クリティカル率が4%上昇
 			召喚できるミニオンの数が1体増える
-			「この鎧の中にいる闇の魂は、さらなる防御力を与えるために利用されている」
+			「この鎧の中の闇の魂は、さらなる防御力を与えるために利用されている」
 			'''
 	}
 
@@ -1473,7 +1473,7 @@ Items: {
 			'''
 			ダメージが3%増加し、クリティカル率が3%上昇
 			5%の確率で弾薬を消費しない
-			「この鎧の中にいる闇の魂は、さらなる防御力を与えるために利用されている」
+			「この鎧の中の闇の魂は、さらなる防御力を与えるために利用されている」
 			'''
 	}
 
@@ -1484,7 +1484,7 @@ Items: {
 			ダメージが4%増加
 			クリティカル率が2%上昇
 			移動速度が5%上昇
-			「この鎧の中にいる闇の魂は、さらなる防御力を与えるために利用されている」
+			「この鎧の中の闇の魂は、さらなる防御力を与えるために利用されている」
 			'''
 	}
 
@@ -1585,12 +1585,12 @@ Items: {
 
 	MartianScrap: {
 		DisplayName: 火星のスクラップ
-		Tooltip: "「エイリアンの円盤のハイテクな残骸」"
+		Tooltip: 「エイリアンの円盤のハイテクな残骸」
 	}
 
 	NovaFragment: {
 		DisplayName: ノヴァの断片
-		Tooltip: "「死にゆく星の破壊力がこのカケラの中に宿っている」"
+		Tooltip: 「死にゆく星の破壊力がこのカケラの中に宿っている」
 	}
 
 	OmnisightHelmet: {
@@ -1598,9 +1598,9 @@ Items: {
 		Tooltip:
 			'''
 			ライト付き、視界が広がる
-			宝と鉱石が光って見える 
+			宝と鉱石が光って見える
 			敵が光って見える
-			罠がよく見える 
+			罠がよく見える
 			{$Items.GazersGoggles.Tooltip}
 			「究極の洞窟探検」
 			'''
@@ -1735,7 +1735,7 @@ Items: {
 			ライト付き、視界が広がる
 			壁を登ることが可能
 			ジャンプ速度が増加し、自動ジャンプが可能となる
-			落下耐性を増加 
+			落下耐性を増加
 			氷上で滑らずに移動可能
 			'''
 	}
@@ -1824,7 +1824,7 @@ Items: {
 	}
 
 	PygmyBracer: {
-		DisplayName: ピグミーの手袋
+		DisplayName: ピグミーのグローブ
 		Tooltip: "{$CommonItemtooltip.ForItems.PercentIncreasedWhipRange}"
 	}
 
@@ -1843,7 +1843,7 @@ Items: {
 		Tooltip:
 			'''
 			回復ポーションの再使用間隔を10%短縮させる
-			被ダメージ後の無敵時間を延長 
+			被ダメージ後の無敵時間を延長
 			ダメージを受けると回復ポーションの再使用間隔がわずかに短縮されることがある
 			'''
 	}
@@ -1878,7 +1878,7 @@ Items: {
 		DisplayName: スーパー磁石
 		Tooltip:
 			'''
-			アイテムを拾う距離が大きく広がる 
+			アイテムを拾う距離が大きく広がる
 			スター、コイン、ハートを拾う距離が広がる
 			装備していない状態では、弱体化を敵に与えることがある
 			'''
@@ -1958,8 +1958,8 @@ Items: {
 		DisplayName: 永久凍土のマント
 		Tooltip:
 			'''
-			ダメージを受けると防御力とライフ自然回復力が増加する
-			ダメージを受けると氷の破片が放ち、近くの敵を攻撃することがある
+			ダメージを受けると防御力とライフ自然回復力が増加し、
+			氷の破片を放ち、近くの敵を攻撃することがある
 			凍え、凍結、霜焼けに耐性
 			'''
 	}
@@ -1969,7 +1969,7 @@ Items: {
 		Tooltip:
 			'''
 			ダメージを受けると防御力とライフ自然回復力が増加する
-			ライフが50%以下の際、触れた敵にダメージを与えるスパイク付きの氷の甲羅が自身の周りを回り、
+			ライフが50%以下の際、触れた敵にダメージを与えるトゲ付きの氷の甲羅が自身の周りを回り、
 			被ダメージを25%軽減する
 			甲羅があるときにダメージを受けると、敵に激しく衝突して爆発する
 			甲羅が破壊されてもすぐに次の甲羅が出現する
@@ -2123,16 +2123,16 @@ Items: {
 
 	AquaticBoots: {
 		DisplayName: アクアティックブーツ
-		Tooltip: 水と蜂蜜の上を歩行可能になり、泳げるようになる 
+		Tooltip: 水と蜂蜜の上を歩行可能になり、泳げるようになる
 	}
 
 	MerfolkBoots: {
-		DisplayName: マーフォークのブーツ
+		DisplayName: 半魚人のブーツ
 		Tooltip:
 			'''
 			超高速走行できる
 			ジャンプ速度が増加し、自動ジャンプが可能となる
-			落下耐性を増加 
+			落下耐性を増加
 			水と蜂蜜の上を歩行可能になり、泳げるようになる
 			'''
 	}
@@ -2171,7 +2171,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}10秒間、自身の周囲に暗いオーラを放つ
-			オーラの中に入った敵は、一時的にダメージが10%減少し、
+			オーラ内の敵は、一時的にダメージが10%減少し、
 			敵のライフを吸収すると、一時的にダメージが10%増加する
 			[placeholder]
 			'''
@@ -2182,7 +2182,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}10秒間、自身の周囲に巨大なオーラを放つ
-			オーラの中に入った敵は、一時的に移動速度が低下し、防御力が30減少する
+			オーラ内の敵は、一時的に移動速度が低下し、防御力が30減少する
 			敵のライフを吸収すると、吸収している時間に応じてライフ自然回復力が増加する
 			「トロフィーみたいだ」
 			'''
@@ -2216,7 +2216,7 @@ Projectiles: {
 	BulwarkAura.DisplayName: 防壁の魔法
 	FirstPrismBeam.DisplayName: プリズムビーム
 	FirstPrismProj.DisplayName: ファーストプリズム
-	SolarBlast.DisplayName: ソーラー バースト
+	SolarBlast.DisplayName: ソーラーバースト
 	StarwriterSavePos.DisplayName: スターライタースター
 	StarplateBlast.DisplayName: スタープレートバースト
 	LihzahrdArmorBeam.DisplayName: ソーラーエネルギー
@@ -2231,7 +2231,7 @@ Projectiles: {
 	RepulseBomb.DisplayName: リパルスボム
 	RepulseMissile.DisplayName: リパルションロケット
 	RepulseShockwave.DisplayName: リパルス衝撃波
-	OrnateRingFlash.DisplayName: 装飾の指輪 閃光
+	OrnateRingFlash.DisplayName: 装飾の指輪の閃光
 	DarkLeechHeal.DisplayName: ダーク ライフスティール
 	DarkLeechHook.DisplayName: ダークリーチ
 	LeechingTetherHeal.DisplayName: リーチングライフスティール

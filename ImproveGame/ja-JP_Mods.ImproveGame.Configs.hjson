@@ -100,7 +100,7 @@ ImproveConfigs: {
 
 	NoPlace_BUFFTile: {
 		Label: "[centeritem:3198] 携帯バフステーション"
-		Tooltip: バニラのバフステーションとバナーがインベントリにあるなら、そのバフを得ます
+		Tooltip: バニラのバフステーションがインベントリにあるなら、そのバフを得ます
 	}
 
 	NoPlace_BUFFTile_Banner: {
@@ -183,7 +183,7 @@ ImproveConfigs: {
 		Tooltip:
 			'''
 			これがオンだと
-			救出していないゴブリンのよろずや、居酒屋、魔法使い、メカニック、収税吏の出現条件を満たした場合、
+			救出していないゴブリンのよろずや、居酒屋、魔法使い、メカニック、収税吏の出現条件を満たしているなら、
 			救出する必要がなく、有効な家があれば出現し、出現した時点で救出済みとみなされます
 			これらのタウンNPCは夜間に出現します
 			'''
@@ -217,7 +217,8 @@ ImproveConfigs: {
 		Label: "[centeritem:11] スライムのアイテムのドロップ保証"
 		Tooltip:
 			'''
-			スライムはランダムなアイテムを持っていることがあり、それを必ずドロップするようにします
+			スライムはランダムなアイテムを持っていることがあり、
+			そのスライムを倒すと、それを必ずドロップするようにします
 			オフの場合はバニラのドロップ率に従います
 			'''
 	}
@@ -252,14 +253,14 @@ ImproveConfigs: {
 
 	BestiaryQuickUnlock: {
 		Label: "[centeritem:DontHurtCrittersBook] 教訓"
-		Tooltip: 生物図鑑のロックが解除されているなら、その生物図鑑の説明文などのロックが撃破数に関係なく解除されるようになります
+		Tooltip: 動物図鑑のロックが解除されているなら、その動物図鑑の説明文などのロックが撃破数に関係なく解除されるようになります
 	}
 
 	BannerRequirement: {
 		Label: "[centeritem:2990] バナー入手までの撃破数"
 		Tooltip:
 			'''
-			バナー入手するまでの撃破数を変更し、倍率が小さいほど少ない撃破数でバナーを入手できます
+			バナーを入手するまでの撃破数を変更し、倍率が小さいほど少ない撃破数でバナーを入手できます
 			参考までに、倍率が0.1(10%)に設定されている場合、ブルースライムを5匹倒すと、50匹倒さなくても、ブルースライムバナーが1枚入手できます
 			倍率が10(1000%)に設定されている場合、ブルースライムを500匹倒すと、ブルースライムバナーが1枚入手できます
 			'''
@@ -307,7 +308,7 @@ ImproveConfigs: {
 	}
 
 		RespawnWithFullHP: {
-		Label: "[centeritem:LifeCrystal] ライフ最大でリスポーン"
+		Label: "[centeritem:LifeCrystal] ライフが最大でリスポーン"
 		Tooltip: ""
 	}
 
@@ -347,7 +348,7 @@ ImproveConfigs: {
 	}
 
 	ShakeTreeFruit: {
-		Label: "[centeritem:4009] 木を揺すった際にフルーツを確定で入手する"
+		Label: "[centeritem:4009] 木を揺すった際に果物を確定で入手する"
 		Tooltip:
 			'''
 			果物のドロップ率が大幅に上昇（他のアイテムのドロップ率には影響なし）
@@ -658,7 +659,7 @@ ImproveConfigs: {
 			'''
 			これをオンにして、コントロールでホットキーを設定してください
 			ワールドフィーチャーパネルを使用できます
-			ホリデーや秘密のシードを切り替えることができます
+			祝日や秘密のシードを切り替えることができます
 			'''
 	}
 
@@ -672,7 +673,8 @@ ImproveConfigs: {
 		Tooltip:
 			'''
 			探知機を使って、地図上に次の構造物をマークすることができます:
-			エーテル、ダンジョン、ジャングル寺院、浮島、プランテラのつぼみ
+			エーテル、ダンジョン、ジャングル寺院、浮島、ピラミッド、
+			プランテラのつぼみ、エンチャントソードの神殿
 			'''
 	}
 
@@ -711,7 +713,7 @@ ImproveConfigs: {
 		Tooltip:
 			'''
 			999以上スタックしているブロックや壁を、空間/技術/建築の杖で配置した場合は消費しません
-			作業台、テーブル、ベッドなどは99以上スタックしているなら消費しません
+			作業台、テーブル、ベッドなどは99個以上スタックしているなら消費しません
 			'''
 	}
 
@@ -1074,13 +1076,18 @@ UIConfigs: {
 		Tooltip: マークされた御影石の洞窟のマップアイコンのサイズ。非表示にするには0に設定してください
 	}
 
+	MarkHive: {
+			Label: "[centeritem:ImproveGame/HiveGlobe] 蜂の巣のアイコンサイズ"
+			Tooltip: マークされた蜂の巣のマップアイコンのサイズ。非表示にするには0に設定してください
+	}
+
 	MarkEmptyAutofisher: {
 		Label: "[centeritem:ImproveGame/Autofisher] エサなし釣り機のアイコンサイズ"
 		Tooltip: マークされたエサなし釣り機のマップアイコンのサイズ。非表示にするには0に設定してください
 	}
 
 	SuicideButton: {
-		Label: セルフキル
+		Label: 自殺
 		Tooltip: このボタンを押すとキャラが死にます [c/FF4444:押す前にもう一度考えてください]
 	}
 
@@ -1099,13 +1106,13 @@ UIConfigs: {
 	}
 
 	InfernoTransparency: {
-		Label: "[centeritem:InfernoPotion] インフェルノリングのアルファ"
-		Tooltip: インフェルノのリングのアルファは、あなたの視点では、1がソリッド、0が透明です
+		Label: "[centeritem:InfernoPotion] 獄炎のサークルの不透明度"
+		Tooltip: 獄炎のサークルの不透明度を変更します。あなたの視点では、1が不透明で、0が透明です
 	}
 
 	InvisibleTransparency: {
-		Label: "[centeritem:InvisibilityPotion] 不可視のアルファ"
-		Tooltip: 不可視時の視点におけるキャラクターのアルファ値を設定します
+		Label: "[centeritem:InvisibilityPotion] 透明時の不透明度"
+		Tooltip: 透明時の不透明度を変更します。1が不透明で、0が透明です
 	}
 
 	ThemeType: {
@@ -1116,7 +1123,12 @@ UIConfigs: {
 
 	ShowShimmerInfo: {
 		Label: "[centeritem:BottomlessShimmerBucket] シマー情報を表示"
-		Tooltip: シマーにアイテムを投入するとどのように変化するかツールチップに表示されます
+		Tooltip: シマーにアイテムを投げ入れるとどのように変化するかツールチップに表示されます
+	}
+
+	ShowAmmoInfo: {
+		Label: "[centeritem:1302] 使用する弾薬の種類を表示"
+		Tooltip: アイテムが使用するか、弾薬が対応する種類を表示します（該当する場合）
 	}
 
 	ResetUIPositionsButton: {
@@ -1137,7 +1149,12 @@ UIConfigs: {
 
 	SingleBlur: {
 		Label: "[centeritem:MulticoloredStainedGlass] 個別のUIのブラー (パフォーマンス重視)"
-		Tooltip: 各UIウィンドウを個別にぼかすので見た目は良くなりますが、互換性の問題が発生する可能性があります
+		Tooltip:
+			'''
+			各UIウィンドウを個別にぼかすので見た目は良くなりますが、
+			互換性の問題（フィルターが消えたり、
+			送信メッセージの上部のテキストがずれたりするなど）が発生する可能性があります
+			'''
 	}
 
 	BlurZoomMultiplierDenominator: {
@@ -1147,7 +1164,7 @@ UIConfigs: {
 			この値が大きいほど、必要な計算能力は少なくなり、
 			パフォーマンスが軽くなります
 			ぼかしが遅延の原因になっている場合は、この値を増やしてみてください
-			推奨値は次のとおりです。
+			推奨値は次のとおりです
 			- 通常のGPU、4K解像度：4
 			- ハイエンドGPU：1
 			1は、ぼかしが元の解像度に基づいて行われることを意味します
@@ -1185,7 +1202,7 @@ UIConfigs: {
 			'''
 			リスポーン後に最後に使用したミニオンを再召喚する
 			Mod Summoners' Associationが有効の場合はオフになります
-			Summoners' Associationで設定をしてください！
+			Summoners' Associationの設定を変更してください！
 			'''
 	}
 
@@ -1205,12 +1222,17 @@ UIConfigs: {
 	}
 
 	RemoveGraveyardMusic: {
-		Label: "[centeritem:RichGravestone2] 墓場のBGMを削除"
-		Tooltip: 墓場のBGMを削除します
+		Label: "[centeritem:RichGravestone2] 墓場の音楽を削除"
+		Tooltip: 墓場の音楽を削除します
+	}
+
+	SpelunkerColor: {
+		Label: "[centeritem:296] 探検家のポーションのハイライトを調整する"
+		Tooltip: 強調表示される鉱物の色は、自由に変更できます
 	}
 
 	GlobeEffect: {
-		Label: "[centeritem:WorldGlobe] ロケーターエフェクト"
+		Label: "[centeritem:WorldGlobe] 探知機のエフェクト"
 		Tooltip: 気に入らなければ消してください
 	}
 

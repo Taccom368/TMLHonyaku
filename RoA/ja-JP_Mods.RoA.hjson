@@ -62,7 +62,7 @@ Bestiary: {
 	GrimDefender: はるか昔にドライアドによって召喚された自然の精霊たちは、今もなお奥地の根元付近に留まり、そこに住むあらゆる生き物を守る準備ができている。
 	Hedgehog: 奥地に生息する最も小さな動物でさえ、身を守る術を身につけている。このトゲトゲした生き物は、驚くとトゲトゲボールのように丸まる。
 	Sentinel: 生きることは辛いものだ――特に、生者でない者にとっては。ダンジョンの彷徨える魂たちが、これらの古代の鎧の中に安住の地を見つけたのも、無理もない。
-	SentinelWarrior: 不気味な地下墓地で生きた鎧を装備した相手を驚かせるのは難しい。まあ、その鎧が猛スピードで頭蓋骨を粉砕するまでは。
+	SentinelWarrior: 不気味な地下墓場で生きた鎧を装備した相手を驚かせるのは難しい。まあ、その鎧が猛スピードで頭蓋骨を粉砕するまでは。
 	FireflyMimic: 数世紀前に魔法使いによって作られたこれらの動く人工物は、捕獲されると元の姿に戻り、再び魔法を使用できるようになる。
 	SapSlime: 樹液を採取する人から溢れ出た樹液が塊になってできるもので、表面に汚れが付いていないなら、通常のスライムよりもさらに美味しいはずなのだが...
 	// CrowdRaven: 奥地に生息するワタリガラスの亜種は、しばしば異常な行動を示し、距離を保ち、陰謀を企て、森を偵察する。まるで誰かの不親切に従うかのように
@@ -233,12 +233,12 @@ Buffs: {
 
 	ToxicFumes: {
 		DisplayName: 毒ガス
-		Description: 水銀鉱石の有害な蒸気があなたの肺を満たしている
+		Description: マーキュリウム鉱石の有害な蒸気があなたの肺を満たしている
 	}
 
 	ToxicFumesNoTimeDisplay: {
 		DisplayName: 毒ガス
-		Description: 水銀鉱石の有害な蒸気があなたの肺を満たしている
+		Description: マーキュリウム鉱石の有害な蒸気があなたの肺を満たしている
 	}
 
 	OniMask: {
@@ -428,8 +428,8 @@ Configs: {
 		DisplayName: クライアント設定
 
 		DruidLeaves: {
-			Label: ドルイドのツールチップに画像
-			Tooltip: ドルイドのアイテム名に葉っぱを追加します
+			Label: ドルイドのツールチップにアイコンを追加
+			Tooltip: ドルイドのアイテム名に葉を追加します
 		}
 
 		HighlightMode: {
@@ -585,14 +585,14 @@ Configs: {
 
 DeathReasons: {
 
-	ToxicFumesDeathMessage0: " 温度計で遊んではいけないことを忘れていた。"
-	ToxicFumesDeathMessage1: " 最期はあっという間だった…銀色に。"
-	ToxicFumesDeathMessage2: " 防毒マスクを忘れていた。"
-	ToxicFumesDeathMessage3: " 毒性に耐えられなかった。"
-	Root0: " 昼間から死んでいる。"
-	Root1: " やり過ぎた。"
-	HunterRifle0: " 獲物となった。"
-	HunterRifle1: " 狩られた"
+	ToxicFumesDeathMessage0: " は温度計で遊んではいけないことを忘れていました。"
+	ToxicFumesDeathMessage1: " の最期はあっという間でした…銀色に。"
+	ToxicFumesDeathMessage2: " は防毒マスクを忘れていました。"
+	ToxicFumesDeathMessage3: " は毒性に耐えられませんでした。"
+	Root0: " は昼間から死んでいました。"
+	Root1: " はやり過ぎました。"
+	HunterRifle0: " は獲物となりました。"
+	HunterRifle1: " は狩られました"
 
 }
 Emotes: {
@@ -609,7 +609,7 @@ GameTips: {
 
 	Tip1: 時として、奥地は朝になると静まり返る。
 	Tip2: 遥か彼方の地下世界には、かつて追悼の場所があった…。
-	Tip3: 水銀は確かに有害だが、結局のところ毒物であることに変わりはない。
+	Tip3: マーキュリウムは確かに有害だが、結局のところ毒物であることに変わりはない。
 	Tip4: 昔、面白い男がいたんだ。君も彼と同じくらい幸運だったらよかったのに…。
 	Tip5: 誰かが冥界に武器とコートとイスを置き忘れたようだ。
 	Tip6: 対応する宝石を所持していれば、ビーコンを使ってテレポートできる。
@@ -667,7 +667,7 @@ Items: {
 	}
 
 	ThornyClaws: {
-		DisplayName: 棘の爪
+		DisplayName: トゲの爪
 		Tooltip:
 			'''
 			花輪のチャージが最大時に攻撃すると、チャージを全て消費して、小さなマンイータ―を召喚する
@@ -711,12 +711,12 @@ Items: {
 
 	ExoticTulip: {
 		DisplayName: 神秘的なチューリップ
-		Tooltip: 花の軌跡を残す、ピンク色の花びらを飛ばす
+		Tooltip: 花の軌跡を残す、ピンク色の花びらを発射する
 	}
 
 	SweetTulip: {
 		DisplayName: 甘い香りのチューリップ
-		Tooltip: 蜂を引き寄せるオレンジ色の花びらを飛ばす
+		Tooltip: 蜂を引き寄せるオレンジ色の花びらを発射する
 	}
 
 	WeepingTulip: {
@@ -735,7 +735,7 @@ Items: {
 	}
 
 	SpikedIceStaff: {
-		DisplayName: 氷の棘の杖
+		DisplayName: 氷のトゲの杖
 		Tooltip: カーソルの位置に到達した後に落下する氷柱を最大で3本発射する
 	}
 
@@ -779,7 +779,7 @@ Items: {
 
 	RodOfTheTerra: {
 		DisplayName: 地震の杖
-		Tooltip: エネルギーをチャージ後、震動ビームを発射する
+		Tooltip: エネルギーをチャージした後、震動ビームを発射する
 	}
 
 	RodOfTheCondor: {
@@ -1008,7 +1008,7 @@ Items: {
 
 	DryadBloodPotion: {
 		DisplayName: ドライアドの血のポーション
-		Tooltip: ダメージを受けるデバフへの耐性が高まる
+		Tooltip: ダメージを受けるデバフに強くなる
 	}
 
 	WeightPotion: {
@@ -1244,12 +1244,12 @@ Items: {
 	}
 
 	MillionDollarPainting: {
-		DisplayName: 100万ドルの絵画
-		Tooltip: 「V.F.D.」
+		DisplayName: 絵画『100万ドル』
+		Tooltip: 「V.F.D」
 	}
 
 	TheLegend: {
-		DisplayName: 伝説
+		DisplayName: 絵画『伝説』
 		Tooltip: 「C.ナイト」
 	}
 
@@ -1536,8 +1536,8 @@ Items: {
 	}
 
 	Moss: {
-		DisplayName: 苔
-		Tooltip: 「C. ナイト」
+		DisplayName: 絵画『苔』
+		Tooltip: 「C.ナイト」
 	}
 
 	SoapSellersJacket: {
@@ -1602,7 +1602,7 @@ Items: {
 
 	MercuriumSword: {
 		DisplayName: マーキュリウムの剣
-		Tooltip: 攻撃が当たると毒ガスを発生させる
+		Tooltip: 攻撃が当たると毒ガスが発生する
 	}
 
 	StarFusion: {
@@ -1723,7 +1723,7 @@ Items: {
 
 	SentinelShield: {
 		DisplayName: センチネルの盾
-		Tooltip: ダメージを受ける代わりに、復讐の精霊を解き放つ可能性がある
+		Tooltip: ダメージを受けると、復讐の精霊を解き放つことがある
 	}
 
 	DynastyWoodBreastplate: {
@@ -2085,32 +2085,32 @@ Items: {
 
 	SphereOfAspiration: {
 		DisplayName: 理想の球
-		Tooltip: 「落とせ、燃やせ、祝福しろ、鍛造しろ、溺れさせろ、テクノマジック」
+		Tooltip: 「落とせ、燃やせ、祝福せよ、鍛造せよ、水に沈めろ、テクノマジック」
 	}
 
 	SphereOfCondor: {
 		DisplayName: コンドルの球
-		Tooltip: 「落とせ、祝福せよ、鍛えよ、溺れさせよ、テクノマジック」
+		Tooltip: 「燃やせ、祝福せよ、鍛造せよ、水に沈めろ、テクノマジック」
 	}
 
 	SphereOfPyre: {
 		DisplayName: 火葬の球
-		Tooltip: 「落とせ、祝福せよ、鍛えよ、溺れさせよ、テクノマジック」
+		Tooltip: 「落とせ、祝福せよ、鍛造せよ、水に沈めろ、テクノマジック」
 	}
 
 	SphereOfQuake: {
 		DisplayName: 地震の球
-		Tooltip: 「落とせ、祝福せよ、鍛えよ、溺れさせよ、テクノマジック」
+		Tooltip: 「落とせ、燃やせ、鍛造せよ、水に沈めろ、テクノマジック」
 	}
 
 	SphereOfShock: {
 		DisplayName: 電撃の球
-		Tooltip: 「落とせ、祝福せよ、鍛えよ、溺れさせよ、テクノマジック」
+		Tooltip: 「落とせ、燃やせ、祝福せよ、水に沈めろ、テクノマジック」
 	}
 
 	SphereOfStream: {
 		DisplayName: 流れの球
-		Tooltip: 「落とせ、祝福せよ、鍛えよ、溺れさせよ、テクノマジック」
+		Tooltip: 「落とせ、燃やせ、祝福せよ、鍛造せよ、テクノマジック」
 	}
 
 	DeerSkullBanner: {
@@ -2292,7 +2292,7 @@ Items: {
 	}
 
 	Has2rJacket: {
-		DisplayName: The Unspeakable Oneのジャケット
+		DisplayName: 語りえぬもののジャケット
 		Tooltip:
 			'''
 			{$Mods.RoA.RoADev}
@@ -2301,7 +2301,7 @@ Items: {
 	}
 
 	Has2rMask: {
-		DisplayName: The Unspeakable Oneの仮面
+		DisplayName: 語りえぬものの仮面
 		Tooltip:
 			'''
 			{$Mods.RoA.RoADev}
@@ -2310,7 +2310,7 @@ Items: {
 	}
 
 	Has2rPants: {
-		DisplayName: The Unspeakable Oneのパンツ
+		DisplayName: 語りえぬもののパンツ
 		Tooltip:
 			'''
 			{$Mods.RoA.RoADev}
@@ -2319,7 +2319,7 @@ Items: {
 	}
 
 	Has2rShades: {
-		DisplayName: The Unspeakable Oneの影
+		DisplayName: 語りえぬものの影
 		Tooltip: "{$Mods.RoA.RoADev}"
 	}
 
@@ -2333,7 +2333,7 @@ Items: {
 	}
 
 	NFAHorns: {
-		DisplayName: N.F.A.のつの
+		DisplayName: N.F.A.の角
 		Tooltip: "{$Mods.RoA.RoADev}"
 	}
 
@@ -2362,22 +2362,22 @@ Items: {
 	}
 
 	PeegeonChestguard: {
-		DisplayName: Peege.Onの胸当て
+		DisplayName: ピージー・オンの胸当て
 		Tooltip: "{$Mods.RoA.RoADev}"
 	}
 
 	PeegeonGreaves: {
-		DisplayName: Peege.Onのすね当て
+		DisplayName: ピージー・オンのすね当て
 		Tooltip: "{$Mods.RoA.RoADev}"
 	}
 
 	PeegeonHood: {
-		DisplayName: Peege.Onのフード
+		DisplayName: ピージー・オンのフード
 		Tooltip: "{$Mods.RoA.RoADev}"
 	}
 
 	PeegeonCape: {
-		DisplayName: Peege.Onのケープ
+		DisplayName: ピージー・オンのケープ
 		Tooltip:
 			'''
 			{$Mods.RoA.RoADev}
@@ -2386,42 +2386,42 @@ Items: {
 	}
 
 	SerorkBreastplate: {
-		DisplayName: Serorkの胸当て
+		DisplayName: スィルクの胸当て
 		Tooltip: "{$Mods.RoA.RoADev}"
 	}
 
 	SerorkGreaves: {
-		DisplayName: Serorkのすね当て
+		DisplayName: スィルクのすね当て
 		Tooltip: "{$Mods.RoA.RoADev}"
 	}
 
 	SerorkHelmet: {
-		DisplayName: Serorkの兜
+		DisplayName: スィルクの兜
 		Tooltip: "{$Mods.RoA.RoADev}"
 	}
 
 	SerorkMask: {
-		DisplayName: Serorkの仮面
+		DisplayName: スィルクの仮面
 		Tooltip: "{$Mods.RoA.RoADev}"
 	}
 
 	BRIPEsHeart: {
-		DisplayName: BRIPEの心
+		DisplayName: ブライブの心
 		Tooltip: "{$Mods.RoA.RoADev}"
 	}
 
 	BRIPEsHelmet: {
-		DisplayName: BRIPEのヘルメット
+		DisplayName: ブライブのヘルメット
 		Tooltip: "{$Mods.RoA.RoADev}"
 	}
 
 	BRIPEsRocketBoots: {
-		DisplayName: BRIPEのロケットブーツ
+		DisplayName: ブライブのロケットブーツ
 		Tooltip: "{$Mods.RoA.RoADev}"
 	}
 
 	cleoChestguard: {
-		DisplayName: cleo.の胸当て
+		DisplayName: クレオの胸当て
 		Tooltip:
 			'''
 			{$Mods.RoA.RoADev}
@@ -2430,7 +2430,7 @@ Items: {
 	}
 
 	cleoMask: {
-		DisplayName: cleo.のマスク
+		DisplayName: クレオのマスク
 		Tooltip:
 			'''
 			{$Mods.RoA.RoADev}
@@ -2439,22 +2439,22 @@ Items: {
 	}
 
 	cleoPants: {
-		DisplayName: cleo.のパンツ
+		DisplayName: クレオのパンツ
 		Tooltip: "{$Mods.RoA.RoADev}"
 	}
 
 	HereticHood: {
-		DisplayName: Hereticのフード
+		DisplayName: ヘレティクのフード
 		Tooltip: "{$Mods.RoA.RoADev}"
 	}
 
 	HereticChestguard: {
-		DisplayName: Hereticのローブ
+		DisplayName: ヘレティクのローブ
 		Tooltip: "{$Mods.RoA.RoADev}"
 	}
 
 	HereticPants: {
-		DisplayName: Hereticの装束 
+		DisplayName: ヘレティクの装束 
 		Tooltip: "{$Mods.RoA.RoADev}"
 	}
 
@@ -2464,17 +2464,17 @@ Items: {
 	}
 
 	Nihility: {
-		DisplayName: 虚無
+		DisplayName: 絵画『虚無』
 		Tooltip: 「N.F.A.」
 	}
 
 	Absolute: {
-		DisplayName: アブソリュート
+		DisplayName: 絵画『アブソリュート』
 		Tooltip: 「N.F.A.」
 	}
 
 	Them: {
-		DisplayName: 彼ら
+		DisplayName: 絵画『彼ら』
 		Tooltip: 「N.F.A.」
 	}
 
@@ -2719,7 +2719,7 @@ NPCs.Town: {
 		Quote5: 気をつけろ、巨大な獣が俺の後を追っている…いつ攻撃されてもおかしくないぞ。
 		Quote6: 急いで逃げだしたから、服の修理が必要だ。もし革を持っているなら、コインを支払うぞ。
 		Quote7: うわっ!!! またそんな風に驚かせたら、俺は爆発し始めるぞ!
-		Quote8: 銛？悪いけど、坊や、この銃は本物の弾丸を発射するんだ。
+		Quote8: 銛？悪いけど、坊や、この銃は本物の弾丸を撃つんだ。
 		Quote9: 俺が暗闇を怖がるだって？冗談だろう！暗闇の方が俺を怖がるはずだ。
 		Quote10: 革が欲しいのだが、手が以前ほど安定していない。もし入手できるなら、交換してもいいぞ。
 		Quote11: 昨夜、危うく木を撃ちそうになった！本当に、まるで賢そうに微笑んでいるように見えたぞ。
@@ -2856,9 +2856,9 @@ Projectiles: {
 	PineCone.DisplayName: 松ぼっくり
 	CactiCasterBase.DisplayName: サボテンの杖
 	Cacti.DisplayName: サボテンの
-	CactiExplosion.DisplayName: サボテンの
-	SharpIcicle.DisplayName: 氷の棘
-	SpikedIceStaffBase.DisplayName: 氷の棘の杖
+	CactiExplosion.DisplayName: サボテンの爆発
+	SharpIcicle.DisplayName: 氷のトゲ
+	SpikedIceStaffBase.DisplayName: 氷のトゲの杖
 	LumberjackAxeSlash.DisplayName: ランバージャックの斧
 	GrimBranch.DisplayName: グリムブランチ
 	VileSpike.DisplayName: ヴァイルスパイク
@@ -2950,7 +2950,7 @@ Projectiles: {
 	LothorStomp.DisplayName: ロサールの足踏み
 	LothorClawsSlash.DisplayName: ロサールの爪
 	LothorAngleAttack.DisplayName: ロサールの毒
-	LothorSpike.DisplayName: ロサールの棘
+	LothorSpike.DisplayName: ロサールのトゲ
 	CursedAcorn.DisplayName: 呪いのどんぐり
 	LothorScream.DisplayName: ロサールの叫び
 	LothorAngleAttack2.DisplayName: ロサールの毒
@@ -3009,7 +3009,7 @@ Tiles: {
 	DryadStatue.MapEntry: ドライアドの像
 	DryadStatue_Rubble.MapEntry: ドライアドの像
 	TreeBranch.MapEntry: 木の枝
-	SweepTulip.MapEntry: チューリップを掃く
+	SweepTulip.MapEntry: 甘い香りのチューリップ
 	ExoticTulip.MapEntry: 神秘的なチューリップ
 	WeepingTulip.MapEntry: 滴るチューリップ
 	SweetTulip.MapEntry: 甘い香りのチューリップ
@@ -3050,12 +3050,12 @@ Tiles: {
 	DullDaikatana.MapEntry: 壊れた閻魔刀
 	FlederSlayerDecoration.MapEntry: フレダー殺し
 	//Paintings
-	MillionDollarPainting.MapEntry: 100万ドルの絵画
-	Moss.MapEntry: 苔
-	TheLegend.MapEntry: 伝説
-	Absolute.MapEntry: アブソリュート
-	Nihility.MapEntry: 虚無
-	Them.MapEntry: 彼ら
+	MillionDollarPainting.MapEntry: 絵画『100万ドル』
+	Moss.MapEntry: 絵画『苔』
+	TheLegend.MapEntry: 絵画『伝説』
+	Absolute.MapEntry: 絵画『アブソリュート』
+	Nihility.MapEntry: 絵画『虚無』
+	Them.MapEntry: 絵画『彼ら』
 
 }
 

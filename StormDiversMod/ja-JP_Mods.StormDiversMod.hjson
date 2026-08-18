@@ -19,7 +19,7 @@ GameTips: {
 Achievements: {
 	AchievementAridBoss: {
 		FriendlyName: 解放された魂
-		Description: 古代の殻、つまりひどく朽ち果てた鎧に憑依された存在を倒す。
+		Description: 古代の殻、つまりひどく朽ち果てた鎧に憑依した存在を倒す。
 	}
 
 	AchievementStormBoss: {
@@ -103,7 +103,7 @@ Achievements: {
 	}
 
 	AchievementQuack: {
-		FriendlyName: クワック!!!
+		FriendlyName: クワック！
 		Description: クワックを5回、クワック、クワック、クワック、クワック、クワック...
 	}
 
@@ -143,17 +143,17 @@ Achievements: {
 	}
 
 	AchievementThePets: {
-		FriendlyName: 双子???
+		FriendlyName: 双子？
 		Description: 黄昏のフィギュアとベビーストームダイバーを同時に召喚する。
 	}
 
 	AchievementWhack: {
-		FriendlyName: いや…それは正しい使い方ではない!!!!
+		FriendlyName: いや…それは正しい使い方ではない！
 		Description: ペインブリンガーの杖で敵を累計で100回右クリックで攻撃する。
 	}
 
 	AchievementTemple: {
-		FriendlyName: 出て行け！！！！
+		FriendlyName: 出て行け！
 		Description: ジャングル寺院に本来より早く行き、その中身を手に入れようとする。
 	}
 
@@ -322,8 +322,8 @@ Buffs: {
 	}
 
 	ScanDroneDebuff: {
-		DisplayName: マークされた
-		Description: あなたの防御力は0になった
+		DisplayName: マーキング
+		Description: あなたの防御力が0になっている
 	}
 
 	ShroomiteBuff: {
@@ -412,12 +412,12 @@ Buffs: {
 
 	UltraBurnDebuff: {
 		DisplayName: 極度の火傷
-		Description: これは絶対に良くない！！！
+		Description: これは絶対に良くない！
 	}
 
 	UltraFrostDebuff: {
 		DisplayName: 極度の凍傷
-		Description: これは本当に本当に本当に痛い！！！！
+		Description: これは本当に本当に本当に痛い！
 	}
 
 	WebDebuff: {
@@ -527,7 +527,7 @@ Buffs: {
 
 	StormLightBuff: {
 		DisplayName: 小さなストームダイバー
-		Description: 可愛くないよ、全然可愛くない！！！
+		Description: 可愛くないよ、全然可愛くない！
 	}
 
 	TwilightPetBuff: {
@@ -798,7 +798,7 @@ Items: {
 		Tooltip:
 			'''
 			1以上のダメージを受けると、氷のトゲを複数放つ
-			その後6秒間、クリティカル率と移動速度が上昇する
+			その後、クリティカル率と移動速度が6秒間上昇する
 			'''
 	}
 
@@ -816,7 +816,7 @@ Items: {
 		Tooltip:
 			'''
 			1以上のダメージを受けると、氷のトゲを複数放つ
-			その後6秒間、クリティカル率と移動速度が上昇する
+			その後、クリティカル率と移動速度が6秒間上昇する
 			触れた敵にダメージを与える2つの霜の粒子が周囲を回る
 			移動中、ダメージを与える霜を残す
 			'''
@@ -887,7 +887,7 @@ Items: {
 		Tooltip:
 			'''
 			あなたの周りを周るスパイクボールを6つ召喚し、触れた敵にダメージを与える
-			ほとんどの敵の弾を低確率で破壊することがある
+			ほとんどの敵の弾を低確率で破壊する
 			'''
 	}
 
@@ -1061,7 +1061,7 @@ Items: {
 
 	AsteroidArrow: {
 		DisplayName: アステロイドの矢
-		Tooltip: 発射して少ししてからカーソルに向かって急加速する。急加速後は敵を無限に貫通する
+		Tooltip: 少ししてからカーソルに向かって急加速する。急加速後は敵を無限に貫通する
 	}
 
 	AsteroidBullet: {
@@ -1085,7 +1085,7 @@ Items: {
 
 	CrackedShot: {
 		DisplayName: ひび割れた弾丸
-		Tooltip: 発射時、4つの破片に分裂することがあり、それぞれ50%のダメージを与える
+		Tooltip: 4つの破片に分裂することがあり、それぞれ50%のダメージを与える
 	}
 
 	DesertArrow: {
@@ -1135,7 +1135,7 @@ Items: {
 		DisplayName: 隕石の矢
 		Tooltip:
 			'''
-			発射して少ししてから急加速する
+			少ししてから急加速する
 			急加速後はダメージが増加し、敵を2体貫通し、炎上させる
 			'''
 	}
@@ -1853,12 +1853,12 @@ Items: {
 	}
 
 	TheGoodBoyItem: {
-		DisplayName: ベストボーイ
+		DisplayName: 絵画『ベストボーイ』
 		Tooltip: 「あなたがいなくなると寂しくなります」
 	}
 
 	VortexiaPaintingItem: {
-		DisplayName: Storm's Additions Mod
+		DisplayName: 絵画『Storm's Additions Mod』
 		Tooltip: 「プレイしてくれてありがとう」
 	}
 
@@ -1939,7 +1939,7 @@ Items: {
 
 	AridBossPetItem: {
 		DisplayName: 輝く角
-		Tooltip: 光を放つ、リベレイテッドハスクを召喚する
+		Tooltip: 光を放つリベレイテッドハスクを召喚する
 	}
 
 	DerplingVine: {
@@ -1968,7 +1968,7 @@ Items: {
 
 	TwilightPetItem: {
 		DisplayName: 奇妙な黄昏のフード
-		Tooltip: 光を放つ、謎めいたフィギュアを召喚する
+		Tooltip: 光を放つ謎めいたフィギュアを召喚する
 	}
 
 	UltimateBossPetItem: {
@@ -2532,7 +2532,7 @@ Items: {
 		DisplayName: フェムラン
 		Tooltip:
 			'''
-			一度に3つ投げることができる
+			一度に最大3つまで投げられる
 			「え、これが上腕骨だと思ったの？」
 			'''
 	}
@@ -2631,7 +2631,7 @@ Items: {
 		Tooltip:
 			'''
 			左クリックで敵の防御力を10無視する素早い突きを行う
-			右クリックで弾丸を消費して拡散しにくい弾丸を4発発射する
+			右クリックで弾丸を消費してあまり拡散しない弾丸を4発撃つ
 			マスケット銃の弾丸を呪いのショットガンの弾丸に変換し、
 			呪いのショットガンの弾丸が12回当たると、次の突き攻撃のダメージが2.5倍になる
 			「槍にショットガンを括り付けるなんて、一体誰のアイデアだったんだ？」
@@ -2772,7 +2772,7 @@ Items: {
 
 	FlailLocker: {
 		DisplayName: フレイルロッカー
-		Tooltip: 「失われたシステムの遺物 」
+		Tooltip: 「失われたシステムの遺物」
 	}
 
 	FrostLauncher: {
@@ -2786,7 +2786,7 @@ Items: {
 	}
 
 	FrostSentry: {
-		DisplayName: 霜の棘の杖
+		DisplayName: 霜のトゲの杖
 		Tooltip:
 			'''
 			セントリーを召喚する
@@ -2907,7 +2907,7 @@ Items: {
 
 	HellSoulRifle: {
 		DisplayName: ソウルブラスター
-		Tooltip: 敵を貫通するソウルバレットを複数発射する
+		Tooltip: 敵を貫通するソウルバレットを複数撃つ
 	}
 
 	HellSoulSword: {
@@ -2999,7 +2999,7 @@ Items: {
 		Tooltip:
 			'''
 			回転するソーブレードを投げ、その場にとどまり、触れた敵にダメージを与える
-			一度に6枚まで投げられ、右クリックで全てのソーブレードを消滅させる
+			一度に最大6枚まで投げられ、右クリックで全てのソーブレードを消滅させる
 			'''
 	}
 
@@ -3105,7 +3105,7 @@ Items: {
 
 	MechDestroyerFlail: {
 		DisplayName: ヴェポライザー
-		Tooltip: 振りまわしている間と射程限界でトゲを8本発射する
+		Tooltip: 振りまわしている間と射程限界でトゲを8本放つ
 	}
 
 	MechPrimeStaff: {
@@ -3326,7 +3326,7 @@ Items: {
 		Tooltip:
 			'''
 			左クリックで鎌を振り回し、防御力を15無視する強力なオーラを発生させる
-			右クリックで弾薬を消費してライフルを発射する
+			右クリックで弾薬を消費して弾丸を撃つ
 			空中だと、上か下を押していないと強い反動がある
 			マスケット銃の弾丸をローズバレットに変換する
 			敵に近接攻撃を10回当てると、次の弾丸が特殊なローズバレットに変換される
@@ -3350,7 +3350,7 @@ Items: {
 		Tooltip:
 			'''
 			共に戦う飛行するサンタンクを召喚する
-			サンタンクは敵に向かい、防御力を12無視する弾丸を高速で発射し、
+			サンタンクは敵に向かい、防御力を12無視する弾丸を高速で撃ち、
 			敵を追尾するミサイルも発射する
 			「あらゆる悪党を追い詰める」
 			'''
@@ -3423,7 +3423,7 @@ Items: {
 		DisplayName: アステロイドブラスター
 		Tooltip:
 			'''
-			拡散しやすい弾丸を2発発射する
+			拡散しやすい弾丸を2発撃つ
 			撃ち続けていると拡散しにくくなっていく
 			50%の確率で弾丸を消費しない
 			'''
@@ -3643,7 +3643,7 @@ Items: {
 		DisplayName: スノーマンのトミーガン
 		Tooltip:
 			'''
-			左右にのみ発射できる
+			左右にのみ撃てる
 			上/下入力で上下をそれぞれ45度の角度で狙う
 			「この武器があれば、俺は本物のギャングスターだ」
 			'''
@@ -4658,8 +4658,8 @@ Projectiles: {
 }
 
 Tiles: {
-	DesertOrePlaced.MapEntry: 禁断鉱石
-	IceOrePlaced.MapEntry: 氷鉱石
+	DesertOrePlaced.MapEntry: 禁断の破片
+	IceOrePlaced.MapEntry: 氷の破片
 	BabyDerpBannerPlace.MapEntry: 古いバナー！
 	FrozenEyeBannerPlace.MapEntry: 古いバナー！
 	FrozenSoulBannerPlace.MapEntry: 古いバナー！
@@ -4688,8 +4688,8 @@ Tiles: {
 	SnowmanPizzaBannerPlaced.MapEntry: 古いバナー！
 	SnowmanBombBannerPlaced.MapEntry: 古いバナー！
 	PainMusicBoxPlaced.MapEntry: オルゴール (アルティメットペイン)
-	TheGoodBoyPlaced.MapEntry: ベストボーイ
-	VortexiaPaintingPlaced.MapEntry: Storm's Additions Mod
+	TheGoodBoyPlaced.MapEntry: 絵画『ベストボーイ』
+	VortexiaPaintingPlaced.MapEntry: 絵画『Storm's Additions Mod』
 	MusicBoxAridPlaced.MapEntry: オルゴール (エンシェントハスク)
 	MusicBoxStormPlaced.MapEntry: オルゴール (オーバーロードスキャンドローン)
 	MusicBoxUltimatePlaced.MapEntry: オルゴール (ペインブリンガー)

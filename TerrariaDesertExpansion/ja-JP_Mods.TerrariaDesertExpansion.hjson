@@ -53,8 +53,83 @@ Items: {
 	}
 
 	MegaCactusSlimeTrophy: {
-		Tooltip: ""
 		DisplayName: メガサボテンスライムのトロフィー
+		Tooltip: ""
+	}
+
+	PharaohRelic: {
+		DisplayName: ファラオのレリック
+		Tooltip: ""
+	}
+
+	MegaCactusSlimeRelic: {
+		DisplayName: メガサボテンスライムのレリック
+		Tooltip: ""
+	}
+
+	CactusSlime_Mask: {
+		DisplayName: メガサボテンスライムのマスク
+		Tooltip: ""
+	}
+
+	PharaohsCurse_Mask: {
+		DisplayName: ファラオのマスク
+		Tooltip: ""
+	}
+
+	FunkyFruit: {
+		DisplayName: ファンキーフルーツ
+		Tooltip: ミニサボテンスライムを召喚する
+	}
+
+	DesertAloe: {
+		DisplayName: 砂漠のアロエ
+		Tooltip: 「ベタベタする...」
+	}
+
+	AloeStaff: {
+		DisplayName: アロエの杖
+		Tooltip:
+			'''
+			共に戦うアロエバブル
+			攻撃時に対象へ棘を埋め込み、敵の防御力を5無視する
+			棘が刺さった敵を鞭で攻撃するとライフを吸収する
+			アロエバブルは一度に1体までしか召喚できない
+			'''
+	}
+
+	AboreArrow: {
+		DisplayName: アロエの棘矢
+		Tooltip:
+			'''
+			飛行中に3本の大きな棘へ分裂する
+			棘は敵の防御力を15無視する
+			'''
+	}
+
+	NeedleStorm: {
+		DisplayName: ニードルストーム
+		Tooltip:
+			'''
+			空から針を降らせる
+			敵の防御力を10無視する
+			「哀れなる者よ、針を受けよ。」
+			'''
+	}
+
+	BotanicBomb: {
+		DisplayName: 植物爆弾
+		Tooltip:
+			'''
+			破片を撒き散らす、何度でも使える爆弾
+			クールダウン：30秒
+			起爆：5秒後
+			'''
+	}
+
+	MegaCactusSlimeTreasureBag: {
+		DisplayName: トレジャーバッグ（メガサボテンスライム）
+		Tooltip: 右クリックで開く
 	}
 }
 
@@ -98,6 +173,14 @@ Projectiles: {
 	CurseBlastBig.DisplayName: Curse Blast Big
 	DustVortex.DisplayName: Dust Vortex
 	DesertBlade.DisplayName: Desert Blade
+	MiniCactusSlime.DisplayName: Mini Cactus Slime
+	AloeStriker.DisplayName: Aloe Striker
+	AloeLeaf.DisplayName: Aloe Leaf
+	AboreArrowProjectile.DisplayName: Abore Arrow
+	NeedleStormProjectile.DisplayName: Needle Storm
+	BotanicBombProj.DisplayName: Botanic Bomb Proj
+	BotanicBombShrapnel.DisplayName: Botanic Bomb Shrapnel
+	ArborArrowShrapnel.DisplayName: Arbor Arrow Shrapnel
 }
 
 Buffs: {
@@ -108,6 +191,26 @@ Buffs: {
 
 	HappySpiritBuff: {
 		DisplayName: 精霊の加護
-		Description: なんだかツイてる気がする！
+		Description: ライフ自然回復と運が大幅に上昇
+	}
+
+	MiniCactusSlimeBuff: {
+		DisplayName: ミニサボテンスライム
+		Description: ごはんちょうだい！
+	}
+
+	AloeStaffBuff: {
+		DisplayName: アロエバブル
+		Description: アロエバブルが一緒に戦ってくれる
+	}
+
+	AloeLeafDebuff: {
+		DisplayName: アロエの葉
+		Description: ""
+	}
+
+	BotanicBombCooldown: {
+		DisplayName: 植物爆弾 クールダウン
+		Description: ""
 	}
 }

@@ -1,8 +1,8 @@
 Buffs: {
 	CarapaceDartDebuff: {
 		DisplayName: 串刺し
-		Tooltip: 出血がひどく、ライフが徐々に減少
-		Description: 出血がひどく、ライフが徐々に減少
+		Tooltip: 出血がひどく、ライフが徐々に減っていく
+		Description: 出血がひどく、ライフが徐々に減っていく
 	}
 }
 
@@ -44,7 +44,7 @@ Items: {
 
 	LuminiteDart: {
 		DisplayName: ルミナイトのダーツ
-		Tooltip: "「私の邪魔をするなんて大胆ですね...」"
+		Tooltip: 「私の邪魔をするなんて大胆ですね...」
 	}
 
 	ShimmerDart: {

@@ -1,6 +1,6 @@
 Projectiles: {
 	CustomBoneProjectile.DisplayName: 骨
-	CactusSpineProjectile.DisplayName: サボテンの棘
+	CactusSpineProjectile.DisplayName: サボテンのトゲ
 	GladiusProjectile.DisplayName: グラディウスソードビーム
 	BatProjectile.DisplayName: コウモリ
 	MeteorBoomerangProjectile.DisplayName: 投げたフェーズブレード
@@ -12,16 +12,16 @@ Projectiles: {
 	SkullJackProjectile.DisplayName: 追尾頭蓋骨
 	TestThrowableProjectile.DisplayName: Test Throwable Projectile
 	TestThrowableComboProj.DisplayName: Test Throwable Combo Proj
-	TentacleSpikeProjectile.DisplayName: テンタクルスパイク 棘
+	TentacleSpikeProjectile.DisplayName: テンタクルスパイクのトゲ
 	BoomerangProjV3.DisplayName: 死神の鎌
 	ChargedKnifeProjV3.DisplayName: 魔法のブーメラン
 	FourStageCombo.DisplayName: Four Stage Combo
-	PreHardSwordProjectile.DisplayName: 鉱石剣ソードビーム
-	ShortSwordProjectile.DisplayName: 短剣ソードビーム
+	PreHardSwordProjectile.DisplayName: 鉱石剣のソードビーム
+	ShortSwordProjectile.DisplayName: 短剣のソードビーム
 	WoodenSwordNutProjectile.DisplayName: ドングリ
 	StylistKilLaKillScissorsIWishOpenProj.DisplayName: 開いた粋なハサミ
 	StylistKilLaKillScissorsIWishProjectile.DisplayName: 粋なハサミ
-	LightsBaneProxy.DisplayName: ライツベイン 斬撃
+	LightsBaneProxy.DisplayName: ライツベインの斬撃
 	BloodShotProxy.DisplayName: 血の弾
 	MyChargedSwordHoldout.DisplayName: My Charged Sword Holdout
 	FieryGreatswordCharge.DisplayName: ヴォルケイノチャージ
@@ -33,7 +33,7 @@ Projectiles: {
 	BladeofGrassProjectile.DisplayName: グラスブレード
 	GrassBladesThrust.DisplayName: 葉の刃
 	BladeOfGrassProj2.DisplayName: 葉の刃
-	IceSpikeProjectile.DisplayName: 氷の棘
+	IceSpikeProjectile.DisplayName: 氷のトゲ
 	BeeKeeperProjectile.DisplayName: ビー・キーパー
 	PurpleToxicBubble.DisplayName: 紫の泡
 	NightsEdgeStyled.DisplayName: ナイトエッジスタイル
@@ -52,7 +52,7 @@ Projectiles: {
 	AdamantiteSwordProjectile.DisplayName: アダマンタイトの剣
 	AdamantiteSwordProj2.DisplayName: ライトニングオーブ
 	TitaniumSwordProjectile.DisplayName: チタンの剣
-	TitaniumStormShard2.DisplayName: チタンの破片
+	TitaniumStormShard2.DisplayName: チタンの欠片
 	ExcaliburProjectile.DisplayName: エクスカリバー
 	ExcaliburProj2.DisplayName: エンチャントエクスカリバー
 	TrueExcaliburProj2.DisplayName: エンチャントトゥルーエクスカリバー
@@ -62,7 +62,7 @@ Projectiles: {
 	FrostbrandProjectile.DisplayName: フロストブランド
 	FrostbrandProj2.DisplayName: 氷の衝撃波
 	TrueNightsEdgeProjectile.DisplayName: トゥルーナイトエッジ
-	TrueNightsEdgeClone.DisplayName: True Nights Edge Clone
+	TrueNightsEdgeClone.DisplayName: トゥルーナイトエッジの複製
 	TrueNightsEdgeProj2.DisplayName: トゥルーナイトエッジの衝撃波
 	TrueNightsEdgeProj3.DisplayName: トゥルナイトエッジのソードビーム
 	InfluxWaverProjectile.DisplayName: インフラックスウェイバー
@@ -120,12 +120,12 @@ Projectiles: {
 	CobaltRepeaterProj.DisplayName: コバルトの機械弓の斬撃
 	MythrilRepeaterProj.DisplayName: ミスリルの機械弓
 	OrichalcumRepeaterProj.DisplayName: オリハルコンアロー
-	MeleeChlorophyteLeaf.DisplayName: クロロファイトの葉っぱ
+	MeleeChlorophyteLeaf.DisplayName: クロロファイトの葉
 	MeleeMagnetSphereBolt.DisplayName: マグネットボルト
 	AdamantiteRepeaterProj.DisplayName: 雷の矢
 	HallowedRepeaterProj.DisplayName: 聖なる矢
-	CrystalLeafShotProj.DisplayName: クロロファイトの葉っぱ
-	CrystalLeaf.DisplayName: クリスタルの葉っぱ
+	CrystalLeafShotProj.DisplayName: クロロファイトの葉
+	CrystalLeaf.DisplayName: クリスタルの葉
 	GoldenShowerProj.DisplayName: 黄金の雲
 	GoldenShowerProj1.DisplayName: 黄金の雲1
 	GoldenShowerProj2.DisplayName: 黄金の雲2
@@ -221,11 +221,11 @@ Projectiles: {
 	InfernoFriendlyBolt.DisplayName: インフェルノフォーク
 	LostSoulFriendly.DisplayName: 霊魂
 	BlizzardProj.DisplayName: 氷塊
-	BlizzardProj2.DisplayName: 氷の棘
+	BlizzardProj2.DisplayName: 氷のトゲ
 	LaserMachinegunProj.DisplayName: 貫通レーザー
 	FlowerofFireProj.DisplayName: ファイアフラワー
 	FlowerofFrostProj.DisplayName: フロストフラワー
-	NettleBurstProj.DisplayName: 棘の球体
+	NettleBurstProj.DisplayName: トゲの球体
 	NettleBurstProj2.DisplayName: 植物の
 	MoltenFuryProj.DisplayName: 爆発矢
 	PhoenixBlasterProj.DisplayName: フェニックスブラスターのグレネード
@@ -234,12 +234,12 @@ Projectiles: {
 	VenusMagnumProj.DisplayName: ヴィーナスマグナムレーザー
 	UziHoldProj.DisplayName: ウージー
 	CornExplosion.DisplayName: コーン爆発
-	CornProj.DisplayName: トウモロコシのグレネード
+	CornProj.DisplayName: コーングレネード
 	SDMGProj.DisplayName: SDMG イルカ
 	StyngerHoldProj.DisplayName: スティンガー発射準備
 	JackOLanternLauncherProj.DisplayName: ジャック・オー・ランタン爆弾
 	BladetongueProj.DisplayName: ブレイドタン
-	OnyxBlasterShardProj.DisplayName: オニキスブラスタークリスタルの破片
+	OnyxBlasterShardProj.DisplayName: オニキスブラスタークリスタルの欠片
 	XenopopperProj2.DisplayName: ゼノホッパーの泡
 	XenopopperProj.DisplayName: エイリアンバレット
 	MagicDaggerRight.DisplayName: マジックダガー右
@@ -275,7 +275,7 @@ Projectiles: {
 	FrostStaffShotProj.DisplayName: 降霜の杖の氷の弾2
 	FrostStaffRightProj.DisplayName: 降霜の杖右
 	FrostStaffLeftProj.DisplayName: 降霜の杖左
-	FrostStaffShotProj2.DisplayName: 降霜の杖の氷の棘
+	FrostStaffShotProj2.DisplayName: 降霜の杖の氷のトゲ
 	CrystalSerpentRightProj.DisplayName: クリスタルサーペント右
 	CrystalSerpentLeftProj.DisplayName: クリスタルサーペント左
 	CrystalPulseShotProj.DisplayName: クリスタルサーペント1
@@ -336,7 +336,7 @@ Projectiles: {
 	AdamantiteGlaiveProjectile.DisplayName: アダマンタイトの剣槍
 	TitaniumTridentProjectile.DisplayName:  チタンのトライデント
 	TitaniumTridentShot.DisplayName: チタンの衝撃波
-	TitaniumTridentShard.DisplayName: チタンの破片
+	TitaniumTridentShard.DisplayName: チタンの欠片
 	GungnirProjectile.DisplayName: グングニル
 	GungnirReticle.DisplayName: グングニルレーザー
 	MonkStaffT2Projectile.DisplayName: ガーストリィグレイブ
@@ -497,7 +497,7 @@ Projectiles: {
 	StarWrathShot.DisplayName: スターラースの星
 	MeowmereProjectile.DisplayName: ミャウメアー
 	MeowmereShot.DisplayName: 猫の頭
-	ExampleAdvancedFlailProjectile.DisplayName: Example Advanced Flail Projectile
+	ExampleAdvancedFlailProjectile.DisplayName: サンプル用の高度なフレイル
 	MaceProj.DisplayName: メイス
 	FlamingMaceProj.DisplayName: 炎のメイス
 	BallOHurtProj.DisplayName: ボールオブハート
@@ -525,6 +525,170 @@ Projectiles: {
 	ChainGuillotinesProj.DisplayName: チェーンギロチン
 	RainbowBoulderMaceProj.DisplayName: 虹の大岩のメイス
 	RainbowBoulderMaceShot.DisplayName: 虹の大岩
+	NightsEdgeProjectile22.DisplayName: ナイトエッジの衝撃波
+	NightsEdgeShot.DisplayName: ナイトエッジの衝撃波
+	NightsEdgeShot2.DisplayName: ナイトエッジの衝撃波
+	TrueNightsEdgeShot.DisplayName: トゥルーナイトエッジの衝撃波
+	TrueNightsEdgeShot2.DisplayName: トゥルーナイトエッジの衝撃波
+	TrueNightsEdgeShot2Green.DisplayName: トゥルーナイトエッジの緑の衝撃波
+	TrueNightsEdgeShotGreen.DisplayName: トゥルーナイトエッジの緑の衝撃波
+	TrueNightsEdgeSlash2.DisplayName: トゥルーナイトエッジの大きな衝撃波
+	TrueNightsEdgeSlash2Green.DisplayName: トゥルーナイトエッジの緑の衝撃波
+	TrueNightsEdgeSlashGreen.DisplayName: トゥルーナイトエッジの緑の衝撃波
+	IceScythe.DisplayName: 氷の鎌
+	DeathScythe.DisplayName: 死の鎌
+	DeathScythe2.DisplayName: 死の鎌
+	SeedlerShot1.DisplayName: シードラーの種
+	SeedlerShot2.DisplayName: シードラーの種
+	SeedlerCloud.DisplayName: シードラーの種の雲
+	SeedlerCloud2.DisplayName: シードラーの種の雲
+	FlamingScythe.DisplayName: 燃える鎌
+	DD2SquireDemonSwordProjectile.DisplayName: インフェルノブランド
+	DD2SquireDemonSwordShot.DisplayName: インフェルノブランドのヘルファイア
+	PhasebladeHoldProjectile.DisplayName: フェーズブレード
+	PhasebladeThrowProjectile.DisplayName: 投げたフェーズブレード
+	ChristmasTreeSwordStar.DisplayName: クリスマスツリーソードの星
+	ChristmasTreeSwordShot2.DisplayName: クリスマスツリーソードの星
+	SpaceGunShot.DisplayName: スペースガンのレーザー
+	LeafBlowerLeftProj.DisplayName: リーフブロワー左
+	LeafBlowerRightProj.DisplayName: リーフブロワー右
+	LeafBlowerShot.DisplayName: リーフブロワー
+	FlareProjectile.DisplayName: ソーラーフレア
+	FlareShot.DisplayName: ソーラーフレア
+	FlareShot2.DisplayName: ソーラーフレア
+	FlareShot3.DisplayName: ソーラーフレア
+	FlareShotCounter.DisplayName: ソーラーフレア
+	WandofSparkingShot.DisplayName: 火花
+	WandofFrostingShot.DisplayName: 降霜の火花
+	AquaScepterLeftProj.DisplayName: アクアセプター左
+	AquaScepterRightProj.DisplayName: アクアセプター右
+	AquaScepterShot.DisplayName: 水流
+	VilethornLeftProj.DisplayName: ヴァイルソーン左
+	VilethornMagicCircleProj.DisplayName: ヴァイルソーンの魔法陣
+	VilethornRightProj.DisplayName: ヴァイルソーン右
+	VilethornShot.DisplayName: ヴァイルソーンのトゲ
+	VilethornShot2.DisplayName: ヴァイルソーンのトゲ
+	CrystalVileShardLeftProj.DisplayName: クリスタルヴァイルシャード左
+	CrystalVileShardMagicCircleProj.DisplayName: クリスタルヴァイルシャードの魔法陣
+	CrystalVileShardRightProj.DisplayName: クリスタルヴァイルシャード右
+	CrystalVileShardShot.DisplayName: クリスタルヴァイルシャードのクリスタルのトゲ
+	CrystalVileShardShot2.DisplayName: クリスタルヴァイルシャードのクリスタルのトゲ
+	NettleBurstLeftProj.DisplayName: ネトルバースト左
+	NettleBurstMagicCircleProj.DisplayName: ネトルバーストの魔法陣
+	NettleBurstRightProj.DisplayName: ネトルバースト右
+	NettleBurstShot.DisplayName: トゲ
+	NettleBurstShot2.DisplayName: トゲ
+	NettleBurstFlowerShot.DisplayName: 花びら
+	NettleBurstFlowerShot2.DisplayName: 花びら
+	NettleBurstHealShot.DisplayName: ネトルバーストの回復
+	NimbusRodLeftProj.DisplayName: 雨雲の杖左
+	NimbusRodShotProj.DisplayName: 雨雲の杖の電撃
+	NimbusRodRightProj.DisplayName: 雨雲の杖右
+	CrimsonRodLeftProj.DisplayName: クリムゾンロッド左
+	CrimsonRodRightProj.DisplayName: クリムゾンロッド右
+	CrimsonRodShot.DisplayName: クリムゾンロッドの血流
+	PoisonStaffLeftProj.DisplayName: 毒の杖左
+	PoisonStaffRightProj.DisplayName: 毒の杖右
+	PoisonStaffShot.DisplayName: 毒の杖の毒の牙
+	VenomStaffLeftProj.DisplayName: 猛毒の杖左
+	VenomStaffRightProj.DisplayName: 猛毒の杖右
+	VenomStaffShot.DisplayName: 猛毒の杖の毒の牙
+	SoulDrainLeftProj.DisplayName: ライフドレイン左
+	SoulDrainShot.DisplayName: ライフドレイン右
+	SpectreStaffLeftProj.DisplayName: スペクタースタッフ左
+	SpectreStaffRightProj.DisplayName: スペクタースタッフ右
+	SpectreStaffShot.DisplayName: スペクタースタッフのスペクターオーブ
+	TestLaser.DisplayName: テストレーザー
+	ShadowbeamStaffLaser.DisplayName: シャドウビームスタッフのレーザー
+	HeatRayLeftProj.DisplayName: 熱線銃左
+	HeatRayRightLaser.DisplayName: 熱線銃のチャージレーザー
+	HeatRayRightProj.DisplayName: 熱線銃右
+	HeatRayLeftLaser.DisplayName: 熱線銃のレーザー
+	ApprenticeStaffT3LeftProj.DisplayName: ベッツイの怒り左
+	ApprenticeStaffT3RightProj.DisplayName: ベッツイの怒り右
+	ApprenticeStaffT3Shot.DisplayName: ベッツイの怒りの炎
+	StaffofEarthLeftProj.DisplayName: 大地の杖左
+	StaffofEarthShot.DisplayName: 大地の杖の岩
+	ClingerStaffLeftProj.DisplayName: クリンガースタッフ左
+	ClingerStaffShot.DisplayName: クリンガースタッフのクリンガー
+	ClingerStaffShot2.DisplayName: クリンガースタッフのクリンガーの呪炎
+	ClingerStaffRightProj.DisplayName: クリンガースタッフ右
+	FetidBaghnakhsProjectile.DisplayName: 悪臭のバクナウ
+	FetidBaghnakhsShot.DisplayName: 悪臭のバクナウの追撃
+	BladedGloveProjectile.DisplayName: 爪付きグローブ
+	BladedGloveShot.DisplayName: 爪付きグローブの追撃
+	PoisonBulletProjectile.DisplayName: 毒の弾丸
+	PoisonArrowProjectile.DisplayName: 毒矢
+	HellfireBulletProjectile.DisplayName: ヘルファイアの弾丸
+	SpectreArrowProjectile.DisplayName: スペクターアロー
+	SpectreArrowShot.DisplayName: スペクター
+	ShroomiteArrowCloud.DisplayName: キノコの胞子雲
+	ShroomiteArrowProjectile.DisplayName: シュルーマイトの矢
+	FrostBulletProjectile.DisplayName: 氷の弾丸
+	FrostBulletShot.DisplayName: 氷の欠片
+	MegasharkHoldout.DisplayName: メガシャーク
+	MinisharkHoldout.DisplayName: ミニシャーク
+	MinisharkProj.DisplayName: ミニシャークのミサイル
+	TheUndertakerHoldout.DisplayName: アンダーテイカ―
+	FlintlockPistolHoldout.DisplayName: フリントロックピストル
+	MusketHoldout.DisplayName: マスケット銃
+	RedRyderHoldout.DisplayName: レッドライダー
+	RevolverHoldout.DisplayName: リボルバー
+	BoomstickHoldout.DisplayName: ブームスティック
+	QuadBarrelShotgunHoldout.DisplayName: クワッドバレルショットガン
+	HandgunHoldout.DisplayName: 拳銃
+	PhoenixBlasterLeftHoldout.DisplayName: フェニックスブラスター左
+	PhoenixBlasterRightHoldout.DisplayName: フェニックスブラスター右
+	ClockworkAssaultRifleHoldout.DisplayName: ゼンマイ式アサルトライフル
+	ClockworkAssaultRifleShot.DisplayName: ゼンマイ式アサルトライフルの歯車
+	GatligatorHoldout.DisplayName: ガトリゲイター
+	ShotgunHoldout.DisplayName: ショットガン
+	OnyxBlasterHoldout.DisplayName: オニキスブラスター
+	UziHoldout.DisplayName: ウージー
+	VenusMagnumHoldout.DisplayName: ヴィーナスマグナム
+	VenusMagnumLaser.DisplayName: ヴィーナスマグナムのレーザー
+	TacticalShotgunHoldout.DisplayName: タクティカルショットガン
+	SniperRifleHoldout.DisplayName: スナイパーライフル
+	CandyCornRifleHoldout.DisplayName: キャンディコーン・ライフル
+	CandyCornShot.DisplayName: キャンディコーン
+	ChainGunHoldout.DisplayName: チェーンガン
+	ChainGunMissile.DisplayName: チェーンガンのミサイル
+	XenopopperHoldout.DisplayName: ゼノホッパー
+	VortexBeaterHoldout.DisplayName: ボルテックスビーター
+	VortexBeaterRightHoldout.DisplayName: ボルテックスビーター右
+	VortexBeaterVortexPortal.DisplayName: ボルテックスビーターの渦
+	VortexBeaterVortexLightning.DisplayName: ボルテックスビーターの渦の電撃
+	SDMGHoldout.DisplayName: SDMG
+	SDMGProj2.DisplayName: SDMGのイルカ
+	ProximityMineLauncherHoldout.DisplayName: 感知地雷ランチャー
+	ProximityMineLauncherRightHoldout.DisplayName: 感知地雷ランチャー右
+	ProximityMineLauncherRightShot.DisplayName: 感知地雷ランチャーのナノボット
+	GrenadeLauncherHoldout.DisplayName: グレネードランチャー
+	GrenadeLauncherRightHoldout.DisplayName: グレネードランチャー右
+	GrenadeLauncherRightShot.DisplayName: グレネードランチャーのシードグレネード
+	RocketLauncherHoldout.DisplayName: ロケットランチャー
+	RocketLauncherRightHoldout.DisplayName: ロケットランチャー右
+	RocketLauncherRightShot.DisplayName: ロケットランチャーのクラスターロケット
+	RocketLauncherExhaustFlame.DisplayName: ロケットランチャー
+	RocketLauncherMinissile.DisplayName: ロケットランチャーのマイクロロケット
+	RocketLauncherExhaustFlameFriendly.DisplayName: ロケットランチャー
+	NailGunHoldout.DisplayName: 釘打機
+	NailGunShot.DisplayName: 釘打
+	StyngerHoldout.DisplayName: スティンガー
+	StyngerRightHoldout.DisplayName: スティンガー右
+	JackOLanternLauncherFire.DisplayName: ジャック・オー・ランタンの炎
+	JackOLanternLauncherHoldout.DisplayName: ジャック・オー・ランタン・ランチャー
+	JackOLanternLauncherRightHoldout.DisplayName: ジャック・オー・ランタン・ランチャー右
+	SnowmanCannonHoldout.DisplayName: スノーマンキャノン
+	SnowmanCannonRightHoldout.DisplayName: スノーマンキャノン右
+	SnowmanCannonBigShot.DisplayName: スノーマンキャノンのエネルギーブラスト
+	ElectrosphereLauncherHoldout.DisplayName: エレクトロスフィアランチャー
+	ElectrosphereLauncherShot.DisplayName: エレクトロスフィアミサイル
+	ElectrosphereLauncherShot2.DisplayName: エレクトロスフィア
+	ElectrosphereLauncherRightHoldout.DisplayName: エレクトロスフィアランチャー右
+	ElectrosphereLauncherRightShot.DisplayName: エレクトロスフィアランチャーのライトニングオーブ
+	ElectrosphereLauncherRightShotLightning.DisplayName: エレクトロスフィアランチャーの電撃
+	SnowballCannonHoldout.DisplayName: 雪玉キャノン
 }
 
 ItemDescriptions: {
@@ -536,8 +700,8 @@ ItemDescriptions: {
 		'''
 	CactusSword:
 		'''
-		攻撃が当たると、棘を2つ放つ
-		サボテンセットを装備していると自身から棘を2つ放つ
+		攻撃が当たると、トゲを2つ放つ
+		サボテンセットを装備していると自身からトゲを2つ放つ
 		'''
 	Gladius:
 		'''
@@ -549,12 +713,9 @@ ItemDescriptions: {
 	BatBat: 攻撃スタイルが一新され、攻撃が当たると、敵を追尾するコウモリを1-2匹召喚する
 	Phaseblade:
 		'''
-		攻撃時にレーザーを放つ
-		レーザーは敵を{0}体貫通する
-		5回目の攻撃時はフェーズブレードを投げる
-		投げたフェーズブレードは敵を{1}体貫通する
-		また、トパーズ/アメジスト→サファイア/エメラルド→ルビー/ダイアモンド/コハクの順に弾速が早く、
-		敵の貫通数が多い
+		攻撃スタイルが一新された
+		5回目の攻撃時にフェーズブレードを投げ、敵を{0}体貫通してから戻ってくる
+		ランクが高い宝石ほど貫通数が増え、より早く、遠くまで投げる
 		'''
 	FalconBlade: 攻撃スタイルが一新され、テラグリムやアルカリスと同様にかまいたちを放つようになった
 	// Wooden Sword Descriptions
@@ -563,39 +724,39 @@ ItemDescriptions: {
 	WoodSwordBoreal:
 		'''
 		ボーリアルウッドセットを装備していると、攻撃時にどんぐりを放つ
-		どんぐりは1回跳ね返る
-		また、攻撃が当たると、30%の確率で3秒間霜焼けを与える
+		どんぐりは地形に当たると1回跳ね返る
+		また、攻撃が当たると、30%の確率で霜焼けを3秒間与える
 		'''
 	WoodSwordEbonwood:
 		'''
 		エボンウッドセットを装備しているとダメージが5%増加し、攻撃時にどんぐりを放つ
-		どんぐりは2回跳ね返る
-		また、攻撃が当たると、30%の確率で3秒間毒を与える
+		どんぐりは地形に当たると2回跳ね返る
+		また、攻撃が当たると、30%の確率で毒を3秒間与える
 		ほとんどの不浄の敵に対してダメージが20%増加する
 		'''
 	WoodSwordRichMahogany:
 		'''
 		リッチマホガニーセットを装備していると、攻撃時にどんぐりを放つ
-		どんぐりは1回跳ね返る
+		どんぐりは地形に当たると1回跳ね返る
 		また、攻撃が当たると、俊足とライフ自然回復を15秒間得る
 		'''
 	WoodSwordShadewood:
 		'''
 		シェイドウッドセットを装備しているとクリティカル率が5%上昇し、攻撃時にどんぐりを放つ
-		どんぐりは2回跳ね返る
-		また、攻撃が当たると、30%の確率で3秒間毒を与える
+		どんぐりは地形に当たると2回跳ね返る
+		また、攻撃が当たると、30%の確率で毒を3秒間与える
 		ほとんどの真紅の敵に対してダメージが20%増加する
 		'''
 	WoodSwordPalm:
 		'''
 		ヤシの木セットを装備しているとノックバックが1増加し、攻撃時にどんぐりを放つ
-		どんぐりは1回跳ね返る
+		どんぐりは地形に当たると1回跳ね返る
 		また、剣のサイズが50%増加する
 		'''
 	WoodSwordPearlwood:
 		'''
 		パールウッドセットを装備していると、攻撃時にどんぐりを放つ
-		どんぐりは3回跳ね返る
+		どんぐりは地形に当たると3回跳ね返る
 		ハードモードなら、ダメージが30%増加し、クリティカル率が20%上昇し、
 		防御力が15増加し、被ダメージを10%軽減する
 		ほとんどの聖域の敵に対してダメージが20%増加する
@@ -603,7 +764,7 @@ ItemDescriptions: {
 	WoodSwordAsh:
 		'''
 		アッシュウッドセットを装備していると、攻撃時にどんぐりを放つ
-		どんぐりは2回跳ね返る
+		どんぐりは地形に当たると2回跳ね返る
 		また、攻撃が当たると、30%の確率で2秒間炎上させる
 		'''
 	WoodSwordUnknown:
@@ -625,7 +786,7 @@ ItemDescriptions: {
 		'''
 	OreSwordLead:
 		'''
-		鉛セットを装備していると、ノックバックが1増加し、攻撃が当たると、30%の確率で3秒間毒を与える
+		鉛セットを装備していると、ノックバックが1増加し、攻撃が当たると、30%の確率で毒を3秒間与える
 		'''
 	OreSwordSilver:
 		'''
@@ -650,7 +811,7 @@ ItemDescriptions: {
 	OreBroadsword:
 		'''
 		攻撃時にソードビームを放つ 
-		銅/錫→鉄/鉛→銀/タングステン→金/プラチナの順に射程が長い
+		ランクが高いほど射程が長くなる
 		選択中は周囲を照らす
 		'''
 	OreShortsword:
@@ -663,7 +824,7 @@ ItemDescriptions: {
 		攻撃スタイルが一新され、闇の斬撃が消えるとカーソルの位置に斬撃を追加で発生させる
 		暗影/古代の暗影セットを装備していると、3つ発生させる
 		'''
-	StylistKilLaKillScissorsIWish: 5回目の攻撃時にハサミを投げる
+	StylistKilLaKillScissorsIWish: 攻撃スタイルが一新され、5回目の攻撃時にハサミを投げる
 	BloodButcherer:
 		'''
 		攻撃スタイルが一新され、攻撃が当たるとライフを吸収することがある
@@ -673,15 +834,14 @@ ItemDescriptions: {
 		'''
 		攻撃スタイルが一新された
 		右クリックで250%のダメージの強力な攻撃を行い、溶岩の鎌を16つ放つ
-		60秒のクールダウンがあるが、攻撃を当てるたびに短縮される
+		クールダウンは60秒だが、攻撃を当てるたびに短縮される
 		溶岩セットを装備していると、剣のサイズが25%増加し、クールダウンが25%短縮される
 		'''
-	TentacleSpike: 攻撃が当たると、敵の位置から棘を放つ
+	TentacleSpike: 攻撃が当たると、敵の位置からトゲを放つ
 	BladeofGrass:
 		'''
 		攻撃スタイルが一新された
 		攻撃時に15%のダメージを与える葉の刃を3つ放つ
-		5回目の攻撃時に突きを放ち、100%のダメージを与える葉の刃を放つ
 		葉の刃は敵の防御力を20無視する
 		'''	
 	EnchantedSword:
@@ -692,7 +852,7 @@ ItemDescriptions: {
 	IceBlade: 
 		'''
 		攻撃スタイルが一新され、攻撃するたびに氷の弾を放つようになった
-		また、氷の弾の弾速が上昇し、敵か地形に当たると3つの氷の棘に分裂する
+		また、氷の弾の弾速が上昇し、敵か地形に当たると3つの氷のトゲに分裂する
 		'''
 	Starfury:
 		'''
@@ -709,7 +869,7 @@ ItemDescriptions: {
 		攻撃スタイルが一新された
 		攻撃時に蜂を33%の確率で放つ
 		蜂は33%のダメージを与える
-		4回目の攻撃時に突きを放ち、50%のダメージを与える巨大な蜂を放つ
+		5回目の攻撃時に突きを放ち、50%のダメージを与える巨大な蜂を放つ
 		'''
 	PurpleClubberfish:
 		'''
@@ -719,8 +879,9 @@ ItemDescriptions: {
 	Muramasa: エフェクトが変更された
 	NightsEdge:
 		'''
-		衝撃波の射程が少し伸び、サイズが大きくなった
-		攻撃が当たると斬撃で追撃し、シャドウフレイムを2秒間与える
+		攻撃スタイルが一新された
+		衝撃波の射程が大きく伸び、弾速が上昇し、サイズが大きくなった
+		攻撃が当たると斬撃で追撃し、剣の攻撃が当たると、シャドウフレイムを2秒間与える
 		'''
 	BreakerBlade: 攻撃スタイルが一新された
 	Phasesaber:
@@ -735,7 +896,7 @@ ItemDescriptions: {
 	CobaltSword:
 		'''
 		攻撃スタイルが一新された
-		5回目の攻撃時に66%のダメージを与える3つの斬撃を放つ
+		5回目の攻撃時に66%のダメージを与える4つの斬撃を放つ
 		そのうちの1つは自身の前方の一定距離内の敵を自動でロックオンする
 		コバルトセット(近接)を装備していると6つ放ち、2つの斬撃がロックオンするようになる
 		斬撃が当たった敵の防御力を15秒間、25%減少させる
@@ -779,21 +940,21 @@ ItemDescriptions: {
 	TitaniumSword:
 		'''
 		攻撃スタイルが一新された
-		攻撃が当たると、チタンの破片を生成し、自身の周囲を周回し、66%のダメージを与える
-		破片は10個まで生成でき、超過した破片は一番近い敵に向かって飛んでいく
-		7秒以内に新しい破片が生成されなかった場合、全ての破片が一番近い敵に向かって飛んでいく
-		チタンの破片バリア:
-		破片が周囲を回っているときに攻撃を受けると敵に66%のダメージを与える
-		敵の弾に破片が触れると消滅するが、その弾のダメージが30減少（スタックする）
-		ダメージの軽減は破片を持つプレイヤーのみに有効
+		攻撃が当たると、チタンの欠片を生成し、自身の周囲を周回し、66%のダメージを与える
+		欠片は10個まで生成でき、超過した欠片は一番近い敵に向かって飛んでいく
+		7秒以内に新しい欠片が生成されなかった場合、全ての欠片が一番近い敵に向かって飛んでいく
+		チタンの欠片バリア:
+		欠片が周囲を回っているときに攻撃を受けると敵に66%のダメージを与える
+		敵の弾に欠片が触れると消滅するが、その弾のダメージが30減少（スタックする）
+		ダメージの軽減は欠片を持つプレイヤーのみに有効
 		チタンセット(近接)を装備していると剣のサイズが15%増加し、
-		破片の最大生成数が20個に増え、攻撃が当たると、破片を追加で生成するようになる
+		欠片の最大生成数が20個に増え、攻撃が当たると、欠片を追加で生成するようになる
 		'''
 	Excalibur:
 		'''
 		攻撃スタイルが一新された
 		5回目の攻撃時に突きを放ち、エンチャントエクスカリバーを放つ
-		エンチャントエクスカリバーは当たると、近くの敵を追尾するようになり、5回攻撃する
+		エンチャントエクスカリバーは近くの敵を追尾し、5回攻撃する
 		神聖/古代の神聖セット(近接)を装備していると7回攻撃するようになり、追尾範囲も拡大される
 		'''
 	TrueExcalibur:
@@ -801,7 +962,7 @@ ItemDescriptions: {
 		攻撃スタイルが一新された
 		剣の攻撃が当たると、敵を追尾するソードビームが生成される
 		5回目の攻撃時は突きを放ち、エンチャントトゥルーエクスカリバーを放つ
-		エンチャントトゥルーエクスカリバーは当たると、近くの敵を追尾するようになり、6回攻撃する
+		エンチャントトゥルーエクスカリバーは近くの敵を追尾し、6回攻撃する
 		神聖/古代の神聖セット(近接)を装備していると8回攻撃するようになり、追尾範囲も拡大される
 		クロロファイトセット(近接)を装備していると片方のソードビームが緑色になり、
 		そのビームが当たるとライフが回復するようになる
@@ -814,7 +975,7 @@ ItemDescriptions: {
 		同時に攻撃できる敵は5体までで、召喚武器の強化は無効で、
 		タグダメージとミニオンの攻撃対象変更効果がない
 		鞭を強化する効果は有効
-		発射する霊液の飛沫のダメージが50%に減少した
+		放つ霊液の飛沫のダメージが50%に減少した
 		'''
 	Frostbrand:
 		'''
@@ -832,26 +993,38 @@ ItemDescriptions: {
 	TrueNightsEdge:
 		'''
 		攻撃スタイルが一新された
-		衝撃波の弾速が上昇し、射程が延長された
-		攻撃が当たると斬撃で追撃し、シャドウフレイムを2秒間与える
+		衝撃波の弾速が大きく上昇し、射程も大きく延長された
+		攻撃が当たると斬撃で追撃し、奇数回はシャドウフレイムを、偶数回は呪炎を2秒間与える
+		5回目の攻撃時は多段ヒットし、シャドウフレイムと呪炎を与える衝撃波を放つ
 		'''
 	Keybrand:
 		'''
 		攻撃スタイルが一新された
-		右クリックで敵を追尾する光弾を複数発射する
+		右クリックで敵を追尾する光弾を複数放つ
 		クールダウンは20秒
-		左クリックの攻撃が当たると閃光で追撃し、クールダウンが短縮されることがある
+		左クリック攻撃が当たると閃光で追撃し、クールダウンが短縮されることがある
+		追撃する確率は敵のライフが少なくなるほど高くなる
 		'''
-	Seedler: 攻撃スタイルが一新された
+	Seedler:
+		'''
+		攻撃スタイルが一新された
+		1回目で緑の花びら、2回目でピンクの花びらを生成し、3回目で放つ
+		連続して攻撃しないと花びらは放たれない
+		緑の花びらは毒を、ピンクの花びらは酸性毒を与える
+		'''
 	ChristmasTreeSword:
 		'''
 		攻撃スタイルが一新された
-		5回目の攻撃時に敵を追尾する星を複数放つ
+		攻撃時にクリスマスツリー型の星を放つ
+		星は敵か地形に当たるとクリスマスツリーに変化し、オーナメントを複数生成する
+		敵が近くにいると、敵を追尾する光弾を追加で生成する
 		'''
 	TheHorsemansBlade:
 		'''
 		攻撃スタイルが一新された
 		4回目の攻撃時に敵を追尾するカボチャを3つ放つ
+		マウントに騎乗中はカボチャの代わりに敵を追尾し、多段ヒットする炎の鎌を放つ
+		カボチャと火の鎌はヘルファイアを与える
 		'''
 	StarWrath:
 		'''
@@ -886,8 +1059,8 @@ ItemDescriptions: {
 	ChlorophyteSaber:
 		'''
 		攻撃スタイルが一新された
-		胞子雲の飛行速度が上昇し、ダメージが80%に増加した
-		胞子雲は敵を貫通し、6ヒットするが、当たるたびにダメージが15%減少する
+		胞子雲の飛行速度が上昇し、ダメージが80%に増加し、敵を追尾し、
+		6ヒットするようになった
 		クロロファイト(戦士)を装備していると攻撃が当たるとライフが回復する
 		'''
 	ChlorophyteClaymore:
@@ -898,10 +1071,19 @@ ItemDescriptions: {
 		クロロファイト(戦士)を装備していると剣の攻撃が当たるとライフが回復し、
 		50%の確率で追加のクロロファイトオーブを生成する
 		'''
+	FetidBaghnakhs:
+		'''
+		攻撃スタイルが一新
+		攻撃が当たると追撃し、流血を与える
+		'''
+	BladedGlove:
+		'''
+		攻撃スタイルが一新
+		攻撃が当たると追撃し、流血を与える
+		'''
 	HamBat:
 		'''
-		投げて使う武器に変化した
-		敵を2体貫通する
+		投げて使う武器に変化し、敵を2体貫通する
 		投擲速度は攻撃速度の影響を受ける
 		'''
 	WoodenBoomerang:
@@ -913,7 +1095,7 @@ ItemDescriptions: {
 		'''
 		右クリックを押し続けてチャージするとダメージと貫通数が増加し、飛行速度が上昇する
 		攻撃速度が速いほどチャージ速度が上昇し、ダメージが最大で200%増加する
-		最大までチャージしたブーメランが射程限界に達すると、33%のダメージを与える星を放つ
+		最大までチャージしたブーメランが敵に当たると星が落ちてくる
 		'''
 	Shroomerang:
 		'''
@@ -928,7 +1110,7 @@ ItemDescriptions: {
 		'''
 		右クリックを押し続けてチャージするとダメージと貫通数が増加し、飛行速度が上昇する
 		攻撃速度が速いほどチャージ速度が上昇し、ダメージが最大で200%増加する
-		最大までチャージした攻撃が当たると25%のダメージを持つ氷の棘を放つ
+		最大までチャージした攻撃が当たると25%のダメージを与える氷のトゲを放つ
 		'''
 	Trimarang:
 		'''
@@ -982,14 +1164,14 @@ ItemDescriptions: {
 		'''
 	DD2SquireDemonSword:
 		'''
+		攻撃スタイルが一新された
 		右クリックで前方60度の弾もブロックできるようになった (1秒のクールダウン)
-		ブロックに成功すると反撃を5秒得て、ダメージが20%増加し、ヘルファイアを連続して放つようになる
-		ヘルファイアは66%のダメージを持ち、敵を4体貫通する
+		ブロックに成功すると反撃を7秒間得て、ダメージが20%増加し、ヘルファイアを連続して放つようになる
 		'''
 	BouncingShield:
 		'''
 		右クリックで前方60度の弾もブロックできるようになった (1秒のクールダウン)
-		ブロックに成功すると反撃を5秒得て、ダメージが20%増加し、盾を一度に2つ投げるようになる
+		ブロックに成功すると反撃を7秒間得て、ダメージが20%増加し、盾を一度に3つ投げるようになる
 		'''
 	LightDisc:
 		'''
@@ -1003,7 +1185,7 @@ ItemDescriptions: {
 		'''
 		右クリックを押し続けてチャージするとダメージとヒット数が増加し、飛行速度が上昇する
 		攻撃速度が速いほどチャージ速度が上昇し、ダメージが最大で180%増加する
-		最大までチャージしたバナナランが限界射程に達すると5-10個のバナナランに分裂し、1つあたり50%のダメージを与える
+		最大までチャージしたバナナランが限界射程に達すると8-12個のバナナランに分裂し、1つあたり50%のダメージを与える
 		分裂したバナナランは敵を追尾する
 		'''
 	PaladinsHammer:
@@ -1027,17 +1209,18 @@ ItemDescriptions: {
 		最大までチャージすると攻撃できる
 		投げた鎌は敵を無限に貫通し、飛行中に死の鎌を放つ
 		また、射程限界に達すると近くの敵を追尾する死の鎌を複数放つ
+		死の鎌は敵に当たると停止して、多段ヒットし、シャドウフレイムを与える
 		'''
 	IceSickle:
 		'''
 		攻撃スタイルが一新された
-		5回目の攻撃時は氷の鎌を同時に2つ放つ
-		氷セットを装備していると5回目のスイング時の氷の鎌が氷の衝撃波2発になる
+		氷の鎌が敵に当たると停止して、多段ヒットし、霜焼けを与える
+		氷セットを装備していると4回目の攻撃時の氷の鎌が2つになる
 		'''
 	IMeleeSpeedPenetration:
 		'''
 		攻撃速度上昇の影響を受けないが、その分が防御無視値に変換される 
-		槍の先端で攻撃するとダメージが1.25倍になり、敵の防御力を{0}%無視する
+		槍の先端で攻撃するとダメージが1.15倍になり、敵の防御力を{0}%無視する
 		'''
 	Spear: 攻撃スタイルが一新された
 	Trident:
@@ -1049,8 +1232,9 @@ ItemDescriptions: {
 	ThunderSpear:
 		'''
 		攻撃スタイルが一新された
-		攻撃が当たると稲妻で追撃し、4-5回目の攻撃時に稲妻を放つ
-		5回目の攻撃時に放つ稲妻は敵に当たると、拡散して周りの敵にもダメージを与える
+		攻撃が当たると稲妻で追撃し、攻撃時に稲妻を放つ
+		5回目の攻撃時に放つ稲妻は射程が長く、
+		敵に当たると、拡散して周りの敵にもダメージを与える
 		稲妻は敵の防御力を40無視する
 		'''
 	TheRottedFork:
@@ -1073,19 +1257,19 @@ ItemDescriptions: {
 	CobaltNaginata:
 		'''
 		攻撃スタイルが一新された
-		攻撃が当たると斬撃で追撃し、敵の防御力を15秒間25%減少させる
+		槍の先端が当たると斬撃で追撃し、敵の防御力を15秒間、25%減少させる
 		'''
 	PalladiumPike:
 		'''
 		攻撃スタイルが一新された
-		攻撃が当たるとライフが回復する
+		槍の先端が当たるとライフが回復する
 		'''
 	MythrilHalberd:
 		'''
 		攻撃スタイルが一新された
 		右クリックで突進して攻撃し、ミスリルの力を得て、この武器の攻撃範囲が一時的に拡大される
 		突進中、短時間無敵になる
-		10秒のクールダウンがあるが、槍の先端で攻撃するとクールダウンが短縮される
+		クールダウンは10秒だが、槍の先端で攻撃するとクールダウンが短縮される
 		'''
 	OrichalcumHalberd:
 		'''
@@ -1094,25 +1278,25 @@ ItemDescriptions: {
 		攻撃の動きが変化し、当たると斬撃で追撃する、素早い突きを繰り返すようになる
 		このとき、攻撃が当たると30ダメージを与える花びらを召喚する
 		突進が当たると跳ね返り、突進中、短時間無敵になる
-		14秒のクールダウンがあるが、槍の先端で攻撃するとクールダウンが短縮される
+		クールダウンは14秒だが、槍の先端で攻撃するとクールダウンが短縮される
 		'''
 	AdamantiteGlaive:
 		'''
 		攻撃スタイルが一新された
 		右クリックで槍を回転させて攻撃する
 		このとき、基本ダメージが60を超えない弾を消すことができる
-		10秒のクールダウンがあるが、槍の先端で攻撃するとクールダウンが短縮される
+		クールダウンは10秒だが、槍の先端で攻撃するとクールダウンが短縮される
 		'''
 	TitaniumTrident:
 		'''
 		攻撃スタイルが一新された
-		4-6回目の攻撃時に敵を3体貫通する衝撃波を放つ
-		槍の攻撃が当たると、チタンの破片を生成し、自身の周囲を周回し、30%のダメージを与える
-		破片は10個まで生成でき、超過した破片は一番近い敵に向かって飛んでいく
-		7秒以内に新しい破片が生成されなかった場合、全ての破片が一番近い敵に向かって飛んでいく
-		敵の弾に破片が触れると消滅するが、その弾のダメージが30減少する
+		4-7回目の攻撃時に敵を3体貫通する衝撃波を放つ
+		槍の攻撃が当たると、チタンの欠片を生成し、自身の周囲を周回し、30%のダメージを与える
+		欠片は10個まで生成でき、超過した欠片は一番近い敵に向かって飛んでいく
+		7秒以内に新しい欠片が生成されなかった場合、全ての欠片が一番近い敵に向かって飛んでいく
+		敵の弾に欠片が触れると消滅するが、その弾のダメージが30減少する
 		右クリックを押し続けて、最大までチャージすると攻撃できる
-		右クリック攻撃は250%のダメージを与え、当たると敵を追尾する破片を生成する
+		右クリック攻撃は250%のダメージを与え、当たると敵を追尾する欠片を生成する
 		'''
 	Gungnir:
 		'''
@@ -1131,7 +1315,7 @@ ItemDescriptions: {
 		'''
 		攻撃スタイルが一新された
 		4-5回目の攻撃時にキノコの残像を残す
-		攻撃が当たると胞子を上に発射する
+		攻撃が当たると胞子を上に放つ
 		'''
 	ObsidianSwordfish:
 		'''
@@ -1143,8 +1327,8 @@ ItemDescriptions: {
 	ChlorophytePartisan:
 		'''
 		攻撃スタイルが一新された
-		1-3回目の攻撃時に胞子雲を放ち、4回目の攻撃時は槍を回転させ、クリスタルの葉っぱを大量に放つ
-		クリスタルの葉っぱは敵を追尾し、敵の防御力を50無視する
+		1-3回目の攻撃時に胞子雲を放ち、4回目の攻撃時は槍を回転させ、クリスタルの葉を大量に放つ
+		クリスタルの葉は敵を追尾し、敵の防御力を50無視する
 		'''
 	NorthPole:
 		'''
@@ -1173,7 +1357,7 @@ ItemDescriptions: {
 		攻撃スタイルが一新され、攻撃が当たると、電撃で追撃するようになった
 		5回目の攻撃が当たると、400%のダメージを与え、拡散する稲妻を召喚する
 		エレクトロスフィアも召喚してダメージを短時間与え続ける
-		右クリックを押し続けている間、ライトニングオーブを発射し続ける
+		右クリックを押し続けている間、ライトニングオーブを連射する
 		'''
 	Mace: 攻撃が当たると確率でスパイクボールを放つようになった
 	FlamingMace: 攻撃が当たると確率で火花を放つようになった
@@ -1189,7 +1373,7 @@ ItemDescriptions: {
 	DripplerFlail: 攻撃中に敵を追尾する血の弾丸を放つようになった
 	DaoofPow:
 		'''
-		振り回している間、八卦を生成し、投げた際、八卦が陰陽玉に変化して鉄球と共に発射される
+		振り回している間、八卦を生成し、投げた際、八卦が陰陽玉に変化して鉄球と共に放たれる
 		8つの八卦が生成されると陰陽魚が出現し、投げると大ダメージを与える
 		'''
 	FlowerPow: 
@@ -1209,20 +1393,20 @@ ItemDescriptions: {
 		'''
 		攻撃スタイルが変更された
 		攻撃が当たると、敵を追尾する鎖を放ち、敵に突き刺さり、ダメージを与え続ける
-		（最大で3本の鎖を同時に発射でき、敵1体につき1本のチェーンを発射できる）
+		（最大で3本の鎖を同時に放つことができ、敵1体につき1本の鎖を発射できる）
 		'''
 	// Wooden Bow Descriptions
 	
 	WoodBowWood:
 		'''
-		左クリックで地形で2回跳ね返るドングリ矢を発射する
+		左クリックで地形に当たると2回跳ね返るドングリの矢を発射する
 		左クリックを押し続けてチャージするとダメージと同時発射数が増加し、弾速が上昇する
 		右クリックで従来の攻撃を行う
 		木のセットを装備していると、チャージ速度が大きく上昇する
 		'''
 	WoodBowBoreal:
 		'''
-		左クリックで地形で2回跳ね返り、敵を1体貫通するドングリ矢を発射する
+		左クリックで地形に当たると2回跳ね返り、敵を1体貫通するドングリの矢を発射する
 		左クリックを押し続けてチャージするとダメージと同時発射数が増加し、弾速が上昇する
 		右クリックで従来の攻撃を行う
 		ボーリアルウッドセットを装備していると、矢が当たると、30%の確率で3秒間霜焼けを与え、
@@ -1230,7 +1414,7 @@ ItemDescriptions: {
 		'''
 	WoodBowEbonwood:
 		'''
-		左クリックで地形で2回跳ね返り、敵を2体貫通するドングリ矢を発射する
+		左クリックで地形に当たると2回跳ね返り、敵を2体貫通するドングリの矢を発射する
 		左クリックを押し続けてチャージするとダメージと同時発射数が増加し、弾速が上昇する
 		右クリックで従来の攻撃を行う
 		エボンウッドセットを装備していると、ダメージが5%増加し、
@@ -1239,7 +1423,7 @@ ItemDescriptions: {
 		'''
 	WoodBowRichMahogany:
 		'''
-		左クリックで地形で2回跳ね返り、敵を1体貫通するドングリ矢を発射する
+		左クリックで地形に当たると2回跳ね返り、敵を1体貫通するドングリの矢を発射する
 		左クリックを押し続けてチャージするとダメージと同時発射数が増加し、弾速が上昇する
 		右クリックで従来の攻撃を行う
 		リッチマホガニーセットを装備していると、矢が当たると、
@@ -1247,7 +1431,7 @@ ItemDescriptions: {
 		'''
 	WoodBowShadewood:
 		'''
-		左クリックで地形で2回跳ね返り、敵を2体貫通するドングリ矢を発射する
+		左クリックで地形に当たると2回跳ね返り、敵を2体貫通するドングリの矢を発射する
 		左クリックを押し続けてチャージするとダメージと同時発射数が増加し、弾速が上昇する
 		右クリックで従来の攻撃を行う
 		シェイドウッドセットを装備していると、クリティカル率が5%上昇し、
@@ -1256,7 +1440,7 @@ ItemDescriptions: {
 		'''
 	WoodBowPalm:
 		'''
-		左クリックで地形で2回跳ね返り、敵を1体貫通するドングリ矢を発射する
+		左クリックで地形に当たると2回跳ね返り、敵を1体貫通するドングリの矢を発射する
 		左クリックを押し続けてチャージするとダメージと同時発射数が増加し、弾速が上昇する
 		右クリックで従来の攻撃を行う
 		ヤシの木セットを装備していると、ノックバックが1増加し、防御力が6増加し、
@@ -1264,7 +1448,7 @@ ItemDescriptions: {
 		'''
 	WoodBowPearlwood:
 		'''
-		左クリックで地形で2回跳ね返り、敵を3体貫通するドングリ矢を発射する
+		左クリックで地形に当たると2回跳ね返り、敵を3体貫通するドングリの矢を発射する
 		左クリックを押し続けてチャージするとダメージと同時発射数が増加し、弾速が上昇する
 		右クリックで従来の攻撃を行う
 		パールウッドセットを装備していると、チャージ速度が大きく上昇する
@@ -1275,7 +1459,7 @@ ItemDescriptions: {
 		'''
 	WoodBowAsh:
 		'''
-		左クリックで地形で2回跳ね返り、敵を2体貫通するドングリ矢を発射する
+		左クリックで地形に当たると2回跳ね返り、敵を2体貫通するドングリの矢を発射する
 		左クリックを押し続けてチャージするとダメージと同時発射数が増加し、弾速が上昇する
 		右クリックで従来の攻撃を行う
 		アッシュウッドセットを装備していると、チャージ速度が大きく上昇し、
@@ -1283,7 +1467,7 @@ ItemDescriptions: {
 		'''
 	WoodBowUnknown:
 		'''
-		左クリックで地形で2回跳ね返るドングリ矢を発射する
+		左クリックで地形に当たると2回跳ね返るドングリの矢を発射する
 		左クリックを押し続けてチャージするとダメージと同時発射数が増加し、弾速が上昇する
 		右クリックで従来の攻撃を行う
 		対応した木のセットを装備していると、チャージ速度が大きく上昇する
@@ -1372,7 +1556,7 @@ ItemDescriptions: {
 		'''
 	BloodRainBow:
 		'''
-		左クリックでブラッドレインアローを発射し、血の雨を降らせる
+		左クリックでブラッドレインアローを発射し、敵に当たると血の雨を降らせる
 		左クリックを押し続けてチャージすると、
 		ダメージ、貫通数、血の雨の数が増加し、弾速が上昇する
 		右クリックで従来の攻撃を行う
@@ -1382,7 +1566,7 @@ ItemDescriptions: {
 		左クリックでマグマアローを発射し、
 		左クリックを押し続けてチャージするとダメージが増加し、弾速が上昇する
 		右クリックで従来の攻撃を行う
-		マグマアローの爆発のダメージと爆発の大きさはチャージ時間に応じて変化する
+		マグマアローの爆発のダメージと大きさはチャージ時間に応じて変化する
 		'''
 	BeesKnees:
 		'''
@@ -1472,12 +1656,12 @@ ItemDescriptions: {
 		'''
 	TitaniumRepeater:
 		'''
-		矢の弾速が上昇し、当たると、チタンの破片を生成し、自身の周囲を周回し33%のダメージを与える
-		破片は10個まで生成でき、超過した破片は一番近い敵に向かって飛んでいく
-		敵の弾に破片が触れると破片が消滅するが、その弾のダメージが30減少する	
-		右クリックで全ての破片が一番近い敵に向かって飛んでいく
-		チタンセット(遠距離)を装備していると、破片の最大生成数が15個に増え、
-		破片のダメージが50%に増加する
+		矢の弾速が上昇し、当たると、チタンの欠片を生成し、自身の周囲を周回し33%のダメージを与える
+		欠片は10個まで生成でき、超過した欠片は一番近い敵に向かって飛んでいく
+		敵の弾に欠片が触れると欠片が消滅するが、その弾のダメージが30減少する	
+		右クリックで全ての欠片が一番近い敵に向かって飛んでいく
+		チタンセット(遠距離)を装備していると、欠片の最大生成数が15個に増え、
+		欠片のダメージが50%に増加する
 		'''
 	AdamantiteRepeater:
 		'''
@@ -1503,9 +1687,9 @@ ItemDescriptions: {
 	ChlorophyteShotbow:
 		'''
 		エネルギーゲージが追加され、矢の弾速が上昇した
-		敵を追尾するクロロファイトの葉っぱを2枚発射し25%のダメージを与える
-		クロロファイトの葉っぱは敵の防御力を25無視する
-		葉っぱが当たるとエネルギーが減少するが、エネルギーの量に応じてライフを回復する
+		敵を追尾するクロロファイトの葉を2枚発射し25%のダメージを与える
+		クロロファイトの葉は敵の防御力を25無視する
+		葉が当たるとエネルギーが減少するが、エネルギーの量に応じてライフを回復する
 		エネルギーは時間経過で溜まる
 		右クリックで従来の攻撃を行うが、ダメージが50%に減少している
 		クロロファイトセット(遠距離)を装備していると、
@@ -1539,9 +1723,8 @@ ItemDescriptions: {
 	DD2BetsyBow:
 		'''
 		左クリックでエネルギーアローを空に撃ち、一定範囲内の敵をロックオンする
-		チャージ時間に応じて最大ロック数が5つまで増え、各敵には2回ロックオンできる
-		ロックオンした敵に少し遅れてビームで攻撃する
-		ビームのダメージはチャージ時間に応じて増加する
+		チャージ時間に応じて最大ロック数が5つまで増え、ダメージが増加する
+		各敵には2回ロックオンでき、ロックオンした敵に少し遅れてビームで攻撃する
 		右クリックで従来の攻撃を行う
 		'''
 	Phantasm:
@@ -1555,60 +1738,209 @@ ItemDescriptions: {
 		また、当たるたびに25%のダメージを与えるファントムアローで追撃する
 		右クリックで従来の攻撃を行う 
 		'''
-	PhoenixBlaster: 定期的に敵か地形に当たると爆発するグレネードを発射する
-	Boomstick: 少なくとも1つの弾がカーソルに向かって飛んでいくようになった
-	Uzi: 攻撃速度が大きく上昇したが、15発撃つごとに攻撃が一時停止するようになった
+	PhoenixBlaster:
+		'''
+		攻撃の仕様が変更され、二挺持つようになった
+		弾を12発装填し、弾倉が空になると
+		敵か地形に当たると爆発するグレネードを発射する
+		'''
+	Boomstick:
+		'''
+		攻撃の仕様が変更された
+		弾を2発装填し、2連射する
+		弾丸を追加で1発撃つことがあり、
+		少なくとも1つの弾丸がカーソルに向かって飛んでいく
+		'''
+	Uzi:
+		'''
+		攻撃の仕様が変更された
+		弾を32発装填し、攻撃速度が大きく上昇
+		'''
 	OnyxBlaster:
 		'''
-		3回目の射撃でクリスタル弾が爆発した際に、クリスタルの破片が3つ発射されるようになった
-		クリスタルの破片は敵か地形に当たると爆発し、100%のダメージを与える
+		攻撃の仕様が変更された
+		クリスタル弾が爆発した際に、クリスタルの欠片が3つ発射されるようになった
+		クリスタルの欠片は敵か地形に当たると爆発し、100%のダメージを与える
 		'''
 	Megashark:
 		'''
-		定期的に敵を2体貫通する魚を発射する
-		雨が降っているか水中にいると、魚は敵を追尾する
+		攻撃の仕様が変更された
+		弾を30発装填し、弾倉が空になると
+		敵を追尾するミサイルを発射する
+		ミサイルはその弾倉での攻撃中に当たった弾丸の数に応じてダメージが変化する
 		'''
 	VenusMagnum: 
 		'''
-		定期的に敵を無限に貫通するレーザーを発射する
-		レーザーは当たるたびにダメージが10%減少する
+		攻撃の仕様が変更された
+		弾を8発装填し、リロードするたびにチャージし、大ダメージを与えるビームを撃つ
+		その後は弾丸と敵を追尾するレーザーを交互に撃つ
 		'''
 	TacticalShotgun:
 		'''
-		弾を追加で発射することがある
-		また、少なくとも1つの弾がカーソルに向かって飛んでいくようになった
+		攻撃の仕様が変更された
+		弾を12発装填し、フルオートで撃つ
+		少なくとも1つの弾丸がカーソルに向かって飛んでいく
 		'''
 	CandyCornRifle:
 		'''
-		キャンディコーンの弾速が上昇し、爆発するようになった
-		定期的にトウモロコシのグレネードを発射する
-		トウモロコシのグレネードは敵か地形に当たると爆発し、キャンディコーンをいくつかばら撒く
+		攻撃の仕様が変更され、キャンディコーンが爆発するようになった
+		弾倉が空になるとコーングレネードを発射する
+		コーングレネードは敵か地形に当たると爆発し、キャンディコーンをいくつかばら撒く
 		'''
 	Xenopopper:
 		'''
+		攻撃の仕様が変更された
+		弾を4発装填
 		弾丸をエイリアンバレットに変換する
 		元の弾丸のダメージを継承するが、特殊効果は失われる
 		エイリアンバレットは近くの敵を追尾する
 		'''
 	VortexBeater:
 		'''
-		発射音が変更され、弾が拡散しにくくなった
-		最初は攻撃速度が遅いが、撃ち続けると徐々に早くなっていくようになり、
-		最大攻撃速度が上昇した
+		攻撃の仕様が変更された
+		弾を200発装填し、徐々に攻撃速度が上昇し、弾丸が拡散しにくくなっていく
+		右クリックで近くの敵を電撃で攻撃する渦を発射する
 		'''
 	SDMG:
 		'''
-		自身の周りを回るイルカを3頭生成する
-		イルカは近くの敵を追尾し、それぞれ60%のダメージを与え、敵を貫通し4ヒットする
+		攻撃の仕様が変更された
+		弾を100発装填し、定期的に敵を追尾するイルカを発射し、
+		弾倉が空になると大ダメージを与えるイルカを発射する
 		'''
-	Stynger:一度に矢を5本発射するようになったが、攻撃速度上昇の影響を受けなくなった
+	Stynger:
+		'''
+		攻撃の仕様が変更された
+		ボルトを5発装填
+		左クリックでボルトを1発ずつ連射する
+		右クリックで一度にボルトを5本発射する
+		'''
 	JackOLanternLauncher:
 		'''
-		敵を追尾し、敵か地形に当たると爆発するジャック・オー・ランタン爆弾を発射する
+		左クリックで地形に当たると跳ね返り、爆発時に炎をたくさんばら撒く、
+		ジャック・オー・ランタン爆弾を発射する
+		右クリックで敵を追尾し、敵か地形に当たると爆発する、
+		ジャック・オー・ランタン爆弾を発射する
 		直撃させると2倍のダメージを与える
 		'''
-	NailGun: 釘の弾速が上昇した
+	NailGun:
+		'''
+		攻撃の仕様が変更された
+		釘を30発装填し、敵や地形に刺さった釘が最大で5秒間残る
+		右クリックで刺さっている釘を全て起爆する
+		1体の敵や地形に最大15本の釘を刺せる
+		左クリックしたまま、右クリックすると釘が当たると同時に爆発する
+		'''
 	Toxikarp: 「非常に奇妙な軌跡を描いて有毒な泡を追跡する火災」
+	Minishark:
+		'''
+		攻撃の仕様が変更された
+		弾を25発装填し、弾倉が空になるとミサイルを発射する
+		ミサイルはその弾倉での攻撃中に当たった弾丸の数に応じてダメージが変化し、
+		雨が降っているか溶岩を除く液体内にいると、ミサイルが敵を追尾するようになる
+		'''
+	TheUndertaker:
+		'''
+		攻撃の仕様が変更された
+		弾を8発装填し、リロード時にライフが回復する
+		回復量はその弾倉での攻撃中に当たった弾丸の数に応じて増加する
+		'''
+	FlintlockPistol:
+		'''
+		攻撃の仕様が変更された
+		弾を1発装填し、ダメージが2倍になった
+		'''
+	Musket:
+		'''
+		攻撃の仕様が変更された
+		弾を1発装填し、ダメージが2倍になり、弾速が100%上昇した
+		'''
+	RedRyder:
+		'''
+		攻撃の仕様が変更された
+		弾を1発装填し、ダメージが2倍になった
+		'''
+	Revolver:
+		'''
+		攻撃の仕様が変更された
+		弾を6発装填し、リロード時、直前の弾倉での攻撃中に当たった弾丸の数に応じて、
+		次の弾倉での攻撃のクリティカル率と攻撃速度が上昇する
+		最大でクリティカル率が30%、攻撃速度が37.5%上昇
+		'''
+	QuadBarrelShotgun:
+		'''
+		攻撃の仕様が変更された
+		弾を4発装填
+		少なくとも1つの弾丸がカーソルに向かって飛んでいく
+		'''
+	Handgun:
+		'''
+		攻撃の仕様が変更された
+		弾を12発装填
+		'''
+	ClockworkAssaultRifle:
+		'''
+		攻撃の仕様が変更された
+		弾を21発装填し、三点バーストで撃ち、弾丸が敵に当たると、
+		敵に張り付き、ダメージを与え続ける歯車を放つ
+		'''
+	Gatligator:
+		'''
+		攻撃の仕様が変更された
+		弾を120発装填し、徐々に攻撃速度が上昇し、弾丸が拡散しにくくなっていく
+		'''
+	Shotgun:
+		'''
+		攻撃の仕様が変更された
+		弾を6発装填
+		少なくとも1つの弾丸がカーソルに向かって飛んでいく
+		'''
+	SniperRifle:
+		'''
+		攻撃の仕様が変更された
+		弾を1発装填し、ダメージが3倍になり、ほとんどの弾丸の弾速が大幅に上昇する
+		また、撃ったときに反動で後退するようになった
+		'''
+	ChainGun:
+		'''
+		攻撃の仕様が変更され、選択中、ミサイルパックを背負う
+		弾を150発装填し、徐々に攻撃速度が上昇し、弾丸が拡散しにくくなっていく
+		定期的にバックパックから敵を追尾するミサイルを発射する
+		弾倉が空になったとき、ミサイルを大量に発射する
+		'''
+	ProximityMineLauncher:
+		'''
+		左クリックで近接地雷を発射する
+		右クリックで敵に体当たりして自爆するナノボットを複数発射する
+		'''
+	GrenadeLauncher:
+		'''
+		左クリックで6発のグレネードを連射する
+		右クリックで爆発時、種の欠片をばら撒く、シードグレネードを発射する
+		'''
+	RocketLauncher:
+		'''
+		左クリックで6発のロケットを連射する
+		右クリックで爆発時、敵を追尾するマイクロロケットを複数放つ、
+		クラスターロケットを発射する
+		'''
+	SnowmanCannon:
+		'''
+		左クリックで4発のロケットを連射し、連射後にチャージを1蓄積する
+		チャージは最大5回まで蓄積できる
+		チャージが5回分蓄積されているときに左クリックしたまま、右クリックすると
+		チャージを全て消費して大ダメージを与えるエネルギーブラストを発射する
+		'''
+	ElectrosphereLauncher:
+		'''
+		左クリックでエレクトロスフィアミサイルを発射する
+		重なり合ったエレクトロスフィアは消滅せず、お互いに反発して拡散する
+		右クリックで敵か地形に当たると電撃を放つライトニングオーブを発射する
+		'''
+	SnowballCannon:
+		'''
+		攻撃の仕様が変更された
+		雪玉を30発装填し、雪玉が拡散しにくくなった
+		'''
 	SkyFracture:
 		'''
 		左クリックを押し続けると自身の後ろに最大15つのエネルギーソードを召喚する
@@ -1619,10 +1951,12 @@ ItemDescriptions: {
 	CrystalSerpent:
 		'''
 		左クリックを押し続けるとチャージし、完了すれば、
-		敵か地形に当たると大爆発し複数の破片に分裂する、
+		敵か地形に当たると大爆発し複数の欠片に分裂する、
 		大きなクリスタルの弾を断続的に連射する
 		右クリックで従来と同じくクリスタルの弾を発射するが、弾速が上昇している
 		'''
+	WandofSparking: 火花が敵を1体貫通し、地面に落ちた後、短時間残るようになった
+	WandofFrosting: 火花が敵を2体貫通し、地面に落ちた後、短時間残るようになった
 	TopazStaff:
 		'''
 		左クリックを押し続けるとチャージし、完了すれば、
@@ -1679,6 +2013,7 @@ ItemDescriptions: {
 		宝石のローブかミスティックローブを装備しているなら
 		クリティカル率が5%上昇し、マナ消費量が5%減少する
 		'''
+	SpaceGun: ビームが地形に当たると跳ね返るようになった
 	BookofSkulls:
 		'''
 		頭蓋骨の弾速が上昇した
@@ -1726,8 +2061,9 @@ ItemDescriptions: {
 		'''
 	HeatRay:
 		'''
-		発射するビームの性能が変化
-		ビームが当たると最大5回まで跳ね返り、近くの敵を攻撃するようになった
+		左クリックを押し続けるとマナを消費してチャージし、完了すれば、強力なビームを発射する
+		右クリックで従来の攻撃を行う
+		ビームが敵に当たると跳ね返り、近くの敵を攻撃するようになった
 		'''
 	RazorbladeTyphoon:
 		'''
@@ -1748,17 +2084,20 @@ ItemDescriptions: {
 		左クリックを押し続けるとマナを消費してチャージし、完了すれば、
 		マナを消費し続けて、画面の下側からインフェルノフォークを召喚し続ける
 		インフェルノフォークは敵に当たるか、3回地形に当たると爆風が発生する
+		右クリックで従来の攻撃を行う
 		'''
 	SpectreStaff:
 		'''
-		霊魂の弾速が上昇し、追尾性能が強化され、4ヒットするようになった
+		左クリックを押し続けるとマナを消費してチャージし、完了すれば、
+		マナを消費し続けて、4ヒットするスペクターオーブを連射する
+		右クリックで従来の攻撃を行う
 		'''
 	BlizzardStaff:
 		'''
 		左クリックを押し続けるとマナを消費してチャージし、完了すれば、
-		マナを消費し続けて、ツララを降らせ続ける
+		マナを消費し続けて、氷柱を降らせ続ける
 		右クリックで氷塊を召喚する
-		氷塊はゆっくりと飛び、敵を追尾する氷の棘を連射する
+		氷塊はゆっくりと飛び、敵を追尾する氷のトゲを連射する
 		氷塊は1つしか召喚できない
 		'''
 	BatScepter:
@@ -1772,13 +2111,21 @@ ItemDescriptions: {
 	WaspGun: 蜂が当たったときの無敵フレームが短縮された
 	PoisonStaff:
 		'''
-		毒の牙の貫通数が1体になった代わりに、
-		敵を少し追尾するようになった
+		左クリックを押し続けるとマナを消費してチャージし、完了すれば、
+		マナを消費し続けて、毒の牙を連射する
+		右クリックで従来の攻撃を行う
 		'''
 	VenomStaff:
 		'''
-		毒の牙の貫通数が1体になった代わりに、
-		敵を少し追尾するようになった
+		左クリックを押し続けるとマナを消費してチャージし、完了すれば、
+		マナを消費し続けて、毒の牙を連射する
+		右クリックで従来の攻撃を行う
+		'''
+	LeafBlower:
+		'''
+		左クリックを押し続けるとマナを消費してチャージし、完了すれば、
+		マナを消費し続けて、敵を追尾し、防御力を30無視する葉を複数発射し続ける
+		右クリックで従来の攻撃を行う
 		'''
 	LaserMachinegun:
 		'''
@@ -1802,8 +2149,11 @@ ItemDescriptions: {
 	Razorpine: 変更点なし
 	NettleBurst: 
 		'''
-		棘の球体を発射するようになり、射程限界に到達するか、
-		敵か地形に当たると爆発し、8つの植物の蔓に広がる
+		左クリックを押し続けるとマナを消費してチャージし、完了すれば、
+		マナを消費し続けて、カーソルの周辺にトゲを出現させる
+		トゲが敵に当たると花びらを獲得し、8枚獲得するとライフを回復し、
+		近くの敵に向かって飛んでいく
+		右クリックで従来の攻撃を行う
 		'''
 	SpiritFlame: 炎が地形を貫通するようになり、追尾範囲が拡大され、弾速も上昇した
 	SharpTears: 血の棘が空中に出現できるようになり、攻撃するのに足場とブロックが必要なくなった
@@ -1815,21 +2165,32 @@ ItemDescriptions: {
 	FrostStaff:
 		'''
 		左クリックを押し続けるとマナを消費してチャージし、完了すれば、マナを消費し続けて
-		敵を追尾し、敵か地形に当たるといくつかの氷の棘に分裂する氷の弾を連射する
+		敵か地形に当たるといくつかの氷のトゲに分裂する氷の弾を連射する
 		右クリックで従来と同じくフロストボルトを発射するが、弾速が上昇している
 		'''
 	ShadowFlameHexDoll: シャドウフレイムの触手の射程が延長され、拡散しにくくなった
 	StaffofEarth:
 		'''
-		現在のマナが200以上なら右クリックでマナを全て消費して、
-		画面全体に大岩の雨を降らせる
-		消費したマナに応じて大岩を降らせる時間が最大で10秒まで変化する
-		クールダウンは30秒
+		左クリックを押し続けると最大8個の岩を召喚する
+		超過した岩は古いものから発射される
+		左クリックを押しながら右クリックで召喚した岩を全て発射する
+		'''
+	NimbusRod:
+		'''
+		左クリックを押し続けるとマナを消費してチャージし、完了すれば、マナを消費し続けて
+		敵を貫通する電撃を連射する
+		右クリックで従来の攻撃を行う
+		'''
+	Crimsonrod:
+		'''
+		左クリックを押し続けるとマナを消費してチャージし、完了すれば、マナを消費し続けて
+		血流を複数連射する
+		右クリックで従来の攻撃を行う
 		'''
 	ThunderStaff:
 		'''
 		左クリックを押し続けるとマナを消費してチャージし、完了すれば、
-		敵を1体貫通するライトニングオーブを発射する
+		敵を2体貫通するライトニングオーブを発射する
 		ライトニングオーブが消滅すると最大で12回跳ね返る電撃を発生させる
 		右クリックで従来の攻撃を行う
 		'''
@@ -1843,12 +2204,12 @@ ItemDescriptions: {
 	AncientBattleArmorHat: 
 		'''
 		アーケインスロットが1つ増加
-		魔法ダメージと召喚ダメージが10%増加
+		魔法と召喚ダメージが10%増加
 		'''
 	UnholyTrident:
 		'''
 		左クリックを押し続けるとマナを消費してチャージし、完了すれば、
-		マナを消費し続けて、トライデントを召喚し続ける
+		マナを消費し続けて、一定まで飛ぶと敵を追尾するトライデントを3つ召喚し続ける
 		また、弾速が上昇した
 		'''
 	ShadowbeamStaff:
@@ -1869,6 +2230,38 @@ ItemDescriptions: {
 		'''
 		左クリックで大きな泡を発射する
 		大きな泡が爆発すると複数の小さな泡に分裂する
+		右クリックで従来の攻撃を行う
+		'''
+	AquaScepter:
+		'''
+		左クリックを押し続けるとマナを消費してチャージし、完了すれば、
+		マナを消費し続けて、水のシャワーを連射する
+		右クリックで従来の攻撃を行う
+		'''
+	Vilethorn:
+		'''
+		左クリックを押し続けるとマナを消費してチャージし、完了すれば、
+		マナを消費し続けて、カーソルの周辺にトゲを出現させる
+		右クリックで従来の攻撃を行う
+		'''
+	CrystalVileShard:
+		'''
+		左クリックを押し続けるとマナを消費してチャージし、完了すれば、
+		マナを消費し続けて、カーソルの周辺にクリスタルのトゲを出現させる
+		右クリックで従来の攻撃を行う
+		'''
+	SoulDrain: 攻撃範囲が表示されるようになり、敵を攻撃すると範囲が広がる
+	ApprenticeStaffT3:
+		'''
+		左クリックを押し続けるとマナを消費し続けて、当たった敵の防御力を減少させる炎を発射する
+		右クリックで従来の攻撃を行う
+		'''
+	ClingerStaff:
+		'''
+		左クリックを押し続けるとマナを消費し続けて、クリンガーを最大で6体召喚する
+		クリンガーは敵に呪炎を発射して攻撃する
+		左クリックと右クリックを同時に押し続けると、
+		クリンガーがカーソルに向かって高速で突進するようになるが、マナの消費量が増える
 		右クリックで従来の攻撃を行う
 		'''
 	Robe: アーケインスロットが1つ増加
@@ -1907,9 +2300,9 @@ ItemDescriptions: {
 	HornetStaff:
 		'''
 		毒針の発射間隔が短縮され、弾速が上昇した
-		ハチの巣パックを装備しているなら更に発射間隔が短縮され、弾速が上昇する
+		ハチの巣パックを装備しているならさらに発射間隔が短縮され、弾速が上昇する
 		また、3の倍数匹はモスホーネットを召喚する
-		モスホーネットは更に毒針の発射間隔が短く、敵を追尾し、
+		モスホーネットはさらに毒針の発射間隔が短く、敵を追尾し、
 		50%の確率で酸性毒を2秒間与える
 		'''
 	BabyBirdStaff: 小鳥の飛行速度が上昇した
@@ -2010,7 +2403,7 @@ Configs: {
 
 		EnableCactusSword: {
 			Label: "[i/s1:881] サボテンの剣のリワークを有効にする"
-			Tooltip: サボテンの剣の棘発射を有効にするかどうか変更します
+			Tooltip: サボテンの剣のトゲ発射を有効にするかどうか変更します
 		}
 
 		EnableFalconBlade: {
@@ -3192,8 +3585,178 @@ Configs: {
 		}
 
 		EnableRainbowBoulderMace: {
-			Label: レインボーボルダーメイスを有効にする
+			Label: "[i:OriginalWeaponResetBH/RainbowBoulderMace] レインボーボルダーメイスを有効にする"
 			Tooltip: レインボーボルダーメイスを有効にするかどうか変更します
+		}
+
+		EnableSpaceGun: {
+			Label: "[i/s1:127] スペースガンのリワークを有効にする"
+			Tooltip: スペースガンのリワークを有効にするかどうか変更します
+		}
+
+		EnableLeafBlower: {
+			Label: "[i/s1:1178] リーフブロワーのリワークを有効にする"
+			Tooltip: リーフブロワーのリワークを有効にするかどうか変更します
+		}
+
+		EnableFlare: {
+			Label: "[i:OriginalWeaponResetBH/Flare] ソーラーフレアを有効にする"
+			Tooltip: ソーラーフレアを有効にするかどうか変更します
+		}
+
+		EnableWandofSparking: {
+			Label: "[i/s1:3069] 火花の杖のリワークを有効にする"
+			Tooltip: 火花の杖のリワークを有効にするかどうか変更します
+		}
+
+		EnableWandofFrosting: {
+			Label: "[i/s1:5147] 降霜の杖のリワークを有効にする"
+			Tooltip: 降霜の杖のリワークを有効にするかどうか変更します
+		}
+
+		EnableAquaScepter: {
+			Label: "[i/s1:157] アクアセプターのリワークを有効にする"
+			Tooltip: アクアセプターのリワークを有効にするかどうか変更します
+		}
+
+		EnableVilethorn: {
+			Label: "[i/s1:64] ヴァイルソーンのリワークを有効にする"
+			Tooltip: ヴァイルソーンのリワークを有効にするかどうか変更します
+		}
+
+		EnableCrystalVileShard: {
+			Label: "[i/s1:3051] クリスタルヴァイルシャードのリワークを有効にする"
+			Tooltip: クリスタルヴァイルシャードのリワークを有効にするかどうか変更します
+		}
+
+		EnableNimbusRod: {
+			Label: "[i/s1:1244] 雨雲の杖のリワークを有効にする"
+			Tooltip: 雨雲の杖のリワークを有効にするかどうか変更します
+		}
+
+		EnableCrimsonRod: {
+			Label: "[i/s1:1256] クリムゾンロッドのリワークを有効にする"
+			Tooltip: クリムゾンロッドのリワークを有効にするかどうか変更します
+		}
+
+		EnableSoulDrain: {
+			Label: "[i/s1:3006] ライフドレインのリワークを有効にする"
+			Tooltip: ライフドレインのリワークを有効にするかどうか変更します
+		}
+
+		EnableApprenticeStaffT3: {
+			Label: "[i/s1:3870] ベッツイの怒りのリワークを有効にする"
+			Tooltip: ベッツイの怒りのリワークを有効にするかどうか変更します
+		}
+
+		EnableClingerStaff: {
+			Label: "[i/s1:3014] クリンガースタッフのリワークを有効にする"
+			Tooltip: クリンガースタッフのリワークを有効にするかどうか変更します
+		}
+
+		EnableFetidBaghnakhs: {
+			Label: "[i/s1:3013] 悪臭のバクナウのリワークを有効にする"
+			Tooltip: 悪臭のバクナウのリワークを有効にするかどうか変更します
+		}
+
+		EnableBladedGlove: {
+			Label: "[i/s1:1827] 爪付きグローブのリワークを有効にする"
+			Tooltip: 爪付きグローブのリワークを有効にするかどうか変更します
+		}
+
+		EnableMinishark: {
+			Label: "[i/s1:98] ミニシャークのリワークを有効にする"
+			Tooltip: ミニシャークのリワークを有効にするかどうか変更します
+		}
+
+		EnableTheUndertaker: {
+			Label: "[i/s1:800] アンダーテイカ―のリワークを有効にする"
+			Tooltip: アンダーテイカ―のリワークを有効にするかどうか変更します
+		}
+
+		EnableFlintlockPistol: {
+			Label: "[i/s1:95] フリントロックピストルのリワークを有効にする"
+			Tooltip: フリントロックピストルのリワークを有効にするかどうか変更します
+		}
+
+		EnableMusket: {
+			Label: "[i/s1:96] マスケット銃のリワークを有効にする"
+			Tooltip: マスケット銃のリワークを有効にするかどうか変更します
+		}
+
+		EnableRedRyder: {
+			Label: "[i/s1:1870] レッドライダーのリワークを有効にする"
+			Tooltip: レッドライダーのリワークを有効にするかどうか変更します
+		}
+
+		EnableRevolver: {
+			Label: "[i/s1:2269] リボルバーのリワークを有効にする"
+			Tooltip: リボルバーのリワークを有効にするかどうか変更します
+		}
+
+		EnableQuadBarrelShotgun: {
+			Label: "[i/s1:4703] クワッドバレルショットガンのリワークを有効にする"
+			Tooltip: クワッドバレルショットガンのリワークを有効にするかどうか変更します
+		}
+
+		EnableHandgun: {
+			Label: "[i/s1:164] 拳銃のリワークを有効にする"
+			Tooltip: 拳銃のリワークを有効にするかどうか変更します
+		}
+
+		EnableClockworkAssaultRifle: {
+			Label: "[i/s1:434] ゼンマイ式アサルトライフルのリワークを有効にする"
+			Tooltip: ゼンマイ式アサルトライフルのリワークを有効にするかどうか変更します
+		}
+
+		EnableGatligator: {
+			Label: "[i/s1:2270] ガトリゲイターのリワークを有効にする"
+			Tooltip: ガトリゲイターのリワークを有効にするかどうか変更します
+		}
+
+		EnableShotgun: {
+			Label: "[i/s1:97] ショットガンのリワークを有効にする"
+			Tooltip: ショットガンのリワークを有効にするかどうか変更します
+		}
+
+		EnableSniperRifle: {
+			Label: "[i/s1:1254] スナイパーライフルのリワークを有効にする"
+			Tooltip: スナイパーライフルのリワークを有効にするかどうか変更します
+		}
+
+		EnableProximityMineLauncher: {
+			Label: "[i/s1:4704] 感知地雷ランチャーのリワークを有効にする"
+			Tooltip: 感知地雷ランチャーのリワークを有効にするかどうか変更します
+		}
+
+		EnableGrenadeLauncher: {
+			Label: "[i/s1:758] グレネードランチャーのリワークを有効にする"
+			Tooltip: グレネードランチャーのリワークを有効にするかどうか変更します
+		}
+
+		EnableRocketLauncher: {
+			Label: "[i/s1:759] ロケットランチャーのリワークを有効にする"
+			Tooltip: ロケットランチャーのリワークを有効にするかどうか変更します
+		}
+
+		EnableSnowmanCannon: {
+			Label: "[i/s1:1946] スノーマンキャノンのリワークを有効にする"
+			Tooltip: スノーマンキャノンのリワークを有効にするかどうか変更します
+		}
+
+		EnableElectrosphereLauncher: {
+			Label: "[i/s1:2796] エレクトロスフィアランチャーのリワークを有効にする"
+			Tooltip: エレクトロスフィアランチャーのリワークを有効にするかどうか変更します
+		}
+
+		EnableSnowballCannon: {
+			Label: "[i/s1:1319] 雪玉キャノンのリワークを有効にする"
+			Tooltip: 雪玉キャノンのリワークを有効にするかどうか変更します
+		}
+
+		EnableChainGun: {
+			Label: "[i/s1:1929] チェーンガンのリワークを有効にする"
+			Tooltip: チェインガンのリワークを有効にするかどうか変更します
 		}
 	}
 
@@ -3506,7 +4069,7 @@ Items: {
 		Tooltip:
 			'''
 			攻撃速度上昇の影響を受けないが、その分が防御無視に変換される 
-			槍の先端で攻撃するとダメージが1.25倍になり、敵の防御力を{0}%無視する
+			槍の先端で攻撃するとダメージが1.15倍になり、敵の防御力を{0}%無視する
 			右クリックで槍を回転させながら突進し、左クリック攻撃を15秒間強化し、カーソルの位置に斬撃を放つように
 			斬撃はカーソルから一定距離内の敵を自動でロックオンする
 			突進中、短時間無敵になる
@@ -3645,7 +4208,7 @@ Items: {
 	}
 
 	ExampleAdvancedFlail: {
-		DisplayName: Example Advanced Flail
+		DisplayName: サンプル用の高度なフレイル
 		Tooltip: ""
 	}
 
@@ -3664,6 +4227,45 @@ Items: {
 		Tooltip: 左クリックで自分が召喚したアーケインを全て消し、右クリックで自分のセントリーを全て消す
 	}
 	
+	Flare: {
+		DisplayName: ソーラーフレア
+		Tooltip: ""
+	}
+
+	PoisonBullet: {
+		DisplayName: 毒の弾丸
+		Tooltip: 毒を与えることがある
+	}
+
+	PoisonArrow: {
+		DisplayName: 毒矢
+		Tooltip: 毒を与えることがある
+	}
+
+	HellfireBullet: {
+		DisplayName: ヘルファイアの弾丸
+		Tooltip: 敵を炎上させ、敵か地形に当たると小さな爆発が起きることがある
+	}
+
+	SpectreArrow: {
+		DisplayName: スペクターアロー
+		Tooltip: 敵を追尾するスペクターを召喚することがある
+	}
+
+	ShroomiteArrow: {
+		DisplayName: シュルーマイトの矢
+		Tooltip: キノコの胞子雲を発生させる
+	}
+
+	FrostBullet: {
+		DisplayName: 氷の弾丸
+		Tooltip: 霜焼けを与え、敵か地形に当たると氷の欠片に分裂する
+	}
+
+	FrostShard: {
+		DisplayName: 氷の欠片
+		Tooltip: 氷の弾丸の作成に使用する
+	}
 }
 
 ItemTooltip.DevTag: >>開発者アイテム<<
@@ -3674,6 +4276,8 @@ CombatText: {
 	Bounce: バウンド!
 	TitaniumStormParry: チタンストームパリィ！
 	AdamantiteBounce: パリィ!
+	Revolver: "{0}発外した！"
+	Revolver2: 全弾命中！
 }
 
 Buffs: {
@@ -3774,7 +4378,7 @@ Buffs: {
 
 	BigStardustMinionBleed: {
 		DisplayName: 巨大細胞捕食
-		Description: 敵のライフを1秒ごとに50減少させる
+		Description: ライフが1秒ごとに50減っていく
 	}
 
 	RoseCrystalMinionBuff: {
@@ -3814,12 +4418,22 @@ Buffs: {
 
 	ElectricDebuff: {
 		DisplayName: 感電
-		Description: ライフが徐々に減少
+		Description: ライフが徐々に減っていく
 	}	
 
 	WebbedDebuff: {
 		DisplayName: クモの巣まみれ
 		Description: 移動速度が低下
+	}
+
+	Bleeding: {
+		DisplayName: 流血1
+		Description: ライフが1秒ごとに10減っていく
+	}
+
+	Bleeding2: {
+		DisplayName: 流血2
+		Description: ライフが1秒ごとに30減っていく
 	}
 }
 

@@ -326,7 +326,7 @@ Items: {
 	
 	GoldenHealingPotion: {
 		DisplayName: 黄金のライフポーション
-		Tooltip: "「これは間違いだった」"
+		Tooltip: 「これは間違いだった」
 	}
 
 	GoldenManaPotion: {

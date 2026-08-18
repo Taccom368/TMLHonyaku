@@ -277,27 +277,27 @@ Interface: {
 }
 
 DeathMessage: {
-	Barnacle_Mound: "{0}は彼らがどこへ向かっているのかを見ることができない"
-	Defiled_Mite: "{0}は彼らがどこへ向かっているのか見守ることができない"
-	Self_Damage_0: "{0}は少し興奮しすぎた"
-	Self_Damage_1: "{0}は爆発物の取り扱いを誤った。"
-	Self_Damage_2: "{0}は「それは単なる事故だった」と言っている"
-	Self_Damage_3: "{0}は調子に乗ってしまった。"
-	Self_Damage_4: "{0}は本当にだらしなくなってしまった"
-	Self_Damage_5: "{0}は保険金詐欺を働いた"
-	Confection_Assimilation: "{0}は甘いものを食べ過ぎた"
-	Contagion_Assimilation: "{0}は鼻くそをほじるのを止められなかった"
+	Barnacle_Mound: "{0}は彼らがどこへ向かっているのかを見ることができません。"
+	Defiled_Mite: "{0}は彼らがどこへ向かっているのか見守ることができません。"
+	Self_Damage_0: "{0}は少し興奮しすぎました。"
+	Self_Damage_1: "{0}は爆発物の取り扱いを誤りました。"
+	Self_Damage_2: "{0}は「それは単なる事故だった」と言っています。"
+	Self_Damage_3: "{0}は調子に乗ってしまいました。"
+	Self_Damage_4: "{0}は本当にだらしなくなってしまいました。"
+	Self_Damage_5: "{0}は保険金詐欺を働きました。"
+	Confection_Assimilation: "{0}は甘いものを食べ過ぎました。"
+	Contagion_Assimilation: "{0}は鼻くそをほじるのを止められませんでした。"
 
 	Torn: {
-		0: "{0}は自身の体が溶けていくのを見た"
-		1: "{0}はアメーバゲルの中で遊ぶのが好きだ"
-		2: "{0}は原始のアメーバのエネルギーとなった"
-		3: "{0}が消化された"
-		4: "{0}が溶けた"
+		0: "{0}は自身の体が溶けていくのを見ました。"
+		1: "{0}はアメーバゲルの中で遊ぶのが好きです。"
+		2: "{0}は原始のアメーバのエネルギーとなりました。"
+		3: "{0}が消化されました。"
+		4: "{0}が溶けました。"
 	}
 
-	Tripod_0: "{0}は三脚ニップを忘れていた"
-	Tripod_1: "{0}は{§Mods.Origins.NPCs.Defiled_Tripod.DisplayName}に破壊された"
+	Tripod_0: "{0}は三脚ニップを忘れていました。"
+	Tripod_1: "{0}は{§Mods.Origins.NPCs.Defiled_Tripod.DisplayName}に破壊されました。"
 }
 
 Generic: {
@@ -444,7 +444,7 @@ Buffs: {
 	Corrupt_Assimilation: {
 		DisplayName: 不浄の侵食
 		Description: あなたは不浄の侵食を受けている
-		DeathMessage: "{0}は不浄により、かつての面影を失い、抜け殻のような存在になってしまった"
+		DeathMessage: "{0}は不浄により、かつての面影を失い、抜け殻のような存在になってしまいました。"
 	}
 
 	Cranivore_Debuff: {
@@ -455,13 +455,13 @@ Buffs: {
 	Crimson_Assimilation: {
 		DisplayName: 真紅の侵食
 		Description: あなたは真紅の侵食を受けている
-		DeathMessage: "{0}は真紅に飲み込まれた"
+		DeathMessage: "{0}は真紅に飲み込まれました。"
 	}
 
 	Defiled_Assimilation: {
 		DisplayName: "{§荒廃}の侵食"
 		Description: あなたは{§荒廃}の侵食を受けている
-		DeathMessage: "{0}は{§荒廃}の意志に歪められた"
+		DeathMessage: "{0}は{§荒廃}の意志に歪められました。"
 	}
 
 	Defiled_Blight_Buff: {
@@ -568,7 +568,7 @@ Buffs: {
 	Riven_Assimilation: {
 		DisplayName: "{§不和}の侵食"
 		Description: あなたは§不和}のの侵食を受けている
-		DeathMessage: "{0}は{§不和}の生態系の一つとなった"
+		DeathMessage: "{0}は{§不和}の生態系の一つとなりました。"
 	}
 
 	Safe_Buff: {
@@ -646,7 +646,7 @@ Buffs: {
 
 	Depth_Ravel_Mount_Buff: {
 		DisplayName: デプスラヴェル
-		Description: 10%の確率で攻撃を回避し、水中で極めて高い能力を発揮する
+		Description: 10%の確率で攻撃を回避し、水中で高い能力を発揮する
 	}
 
 	Lousy_Liver_Debuff: {
@@ -1245,12 +1245,12 @@ DamageClasses: {
 		}
 	}
 
-	Ranged_Magic.DisplayName: 遠距離/魔法ダメージ
+	Ranged_Magic.DisplayName: 遠距離&魔法ダメージ
 	Incantation.DisplayName: 召喚ダメージ
 	Thrown_Explosive.DisplayName: 爆発ダメージ (投擲)
 	ExplosivePlus.DisplayName: 爆発&{0}
 	ExplosivePlusModded.DisplayName: 爆発& {0}
-	Melee_Magic.DisplayName: 近接/魔法ダメージ
+	Melee_Magic.DisplayName: 近接&魔法ダメージ
 	No_Summon_Inherit.DisplayName: 召喚の継承無し
 	Ranged_Explosive_Inherit.DisplayName: 遠距離の爆発継承
 	SentryExplosive.DisplayName: セントリー爆発
@@ -1282,7 +1282,7 @@ Projectiles: {
 	Meberoid.DisplayName: メベトロイド
 	Platformer_Mech.DisplayName: 足場マシン
 	Acrid_Drill_P.DisplayName: "{§エイクリッド}のドリル"
-	Amoeba_Hook_P.DisplayName: アメーバのフック
+	Amoeba_Hook_P.DisplayName: アメーバフック
 	Lightning_Rod_Bobber.DisplayName:ライトニングロッドの浮き
 	Parasitic_Bobber.DisplayName: パラスィティックの浮き
 	Snatcher_Bobber.DisplayName: スナッチャーの浮き
@@ -1554,9 +1554,9 @@ Projectiles: {
 	True_Waning_Crescent_P2.DisplayName: トゥルーウェイニングクレセント
 	True_Waning_Crescent_Thrown.DisplayName: トゥルーウェイニングクレセント
 	Bee_Afraid_Incantation_Big_Bee.DisplayName: 恐怖の蜂
-	Terrarang_P.DisplayName: テララン
-	Terrarang_Thrown.DisplayName: テララン
-	Terrarang_P2.DisplayName: テララン
+	Terrarang_P.DisplayName: テラメラン
+	Terrarang_Thrown.DisplayName: テラメラン
+	Terrarang_P2.DisplayName: テラメラン
 	CORE_Generator_P.DisplayName: コアジェネレーター
 	Internal_Combustionfish_P.DisplayName: 内部燃焼魚
 	Amoebash_Smash.DisplayName: アメーバッシュ
@@ -1619,7 +1619,7 @@ Projectiles: {
 	Razorwire_P.DisplayName: 有刺鉄線
 	Firestarter_Explosion.DisplayName: 着火剤の爆発
 	Hibernal_Incantation_P.DisplayName: 冬の呪文
-	Hibernal_Icicle_P.DisplayName: 冬のつらら
+	Hibernal_Icicle_P.DisplayName: 冬の氷柱
 	Thermite_Lingering_P.DisplayName: 残留したテルミット
 	CORE_Generator_Star_P.DisplayName: コアジェネレーターの星
 	Thread_Rod_P.DisplayName: グラスファイバーの糸
@@ -2261,7 +2261,7 @@ Configs: {
 		}
 
 		QuestNotificationPosition: {
-			Label: クエスト通知の位置
+			Label: 依頼通知の位置
 			Tooltip: ""
 		}
 
@@ -2382,8 +2382,8 @@ Configs: {
 		}
 
 		VanillaWhipScale: {
-			Label: バニラの鞭の大きさのサポート
-			Tooltip: バニラの鞭と、大きさの接頭辞をサポートする他のModの鞭を追加します
+			Label: バニラの鞭にサイズを変化させる接頭辞が付く
+			Tooltip: バニラの鞭と他のModの鞭にサイズを変化させる接頭辞が付くようになります
 		}
 	}
 
@@ -2757,14 +2757,14 @@ SetBonuses: {
 	Necromancer:
 		'''
 		敵を倒すと召喚ダメージが短時間増加
-		墓地にいるとマナ消費量が半分になり、アーティファクトミニオンならさらに半分になる
+		墓場にいるとマナ消費量が半分になり、アーティファクトミニオンならさらに半分になる
 		敵の出現率が上昇する
 		召喚できるミニオンの数が3体増える
 		'''
 	NecromancerCrown:
 		'''
 		倒した敵から満たされない魂が出現する
-		墓地にいるとマナ消費量が半分になる
+		墓場にいるとマナ消費量が半分になる
 		敵の出現率が上昇する
 		召喚できるミニオンの数が3体増える
 		'''
@@ -2777,7 +2777,7 @@ SetBonuses: {
 	Chlorohpyte_Summoner: 召喚できるミニオンの数が2体増える
 	Riptide:
 		'''
-		水中か、雨が降っていると魔法ダメージが6%増加
+		液体内か、雨が降っていると魔法ダメージが6%増加
 		津波を放つダッシュが可能になる
 		'''
 	Sapphire:
@@ -2839,12 +2839,12 @@ SetBonuses: {
 		[buffhint/self:Origins/Voidsight_Buff]を常に得る
 		召喚できるミニオンの数が1体増える
 		武器のノックバックが15%増加
-		一時的にチェンバーサイト・センチネルを召喚できる
+		チェンバーサイト・センチネルを一時的に召喚できる
 		5秒のクールダウン
 		'''
 	Aetherite:
 		'''
-		一時的にシマーリフトを開く
+		シマーリフトを一時的に開く
 		この次元にはランダムにダメージを与える星の地雷が出現する
 		その後、プレイヤーと全てのエンティティを最後にいた場所にテレポートさせる
 		15秒のクールダウン
@@ -3287,7 +3287,7 @@ Items: {
 		Tooltip:
 			'''
 			近くの[buffhint:Bleeding]を受けている敵が時折爆発する
-			「俺がクールだから、俺の近くで爆​​発が起こるんだ！」
+			「俺がクールだから、俺の近くで爆発が起こるんだ！」
 			'''
 	}
 
@@ -3475,7 +3475,7 @@ Items: {
 	}
 
 	Magic_Glove: {
-		DisplayName: 魔法の手袋
+		DisplayName: 魔法のグローブ
 		Tooltip:
 			'''
 			マナ消費量が8%減少
@@ -3500,7 +3500,7 @@ Items: {
 			'''
 			{$Mods.Origins.Items.Mysterious_Spray.EffectTooltip}
 			{$ItemTooltip.CrossNecklace}
-			「ひどい格好だね。何とかしよう。」
+			「ひどい格好だね。何とかしよう」
 			'''
 	}
 
@@ -3690,7 +3690,7 @@ Items: {
 
 	Rebreather: {
 		DisplayName: リブリーザー
-		Tooltip: 水中で動くと呼吸ゲージが回復する
+		Tooltip: 液体内で動くと呼吸ゲージが回復する
 	}
 
 	Refactoring_Pieces: {
@@ -3780,7 +3780,7 @@ Items: {
 		Tooltip:
 			'''
 			爆発物が複製されることがある
-			「火薬が2倍になれば、楽しさも2倍。」
+			「火薬が2倍になれば、楽しさも2倍」
 			'''
 	}
 
@@ -3855,7 +3855,7 @@ Items: {
 	}
 
 	Symbiote_Skull: {
-		DisplayName: 共生体のスカル
+		DisplayName: 共生体のドクロ
 		Tooltip: 攻撃した敵に[buffhint/dn断裂:Origins/Torn_Debuff]を与える
 	}
 
@@ -3937,7 +3937,7 @@ Items: {
 		Tooltip:
 			'''
 			爆発クリティカル率と投げた爆発物の速度が10%上昇
-			水中で効果が強力になる
+			液体内で効果が強力になる
 			弱い光を発する
 			'''
 	}
@@ -3952,7 +3952,7 @@ Items: {
 		Tooltip:
 			'''
 			魔法ダメージが10%増加し、マナ消費量が25%減少
-			水中で効果が強力になる
+			液体内で効果が強力になる
 			弱い光を発する
 			'''
 	}
@@ -3962,7 +3962,7 @@ Items: {
 		Tooltip:
 			'''
 			近接ダメージが10%増加し、近接攻撃速度が10%上昇
-			水中で効果が強力になる
+			液体内で効果が強力になる
 			弱い光を発する
 			'''
 	}
@@ -3973,7 +3973,7 @@ Items: {
 			'''
 			召喚ダメージが10%増加
 			召喚できるミニオンの数が2体増える
-			水中で効果が強力になる
+			液体内で効果が強力になる
 			弱い光を発する
 			'''
 	}
@@ -3983,7 +3983,7 @@ Items: {
 		Tooltip:
 			'''
 			遠距離攻撃速度が20%上昇
-			水中で効果が強力になる
+			液体内で効果が強力になる
 			弱い光を発する
 			'''
 	}
@@ -4430,7 +4430,7 @@ Items: {
 	DioSet: 「開発者セットだと思っただろうが、このディオだッ！」
 
 	Plague_Texan_Jacket: {
-		DisplayName: Plague Texanの驚くほどお手頃なスタイル
+		DisplayName: プレイグテキサンの驚くほどお手頃なスタイル
 		Tooltip:
 			'''
 			{$TODev}
@@ -4439,7 +4439,7 @@ Items: {
 	}
 
 	Plague_Texan_Jeans: {
-		DisplayName: Plague Texanのジーンズ
+		DisplayName: プレイグテキサンのジーンズ
 		Tooltip:
 			'''
 			{$TODev}
@@ -4448,7 +4448,7 @@ Items: {
 	}
 
 	Plague_Texan_Mask: {
-		DisplayName: Plague Texanの顔
+		DisplayName: プレイグテキサンの顔
 		Tooltip:
 			'''
 			{$TODev}
@@ -4457,7 +4457,7 @@ Items: {
 	}
 
 	SceneYMK_Wings: {
-		DisplayName: Moonlight Glintの過度に染色された翼
+		DisplayName: ムーンライトグリントの過度に染色された翼
 		Tooltip:
 			'''
 			{$TODev}
@@ -4467,7 +4467,7 @@ Items: {
 	}
 
 	Plague_Texan_Sight: {
-		DisplayName: Plague Texanの贈り物
+		DisplayName: プレイグテキサンの贈り物
 		Tooltip:
 			'''
 			{$TODev}
@@ -4957,7 +4957,7 @@ Items: {
 
 	Bug_Item: {
 		DisplayName: バグ
-		Tooltip: 「壊そうとするな、更に問題が増えるぞ」
+		Tooltip: 「壊そうとするな、さらに問題が増えるぞ」
 	}
 
 	Chunky_Crate: {
@@ -4966,7 +4966,7 @@ Items: {
 	}
 
 	Cicada_3301_Item: {
-		DisplayName: セミ3301
+		DisplayName: シケイダ3301
 		Tooltip: 「非常に謎めいている。これはどういう意味だ？」
 	}
 
@@ -4975,7 +4975,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.RightClickToOpen}
-			「いいえ、こちらはパトリックだ。」
+			「いいえ、こちらはパトリックだ」
 			'''
 	}
 
@@ -5059,27 +5059,27 @@ Items: {
 	}
 
 	Suspicious_Looking_Pebble: {
-		DisplayName: 怪しげな小石
-		Tooltip: 光を発する{§荒廃の}災厄を召喚する
+		DisplayName: 怪しい小石
+		Tooltip: 光を放つ{§荒廃の}災厄を召喚する
 	}
 
 	Acrid_Drill: {
 		DisplayName: "{§エイクリッド}のドリル"
-		Tooltip: 水中で採掘スピードが上昇
+		Tooltip: 液体内で採掘スピードが上昇
 	}
 
 	Acrid_Hamaxe: {
 		DisplayName: "{§エイクリッド}のハンマーアックス"
-		Tooltip: 水中で壁の破壊速度と伐採速度が上昇
+		Tooltip: 液体内で壁の破壊速度と伐採速度が上昇
 	}
 
 	Acrid_Pickaxe: {
 		DisplayName: "{§エイクリッド}のつるはし"
-		Tooltip: 水中で採掘スピードが上昇
+		Tooltip: 液体内で採掘スピードが上昇
 	}
 
 	Amoeba_Hook: {
-		DisplayName: アメーバのフック
+		DisplayName: アメーバフック
 		Tooltip: 「ぐにゃぐにゃ、時間も、ぐにゃぐにゃ」
 	}
 
@@ -5327,7 +5327,7 @@ Items: {
 
 	Black_Hole_Bomb: {
 		DisplayName: ブラックホールボム
-		Tooltip: 「内破。爆発」
+		Tooltip: 「内破爆発」
 	}
 
 	Bloombomb: {
@@ -5359,7 +5359,7 @@ Items: {
 		Tooltip:
 			'''
 			弾薬としてスラッグを使用する
-			<right>てインベントリ内の最初の爆発物を投げる
+			<right>でインベントリ内の最初の爆発物を投げる
 			「彼は彼の仕事をし、私は私の仕事をする」
 			'''
 	}
@@ -5461,7 +5461,7 @@ Items: {
 
 	Happy_Bomb: {
 		DisplayName: ハッピーボム
-		Tooltip: 「これはクスクス笑うやつだ。」
+		Tooltip: 「これはクスクス笑うやつだ」
 	}
 
 	Hellfire_Bomb: {
@@ -5612,7 +5612,7 @@ Items: {
 
 	Cryostrike: {
 		DisplayName: クライオストライク
-		Tooltip: "[buffhint:Frostburn]を与える鋭いつららを発射する"
+		Tooltip: "[buffhint:Frostburn]を与える鋭い氷柱を発射する"
 	}
 
 	Dismay: {
@@ -5856,7 +5856,7 @@ Items: {
 	}
 
 	Vorpal_Sword_Cursed: {
-		DisplayName: ヴォーパルソード（呪い）
+		DisplayName: ヴォーパルソード
 		Tooltip:
 			'''
 			[buffhint/dn断裂:Origins/Torn_Debuff]を与える
@@ -6064,7 +6064,7 @@ Items: {
 	}
 
 	Viper_Rifle: {
-		DisplayName: HNO-3「バイパー」
+		DisplayName: HNO-3バイパー
 		Tooltip:
 			'''
 			[buffhint:Origins/Toxic_Shock_Debuff]を与えることがある
@@ -6645,7 +6645,7 @@ Items: {
 		Tooltip: 
 			'''
 			爆発物が複製されることがある
-			「火薬が2倍になれば、楽しさも2倍。」
+			「火薬が2倍になれば、楽しさも2倍」
 			'''
 	}
 
@@ -6899,11 +6899,11 @@ Items: {
 	}
 
 	Forbidden_Voice: {
-		DisplayName: 禁断の声（呪い）
+		DisplayName: 禁断の声
 		Tooltip:
 			'''
 			装備すると[buffhint/self:Silenced]を受けるが、<key>で[buffhint/dnsilence:Origins/Silenced_Debuff]を周囲に与える
-			能力を発動しないでいると、徐々にダメージ耐性が増加し、最大でダメージを10%軽減できる
+			能力を発動しないでいると、徐々にダメージ耐性が増加し、最大でダメージを10%軽減する
 			'''
 	}
 
@@ -7490,7 +7490,7 @@ Items: {
 	}
 
 	Terrarang: {
-		DisplayName: テララン
+		DisplayName: テラメラン
 		Tooltip: ""
 	}
 
@@ -7508,14 +7508,14 @@ Items: {
 		DisplayName: スミスのハンマー
 		Tooltip:
 			'''
-			光を放つ、歩く炉を召喚する
+			光を放つ歩く炉を召喚する
 			「彼はきっとひどく心配しているに違いない！」
 			'''
 	}
 
 	Fleshy_Globe: {
 		DisplayName: 肉厚な球
-		Tooltip: 光を放つ、コンテインドユニバースを召喚する
+		Tooltip: 光を放つコンテインドユニバースを召喚する
 	}
 
 	Speed_Booster: {
@@ -7998,7 +7998,7 @@ Items: {
 
 	Eitrite_Gun_Magazine: {
 		DisplayName:エイトライトの銃の弾倉
-		Tooltip: バーストで弾丸を発射する銃が追加でもう一発発射するようになる
+		Tooltip: バーストで弾丸を撃つ銃が追加でもう一発撃つようになる
 	}
 
 	Crimtane_Gun_Magazine.DisplayName: クリムタンの銃の弾倉
@@ -8251,8 +8251,8 @@ Items: {
 		Tooltip:
 			'''
 			[buffhint/self:Suffocation]を無効化し、窒息ダメージを軽減する
-			泳げるようになり、水中で自由に動ける
-			攻撃した敵に[buffhint:Origins/Cavitation_Debuff]と[buffhint:Wet]を与え[ox:、]水中だと爆発する
+			泳げるようになり、液体内で自由に動ける
+			攻撃した敵に[buffhint:Origins/Cavitation_Debuff]と[buffhint:Wet]を与え[ox:、]液体内だと爆発することがある
 			爆発範囲が40%拡大
 			「苦闘を通してのみ、私たちは自分自身を見出すことができる」
 			'''
@@ -8419,7 +8419,7 @@ Items: {
 
 	Mildew_Item: {
 		DisplayName: カビのブロック
-		Tooltip: 「気持ち悪い。本当に気持ち悪い。」
+		Tooltip: 「気持ち悪い。本当に気持ち悪い」
 	}
 
 	Basic_Crate: {
@@ -8428,8 +8428,8 @@ Items: {
 	}
 
 	The_Jungles_Window_Item: {
-		DisplayName: ジャングルの窓
-		Tooltip: 「Albert Kiln」
+		DisplayName: 絵画『ジャングルの窓』
+		Tooltip: 「アルバート・キルン」
 	}
 
 	Defiled_Monolith_Item: {
@@ -8467,7 +8467,7 @@ Items: {
 		Tooltip:
 			'''
 			装備すると[buffhint/self:Silenced]を受けるが、<key>で[buffhint/dnsilence:Origins/Silenced_Debuff]を周囲に与える
-			能力を発動しないでいると、徐々にダメージ耐性が増加し、最大でダメージを27%軽減できる
+			能力を発動しないでいると、徐々にダメージ耐性が増加し、最大でダメージを27%軽減する
 			'''
 	}
 
@@ -8541,7 +8541,7 @@ Items: {
 		Tooltip:
 			'''
 			移動速度が25%上昇
-			水中でさらに移動速度が10%上昇
+			水と蜂蜜内でさらに移動速度が10%上昇
 			泳げるようになる
 			'''
 	}
@@ -8937,7 +8937,7 @@ Items: {
 		DisplayName: 幸運の帽子
 		Tooltip:
 			'''
-			遠距離クリティカル率と爆発クリティカル率が8%上昇
+			遠距離と爆発クリティカル率が8%上昇
 			「ウエスタンスタイルはどんな服装にもよく似合う！」
 			'''
 	}
@@ -9087,8 +9087,8 @@ Items: {
 	Nerve_Flan_Food.Tooltip: "{$Buffs.Nerve_Flan_Food_Buff.Description}"
 
 	Aether_Bullet: {
-		DisplayName: エーテル弾
-		Tooltip: 自身の背後にも弾丸を発射する
+		DisplayName: エーテルの弾丸
+		Tooltip: 自身の背後にも弾丸を撃つ
 	}
 
 	Aether_Canister: {
@@ -9123,7 +9123,7 @@ Items: {
 
 	Chambersite_Minigun: {
 		DisplayName: チェンバーサイトのミニガン
-		Tooltip: 最初の攻撃は弾丸を複数発射する
+		Tooltip: 最初の攻撃は弾丸を複数撃つ
 	}
 
 	Aetherite_Bar: {
@@ -9148,7 +9148,7 @@ Items: {
 
 	Aether_Orb: {
 		DisplayName: エーテルオーブ
-		Tooltip: シマーに投げ込むと{$Mods.Origins.NPCs.Shimmer_Construct.DisplayName}を召喚する
+		Tooltip: シマーに投げ入れると{$Mods.Origins.NPCs.Shimmer_Construct.DisplayName}を召喚する
 	}
 
 	Chambersite_Hook: {
@@ -9344,7 +9344,7 @@ Items: {
 			バラを発射し、[buffhint/dn敵の速度を低下:Origins/Amnestic_Rose_Buff]させる
 			バラは敵か地形に当たると、触れた敵の速度を低下させる粘液をばら撒く
 			バラがない間はバラのつぼみを発射して攻撃し、バラか当たった敵に当たるとマナを奪う
-			「バラ、だが誰のためのバラ？」
+			「バラ、だが誰のためのバラだ？」
 			'''
 	}
 
@@ -9402,7 +9402,7 @@ Items: {
 		Tooltip:
 			'''
 			光を放つゼラチンアスペクトを召喚する
-			「[c/b8e843:Salvature]の皆さんから感謝の言葉をいただきました」
+			「[c/b8e843:サルヴァチュア]の皆さんから感謝の言葉をいただきました」
 			'''
 	}
 
@@ -9422,7 +9422,7 @@ Items: {
 	}
 
 	Cicada_3301_Cage_Item: {
-		DisplayName: テラリウム（セミ3301）
+		DisplayName: テラリウム（シケイダ3301）
 		Tooltip: ""
 	}
 
@@ -9493,8 +9493,8 @@ Items: {
 	}
 
 	Deceptive_Beauty_Item: {
-		DisplayName: 欺瞞的な美しさ
-		Tooltip: 「B. Lobster」
+		DisplayName: 絵画『欺瞞的な美しさ』
+		Tooltip: 「B.ロブスター」
 	}
 
 	Barnacle_Wall_Safe_Item: {
@@ -9697,7 +9697,7 @@ NPCs: {
 
 	Amoeba_Buggy.DisplayName: アメーババギー
 	Bug.DisplayName: バグ
-	Cicada_3301.DisplayName: セミ3301
+	Cicada_3301.DisplayName: シケイダ3301
 	Ancient_Defiled_Cyclops.DisplayName: 古代の{§荒廃}のサイクロプス
 	Chunky_Slime.DisplayName: チャンキースライム
 
@@ -10477,7 +10477,7 @@ Journal: {
 
 		Symbiote_Skull.Text:
 			'''
-			[header:共生体のスカル (5/{$SeriesLength})]
+			[header:共生体のドクロ (5/{$SeriesLength})]
 			[jimage/sc3d:Origins/Items/Accessories/Symbiote_Skull]
 			*****
 			不思議なことに、不和の中で見つかった生命体は、
@@ -11366,7 +11366,7 @@ Journal: {
 				*****
 				テラリアのドライアドは、この世界の真の守護者であり、
 				生命をもたらし、世界のために行動する存在だった。
-				ドライアドの役割は、ライフフルーツやモジョの葉っぱといった他の多くの植物と共に、
+				ドライアドの役割は、ライフフルーツやモジョの葉といった他の多くの植物と共に、
 				禁断の果実を栽培することだった。
 				禁断の果実は、テラリアにおいて、与えられた者に託された責任の一形態だが、
 				これらの植物の栽培方法を知っているのはドライアドだけだ。
@@ -12616,8 +12616,7 @@ AprilFools: {
 		Focus_Crystal.DisplayName: 集中の鼻
 		Lucky_Hat.Tooltip:
 			'''
-			遠距離クリティカル率と爆発クリティカル率が8%上昇
-			「ウエスタンスタイルはどんな服装にもよく似合う！」
+			遠距離と爆発クリティカル率が8%上昇
 			「ウエスタンスタイルはどんな服装にもよく似合うけど、何も着ない方がもっと素敵に見える ( ͡° ͜ʖ ͡°)」
 			'''
 		Shaped_Glass.Tooltip:
@@ -12640,12 +12639,12 @@ AprilFools: {
 	Dialogue.Brine_Fiend.InteractionWind: 「まったく、風が強い！」
 
 	DeathMessage: {
-		Torn_0: "{0}はビーゼチャーガードされた"
-		Torn_1: "{0}は「分裂したプールパーティー」なんてものは存在しないと気づいた。"
-		Torn_2: "{0}は学校で教わるよりも早くテラリアンの解剖学を習得した。"
-		Torn_3: "{0}は丸呑みされるのが好きだ。"
+		Torn_0: "{0}はビーゼチャーガードされました。"
+		Torn_1: "{0}は「分裂したプールパーティー」なんてものは存在しないと気づきました。"
+		Torn_2: "{0}は学校で教わるよりも早くテラリアンの解剖学を習得しました。"
+		Torn_3: "{0}は丸呑みされるのが好きです。"
 		// oh god no, YESSSS
-		Torn_4: "{0}は原始のアメーバによって「分裂」させられた。"
+		Torn_4: "{0}は原始のアメーバによって「分裂」させられました。"
 	}
 
 	AltBiomes: {
@@ -12822,9 +12821,9 @@ AprilFools: {
 
 GameTips: {
 
-	RivenUmbrella: Terraria Origins: "{§不和}へ向かうなら、傘を忘れないように！"
+	RivenUmbrella: Terraria Origins: {§不和}へ向かうなら、傘を忘れないように！
 	Journal: Terraria Origins: クエストの管理に苦労していませんか？書き留めておくには、何かメモ帳などが必要なんですよね。
-	DefiledSpikes: Terraria Origins: "{§荒廃}が悪夢のために使う巨大な棘が、あなたの行く手を阻んでいますか？爆弾とロープが役に立つかもしれません！"
+	DefiledSpikes: Terraria Origins: {§荒廃}が悪夢のために使う巨大なトゲが、あなたの行く手を阻んでいますか？爆弾とロープが役に立つかもしれません！
 	Assimilation: Terraria Origins: 侵食を克服する方法？それならドライアドにお任せを。
 	CursedItems: Terraria Origins: 呪いのアイテムは楽しいものですが、魔術のテーブルで呪いを解くことができ、邪悪な世界を無力化することができます！
 	EvilWeaknesses: Terraria Origins: イーターは燃えると暗い影を落とし、血まみれの怪物は毒の注射で萎縮し、ずっしりとした抗体は電撃により砕け散り[ox:、]ねばねばした仲間は寒くなると食事ができなくなる。世界の悪に驚きを与えよう…

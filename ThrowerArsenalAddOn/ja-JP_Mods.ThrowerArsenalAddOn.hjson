@@ -119,7 +119,7 @@ Items: {
 
 	Chimera: {
 		DisplayName: キメラ
-		Tooltip: "「これはナッツだ…ボルトかもしれない！」"
+		Tooltip: 「これはナッツだ…ボルトかもしれない！」
 	}
 
 	EmpressCharge: {
@@ -187,22 +187,22 @@ Items: {
 
 	GrandStar: {
 		DisplayName: グランドスター
-		Tooltip: "「選ばれし者の武器」"
+		Tooltip: 「選ばれし者の武器」
 	}
 
 	LunarFury: {
 		DisplayName: ルナーフューリー
-		Tooltip: "「今、堕ちた者たちは天に昇る」"
+		Tooltip: 「今、堕ちた者たちは天に昇る」
 	}
 
 	OmegaBlades: {
 		DisplayName: オメガブレード
 		Tooltip:
 			'''
-			3発のナイフを投げる
+			ナイフを3本投げる
 			敵か地形に当たると、ナイフはその場で停止する
 			停止したナイフは、少し遅れて、カーソルに向かって再び移動する
-			「時の終わりを受け入れよ…抵抗しても無駄だ」
+			「時の終わりを受け入れろ…抵抗しても無駄だ」
 			'''
 	}
 }
@@ -210,12 +210,12 @@ Items: {
 Buffs: {
 	TrueTwilightPlungeDebuff: {
 		DisplayName: ダークネスプランジ
-		Description: 闇のエネルギーがこの敵のライフを徐々に減少させる
+		Description: 闇のエネルギーがこの敵のライフを徐々に減らす
 	}
 
 	TerraCutterDebuff: {
 		DisplayName: テラレンド
-		Description: テラリアの力そのものがこの敵のライフを徐々に減少させる
+		Description: テラリアの力そのものがこの敵のライフを徐々に減らす
 	}
 
 	EmpressChargeDebuff: {

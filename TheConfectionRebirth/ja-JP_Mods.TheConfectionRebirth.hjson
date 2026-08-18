@@ -20,24 +20,24 @@ SetBonus: {
 	CreamwoodHelmet: 1 防御力
 	NeapoliniteMask:
 		'''
-		80ダメージ与えるごとに、5秒間クリティカル率を2%上昇
-		クリティカル率が10%に達すると、5秒間クリティカル時に防御を貫通する
+		80ダメージ与えるごとに、クリティカル率が5秒間、2%上昇
+		この効果で上昇したクリティカル率が10%に達すると、5秒間、クリティカル時に防御力を無視する
 		'''
 	NeapoliniteHelmet:
 		'''
-		10mph移動するごとに、5秒間ダメージが4%増加、クリ率が2%上昇
-		最大5スタックまで重複
+		10mph移動するごとに、5秒間、ダメージが4%増加し、クリティカル率が2%上昇
+		最大5スタックまで重複する
 		'''
 	NeapoliniteHeadgear:
 		'''
-		3秒でマナを25回復すると、5秒間毎秒ストロベリーを生成
-		いちごは敵を追尾し、所持武器の50%のダメージを与える（最大5個）
+		3秒でマナを25回復すると、5秒間、毎秒ストロベリーを生成する
+		ストロベリーは敵を追尾し、選択中の武器の50%のダメージを与える（最大5個）
 		'''
 	NeapoliniteHat:
 		'''
-		被弾せず8秒経過ごとにバフを獲得（最大5段階）
-		最初は渦ミニオンを召喚し既存ミニオンを複製
-		以降はミニオン追加と、鞭・ミニオン性能を強化
+		攻撃を受けずに8秒経過ごとにバフを獲得（最大5段階）
+		最初は渦ミニオンを召喚し、既存のミニオンを複製する
+		以降はミニオンの追加と、鞭とミニオンを強化
 		'''
 }
 
@@ -74,6 +74,7 @@ Bestiary: {
 	CrookedCookie: 跳ねることで機敏に動く小さなクッキー。ジャンプはできないが、その反動を活かして戦う。クリームサンドウィッチの創造物。
 	MintJr: 空を飛ぶミントクッキー。ミントの力で攻撃者を減速させる。クリームサンドウィッチの創造物。
 	Hunger: 粘つく中心を持つサンドクッキーで、ミミックのように跳びついて獲物を捕らえる。クリームサンドウィッチの創造物。
+	CreamsandWitch: お菓子の砂漠にある彼女の故郷に近づく者は誰でも、砂糖の力を使って打ち負かす魔女だ。
 }
 
 ItemAnglerChat: {
@@ -97,100 +98,100 @@ ItemAnglerChat: {
 
 PlayerDeathReason: {
 	CandleFire: {
-		0: "{0}はロウのように皮膚を溶かされた。"
-		1: "{0}はろうそくを吹き消すのが遅すぎた。"
-		2: "{0}はろうそくのように燃え上がった。"
-		3: "{0}はろうそくの炎に包まれた。"
-		4: "{0}は溶かすものがなくなるまで燃え尽きた。"
-		5: "{0}はケーキの上に飾られた。"
-		6: "{0}は完全に焼き尽くされた。"
+		0: "{0}はロウのように皮膚を溶かされました。"
+		1: "{0}はろうそくを吹き消すのが遅すぎました。"
+		2: "{0}はろうそくのように燃え上がりました。"
+		3: "{0}はろうそくの炎に包まれました。"
+		4: "{0}は溶かすものがなくなるまで燃え尽きました。"
+		5: "{0}はケーキの上に飾られました。"
+		6: "{0}は完全に焼き尽くされました。"
 	}
 
 	DimensionSplit: {
-		0: "{0}は裂け目の中で迷子になった。"
-		1: "{0}はバナナのように真っ二つにされた。"
-		2: "{0}はずっとバナナになろうとしていた。"
-		3: "{0}は次元の狭間で引き裂かれた。"
+		0: "{0}は裂け目の中で迷子になりました。"
+		1: "{0}はバナナのように真っ二つにされました。"
+		2: "{0}はずっとバナナになろうとしていました。"
+		3: "{0}は次元の狭間で引き裂かれました。"
 	}
 
 	ChokedOutByRootbeer: {
-		0: "{0}はルートビアで窒息死した。"
-		1: "{0}はルートビアの泡で窒息した。"
-		2: "{0}は泡を振り払えなかった。"
+		0: "{0}はルートビアで窒息死しました。"
+		1: "{0}はルートビアの泡で窒息しました。"
+		2: "{0}は泡を振り払えませんでした。"
 	}
 }
 
 Tiles: {
-	CreamSapling.MapEntry: Cream Sapling
-	CreamSnowSapling.MapEntry: Cream Snow Sapling
-	CreamTree.MapEntry: Tree
-	CreamSnowTree.MapEntry: Tree
+	CreamSapling.MapEntry: クリームの苗木
+	CreamSnowSapling.MapEntry: 雪のクリームの苗木
+	CreamTree.MapEntry: クリームの木
+	CreamSnowTree.MapEntry: 雪のクリームの木
 
 	ConfectionBiomeChestTile: {
-		MapEntry0: Confection Chest
-		MapEntry1: Locked Confection Chest
+		MapEntry0: お菓子楽園の宝箱
+		MapEntry1: ロックされたお菓子楽園の宝箱
 	}
 
-	NeapoliniteOre.MapEntry: Neapolinite Ore
-	NeapoliniteBar.MapEntry: Neapolinite Bar
-	HallowedOre.MapEntry: Hallowed Ore
-	ConfectionTorch.MapEntry: Confection Torch
-	ConfectionPylonTile.MapEntry: Confection Pylon Tile
-	CreamwoodBath.MapEntry: Bath
-	CreamwoodBed.MapEntry: Bed
-	CreamwoodBookcase.MapEntry: Bookcase
-	CreamwoodCandelabra.MapEntry: Candelabra
-	CreamwoodCandle.MapEntry: Candle
-	CreamwoodChair.MapEntry: Chair
-	CreamwoodChandelier.MapEntry: Chandelier
-	CreamwoodChest.MapEntry: Chest
-	CreamwoodClock.MapEntry: Clock
-	CreamwoodDoorOpen.MapEntry: Door
-	CreamwoodDresser.MapEntry: Dresser
-	CreamwoodLamp.MapEntry: Lamp
-	CreamwoodLantern.MapEntry: Lantern
-	CreamwoodPiano.MapEntry: Piano
-	CreamwoodSink.MapEntry: Sink
-	CreamwoodSofa.MapEntry: Sofa
-	CreamwoodTable.MapEntry: Table
-	CreamwoodToilet.MapEntry: Toilet
-	CreamwoodTrappedChest.MapEntry: Chest
-	CreamwoodWorkbench.MapEntry: Workbench
-	SoulofDelightinaBottle.MapEntry: Soul of Delight in a Bottle
-	SoulofSpiteinaBottle.MapEntry: Soul of Spite in a Bottle
-	SacchariteBath.MapEntry: Bath
-	SacchariteBed.MapEntry: Bed
-	SacchariteBookcase.MapEntry: Bookcase
-	SacchariteCandelabra.MapEntry: Candelabra
-	SacchariteCandle.MapEntry: Candle
-	SacchariteChair.MapEntry: Chair
-	SacchariteChandelier.MapEntry: Chandelier
-	SacchariteChest.MapEntry: Chest
-	SacchariteClock.MapEntry: Clock
-	SacchariteDoorOpen.MapEntry: Door
-	SacchariteDresser.MapEntry: Dresser
-	SacchariteLamp.MapEntry: Lamp
-	SacchariteLantern.MapEntry: Lantern
-	SaccharitePiano.MapEntry: Piano
-	SacchariteSink.MapEntry: Sink
-	SacchariteSofa.MapEntry: Sofa
-	SacchariteTable.MapEntry: Table
-	SacchariteToilet.MapEntry: Toilet
-	SacchariteTrappedChest.MapEntry: Trapped Chest
-	SacchariteWorkbench.MapEntry: Workbench
-	CherryBugBottle.MapEntry: Cherry Bug Bottle
-	ChocolateBunnyCage.MapEntry: Chocolate Bunny Cage
-	ChocolateFrogCage.MapEntry: Chocolate Frog Cage
-	GummyWormCage.MapEntry: Sour Worm Cage
-	PipCage.MapEntry: Pip Cage
-	RoyalCherryBugBottle.MapEntry: Royal Cherry Bug Bottle
-	Impact2.MapEntry: Painting
-	ConfectionMusicBox.MapEntry: Music Box
-	ConfectionUGMusicBox.MapEntry: Music Box
-	SherbetTorch.MapEntry: Sherbet Torch
-	HeavensForgeTile.MapEntry: Heaven's Forge
-	EnchantedSacchariteBlock.MapEntry: Enchanted Saccharite
-	ConfectionUndergroundOtherworldlyMusicBox.MapEntry: Music Box
+	NeapoliniteOre.MapEntry: ネアポリナイト鉱石
+	NeapoliniteBar.MapEntry: ネアポリナイトのインゴット
+	HallowedOre.MapEntry: 聖なる鉱石
+	ConfectionTorch.MapEntry: お菓子楽園のたいまつ
+	ConfectionPylonTile.MapEntry: お菓子楽園のパイロン
+	CreamwoodBath.MapEntry: クリームウッドの浴槽
+	CreamwoodBed.MapEntry: クリームウッドのベッド
+	CreamwoodBookcase.MapEntry: クリームウッドの本棚
+	CreamwoodCandelabra.MapEntry: クリームウッドの燭台
+	CreamwoodCandle.MapEntry: クリームウッドの蝋燭
+	CreamwoodChair.MapEntry: クリームウッドのイス
+	CreamwoodChandelier.MapEntry: クリームウッドのシャンデリア
+	CreamwoodChest.MapEntry: クリームウッドの宝箱
+	CreamwoodClock.MapEntry: クリームウッドの時計
+	CreamwoodDoorOpen.MapEntry: クリームウッドのドア
+	CreamwoodDresser.MapEntry: クリームウッドのドレッサー
+	CreamwoodLamp.MapEntry: クリームウッドのランプ
+	CreamwoodLantern.MapEntry: クリームウッドのランタン
+	CreamwoodPiano.MapEntry: クリームウッドのピアノ
+	CreamwoodSink.MapEntry: クリームウッドのシンク
+	CreamwoodSofa.MapEntry: クリームウッドのソファ
+	CreamwoodTable.MapEntry: クリームウッドのテーブル
+	CreamwoodToilet.MapEntry: クリームウッドのトイレ
+	CreamwoodTrappedChest.MapEntry: クリームウッドの宝箱（罠）
+	CreamwoodWorkbench.MapEntry: クリームウッドの作業台
+	SoulofDelightinaBottle.MapEntry: 瓶詰めの幸福のソウル
+	SoulofSpiteinaBottle.MapEntry: 瓶詰めの憎悪のソウル
+	SacchariteBath.MapEntry: サッカライトの浴槽
+	SacchariteBed.MapEntry:サッカライトのベッド
+	SacchariteBookcase.MapEntry: サッカライトの本棚
+	SacchariteCandelabra.MapEntry: サッカライトの燭台
+	SacchariteCandle.MapEntry: サッカライトの蝋燭
+	SacchariteChair.MapEntry: サッカライトのイス
+	SacchariteChandelier.MapEntry: サッカライトのシャンデリア
+	SacchariteChest.MapEntry: サッカライトの宝箱
+	SacchariteClock.MapEntry: サッカライトの時計
+	SacchariteDoorOpen.MapEntry: サッカライトのドア
+	SacchariteDresser.MapEntry: サッカライトのドレッサー
+	SacchariteLamp.MapEntry: サッカライトのランプ
+	SacchariteLantern.MapEntry: サッカライトのランタン
+	SaccharitePiano.MapEntry: サッカライトのピアノ
+	SacchariteSink.MapEntry: サッカライトのシンク
+	SacchariteSofa.MapEntry: サッカライトのソファ
+	SacchariteTable.MapEntry: サッカライトのテーブル
+	SacchariteToilet.MapEntry: サッカライトのトイレ
+	SacchariteTrappedChest.MapEntry: サッカライトの宝箱（罠）
+	SacchariteWorkbench.MapEntry: サッカライトの作業台
+	CherryBugBottle.MapEntry: 瓶詰めのチェリーバグ
+	ChocolateBunnyCage.MapEntry: テラリウム（チョコレートうさぎ）
+	ChocolateFrogCage.MapEntry: テラリウム（チョコガエル）
+	GummyWormCage.MapEntry: テラリウム（サワーワーム）
+	PipCage.MapEntry: テラリウム（ピップ）
+	RoyalCherryBugBottle.MapEntry: 瓶詰めのロイヤルチェリーバグ
+	Impact2.MapEntry: 絵画
+	ConfectionMusicBox.MapEntry: オルゴール（お菓子楽園）
+	ConfectionUGMusicBox.MapEntry: オルゴール（地下お菓子楽園）
+	SherbetTorch.MapEntry: シャーベットのたいまつ
+	HeavensForgeTile.MapEntry: 天界のかまど
+	EnchantedSacchariteBlock.MapEntry: 魔力を帯びたサッカライト
+	ConfectionUndergroundOtherworldlyMusicBox.MapEntry: アザーワールドのオルゴール（地下お菓子楽園）
 }
 
 Items: {
@@ -384,7 +385,7 @@ Items: {
 
 	SugarWater: {
 		DisplayName: 砂糖水
-		Tooltip: 一部ブロックにお菓子楽園にする
+		Tooltip: ブロックをお菓子楽園に変える
 	}
 
 	ConfectionWaterFountain: {
@@ -565,7 +566,7 @@ Items: {
 	ConfectionBiomeKey: {
 		DisplayName: お菓子楽園の鍵
 		Tooltip: ""
-		KeyToolTip: ダンジョンでお菓子楽園の宝箱を開ける
+		KeyToolTip: ダンジョンにあるお菓子楽園の宝箱を開ける
 	}
 
 	CookiestBlock: {
@@ -622,8 +623,8 @@ Items: {
 		DisplayName: 聖域の地球儀
 		Tooltip:
 			'''
-			投げることで、ワールドに広がる『善』の種類を変更する
-			「景色を変える時間だ」
+			投げてワールドに広がる善を変化させよう！
+			「風景を変える時」
 			'''
 	}
 
@@ -737,7 +738,7 @@ Items: {
 	}
 
 	AncientNeapoliniteHat: {
-		DisplayName: 古代ネアポリナイトの帽子
+		DisplayName: 古代のネアポリナイトの帽子
 		Tooltip:
 			'''
 			召喚ダメージが8%増加
@@ -746,7 +747,7 @@ Items: {
 	}
 
 	AncientNeapoliniteHeadgear: {
-		DisplayName: 古代ネアポリナイトのヘッドギア
+		DisplayName: 古代のネアポリナイトのヘッドギア
 		Tooltip:
 			'''
 			魔法ダメージが6%増加
@@ -755,7 +756,7 @@ Items: {
 	}
 
 	AncientNeapoliniteHelmet: {
-		DisplayName: 古代ネアポリナイトの兜
+		DisplayName: 古代のネアポリナイトの兜
 		Tooltip:
 			'''
 			遠距離ダメージが10%増加
@@ -764,11 +765,11 @@ Items: {
 	}
 
 	NeapoliniteConeMail: {
-		DisplayName: ネアポリナイトコーンメイル
+		DisplayName: ネアポリナイトのコーンメイル
 		Tooltip:
 			'''
 			クリティカル率が5%上昇
-			装備中のヘルメットによって効果が変化する
+			装備した頭防具によって効果が変化する
 			'''
 	}
 
@@ -791,7 +792,7 @@ Items: {
 	}
 
 	NeapoliniteHeadgear: {
-		DisplayName: ネアポリナイトヘッドギア
+		DisplayName: ネアポリナイトのヘッドギア
 		Tooltip:
 			'''
 			魔法ダメージが6%増加
@@ -809,7 +810,7 @@ Items: {
 	}
 
 	NeapoliniteMask: {
-		DisplayName: ネアポリナイトのマスク
+		DisplayName: ネアポリナイトの仮面
 		Tooltip:
 			'''
 			近接ダメージが7%増加
@@ -871,7 +872,7 @@ Items: {
 		Tooltip:
 			'''
 			「そう、ちょっとトリッキーなんだよね」
-			ジェルを弾薬として使用
+			ジェルを弾薬として使用する
 			炎が時折揺らめいており、敵を炎上させる
 			水中に入らない限り炎は消えない
 			'''
@@ -884,7 +885,7 @@ Items: {
 
 	BakersDozen: {
 		DisplayName: ベイカーズダズン
-		Tooltip: 13回ヒットごとに、さらに5回攻撃する
+		Tooltip: 攻撃が13回当たるごとに、さらに5回攻撃する
 	}
 
 	SweetStaff: {
@@ -958,7 +959,7 @@ Items: {
 	}
 
 	CreamwoodBath: {
-		DisplayName: クリームウッドの浴場
+		DisplayName: クリームウッドの浴槽
 		Tooltip: ""
 	}
 
@@ -983,7 +984,7 @@ Items: {
 	}
 
 	CreamwoodChair: {
-		DisplayName: クリームウッドの椅子
+		DisplayName: クリームウッドのイス
 		Tooltip: ""
 	}
 
@@ -1077,7 +1078,7 @@ Items: {
 		Tooltip:
 			'''
 			フレイルを投げると、追加でもう1つのフレイルが付いてくる
-			「派手にぶちかます時だ！」
+			「派手にぶちかますときだ！」
 			'''
 	}
 
@@ -1107,17 +1108,17 @@ Items: {
 	}
 
 	ConeHead: {
-		DisplayName: Snicker'sのコーンヘッド
+		DisplayName: スニッカーズのコーンヘッド
 		Tooltip: 「Confectionの開発者に成りすますのに最適！」
 	}
 
 	Knickercobbler: {
-		DisplayName: Snicker'sのニッカーボブラー
+		DisplayName: スニッカーズのニッカーボブラー
 		Tooltip: 「Confectionの開発者に成りすますのに最適！」
 	}
 
 	Unicookie: {
-		DisplayName: Snicker'sのユニクッキー
+		DisplayName: スニッカーズのユニクッキー
 		Tooltip: 「Confectionの開発者に成りすますのに最適！」
 	}
 
@@ -1267,7 +1268,7 @@ Items: {
 	}
 
 	SacchariteBath: {
-		DisplayName: サッカライトの浴場
+		DisplayName: サッカライトの浴槽
 		Tooltip: ""
 	}
 
@@ -1292,7 +1293,7 @@ Items: {
 	}
 
 	SacchariteChair: {
-		DisplayName: サッカライトの椅子
+		DisplayName: サッカライトのイス
 		Tooltip: ""
 	}
 
@@ -1396,7 +1397,7 @@ Items: {
 	}
 
 	CherryBugBottle: {
-		DisplayName: 瓶入りのチェリーバグ
+		DisplayName: 瓶詰めのチェリーバグ
 		Tooltip: ""
 	}
 
@@ -1421,23 +1422,23 @@ Items: {
 	}
 
 	RoyalCherryBugBottle: {
-		DisplayName: 瓶入りのロイヤルチェリーバグ
+		DisplayName: 瓶詰めのロイヤルチェリーバグ
 		Tooltip: ""
 	}
 
 	ConfectionPainting: {
 		DisplayName: 絵画『甘味の地』
-		Tooltip: "'S. Bobble'"
+		Tooltip: 「S. ボブル」
 	}
 
 	Impact2: {
 		DisplayName: 絵画『衝突』
-		Tooltip: "'L. Cake'"
+		Tooltip: 「L.ケーキ」
 	}
 
 	SweetAndSavage: {
 		DisplayName: 絵画『甘美と野性』
-		Tooltip: "'Not V. Costa Moura'"
+		Tooltip: 「V.コスタ・モウラではない」
 	}
 
 	ConfectionMusicBox: {
@@ -1737,12 +1738,12 @@ Items: {
 
 	SacchariteArrow: {
 		DisplayName: サッカライトの矢
-		Tooltip: 敵やブロックに張り付く
+		Tooltip: 敵や地形に張り付く
 	}
 
 	SacchariteBullet: {
 		DisplayName:サッカライトの弾丸
-		Tooltip: 敵やブロックに張り付く
+		Tooltip: 敵や地形に張り付く
 	}
 
 	SacchariteDart: {
@@ -1762,7 +1763,7 @@ Items: {
 
 	BearClaw: {
 		DisplayName: ベアクロー
-		Tooltip: 投げ方次第で何度も命中する
+		Tooltip: 投げ方次第で何度も当たる
 	}
 
 	YoyoCookie: {
@@ -1839,74 +1840,74 @@ NPCs: {
 }
 
 Projectiles: {
-	CreamsandProjectile.DisplayName: Creamsand
-	CreamsandSandGunProjectile.DisplayName: Creamsand
-	CreamSolution.DisplayName: Cream Solution
-	SugarPowder.DisplayName: Sugar Powder
-	SugarWaterBottle.DisplayName: Sugar Water Bottle
-	CookiestCookieBlock.DisplayName: Cookiest Cookie Block
-	RocketPop.DisplayName: Rocket Pop
-	RocketPopExplosion.DisplayName: Rocket Pop
-	HallowedGlobe.DisplayName: Hallowed Globe
-	StrawberryStrike.DisplayName: Strawberry
-	NeapoliniteCookies.DisplayName: Neapolinite Cookies
-	Drixer.DisplayName: Drixer
-	SucrosaSlash.DisplayName: Sucrosa
-	SpearofCavendes.DisplayName: Spear of Cavendes
-	SpearofCavendesBannana.DisplayName: Bannana
-	NeapoliniteJoustingLance.DisplayName: Neapolinite Jousting Lance
-	CosmicCookie.DisplayName: Cosmic Brownie
-	SacchariteLash.DisplayName: Saccharite Lash
-	CosmicBrownie.DisplayName: Cosmic Neapolinite Star
-	TrueSucrosaBolt.DisplayName: True Sucrosa
-	TrueSucrosaSlash.DisplayName: True Sucrosa
-	CandleFlames.DisplayName: Candle Flames
-	BakersDozen.DisplayName: Baker's Dozen
-	BakersDozenSlash.DisplayName: Baker's Dozen
-	RollerCookieSummon.DisplayName: Rollercookie
-	IcecreamBall.DisplayName: Icecream Ball
-	CreamBolt.DisplayName: Chocolate Cream Beam
-	BirdnanaLightPet.DisplayName: Birdnana Light Pet
-	RollerCookiePet.DisplayName: Roller Cookie Pet
-	DeathsSlash.DisplayName: Death's Raze
-	TrueDeathsSlash.DisplayName: True Death's Raze
-	CreamofKickin.DisplayName: Cream of Kickin'
-	CookiePikelet.DisplayName: Cookie Pike-let
-	SweetHook.DisplayName: Sweet Hook
-	CookieBoulder.DisplayName: Cookie Boulder
-	SweetTooth.DisplayName: Sweet Tooth
-	SherbetFlare.DisplayName: Sherbet Flare
-	ToothFairy.DisplayName: Tooth Fairy
-	ToothFairyCrystal.DisplayName: Tooth Fairy
-	ToothFairyTooth.DisplayName: Tooth
-	BananawarpPeel.DisplayName: Bananawarp Peel
-	DimensionalWarp.DisplayName: Dimensional Warp
-	CreamsandWitchPet.DisplayName: Creamsand Witch Pet
-	DudlingPet.DisplayName: Dudling Pet
-	MeawzerPet.DisplayName: Meowzer Pet
-	CherryBurstArrow.DisplayName: Cherry Burst Arrow
-	CherryGrenade.DisplayName: Cherry Grenade
-	ChipArrow.DisplayName: Chip Arrow
-	CherryShard.DisplayName: Cherry Shard
-	ChocolateChip.DisplayName: Chocolate Chip
-	SacchariteArrow.DisplayName: Saccharite Arrow
-	SacchariteBullet.DisplayName: Saccharite Bullet
-	SacchariteDart.DisplayName: Saccharite Dart
-	RockCandy.DisplayName: Rock Candy
-	RockCandyShard.DisplayName: Rock Candy Shard
-	GummyWormWhip.DisplayName: Friendly Gummy Worm
-	BearClaw.DisplayName: Bear Claw
-	YoyoCookieYoyo.DisplayName: The Macaron
-	GastropodSummonPinkLazer.DisplayName: Pink Lazer
-	GastropodSummon.DisplayName: Mini Gastropod
-	MeawzerSummonLazer.DisplayName: Toaster Lazer
-	MeawzerSummon.DisplayName: Mini Meowzer
-	MeowzerBeam.DisplayName: Meowzer Beam
-	DefenciveSprinkle.DisplayName: Sprinkling Sprinkle
-	SprinklerBall.DisplayName: Large Sprinkle
-	ParfaitSpike.DisplayName: Parfait Fruit
-	RootbeerSpray.DisplayName: Rootbeer Spray
-	IcecreamStar.DisplayName: Icecream Star
+	CreamsandProjectile.DisplayName: クリームサンド
+	CreamsandSandGunProjectile.DisplayName: クリームサンド
+	CreamSolution.DisplayName: 環境変更液（クリーム）
+	SugarPowder.DisplayName: 砂糖の粉
+	SugarWaterBottle.DisplayName: 砂糖水
+	CookiestCookieBlock.DisplayName: クッキーストクッキーブロック
+	RocketPop.DisplayName: ロケットポップ
+	RocketPopExplosion.DisplayName: ロケットポップ
+	HallowedGlobe.DisplayName: 聖域の地球儀
+	StrawberryStrike.DisplayName: ストロベリー
+	NeapoliniteCookies.DisplayName: ネアポリナイトクッキー
+	Drixer.DisplayName: ドリクサー
+	SucrosaSlash.DisplayName: スクロサ
+	SpearofCavendes.DisplayName: キャベンデスの槍
+	SpearofCavendesBannana.DisplayName: バナナ
+	NeapoliniteJoustingLance.DisplayName: ネアポリナイトランス
+	CosmicCookie.DisplayName: コズミックブラウニー
+	SacchariteLash.DisplayName: サッカライトの鞭
+	CosmicBrownie.DisplayName: コズミックネアポリナイトスター
+	TrueSucrosaBolt.DisplayName: トゥルースクロサ
+	TrueSucrosaSlash.DisplayName: トゥルースクロサ
+	CandleFlames.DisplayName: キャンドルライター
+	BakersDozen.DisplayName: ベイカーズダズン
+	BakersDozenSlash.DisplayName: ベイカーズダズン
+	RollerCookieSummon.DisplayName: ローラークッキー
+	IcecreamBall.DisplayName: アイスクリームベル
+	CreamBolt.DisplayName: チョコレートクリームビーム
+	BirdnanaLightPet.DisplayName: 魔法のバードナナ
+	RollerCookiePet.DisplayName: ローラークッキー
+	DeathsSlash.DisplayName: デスレイズ
+	TrueDeathsSlash.DisplayName: トゥルーデスレイズ
+	CreamofKickin.DisplayName: キッククリーム
+	CookiePikelet.DisplayName: クッキーパイクレット
+	SweetHook.DisplayName: スイートフック
+	CookieBoulder.DisplayName: クッキーの大岩
+	SweetTooth.DisplayName: スイートトゥース
+	SherbetFlare.DisplayName: シャーベットフレア
+	ToothFairy.DisplayName: キャンディフェアリー
+	ToothFairyCrystal.DisplayName: キャンディフェアリー
+	ToothFairyTooth.DisplayName: キャンディ
+	BananawarpPeel.DisplayName: バナナワープの皮
+	DimensionalWarp.DisplayName: ポータル
+	CreamsandWitchPet.DisplayName: クリームサンドウィッチ
+	DudlingPet.DisplayName: ダドリー
+	MeawzerPet.DisplayName: 怒れるミャウザー
+	CherryBurstArrow.DisplayName: チェリーの炸裂矢
+	CherryGrenade.DisplayName: サクランボ爆弾
+	ChipArrow.DisplayName: チップの矢
+	CherryShard.DisplayName: チェリーの破片
+	ChocolateChip.DisplayName: チョコレートチップ
+	SacchariteArrow.DisplayName: サッカライトの矢
+	SacchariteBullet.DisplayName: サッカライトの弾丸
+	SacchariteDart.DisplayName: サッカライトのダーツ
+	RockCandy.DisplayName: 岩のキャンディ
+	RockCandyShard.DisplayName: 岩のキャンディの欠片
+	GummyWormWhip.DisplayName: フレンドリーグミワーム
+	BearClaw.DisplayName: ベアクロー
+	YoyoCookieYoyo.DisplayName: マカロン
+	GastropodSummonPinkLazer.DisplayName: ピンクのレーザー
+	GastropodSummon.DisplayName: 小さなガストロポッド
+	MeawzerSummonLazer.DisplayName: トースターレーザー
+	MeawzerSummon.DisplayName: 小さなミャウザー
+	MeowzerBeam.DisplayName: ミャウザーのビーム
+	DefenciveSprinkle.DisplayName: スプリンクル
+	SprinklerBall.DisplayName: ラージスプリンクル
+	ParfaitSpike.DisplayName: フルーツパフェ
+	RootbeerSpray.DisplayName: ルートビアスプレー
+	IcecreamStar.DisplayName: アイスクリームの星
 }
 
 Configs: {
@@ -1925,22 +1926,22 @@ Configs: {
 			Tooltip:
 				'''
 				No Spread:
-				　お菓子楽園専用タイルは広がりません
+				　お菓子楽園専用のブロックは広がりません
 				　ワールド生成でも出現しません
 
 				Partial Spread:
-				　お菓子楽園専用タイルは、拡散可能なタイルが
+				　お菓子楽園専用のブロックは、拡散可能なブロックが
 				　6x6範囲内にあるときのみ広がります（例: クリームストーン、クリームグラスなど）
 
 				Full Spread:
-				　以下のタイルが拡散するようになります:
+				　以下のブロックが拡散するようになります:
 				　　　クッキーブロック
 				　　　クリームブロック
 				　　　ピンクフェアリーフロス
 				　　　パープルフェアリーフロス
 				　　　ブルーフェアリーフロス
 				　　　クッキエスト・クッキーブロック
-				　　　すべてのクリームストーン系宝石
+				　　　全てのクリームストーン系宝石
 				'''
 			Label: クッキー＆クリームの広がり
 		}
@@ -1980,7 +1981,7 @@ Buffs: {
 
 	VanillaValorV: {
 		DisplayName: バニラの武勇 (V)
-		Description: クリティカル率が10%上昇し、近接攻撃のクリティカルが敵の防御を貫通
+		Description: クリティカル率が10%上昇し、近接攻撃でクリティカルが出ると敵の防御力を無視する
 	}
 
 	ChocolateChargeI: {
@@ -2045,22 +2046,22 @@ Buffs: {
 
 	SwirlySwarmIII: {
 		DisplayName: ぐるぐるスウォーム (III)
-		Description: 渦ミニオンを召喚し、鞭の攻撃速度が10%上昇し、召喚武器のクリティカル率が5%上昇
+		Description: 渦ミニオンを召喚し、鞭の攻撃速度が10%上昇し、召喚クリティカル率が5%上昇
 	}
 
 	SwirlySwarmIV: {
 		DisplayName: ぐるぐるスウォーム (IV)
-		Description: 渦ミニオンを召喚し、鞭の攻撃速度が20%上昇し、召喚武器のクリティカル率が10%上昇
+		Description: 渦ミニオンを召喚し、鞭の攻撃速度が20%上昇し、召喚クリティカル率が10%上昇
 	}
 
 	SwirlySwarmV: {
 		DisplayName: ぐるぐるスウォーム (V)
-		Description: 渦ミニオンを召喚し、鞭の攻撃速度が20%上昇し、召喚武器のダメージとクリティカル率が10%上昇
+		Description: 渦ミニオンを召喚し、鞭の攻撃速度が20%上昇し、召喚ダメージとクリティカル率が10%上昇
 	}
 
 	SmashingLash: {
 		DisplayName: スマッシングラッシュ
-		Description: 防御力低下
+		Description: 防御力が減少
 	}
 
 	SacchariteLashTagDamage: {
@@ -2100,7 +2101,7 @@ Buffs: {
 
 	GoneBananas: {
 		DisplayName: バナナ大暴走
-		Description: 裂け目を通じたテレポートは体力を消費する
+		Description: 裂け目を通じたテレポートはライフを消費する
 	}
 
 	CcretBuff: {
@@ -2191,14 +2192,14 @@ HallowSelection: {
 
 	Confection: {
 		Title: お菓子楽園
-		Description: クッキーやクリームで出来た「お菓子楽園」があなたのワールドにもたらされる。
+		Description: クッキーやクリームでできた「お菓子楽園」があなたのワールドにもたらされる。
 	}
 }
 
 Emotes: {
-	ConfectionBiomeEmote: confection
-	DuchessEmote: duchess
-	GrandSlammerEmote: slammer
+	ConfectionBiomeEmote: お菓子楽園
+	DuchessEmote: ダッチェス
+	GrandSlammerEmote: スラマー
 }
 
 InConfection: お菓子楽園にいる
@@ -2241,28 +2242,28 @@ Biomes: {
 Achievements: {
 	DrixerMixer: {
 		Name: ドリクサー調合機
-		Description: ネアポリナイトのインゴットと3体のメカボスのソウルから、ドリクサーまたはピクスをクラフトする
+		Description: ネアポリナイトのインゴットと3体のメカボスのソウルから、ドリクサーまたはピクスを作成する。
 		FriendlyName: ドリクサー調合機
 	}
 
 	TheBeamOfCream: {
 		Name: クリームビーム
-		Description: クリームビームを手に入れる
+		Description: クリームビームを手に入れる。
 		FriendlyName: クリームビーム
 	}
 
 	BirthdayRide: {
 		Name: 誕生日のひとっ走り
-		Description: ローラーサイクルに乗った状態で、バースデースーツ一式を装備する
+		Description: ローラーサイクルに乗った状態で、バースデースーツ一式を装備する。
 		FriendlyName: 誕生日のひとっ走り
 	}
 }
 
 Bestiary_ItemDropConditions: {
-	SoulOfDelight: お菓子楽園地下で落とす
-	SoulOfSpite: 真紅地下で落とす
-	SoulOfNight: 不浄地下で落とす
-	ConfectionKeyCondition: ハードモードのお菓子楽園で落とす
+	SoulOfDelight: お菓子楽園地下でドロップする
+	SoulOfSpite: 真紅地下でドロップする
+	SoulOfNight: 不浄地下でドロップする
+	ConfectionKeyCondition: ハードモードのお菓子楽園でドロップする
 }
 
 Conditions.InConfection: お菓子楽園
@@ -2290,4 +2291,27 @@ CreditsRollCategory_ConfectionTeam: {
 	19: Fuffles
 	20: AstralGel
 	21: BasicallyIAmCat
+}
+
+AltBiomes: {
+	ConfectionBiomeAlt: {
+		DisplayName: 代わりのお菓子楽園バイオーム
+		Description: 代わりのお菓子楽園バイオーム
+		GenPassName: 代わりのお菓子楽園バイオーム
+		DryadTextDescriptor: 代わりのお菓子楽園バイオーム
+	}
+
+	Mods: {
+		TheConfectionRebirth: {
+			HallowSelection: {
+				Confection: {
+					Title: {
+						DisplayName: Mods. The Confection Rebirth. Hallow Selection. Confection. Title
+						GenPassName: Mods. The Confection Rebirth. Hallow Selection. Confection. Title
+						DryadTextDescriptor: Mods. The Confection Rebirth. Hallow Selection. Confection. Title
+					}
+				}
+			}
+		}
+	}
 }

@@ -1,57 +1,13 @@
-Environments: {
-	Forest: 森林
-	Caverns: 地下
-	Sky: 空
-	Underworld: 地底
-	Beach: 海
-	Dungeon: ダンジョン
-	Marble: 大理石の洞窟
-	Granite: 御影石の洞窟
-	Hallow: 聖域
-	Snow: 雪原
-	Desert: 砂漠
-	Glowshroom: キノコバイオーム
-	Jungle: ジャングル
-	Corrupt: 不浄
-	Crimson: クリムゾン
-	Void: 無所属
-}
-
-UnlockCondition: {
-	Hardmode: {
-		DisplayName: ハードモード
-		Description: ハードモード突入後にアンロック
-	}
-
-	DownedSkeletron: {
-		DisplayName: スケルトロン
-		Description: スケルトロン撃破後にアンロック
-	}
-
-	DownedMechBossAny: {
-		DisplayName: メカニカルボス
-		Description: いずれかのメカニカルボス撃破後にアンロック
-	}
-
-	DownedPlantera: {
-		DisplayName: プランテラ
-		Description: プランテラ撃破後にアンロック
-	}
-}
-
-Donate: 寄付
-
-ItemSearchTips: アイテム名検索
-
 DisplayName: PointShop
-
 NameFilter: 検索
-
 Clear: クリア
-
 Buy: 購入
-
-ShowGroupLinks: 無効
+ItemSearchTips: アイテム名検索
+Donate: 支援
+About: Mod情報
+SupportTheAuthor: 作者を支援
+DonorList: 支援者一覧
+Acknowledgments: プレイヤーの皆さまの支えに、心より感謝します。
 
 Configs: {
 	PointShopConfig: {
@@ -96,9 +52,46 @@ ShopItem: {
 	ShopItemError: アイテムはこの環境に属していない
 }
 
-Keybinds: {
-	PointShopUIKeybind: {
-		DisplayName: Points Shop UI切り替え
-	}
+Keybinds.PointShopUIKeybind.DisplayName: Points Shop UI切り替え
+ShowGroupLinks: 無効
+
+Environments: {
+	Forest: 森林
+	Caverns: 地下
+	Sky: 空
+	Underworld: 地底
+	Beach: 海
+	Dungeon: ダンジョン
+	Marble: 大理石の洞窟
+	Granite: 御影石の洞窟
+	Hallow: 聖域
+	Snow: 雪原
+	Desert: 砂漠
+	Glowshroom: キノコバイオーム
+	Jungle: ジャングル
+	Corrupt: 不浄
+	Crimson: クリムゾン
+	Void: 無所属
 }
 
+UnlockCondition: {
+	Hardmode: {
+		DisplayName: ハードモード
+		Description: ハードモード突入後にアンロック
+	}
+
+	DownedSkeletron: {
+		DisplayName: スケルトロン
+		Description: スケルトロン撃破後にアンロック
+	}
+
+	DownedMechBossAny: {
+		DisplayName: メカニカルボス
+		Description: いずれかのメカニカルボス撃破後にアンロック
+	}
+
+	DownedPlantera: {
+		DisplayName: プランテラ
+		Description: プランテラ撃破後にアンロック
+	}
+}

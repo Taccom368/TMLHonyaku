@@ -696,17 +696,17 @@ Configs: {
 		}
 
 		Pistol: {
-			Label: ハンドガン
+			Label: 拳銃
 			Tooltip: ""
 		}
 
 		Gun: {
-			Label: フルオート銃
+			Label: フルオートの銃
 			Tooltip: ""
 		}
 
 		GunManual: {
-			Label: セミオート銃
+			Label: セミオートの銃
 			Tooltip: ""
 		}
 

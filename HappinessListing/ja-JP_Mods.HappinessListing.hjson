@@ -1,0 +1,673 @@
+Configs: {
+	HappinessListingConfig: {
+		DisplayName: クライアント設定
+
+		Headers: {
+			HappinessDialogueOptions: "[c/00FF00:幸福度のセリフの設定]"
+			RegularDialogueOptions: "[c/00FF00:セリフの設定]"
+			BestiaryOptions: "[c/00FF00:図鑑設定]"
+		}
+
+		BreakEntriesWithNewLine: {
+			Label: "[i:LaserRuler] セリフを分割"
+			Tooltip:
+				'''
+				各セリフが新しい行に表示されます
+				オフにするとバニラの動作に戻ります
+				デフォルトはオン
+				'''
+		}
+
+		EntryIconType: {
+			Label: "[hlhi:love] アイコンのタイプ"
+			Tooltip:
+				'''
+				各セリフの前に文字かアイコンが表示されます
+				オフにするとバニラの動作に戻ります
+				デフォルトは幸福度のアイコン
+				'''
+		}
+
+		MaxTextLines: {
+			Label: "[i:ThePlan] セリフの最大行数"
+			# 	TML145
+			# 	'''
+			#	Increases or decreases the number of lines the dialogue can be on.
+			#	Anything line beyond the value set will be cut off.
+			#	Vanilla defaults to 10.
+			#
+			#	Range: 1-50
+			#	Change to 10 for vanilla behavior.
+			#	Default by mod: 20
+			#	'''
+			Tooltip:
+				'''
+				セリフの行数を変更します
+				設定した値を超える行は全て切り捨てられます
+				バニラ版のデフォルト値は10
+
+				範囲: 1-20
+				10にするとバニラの動作に戻ります
+				デフォルトは16
+				'''
+		}
+
+		ColorCodeHappinessText: {
+			Label: "[i:RedPaint] 幸福度のセリフに色を付ける"
+			Tooltip:
+				'''
+				幸福度に関するセリフに色を付けます
+				なしにするとバニラの動作に戻ります
+				デフォルトはゲーム内の色
+				'''
+		}
+
+		MaxNumberOfPeoplePrincessCanTalkAboutAtOnce: {
+			Label: "[i:PrincessWeapon] プリンセスのセリフの最大数"
+			Tooltip:
+				'''
+				プリンセスが一度にコメントできるタウンNPCの人数を変更します
+				バニラでは、プリンセスは近くのランダムな3人のタウンNPCについてしか言いません
+				幸福度をクリックするたびに
+
+				範囲: 1-20
+				3にするとバニラの動作に戻ります
+				デフォルトは5
+				'''
+		}
+
+		SimplifiedHappinessDialogue: {
+			Label: "[i:NecromanticScroll] 幸福度のセリフを簡略化する"
+			Tooltip:
+				'''
+				幸福度に関するセリフを全てシンプルなものに置き換えます
+				例: 「私は{NPC}を愛しているよ。」 「私は{Biome}が嫌いだ。」 「私は混雑が嫌いだ。」
+				オフにするとバニラの動作に戻ります
+				デフォルトはオフ
+				'''
+		}
+
+		ColorCodeRegularDialogue: {
+			Label: "[i:BluePaint] 通常のセリフに色を付ける"
+			Tooltip:
+				'''
+				通常のセリフに色を付けます
+				なしにするとバニラの動作に戻ります
+				デフォルトはなし
+				'''
+		}
+
+		BestiaryFlavorTextEntry: {
+			Label: "[i:DontHurtNatureBook] 図鑑に幸福度に関する説明を追加"
+			Tooltip:
+				'''
+				タウンNPCの図鑑での説明に好み/嫌いに関する情報を追加します
+				これらは情報に表示されていません
+				基本的にタウンNPCはプリンセスが好き
+				基本的にタウンNPCは不浄、真紅、ダンジョンが嫌い
+
+				なしにするとバニラの動作に戻ります
+				デフォルトは幸福度アイコン
+
+				図鑑を再初期化するにはページを再読み込みする必要があります
+				この設定はメインメニューから変更できます
+				'''
+		}
+	}
+
+	IconType: {
+		Tooltip: ""
+
+		None: {
+			Label: なし
+			Tooltip:
+				'''
+				{$Label}
+
+				各セリフの前には、文字やアイコンは表示されません
+				バニラの動作に戻すか、この機能を無効にするにはこの設定にしてください
+				'''
+		}
+
+		Asterick: {
+			Label: *
+			Tooltip:
+				'''
+				{$Label}
+
+				各セリフの前に*が付きます
+				'''
+		}
+
+		Bullet: {
+			Label: ・
+			Tooltip:
+				'''
+				{$Label}
+
+				各セリフの前に・が付きます
+				'''
+		}
+
+		Emoticons: {
+			Label: 絵文字
+			Tooltip:
+				'''
+				{$Label}
+
+				各セリフの前に絵文字が付き、それで好きか嫌いか判別できます
+				  {$UI.HappinessWords.Love}    :D
+				  {$UI.HappinessWords.Like}    :)
+				  {$UI.HappinessWords.Dislike} :(
+				  {$UI.HappinessWords.Hate}    :'(
+				'''
+		}
+
+		HappinessIcon: {
+			Label: 幸福度アイコン
+			Tooltip:
+				'''
+				{$Label}
+
+				各セリフの前にアイコンが付き、それで好きか嫌いか判別できます
+				  {$UI.HappinessWords.Love}    [hlhi:love]
+				  {$UI.HappinessWords.Like}    [hlhi:like]
+				  {$UI.HappinessWords.Dislike} [hlhi:disl]
+				  {$UI.HappinessWords.Hate}    [hlhi:hate]
+				'''
+		}
+
+		RightArrow: {
+			Label: →
+			Tooltip:
+				'''
+				{$Label}
+
+				各セリフの前に→が付きます
+				'''
+		}
+
+		GreaterThan: {
+			Label: >
+			Tooltip:
+				'''
+				{$Label}
+
+				各セリフの前に>が付きます
+				'''
+		}
+
+		Tilde: {
+			Label: ~
+			Tooltip:
+				'''
+				{$Label}
+
+				各セリフの前に~が付きます
+				'''
+		}
+
+		ChecksAndXs: {
+			Label: ✓と✗
+			Tooltip:
+				'''
+				{$Label}
+
+				各セリフの前に✓か✗が付き、それで好きか嫌いか判別できます
+				  {$UI.HappinessWords.Love}    ✔
+				  {$UI.HappinessWords.Like}    ✓
+				  {$UI.HappinessWords.Dislike} ✗
+				  {$UI.HappinessWords.Hate}    ✘
+				'''
+		}
+
+		Potions: {
+			Label: ポーション
+			Tooltip:
+				'''
+				{$Label}
+
+				各セリフの前にポーションのアイコンが付き、それで好きか嫌いか判別できます
+				  {$UI.HappinessWords.Love}    [i:2352]
+				  {$UI.HappinessWords.Like}    [i:293]
+				  {$UI.HappinessWords.Dislike} [i:2353]
+				  {$UI.HappinessWords.Hate}    [i:678]
+				'''
+		}
+
+		Pickaxes: {
+			Label: つるはし
+			Tooltip:
+				'''
+				{$Label}
+
+				各セリフの前につるはしのアイコンが付き、それで好きか嫌いか判別できます
+				  {$UI.HappinessWords.Love}    [i:2786]
+				  {$UI.HappinessWords.Like}    [i:990]
+				  {$UI.HappinessWords.Dislike} [i:103]
+				  {$UI.HappinessWords.Hate}    [i:3509]
+				'''
+		}
+
+		MathSymbols: {
+			Label: 数学記号
+			Tooltip:
+				'''
+				{$Label}
+
+				各セリフの前に数学記号が付き、それで好きか嫌いか判別できます
+				  {$UI.HappinessWords.Love}    ×
+				  {$UI.HappinessWords.Like}    +
+				  {$UI.HappinessWords.Dislike} -
+				  {$UI.HappinessWords.Hate}    ÷
+				'''
+		}
+
+		Statues: {
+			Label: 石像
+			Tooltip:
+				'''
+				{$Label}
+
+				各セリフの前に石像のアイコンが付き、それで好きか嫌いか判別できます
+				  {$UI.HappinessWords.Love}    [i:HeartStatue]
+				  {$UI.HappinessWords.Like}    [i:StarStatue]
+				  {$UI.HappinessWords.Dislike} [i:ImpStatue]
+				  {$UI.HappinessWords.Hate}    [i:GloomStatue]
+				'''
+		}
+
+		HeartsAndSkulls: {
+			Label: ハートとドクロ
+			Tooltip:
+				'''
+				{$Label}
+
+				各セリフの前にハートかドクロが付き、それで好きか嫌いか判別できます
+				  {$UI.HappinessWords.Love}    [i:Heart]
+				  {$UI.HappinessWords.Like}    [i:Star]
+				  {$UI.HappinessWords.Dislike} [i:LivingFireBlock]
+				  {$UI.HappinessWords.Hate}    [i:Skull]
+				'''
+		}
+
+		Paintings: {
+			Label: 絵画
+			Tooltip:
+				'''
+				{$Label}
+				各セリフの前に絵画のアイコンが付き、それで好きか嫌いか判別できます
+				  {$UI.HappinessWords.Love}    [i:1482]
+				  {$UI.HappinessWords.Like}    [i:5248]
+				  {$UI.HappinessWords.Dislike} [i:4723]
+				  {$UI.HappinessWords.Hate}    [i:1475]
+				'''
+		}
+	}
+
+	ColorCoding: {
+		Tooltip: ""
+
+		None: {
+			Label: なし
+			Tooltip:
+				'''
+				{$Label}
+
+				各セリフの色は白です
+				バニラの動作に戻すか、この機能を無効にするにはこの設定にしてください
+				'''
+		}
+
+		HappinessYGBP: {
+			Label: ゲーム内の色
+			Tooltip:
+				'''
+				{$Label}
+
+				各セリフの前に色が付き、それで好きか嫌いか判別できます
+				こちらはゲーム内の色です
+				  [c/f2d45a:{$Mods.HappinessListing.UI.HappinessWords.Love}]
+				  [c/9de997:{$Mods.HappinessListing.UI.HappinessWords.Like}]
+				  [c/97dbe4:{$Mods.HappinessListing.UI.HappinessWords.Dislike}]
+				  [c/bbb2e3:{$Mods.HappinessListing.UI.HappinessWords.Hate}]
+				'''
+		}
+
+		HappinessGYOR: {
+			Label: Wikiの色
+			Tooltip:
+				'''
+				{$Label}
+
+				各セリフの前に色が付き、それで好きか嫌いか判別できます
+				こちらはWiki内の色です
+				  [c/b3f2b3:{$Mods.HappinessListing.UI.HappinessWords.Love}]
+				  [c/ddf2b3:{$Mods.HappinessListing.UI.HappinessWords.Like}]
+				  [c/f2e0b3:{$Mods.HappinessListing.UI.HappinessWords.Dislike}]
+				  [c/f2b5b3:{$Mods.HappinessListing.UI.HappinessWords.Hate}]
+				'''
+		}
+
+		HappinessGrayscale: {
+			Label: 灰色
+			Tooltip:
+				'''
+				{$Label}
+
+				各セリフの前に色が付き、それで好きか嫌いか判別できます
+				こちらは嫌いであるほど色が暗くなります
+				  [c/ffffff:{$Mods.HappinessListing.UI.HappinessWords.Love}]
+				  [c/dddddd:{$Mods.HappinessListing.UI.HappinessWords.Like}]
+				  [c/bbbbbb:{$Mods.HappinessListing.UI.HappinessWords.Dislike}]
+				  [c/999999:{$Mods.HappinessListing.UI.HappinessWords.Hate}]
+				'''
+		}
+
+		HappinessDialogPanelRework: {
+			Label: リワークされた色
+			Tooltip:
+				'''
+				{$Label}
+
+				各セリフの前に色が付き、それで好きか嫌いか判別できます
+				こちらはDialogue Panel Rework modで使用されている色です
+				  [c/7CFC00:{$Mods.HappinessListing.UI.HappinessWords.Love}]
+				  [c/6495ED:{$Mods.HappinessListing.UI.HappinessWords.Like}]
+				  [c/DE8787:{$Mods.HappinessListing.UI.HappinessWords.Dislike}]
+				  [c/C71585:{$Mods.HappinessListing.UI.HappinessWords.Hate}]
+				'''
+		}
+
+		HappinessVibrant: {
+			Label: 鮮やかな色
+			Tooltip:
+				'''
+				{$Label}
+
+				各セリフの前に色が付き、それで好きか嫌いか判別できます
+				こちらは鮮やかな色が使用されます
+				  [c/00FF00:{$Mods.HappinessListing.UI.HappinessWords.Love}]
+				  [c/FFFF00:{$Mods.HappinessListing.UI.HappinessWords.Like}]
+				  [c/FF7F00:{$Mods.HappinessListing.UI.HappinessWords.Dislike}]
+				  [c/FF0000:{$Mods.HappinessListing.UI.HappinessWords.Hate}]
+				'''
+		}
+	}
+
+	BestiaryPreferencesEntry: {
+		Tooltip: ""
+
+		None: {
+			Label: なし
+			Tooltip:
+				'''
+				{$Label}
+
+				動物図鑑には幸福度に関する説明は追加されません
+				バニラの動作に戻すか、この機能を無効にするにはこの設定にしてください
+				'''
+		}
+
+		TextYGBP: {
+			Label: ゲーム内テキストの色
+			Tooltip:
+				'''
+				{$Label}
+
+				ラベルに色が付き、それで好きか嫌いか判別できます
+				こちらはゲーム内の色です
+				  [c/f2d45a:{$Mods.HappinessListing.UI.HappinessWords.Love}]:
+				  [c/9de997:{$Mods.HappinessListing.UI.HappinessWords.Like}]:
+				  [c/97dbe4:{$Mods.HappinessListing.UI.HappinessWords.Dislike}]:
+				  [c/bbb2e3:{$Mods.HappinessListing.UI.HappinessWords.Hate}]:
+				'''
+		}
+
+		TextGYOR: {
+			Label: Wiki内テキストの色
+			Tooltip:
+				'''
+				{$Label}
+
+				ラベルに色が付き、それで好きか嫌いか判別できます
+				こちらはWiki内の色です
+				  [c/b3f2b3:{$Mods.HappinessListing.UI.HappinessWords.Love}]:
+				  [c/ddf2b3:{$Mods.HappinessListing.UI.HappinessWords.Like}]:
+				  [c/f2e0b3:{$Mods.HappinessListing.UI.HappinessWords.Dislike}]:
+				  [c/f2b5b3:{$Mods.HappinessListing.UI.HappinessWords.Hate}]:
+				'''
+		}
+
+		TextGrayscale: {
+			Label: 灰色のテキスト
+			Tooltip:
+				'''
+				{$Label}
+
+				ラベルに色が付き、それで好きか嫌いか判別できます
+				こちらは嫌いであるほど色が暗くなります
+				  [c/ffffff:{$Mods.HappinessListing.UI.HappinessWords.Love}]:
+				  [c/dddddd:{$Mods.HappinessListing.UI.HappinessWords.Like}]:
+				  [c/bbbbbb:{$Mods.HappinessListing.UI.HappinessWords.Dislike}]:
+				  [c/999999:{$Mods.HappinessListing.UI.HappinessWords.Hate}]:
+				'''
+		}
+
+		TextDialogPanelRework: {
+			Label: リワークされた色のテキスト
+			Tooltip:
+				'''
+				{$Label}
+
+				ラベルに色が付き、それで好きか嫌いか判別できます
+				こちらはDialogue Panel Rework modで使用されている色です
+				  [c/7CFC00:{$Mods.HappinessListing.UI.HappinessWords.Love}]:
+				  [c/6495ED:{$Mods.HappinessListing.UI.HappinessWords.Like}]:
+				  [c/DE8787:{$Mods.HappinessListing.UI.HappinessWords.Dislike}]:
+				  [c/C71585:{$Mods.HappinessListing.UI.HappinessWords.Hate}]:
+				'''
+		}
+
+		TextVibrant: {
+			Label: 鮮やかな色のテキスト
+			Tooltip:
+				'''
+				{$Label}
+
+				ラベルに色が付き、それで好きか嫌いか判別できます
+				こちらは鮮やかな色が使用されます
+				  [c/00FF00:{$Mods.HappinessListing.UI.HappinessWords.Love}]
+				  [c/FFFF00:{$Mods.HappinessListing.UI.HappinessWords.Like}]
+				  [c/FF7F00:{$Mods.HappinessListing.UI.HappinessWords.Dislike}]
+				  [c/FF0000:{$Mods.HappinessListing.UI.HappinessWords.Hate}]
+				'''
+		}
+
+		Emoticons: {
+			Label: 絵文字
+			Tooltip:
+				'''
+				{$Label}
+
+				ラベルに絵文字が付き、それで好きか嫌いか判別できます
+				  {$UI.HappinessWords.Love}    :D
+				  {$UI.HappinessWords.Like}    :)
+				  {$UI.HappinessWords.Dislike} :(
+				  {$UI.HappinessWords.Hate}    :'(
+				'''
+		}
+
+		ChecksAndXs: {
+			Label: ✓と✗
+			Tooltip:
+				'''
+				{$Label}
+
+				ラベルに✓と✗が付き、それで好きか嫌いか判別できます
+				  {$UI.HappinessWords.Love}    ✔
+				  {$UI.HappinessWords.Like}    ✓
+				  {$UI.HappinessWords.Dislike} ✗
+				  Hate    ✘
+				'''
+		}
+
+		HappinessIcon: {
+			Label: 幸福度アイコン
+			Tooltip:
+				'''
+				{$Label}
+
+				ラベルに幸福度アイコンが付き、それで好きか嫌いか判別できます
+				  {$UI.HappinessWords.Love}    [hlhi:love]
+				  {$UI.HappinessWords.Like}    [hlhi:like]
+				  {$UI.HappinessWords.Dislike} [hlhi:disl]
+				  {$UI.HappinessWords.Hate}    [hlhi:hate]
+				'''
+		}
+
+		Potions: {
+			Label: ポーション
+			Tooltip:
+				'''
+				{$Label}
+
+				ラベルにポーションのアイコンが付き、それで好きか嫌いか判別できます
+				  {$UI.HappinessWords.Love}    [i:2352]
+				  {$UI.HappinessWords.Like}    [i:293]
+				  {$UI.HappinessWords.Dislike} [i:2353]
+				  {$UI.HappinessWords.Hate}    [i:678]
+				'''
+		}
+
+		Pickaxes: {
+			Label: つるはし
+			Tooltip:
+				'''
+				{$Label}
+
+				ラベルにつるはしのアイコンが付き、それで好きか嫌いか判別できます
+				  {$UI.HappinessWords.Love}    [i:2786]
+				  {$UI.HappinessWords.Like}    [i:990]
+				  {$UI.HappinessWords.Dislike} [i:103]
+				  {$UI.HappinessWords.Hate}    [i:3509]
+				'''
+		}
+
+		MathSymbols: {
+			Label: 数学記号
+			Tooltip:
+				'''
+				{$Label}
+
+				ラベルに数学記号が付き、それで好きか嫌いか判別できます
+				  {$UI.HappinessWords.Love}    ×
+				  {$UI.HappinessWords.Like}    +
+				  {$UI.HappinessWords.Dislike} -
+				  {$UI.HappinessWords.Hate}    ÷
+				'''
+		}
+
+		Statues: {
+			Label: 石像
+			Tooltip:
+				'''
+				{$Label}
+
+				ラベルに石像のアイコンが付き、それで好きか嫌いか判別できます
+				  {$UI.HappinessWords.Love}    [i:HeartStatue]
+				  {$UI.HappinessWords.Like}    [i:StarStatue]
+				  {$UI.HappinessWords.Dislike} [i:ImpStatue]
+				  {$UI.HappinessWords.Hate}    [i:GloomStatue]
+				'''
+		}
+
+		HeartsAndSkulls: {
+			Label: ハートとドクロ
+			Tooltip:
+				'''
+				{$Label}
+
+				ラベルにハートかドクロが付き、それで好きか嫌いか判別できます
+				  {$UI.HappinessWords.Love}    [i:Heart]
+				  {$UI.HappinessWords.Like}    [i:Star]
+				  {$UI.HappinessWords.Dislike} [i:LivingFireBlock]
+				  {$UI.HappinessWords.Hate}    [i:Skull]
+				'''
+		}
+
+		Paintings: {
+			Label: 絵画
+			Tooltip:
+				'''
+				{$Label}
+
+				ラベルに絵画のアイコンが付き、それで好きか嫌いか判別できます
+				  {$UI.HappinessWords.Love}    [i:1482]
+				  {$UI.HappinessWords.Like}    [i:5248]
+				  {$UI.HappinessWords.Dislike} [i:4723]
+				  {$UI.HappinessWords.Hate}    [i:1475]
+				'''
+		}
+	}
+
+	SimplifiedDialogueSetting: {
+		Tooltip: ""
+
+		Off: {
+			Label: オフ
+			Tooltip:
+				'''
+				{$Label}
+
+				全てのタウンNPCは通常通り幸福度に関するセリフを言います
+				バニラの動作に戻すか、この機能を無効にするにはこの設定にしてください
+				'''
+		}
+
+		VanillaOnly: {
+			Label: バニラのみ
+			Tooltip:
+				'''
+				{$Label}
+
+				バニラのタウンNPCのみ、幸福度に関するセリフを簡略させます
+				'''
+		}
+
+		ModdedOnly: {
+			Label: Mod追加のみ
+			Tooltip:
+				'''
+				{$Label}
+
+				Mod追加のタウンNPCのみ、幸福度に関するセリフを簡略させます
+				'''
+		}
+
+		All: {
+			Label: 全て
+			Tooltip:
+				'''
+				{$Label}
+
+				全てのタウンNPCの幸福度に関するセリフを簡略させます
+				'''
+		}
+	}
+}
+
+UI: {
+	HappinessWords: {
+		Love: 愛する
+		Like: 好き
+		Dislike: 嫌い
+		Hate: 増悪
+		None: なし
+		RetreivalError: 好みを取得できませんでした
+		PrincessLovesAll: "{$NPCName.Princess}は全てのタウンNPCを愛している"
+	}
+}
+
+# Simple, generic happiness dialogue for the Princess.
+TownNPCMood.HateLonely: 私は孤独が嫌いです。

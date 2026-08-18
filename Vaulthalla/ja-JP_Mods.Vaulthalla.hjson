@@ -1,0 +1,1436 @@
+Configs: {
+	VaulthallaClientConfig: {
+		DisplayName: クライアント
+
+		ShowElementalDebuffInfo: {
+			Label: エレメンタルを表示
+			Tooltip: LSHIFTキーを長押ししている間、エレメンタルを説明するツールチップを追加で表示します
+		}
+
+		FataleRealName: {
+			Label: Fataleの旧名
+			Tooltip: 保護者への勧告(下品な表現が含まれます)
+		}
+
+		KP1216: {
+			Label: KP-1216 著作権対策
+			Tooltip:
+				'''
+				KP-1216の発射音を、耳に優しいかもしれない音に変更します
+				"「Bane(ベイン)はどうなんだ」"って？まさか、ハハハ
+				'''
+		}
+
+		AutoreuseNotif: {
+			Label: ツールチップにオート再使用を表示
+			Tooltip:
+				'''
+				銃がオート再使用可能かどうかをツールチップに表示させます
+				Semi-Auto = オート再使用不可
+				Full-Auto = オート再使用可能
+				これはこのMODで追加された銃にのみ影響します
+				主にデバッグ用に用意されたものですが、一般のプレイヤーにとっても便利で雰囲気が出るかもしれません
+				'''
+		}
+
+		EoLInvincibleName: {
+			Label: 昼のEoLの特殊名
+			Tooltip:
+				'''
+				昼間にエンプレス・オブ・ライトと戦う際、名前に「Invincible(無敵の)」の肩書を付与します
+				EoLの名前を変更するリソースパックを使用している場合、見た目が奇妙になる可能性があります
+				'''
+		}
+	}
+
+	VaulthallaServerConfig: {
+		DisplayName: サーバー
+
+		TVHM: {
+			Label: True Vault Hunter Mode
+			Tooltip:
+				'''
+				Borderlandsスタイルのハクスラ体験に合わせ、ドロップ率を低下させます
+				新しいコンテンツにすぐにアクセスしたい場合は無効にしてください。責めたりしませんので...
+				'''
+		}
+	}
+}
+
+Manufacturer: {
+	Random: 不明
+	None: アラン、詳細を追加してくれ
+	Atlas: アトラス
+	Bandit: バンディット
+	Dahl: ダール
+	Hyperion: ハイペリオン
+	Jakobs: ジェイコブス
+	Maliwan: マリワン
+	Tediore: ティーディオール
+	Torgue: トーグ
+	Vladof: ブラドフ
+	Gearbox: ギアボックス
+	Eridian: エリディアン
+	Empyrea: インペーラー
+}
+
+Element: {
+	Kinetic: キネティック
+	Incendiary: ファイアー
+	Shock: ショック
+	Corrosive: コロッシブ
+	Cryogenic: クリオ
+	Radioactive: レディエーション
+	Slag: スラグ
+	Explosive: エクスプローシブ
+	Universal: アダプティブ
+}
+
+ElementDebuffInfo: {
+	HoldShift: "[c/808080:[LSHIFT]] [c/808080:長押しでエレメンタルを表示]"
+	Incendiary:
+		'''
+		中程度の持続ダメージ
+		冷系に強く、熱系に弱い
+		'''
+	Shock:
+		'''
+		高い持続ダメージを与え、敵の接触ダメージを25%減少させる
+		水棲/スライムに強く、植物/虫に弱い
+		'''
+	Corrosive:
+		'''
+		中程度の持続ダメージを与え、敵の防御力を25%減少させる
+		装甲系に強く、水棲/スライムに弱い
+		'''
+	Cryogenic:
+		'''
+		中程度の持続ダメージ
+		熱系に強く、冷系に弱い
+		'''
+	Radioactive:
+		'''
+		低い持続ダメージ、敵の死亡時に放射能の雲を撒き散らす爆発を起こす
+		植物/虫に強く、装甲系に弱い
+		'''
+	Slag:
+		'''
+		命中時に5秒間、対象をスラグ状態にする
+		スラグ状態の対象は、ダメージを伴うデバフを含む、スラグ以外のあらゆる発生源から50%多くのダメージを受ける
+		真の近接攻撃が命中した場合、このボーナスは2倍になる
+		'''
+	Kinetic:
+		'''
+		特殊な特性はないが、この属性を持つほとんどの銃はあらゆる種類の弾薬を使用できる
+		すべての敵に対して等倍
+		'''
+	Explosive:
+		'''
+		着弾時に爆発を起こし、周囲の敵に範囲ダメージを与える
+		基本的にはすべての敵に対して等倍だが、銃の第二属性によって例外が存在する場合がある
+		'''
+	Universal:
+		'''
+		対象に属性の弱点がある場合、最も高いボーナスダメージを与えられる属性に変化する
+		さらに命中した対象を5秒間スラグ状態にし、着弾時にスラグ爆発を引き起こす
+		スラグ状態の対象は、ダメージを伴うデバフを含む、スラグ以外のあらゆる発生源から50%多くのダメージを受ける
+		真の近接攻撃が命中した場合、このボーナスは2倍になる
+		'''
+}
+
+Special: {
+	Burst: "{0}点バースト"
+	Firerate: 連続で射撃すると発射速度が上昇する
+	Damage: 連続で射撃するとダメージが上昇する
+	FirerateDamage: 連続で射撃すると発射速度とダメージが上昇する
+	Accuracy: 連続で射撃すると精度が上昇する
+	Reserve: 20%の確率で弾薬を節約する
+	SuperReserve: 33%の確率で弾薬を節約する
+	UltraReserve: 50%の確率で弾薬を節約する
+	SuperDuperReserve: 75%の確率で弾薬を節約する
+	SuperDuperUltraReserve: 90%の確率で弾薬を節約する
+	Crit: クリティカルダメージが50%上昇
+	SuperCrit: クリティカルダメージが100%上昇
+	Sticky: 吸着したジャイロジェット1つにつき、対象へのダメージが2%上昇
+	ConsHits: 連続で命中すると、武器ダメージとクリティカル率が上昇する
+	Throw: 右クリックで投げる
+	FullAuto: フルオート
+	SemiAuto: セミオート
+}
+
+Common: {
+	Slag:
+		'''
+		スラグ状態の対象は、ダメージを伴うデバフを含む、スラグ以外のあらゆる発生源から50%多くのダメージを受ける
+		真の近接攻撃が命中した場合、このボーナスは2倍になる
+		'''
+
+	EridiumVein: {
+		DisplayName: 修復されたエリジウム鉱床
+		Tooltip: ""
+	}
+
+	EridiumVeinEcho: {
+		DisplayName: 修復された幻のエリジウム鉱床
+		Tooltip:
+			'''
+			[c/FF3232:一目には見えぬ場所に隠され、]
+			[c/FF3232:その価値は長く求められてきた。]
+			[c/FF3232:この力、視界の彼方に。]
+			'''
+	}
+
+	Invincible: 無敵の
+	NotCraftable: クラフト不可
+}
+
+DropCondition: {
+	Effervescent: エキスパートモード以上でエファーベセント版としてドロップする可能性がある
+	EffervescentEZ: エファーベセント版としてドロップする可能性がある
+	NoEffervescent: エファーベセント版としてはドロップしない
+	T2Ogre: Tier2のオールドワンズアーミー開催中のオーガからのみドロップする可能性がある
+	FlawlessOOA: エターニアクリスタルの残り体力が80%以上の状態でベッツィーを倒すとドロップする
+	PMW15: ウェーブ15以降に出現するパンプキングからドロップする
+	FMW15: ウェーブ15以降に出現するアイスクイーンからドロップする
+}
+
+DeathText: {
+	Catalyst: "{0}はオーバードーズした。"
+	Toll: "{0}は通行料を支払えなかった。"
+	OrphanMaker: "{0}は自分の顔面を撃ち抜いた。"
+}
+
+GoldText: {
+	CloudKill: "[c/DAA520:トキシック]"
+	TheCure: "[c/DAA520:害医]"
+	ASMD: "[c/DAA520:ワン・ツー]"
+	Hellwalker: "[c/DAA520:ドゥームスレイヤー]"
+	NightFlyer: "[c/DAA520:慈悲深き者]"
+	TidalWave: "[c/DAA520:オーシャン・マン]"
+	TKsWave: "[c/DAA520:マグマ・マン]"
+	Flakker: "[c/DAA520:領域拒否]"
+	UnkemptHarold: "[c/DAA520:スプリッター]"
+	UnkemptHaroldDP: "[c/DAA520:ダブルスプリッター]"
+	HellFire: "[c/DAA520:焼き尽くせ]"
+	BoneShredder: "[c/DAA520:弾丸ホース]"
+	Moonfire: "[c/DAA520:幸運の弾丸]"
+	Moxxi: "[c/DAA520:ミス・モクシィの]"
+	Chimera: "[c/DAA520:気まぐれ]"
+	Pyrophobia: "[c/DAA520:炎の航跡]"
+	CalypsoCall: "[c/DAA520:月に呼ばれて]"
+	Storm: "[c/DAA520:ザッパーの狂気]"
+	Firestorm: "[c/DAA520:噴火]"
+
+	Effervescent: {
+		Fumigator: "[c/DAA520:深呼吸]"
+		DemonCore: "[c/DAA520:部屋掃除]"
+		KP1216: "[c/DAA520:刃物の祭典]"
+		Adrasteia: "[c/DAA520:不可避]"
+		TheCatalyst: "[c/DAA520:苦痛と試練]"
+		Red9: "[c/DAA520:大口径]"
+		Ultima: "[c/DAA520:スラグタスティック]"
+		Migraine: "[c/DAA520:ヘッドリンガー]"
+		MigraineDP: "[c/DAA520:ダブルヘッドリンガー]"
+		Bomber: "[c/DAA520:致命的な破片]"
+		Hinotama: "[c/DAA520:火の雨]"
+		DeathPenalty: "[c/DAA520:ケルベロスの挽歌]"
+		Hecate: "[c/DAA520:エリートスナイパー]"
+		SunderedTwilight: "[c/DAA520:光と闇の狭間]"
+	}
+}
+
+RedText: {
+	EridiumAmulet: "[c/FF3232:エントロピー？ 灰色さ。持ち物には気をつけな。]"
+	BasicRepeater:
+		'''
+		[c/FF3232:のちに、君が稲妻を放つ銃で摩天楼サイズの大怪獣を仕留めるようになったとき、]
+		[c/FF3232:この瞬間を振り返って『ふっ』って笑うことになるのさ。]
+		'''
+	GwensHead: "[c/FF3232:箱の外で考える。]"
+	CloudKill: "[c/FF3232:さあ、立ち上がれ。]"
+	TheCure: "[c/FF3232:予防接種は命を救う。ごめん、ジョークはない！ あるのは事実だけ。]"
+	ASMD: "[c/FF3232:追跡調査でもやるつもりか？]"
+	Hellwalker: "[c/FF3232:悪魔ども、覚悟しな。]"
+	Shredifier: "[c/FF3232:スピードは命取り。]"
+	NightFlyer: "[c/FF3232:俺には1つの掟がある。]"
+	Florentine: "[c/FF3232:ダブルトラブル。]"
+	Bane: "[c/FF3232:人を壊す、災の元。]"
+	TidalWave: "[c/FF3232:波から逃げろ！]"
+	TKsWave: "[c/FF3232:波に乗れ、ブラザー！]"
+	Cobra: "[c/FF3232:気付いた時にはえーーーって感じ。あの銃を取り戻すんだから！]"
+	Flakker: "[c/FF3232:フラック・ザ・ワールド！]"
+	UnkemptHarold:
+		'''
+		[c/FF3232:6発いや5発しか撃ってないか？]
+		[c/FF3232:それとも3発？7発？なんだっていいさ。]
+		'''
+	UnkemptHaroldDP: "[c/FF3232:俺も数えてなかったよ。]"
+	Maggie: "[c/FF3232:なめてかかると、痛い目見るぜ。]"
+	Fatale: "[c/FF3232:そう。戻ってきたぞ。]"
+	Sloth: "[c/FF3232:酔ったてん末...]"
+	HellFire: "[c/FF3232:水なんていらねぇ...]"
+	BoneShredder: "[c/FF3232:鉛の風が吹く！]"
+	Nukem: "[c/FF3232:某有名人の名で箔をつけた一品。]"
+	Moonfire: "[c/FF3232:己の運命に出会え。]"
+	Ogre: "[c/FF3232:Orcとの違いは、食べ物を噛むかどうか。]"
+	Hail: "[c/FF3232:今日はどんな遊びを教えてくれるんだい？]"
+	GrogNozzle: "[c/FF3232:車はダメよ...]"
+	Chimera: "[c/FF3232:多くの姿を持つ獣 －炎、雷、精度、そして毒。]"
+	Hydra: "[c/FF3232:5つの銃口が火を吹くぜ！]"
+	TheButcher: "[c/FF3232:アァァァ... 新鮮な肉だ！]"
+	NullPointer: "[c/FF3232:(゜∀。)＜ ぬるぽ]"
+	Pyrophobia: "[c/FF3232:実際のところ、恐れるほうが正しい。]"
+	CalypsoCall: "[c/FF3232:私たちの人生は私たちのもの。 好きに生きる。]"
+	Badaboom: "[c/FF3232:マルチキル。]"
+	Storm: "[c/FF3232:おや、雨が降るようだ。]"
+	Firestorm: "[c/FF3232:ただちに避難せよ。]"
+	Lyuda: "[c/FF3232:男殺し。]"
+	Hornet: "[c/FF3232:恐怖の群れ]"
+	Scorpio: "[c/FF3232:わずかなお金で毎日できる移動式弾圧。]"
+	LongMusket: "[c/FF3232:「暗号資産」って言ってみろ！]"
+	Gunerang: "[c/FF3232:試しに投げてみな。]"
+	Deliverance: "[c/FF3232:キキがショットガンを手に入れた。]"
+	Fibber: "[c/FF3232:私があなたに嘘をつくと思う？]"
+	DoubleAnarchyTediore: "[c/FF3232:弾丸ホースが火を噴くぜ。]"
+	DoubleAnarchyTorgue: "[c/FF3232:何かを補っているに違いない...]"
+	DoubleAnarchyDahl: "[c/FF3232:千回斬りによる死。]"
+	DoubleAnarchyGearbox: "[c/FF3232:だが、なぜこんなことを？]"
+	BadTouch: "[c/FF3232:私がいい子にしてるときは、最高に気持ちいいわよ...]"
+	PlasmaCoil: "[c/FF3232:物質の第4状態を利用せよ。]"
+	Norfleet: "[c/DC7800:なんでも吹き飛ばす！]"
+
+	Effervescent: {
+		AdvancedRepeater: "[c/FF3232:調子はどうだい？]"
+		Fumigator: "[c/FF3232:奴らに悪臭をくれてやれ。]"
+		DemonCore: "[c/FF3232:狂気を具現化する時間だ。]"
+		KP1216: "[c/FF3232:レーザーで奴らを破壊しろ！]"
+		Adrasteia: "[c/FF3232:またたく間に。]"
+		TheCatalyst: "[c/FF3232:癒やすことは、痛めつけることほど報われない。]"
+		SuperShredifier: "[c/FF3232:これぞまさに対空砲だ。]"
+		Red9: "[c/FF3232:どう思う、レオン？ 人は変われるよな？]"
+		Ultima: "[c/FF3232:さりげなくぶっ壊れ。]"
+		Migraine: "[c/FF3232:奴らは明日の朝、それを痛感することになるだろう。]"
+		MigraineDP: "[c/FF3232:ぶっ飛んだな。]"
+		Bomber: "[c/FF3232:これが欲しいのか？くれてやるよ、友よ！]"
+		Marigold: "[c/FF3232:大器晩成。]"
+		Hermes: "[c/FF3232:使者を撃つな。]"
+		BoneSaviour: "[c/FF3232:鉛の雨だ、ハレルヤ！]"
+		OneLiner: "[c/FF3232:お前に聖なる体を与えてやろう！]"
+		Toll: "[c/FF3232:この世にタダのものは何もない。]"
+		Hinotama: "[c/FF3232:人生という名の家を焼き尽くせ！]"
+		DeathPenalty: "[c/FF3232:悪夢が始まる。]"
+		Bermuda: "[c/FF3232:深淵へ沈め！]"
+		Rebellion: "[c/FF3232:悪魔も泣き出すかもな。]"
+		PeaceWalker: "[c/FF3232:あいつら俺たちをバイオリンみたいに操りやがった！]"
+		PhantomPain: "[c/FF3232:待たせたな。]"
+		Ersatz: "[c/FF3232:本物さ。(いや、違うけど。)]"
+		Crackshot: "[c/FF3232:1+1=3]"
+		MeteorStrike: "[c/FF3232:大嵐よ来たれ、我に仇なす者をすべて滅ぼせ！]"
+		Hecate: "[c/FF3232:これは私の戦いだ、他の誰のものでもない。]"
+		Sabre: "[c/FF3232:お前ら、うちの奥さんに会ったか？]"
+		CausticScorcher: "[c/FF3232:ただ世界が燃えるのを見たいだけの人間もいる。]"
+		SunderedTwilight:
+			'''
+			[c/FF3232:いつの日か君を解放し、この腕に抱きしめよう。]
+			[c/FF3232:なぜなら、君の平穏こそが私の願いだからだ。]
+			'''
+	}
+}
+
+Items: {
+	RubberBullet: {
+		DisplayName: ジェリド弾
+		Tooltip:
+			'''
+			至近距離で乗算25%のボーナスダメージを与える
+			液体に接触すると消滅する
+			'''
+	}
+
+	SlagBullet: {
+		DisplayName: スラグボール
+		Tooltip:
+			'''
+			武器ダメージが33%減少するが、対象を長時間スラグ状態にする
+			スラグ状態の対象は、ダメージを伴うデバフを含む、スラグ以外のあらゆる発生源から50%多くのダメージを受ける
+			真の近接攻撃が命中した場合、このボーナスは2倍になる
+			'''
+	}
+
+	SlagBulletSuperior: {
+		DisplayName: スラグチップ弾
+		Tooltip:
+			'''
+			短時間対象をスラグ状態にする
+			まだスラグ状態になっていない対象に対して、より高いダメージを与える
+			スラグ状態の対象は、ダメージを伴うデバフを含む、スラグ以外のあらゆる発生源から50%多くのダメージを受ける
+			真の近接攻撃が命中した場合、このボーナスは2倍になる
+			'''
+	}
+
+	EridiumAnvil: {
+		DisplayName: エリジウムの金床
+		Tooltip: エリジウムを使用した特殊なクラフトを可能にする
+	}
+
+	EridiumOre: {
+		DisplayName: エリジウムの原石
+		Tooltip: インゴットに精錬したり、弾丸に染み込ませたりできる柔らかい結晶物質
+	}
+
+	EridiumBar: {
+		DisplayName: エリジウムのインゴット
+		Tooltip: 独自の装備を製造するために使用される、エキゾチック結晶金属
+	}
+
+	Immaculite: {
+		DisplayName: セラフ・クリスタル
+		Tooltip:
+			'''
+			無限の可能性を秘めた、汚れなきクリスタル
+			特定の銃のエファーベセント版をクラフトするために使用できる
+			'''
+	}
+
+	ImmaculiteShard: {
+		DisplayName: セラフ・フラグメント
+		Tooltip:
+			'''
+			由来不明の破片、これ単体では役に立たない
+			修復すれば何かに使えるかもしれない...
+			'''
+	}
+
+	EridiumVein1: {
+		DisplayName: 修復されたエリジウム鉱床
+		Tooltip: ""
+	}
+
+	EridiumVein2: {
+		DisplayName: 修復されたエリジウム鉱床
+		Tooltip: ""
+	}
+
+	EridiumVein3: {
+		DisplayName: 修復されたエリジウム鉱床
+		Tooltip: ""
+	}
+
+	EridiumVein1Echo: {
+		DisplayName: 修復された幻のエリジウム鉱床
+		Tooltip:
+			'''
+			[c/FF3232:一目には見えぬ場所に隠され、]
+			[c/FF3232:その価値は長く求められてきた。]
+			[c/FF3232:この力、視界の彼方に。]
+			'''
+	}
+
+	EridiumVein2Echo: {
+		DisplayName: 修復された幻のエリジウム鉱床
+		Tooltip:
+			'''
+			[c/FF3232:一目には見えぬ場所に隠され、]
+			[c/FF3232:その価値は長く求められてきた。]
+			[c/FF3232:この力、視界の彼方に。]
+			'''
+	}
+
+	EridiumVein3Echo: {
+		DisplayName: 修復された幻のエリジウム鉱床
+		Tooltip:
+			'''
+			[c/FF3232:一目には見えぬ場所に隠され、]
+			[c/FF3232:その価値は長く求められてきた。]
+			[c/FF3232:この力、視界の彼方に。]
+			'''
+	}
+
+	EridiumAmulet: {
+		DisplayName: 共鳴するエリジウム
+		Tooltip:
+			'''
+			隠されたエリジウム鉱床をマップ上に表示する
+			敵が時折、追加のエリジウムのインゴットをドロップするようになる
+			[c/FF3232:エントロピー？ 灰色さ。持ち物には気をつけな。]
+			'''
+	}
+
+	BasicRepeater: {
+		DisplayName: ベーシックリピーター
+		Tooltip:
+			'''
+			{0}点バースト
+			[c/FF3232:のちに、君が稲妻を放つ銃で摩天楼サイズの大怪獣を仕留めるようになったとき、]
+			[c/FF3232:この瞬間を振り返って『ふっ』って笑うことになるのさ。]
+			'''
+	}
+
+	AdvancedRepeater: {
+		DisplayName: 少しマシなリピーター
+		Tooltip:
+			'''
+			{0}点バースト
+			[c/FF3232:調子はどうだい？]
+			'''
+	}
+
+	GwensHead: {
+		DisplayName: グウェンの頭
+		Tooltip:
+			'''
+			{0}点バースト
+			クリティカルダメージが50%上昇
+			[c/FF3232:箱の外で考える。]
+			'''
+	}
+
+	CloudKill: {
+		DisplayName: クラウド・キル
+		Tooltip:
+			'''
+			射撃ごとに弾薬を2つ消費
+			連続で射撃するとダメージが上昇する
+			[c/DAA520:トキシック]
+			[c/FF3232:さあ、立ち上がれ。]
+			'''
+	}
+
+	TheCure: {
+		DisplayName: ザ・キュア
+		Tooltip:
+			'''
+			射撃ごとに弾薬を3つ消費
+			クリティカルダメージが50%上昇
+			[c/DAA520:害医]
+			[c/FF3232:予防接種は命を救う。ごめん、ジョークはない！ あるのは事実だけ。]
+			'''
+	}
+
+	ASMD: {
+		DisplayName: ASMD
+		Tooltip:
+			'''
+			右クリックを長押しして射撃するとセカンダリモードを使用
+			プライマリモードは射撃ごとに弾薬を4つ消費
+			セカンダリモードは射撃ごとに弾薬を2つ消費
+			[c/DAA520:ワン・ツー]
+			[c/FF3232:追跡調査でもやるつもりか？]
+			'''
+	}
+
+	Hellwalker: {
+		DisplayName: ヘルウォーカー
+		Tooltip:
+			'''
+			射撃ごとに弾薬を6つ消費
+			クリティカルダメージが50%上昇
+			[c/DAA520:ドゥームスレイヤー]
+			[c/FF3232:悪魔ども、覚悟しな。]
+			'''
+	}
+
+	Fumigator: {
+		DisplayName: フミゲーター
+		Tooltip:
+			'''
+			射撃ごとに弾薬を3つ消費
+			連続で射撃するとダメージが上昇する
+			[c/DAA520:深呼吸]
+			[c/FF3232:奴らに悪臭をくれてやれ。]
+			'''
+	}
+
+	DemonCore: {
+		DisplayName: デーモンコア
+		Tooltip:
+			'''
+			射撃ごとに弾薬を4つ消費
+			クリティカルダメージが100%上昇
+			[c/DAA520:部屋掃除]
+			[c/FF3232:狂気を具現化する時間だ。]
+			'''
+	}
+
+	KP1216: {
+		DisplayName: KP-1216
+		Tooltip:
+			'''
+			{0}点バースト
+			射撃ごとに弾薬を2つ消費
+			連続で命中すると、武器ダメージと遠距離クリティカル率が上昇する
+			[c/DAA520:刃物の祭典]
+			[c/FF3232:レーザーで奴らを破壊しろ！]
+			'''
+	}
+
+	Adrasteia: {
+		DisplayName: アドラステイア
+		Tooltip:
+			'''
+			射撃ごとに弾薬を2つ消費
+			連続で射撃すると発射速度とダメージが上昇する
+			[c/DAA520:不可避]
+			[c/FF3232:またたく間に。]
+			'''
+	}
+
+	TheCatalyst: {
+		DisplayName: カタリスト
+		Tooltip:
+			'''
+			射撃ごとに弾薬を4つ消費
+			クリティカルダメージが50%上昇
+			[c/DAA520:苦痛と試練]
+			[c/FF3232:癒やすことは、痛めつけることほど報われない。]
+			'''
+	}
+
+	SuperShredifier: {
+		DisplayName: スーパーシュレディファイア
+		Tooltip:
+			'''
+			射撃ごとに弾薬を4つ消費
+			[c/FF3232:これぞまさに対空砲だ。]
+			'''
+	}
+
+	Shredifier: {
+		DisplayName: シュレディファイア
+		Tooltip:
+			'''
+			射撃ごとに弾薬を2つ消費
+			[c/FF3232:スピードは命取り。]
+			'''
+	}
+
+	NightFlyer: {
+		DisplayName: ナイト・フライヤー
+		Tooltip:
+			'''
+			{0}点バースト
+			[c/DAA520:慈悲深き者]
+			[c/FF3232:俺には1つの掟がある。]
+			'''
+	}
+
+	Red9: {
+		DisplayName: Red9
+		Tooltip:
+			'''
+			射撃ごとに弾薬を9つ消費
+			連続で命中すると、武器ダメージと遠距離クリティカル率が上昇する
+			[c/DAA520:大口径]
+			[c/FF3232:どう思う、レオン？ 人は変われるよな？]
+			'''
+	}
+
+	Florentine: {
+		DisplayName: フロレンティン
+		Tooltip:
+			'''
+			射撃ごとに弾薬を2つ消費
+			連続で射撃するとダメージが上昇する
+			[c/FF3232:ダブルトラブル。]
+			'''
+	}
+
+	Bane: {
+		DisplayName: ベイン
+		Tooltip:
+			'''
+			連続で射撃すると精度が上昇する
+			(冗談だよ、そんな効果はない)
+			[c/FF3232:人を壊す、災の元。]
+			'''
+	}
+
+	TidalWave: {
+		DisplayName: タイダル・ウェーブ
+		Tooltip:
+			'''
+			射撃ごとに弾薬を3つ消費
+			クリティカルダメージが50%上昇
+			[c/DAA520:オーシャン・マン]
+			[c/FF3232:波から逃げろ！]
+			'''
+	}
+
+	TKsWave: {
+		DisplayName: T.K's ヒートウェーブ
+		Tooltip:
+			'''
+			射撃ごとに弾薬を5つ消費
+			クリティカルダメージが50%上昇
+			[c/DAA520:マグマ・マン]
+			[c/FF3232:波に乗れ、ブラザー！]
+			'''
+	}
+
+	Cobra: {
+		DisplayName: コブラ
+		Tooltip:
+			'''
+			クリティカルダメージが100%上昇
+			[c/FF3232:気付いた時にはえーーーって感じ。あの銃を取り戻すんだから！]
+			'''
+	}
+
+	Flakker: {
+		DisplayName: フラッカー
+		Tooltip:
+			'''
+			射撃ごとに弾薬を4つ消費
+			[c/DAA520:領域拒否]
+			[c/FF3232:フラック・ザ・ワールド！]
+			'''
+	}
+
+	UnkemptHarold: {
+		DisplayName: アンケンプト・ハロルド
+		Tooltip:
+			'''
+			射撃ごとに弾薬を2つ消費
+			[c/DAA520:スプリッター]
+			[c/FF3232:6発いや5発しか撃ってないか？]
+			[c/FF3232:それとも3発？7発？なんだっていいさ。]
+			'''
+	}
+
+	UnkemptHaroldDP: {
+		DisplayName: ダブルペネトレイティング・アンケンプト・ハロルド
+		Tooltip:
+			'''
+			射撃ごとに弾薬を3つ消費
+			[c/DAA520:ダブルスプリッター]
+			[c/FF3232:俺も数えてなかったよ。]
+			'''
+	}
+
+	Ultima: {
+		DisplayName: アルテマ
+		Tooltip:
+			'''
+			射撃ごとに弾薬を4つ消費
+			[c/DAA520:スラグタスティック]
+			[c/FF3232:さりげなくぶっ壊れ。]
+			'''
+	}
+
+	Migraine: {
+		DisplayName: マイグレイン
+		Tooltip:
+			'''
+			射撃ごとに弾薬を3つ消費
+			[c/DAA520:ヘッドリンガー]
+			[c/FF3232:奴らは明日の朝、それを痛感することになるだろう。]
+			'''
+	}
+
+	MigraineDP: {
+		DisplayName: クロニックマイグレイン
+		Tooltip:
+			'''
+			射撃ごとに弾薬を5つ消費
+			[c/DAA520:ダブルヘッドリンガー]
+			[c/FF3232:ぶっ飛んだな。]
+			'''
+	}
+
+	Bomber: {
+		DisplayName: ボンバー
+		Tooltip:
+			'''
+			射撃ごとに弾薬を5つ消費
+			[c/DAA520:致命的な破片]
+			[c/FF3232:これが欲しいのか？くれてやるよ、友よ！]
+			'''
+	}
+
+	Maggie: {
+		DisplayName: マギー
+		Tooltip:
+			'''
+			クリティカルダメージが50%上昇
+			[c/FF3232:なめてかかると、痛い目見るぜ。]
+			'''
+	}
+
+	Marigold: {
+		DisplayName: マリーゴールド
+		Tooltip:
+			'''
+			クリティカルダメージが50%上昇
+			[c/FF3232:大器晩成。]
+			'''
+	}
+
+	Hermes: {
+		DisplayName: ヘルメス
+		Tooltip:
+			'''
+			連続で射撃すると精度が上昇する
+			[c/FF3232:使者を撃つな。]
+			'''
+	}
+
+	Fatale: {
+		DisplayName: ファタール
+		RealName: ビッチ
+		Tooltip:
+			'''
+			クリティカルダメージが50%上昇
+			連続で射撃すると精度が上昇する
+			[c/FF3232:そう。戻ってきたぞ。]
+			'''
+	}
+
+	Sloth: {
+		DisplayName: スロース
+		Tooltip:
+			'''
+			クリティカルダメージが50%上昇
+			[c/FF3232:酔ったてん末...]
+			'''
+	}
+
+	HellFire: {
+		DisplayName: ヘルファイア
+		Tooltip:
+			'''
+			射撃ごとに弾薬を2つ消費
+			連続で射撃するとダメージが上昇する
+			[c/DAA520:焼き尽くせ]
+			[c/FF3232:水なんていらねぇ...]
+			'''
+	}
+
+	BoneShredder: {
+		DisplayName: ボーンシュレッダー
+		Tooltip:
+			'''
+			射撃ごとに弾薬を3つ消費
+			33%の確率で弾薬を節約する
+			[c/FF3232:鉛の風が吹く！]
+			'''
+	}
+
+	BoneSaviour: {
+		DisplayName: ボーンセイバー
+		Tooltip:
+			'''
+			射撃ごとに弾薬を3つ消費
+			75%の確率で弾薬を節約する
+			[c/FF3232:鉛の雨だ、ハレルヤ！]
+			'''
+	}
+
+	Nukem: {
+		DisplayName: ニューケム
+		Tooltip:
+			'''
+			射撃ごとに弾薬を3つ消費
+			[c/FF3232:某有名人の名で箔をつけた一品。]
+			'''
+	}
+
+	OneLiner: {
+		DisplayName: ワンライナー
+		Tooltip:
+			'''
+			射撃ごとに弾薬を10つ消費
+			[c/FF3232:お前に聖なる体を与えてやろう！]
+			'''
+	}
+
+	OneLinerSpecial: {
+		DisplayName: ワンライナー
+		Tooltip:
+			'''
+			弾薬を必要としない
+			[c/FF3232:お前に聖なる体を与えてやろう！]
+			'''
+	}
+
+	Toll: {
+		DisplayName: トール
+		Tooltip:
+			'''
+			射撃ごとに弾薬を4つ消費
+			クリティカルダメージが50%上昇
+			[c/FF3232:この世にタダのものは何もない。]
+			'''
+	}
+
+	Hinotama: {
+		DisplayName: 火の玉
+		Tooltip:
+			'''
+			射撃ごとに弾薬を5つ消費
+			[c/DAA520:火の雨]
+			[c/FF3232:人生という名の家を焼き尽くせ！]
+			'''
+	}
+
+	Moonfire: {
+		DisplayName: ムーンファイアー
+		Tooltip:
+			'''
+			連続で命中すると、武器ダメージと遠距離クリティカル率が上昇する
+			[c/DAA520:幸運の弾丸]
+			[c/FF3232:己の運命に出会え。]
+			'''
+	}
+
+	DeathPenalty: {
+		DisplayName: デスペナルティ
+		Tooltip:
+			'''
+			射撃ごとに弾薬を3つ消費
+			連続で命中すると、武器ダメージと遠距離クリティカル率が上昇する
+			[c/DAA520:ケルベロスの挽歌]
+			[c/FF3232:悪夢が始まる。]
+			'''
+	}
+
+	Ogre: {
+		DisplayName: オーガ
+		Tooltip:
+			'''
+			射撃ごとに弾薬を2つ消費
+			連続で射撃すると発射速度が上昇する
+			[c/FF3232:Orcとの違いは、食べ物を噛むかどうか。]
+			'''
+	}
+
+	Hail: {
+		DisplayName: ヘイル
+		Tooltip:
+			'''
+			射撃ごとに弾薬を2つ消費
+			クリティカルダメージが50%上昇
+			連続で命中すると、武器ダメージと遠距離クリティカル率が上昇する
+			[c/DAA520:ミス・モクシィの]
+			[c/FF3232:今日はどんな遊びを教えてくれるんだい？]
+			'''
+	}
+
+	GrogNozzle: {
+		DisplayName: グロッグノズル
+		Tooltip:
+			'''
+			射撃ごとに弾薬を3つ消費
+			[c/DAA520:ミス・モクシィの]
+			[c/FF3232:車はダメよ...]
+			'''
+	}
+
+	Chimera: {
+		DisplayName: キマイラ
+		Tooltip:
+			'''
+			射撃ごとに弾薬を2つ消費
+			[c/DAA520:気まぐれ]
+			[c/FF3232:多くの姿を持つ獣 －炎、雷、精度、そして毒。]
+			'''
+	}
+
+	Hydra: {
+		DisplayName: ヒドラ
+		Tooltip:
+			'''
+			射撃ごとに弾薬を5つ消費
+			[c/FF3232:5つの銃口が火を吹くぜ！]
+			'''
+	}
+
+	Bermuda: {
+		DisplayName: バミューダ
+		Tooltip:
+			'''
+			射撃ごとに弾薬を3つ消費
+			[c/FF3232:深淵へ沈め！]
+			'''
+	}
+
+	TheButcher: {
+		DisplayName: ブッチャー
+		Tooltip:
+			'''
+			射撃ごとに弾薬を3つ消費
+			連続で射撃すると精度が上昇する
+			90%の確率で弾薬を節約する
+			[c/FF3232:アァァァ... 新鮮な肉だ！]
+			'''
+	}
+
+	NullPointer: {
+		DisplayName: NullPointerException
+		Tooltip:
+			'''
+			クリティカルダメージが100%上昇
+			[c/FF3232:(゜∀。)＜ ぬるぽ]
+			'''
+	}
+
+	Pyrophobia: {
+		DisplayName: パイロフォビア
+		Tooltip:
+			'''
+			射撃ごとに弾薬を3つ消費
+			[c/DAA520:炎の航跡]
+			[c/FF3232:実際のところ、恐れるほうが正しい。]
+			'''
+	}
+
+	Hornet: {
+		DisplayName: ホーネット
+		Tooltip:
+			'''
+			連続で命中すると、武器ダメージと遠距離クリティカル率が上昇する
+			[c/FF3232:恐怖の群れ]
+			'''
+	}
+
+	KingsCall: {
+		DisplayName: キングズ・コール
+		Tooltip:
+			'''
+			クリティカルダメージが100%上昇
+			[c/DAA520:月に呼ばれて]
+			[c/FF3232:私たちの人生は私たちのもの。 好きに生きる。]
+			'''
+	}
+
+	QueensCall: {
+		DisplayName: クイーンズ・コール
+		Tooltip:
+			'''
+			クリティカルダメージが100%上昇
+			[c/DAA520:月に呼ばれて]
+			[c/FF3232:私たちの人生は私たちのもの。 好きに生きる。]
+			'''
+	}
+
+	Storm: {
+		DisplayName: ストーム
+		Tooltip:
+			'''
+			射撃ごとに弾薬を2つ消費
+			クリティカルダメージが50%上昇
+			[c/DAA520:ザッパーの狂気]
+			[c/FF3232:おや、雨が降るようだ。]
+			'''
+	}
+
+	Firestorm: {
+		DisplayName: ファイアストーム
+		Tooltip:
+			'''
+			連続で命中すると、武器ダメージと遠距離クリティカル率が上昇する
+			[c/DAA520:噴火]
+			[c/FF3232:ただちに避難せよ。]
+			'''
+	}
+
+	Lyuda: {
+		DisplayName: リューダ
+		Tooltip:
+			'''
+			射撃ごとに弾薬を2つ消費
+			クリティカルダメージが50%上昇
+			[c/FF3232:男殺し。]
+			'''
+	}
+
+	Hecate: {
+		DisplayName: ヘカテ
+		Tooltip:
+			'''
+			射撃ごとに弾薬を4つ消費
+			クリティカルダメージが50%上昇
+			[c/DAA520:エリートスナイパー]
+			[c/FF3232:これは私の戦いだ、他の誰のものでもない。]
+			'''
+	}
+
+	PlasmaCoil: {
+		DisplayName: 超伝導プラズマ・コイル
+		Tooltip:
+			'''
+			{0}点バースト
+			射撃ごとに弾薬を2つ消費
+			連続で命中すると、武器ダメージと遠距離クリティカル率が上昇する
+			[c/FF3232:物質の第4状態を利用せよ。]
+			'''
+	}
+
+	Norfleet: {
+		DisplayName: ノーフリート
+		Tooltip:
+			'''
+			射撃ごとに弾薬を30つ消費
+			[c/DC7800:なんでも吹き飛ばす！]
+			'''
+	}
+
+	SunderedTwilight: {
+		DisplayName: サンダー・トワイライト
+		Tooltip:
+			'''
+			[c/DAA520:光と闇の狭間]
+			[c/FF3232:いつの日か君を解放し、この腕に抱きしめよう。]
+			[c/FF3232:なぜなら、君の平穏こそが私の願いだからだ。]
+			[c/FF7FFF:[WillowTheLoneへ捧ぐ <3][c/FF7FFF:]]
+			'''
+	}
+}
+
+Tiles: {
+	EridiumAnvil: エリジウムの金床
+	EridiumBar: エリジウムのインゴット
+	EridiumVein: エリジウム鉱床
+}
+
+Projectiles: {
+	MaliwanBolt: {
+		DisplayName: キネティックボルト
+	}
+
+	CloudKillBolt: {
+		DisplayName: コロッシブボルト
+	}
+
+	CorrosiveCloud: {
+		DisplayName: コロッシブクラウド
+	}
+
+	CorrosiveCloudSpawner: {
+		DisplayName: コロッシブクラウド生成器
+	}
+
+	CureBullet: {
+		DisplayName: 治療弾
+	}
+
+	ShockLaser: {
+		DisplayName: ショックレーザー
+	}
+
+	ShockOrb: {
+		DisplayName: ショックオーブ
+	}
+
+	IncendiaryBullet: {
+		DisplayName: インセンディアル弾
+	}
+
+	IncendiaryExplosion: {
+		DisplayName: インセンディアル爆発
+	}
+
+	FumigatorBolt: {
+		DisplayName: ラドボルト
+	}
+
+	RadCloud: {
+		DisplayName: ラドクラウド
+	}
+
+	RadExplosion: {
+		DisplayName: ラド爆発
+	}
+
+	RadCloudSpawner: {
+		DisplayName: ラドクラウドの生成器
+	}
+
+	DemonCoreBolt: {
+		DisplayName: ラド弾
+	}
+
+	KPLaser: {
+		DisplayName: ラドレーザー
+	}
+
+	SlagBullet: {
+		DisplayName: スラグ弾
+	}
+
+	HyperVelocityBullet: {
+		DisplayName: 高速弾
+	}
+
+	RubberBullet: {
+		DisplayName: ジェリド弾
+	}
+
+	CorrosiveBullet: {
+		DisplayName: コロッシブ弾
+	}
+
+	TranqBullet: {
+		DisplayName: 麻酔弾(トランキライザー)
+	}
+
+	AdrasteiaLaser: {
+		DisplayName: アドラステイアレーザー
+	}
+
+	FlorentineBolt: {
+		DisplayName: ショックボルト
+	}
+
+	ShockBullet: {
+		DisplayName: ショック弾
+	}
+
+	WaveBullet: {
+		DisplayName: ウェーブ弾
+	}
+
+	Explosion: {
+		DisplayName: 爆発
+	}
+
+	ExplosiveHighVelocityBullet: {
+		DisplayName: 炸裂高速弾
+	}
+
+	FlakSpawner: {
+		DisplayName: フラック生成器
+	}
+
+	FlakTracer: {
+		DisplayName: フラックトレーサー
+	}
+
+	Gyrojet: {
+		DisplayName: ジャイロジェット
+	}
+
+	SplittingGyrojet: {
+		DisplayName: 分裂型ジャイロジェット
+	}
+
+	SlagExplosion: {
+		DisplayName: スラグ爆発
+	}
+
+	UltimaBolt: {
+		DisplayName: アルティマボルト
+	}
+
+	PlasmaBolt: {
+		DisplayName: プラズマボルト
+	}
+
+	HeatwaveBullet: {
+		DisplayName: インセンディアル弾
+	}
+
+	FlakExplosion: {
+		DisplayName: 爆発
+	}
+
+	RecurringGyrojet: {
+		DisplayName: 反復型ジャイロジェット
+	}
+
+	Grenade: {
+		DisplayName: 手榴弾
+	}
+
+	BomberGrenade: {
+		DisplayName: 手榴弾
+	}
+
+	BomberTracer: {
+		DisplayName: ボンバートレーサー
+	}
+
+	BomberExplosion: {
+		DisplayName: インセンディアル爆発
+	}
+
+	MarigoldSpawner: {
+		DisplayName: マリーゴールド生成器
+	}
+
+	HighVelocityBulletRed9: {
+		DisplayName: 高速弾
+	}
+
+	Shrapnel: {
+		DisplayName: 散弾の破片
+	}
+
+	IncendiaryBolt: {
+		DisplayName: インセンディアルボルト
+	}
+
+	NukeOrb: {
+		DisplayName: 不安定な球体
+	}
+
+	NukeField: {
+		DisplayName: 中性子ブラスト
+	}
+
+	Rocket: {
+		DisplayName: ロケット弾
+	}
+
+	NukemRocket: {
+		DisplayName: ロケット弾
+	}
+
+	OneLinerRocket: {
+		DisplayName: ロケット弾
+	}
+
+	HinotamaFireball: {
+		DisplayName: 火の玉
+	}
+
+	CryoExplosion: {
+		DisplayName: クライオ爆発
+	}
+
+	CryoBullet: {
+		DisplayName: クライオ弾
+	}
+
+	MoonfireBulletCrit: {
+		DisplayName: クライオ弾
+	}
+
+	MoonfireBullet: {
+		DisplayName: クライオ弾
+	}
+
+	OgreBullet: {
+		DisplayName: 炸裂弾
+	}
+
+	HailBullet: {
+		DisplayName: クライオ弾
+	}
+
+	SlagBolt: {
+		DisplayName: スラグボルト
+	}
+
+	GrogBolt: {
+		DisplayName: スラグボルト
+	}
+
+	PyrophobiaRocket: {
+		DisplayName: ロケット弾
+	}
+
+	SlagBulletAmmo: {
+		DisplayName: スラグボール
+	}
+
+	SlagBulletAmmoSuperior: {
+		DisplayName: スラグチップ弾
+	}
+
+	CerebusBullet: {
+		DisplayName: インセンディアル弾
+	}
+
+	HornetBullet: {
+		DisplayName: コロッシブ弾
+	}
+
+	CorrosiveExplosion: {
+		DisplayName: コロッシブ爆発
+	}
+
+	KingBullet: {
+		DisplayName: インセンディアル弾
+	}
+
+	QueenBullet: {
+		DisplayName: クライオ弾
+	}
+
+	StormLaser: {
+		DisplayName: ショックレーザー
+	}
+
+	StormOrb: {
+		DisplayName: ショックオーブ
+	}
+
+	FirestormLaser: {
+		DisplayName: インセンディアルレーザー
+	}
+
+	Fireball: {
+		DisplayName: 火の玉
+	}
+
+	LyudaBullet: {
+		DisplayName: 高速弾
+	}
+
+	HecateBullet: {
+		DisplayName: 高速弾
+	}
+
+	HecateShrapnel: {
+		DisplayName: 高速弾
+	}
+
+	BaneShockBullet: {
+		DisplayName: ショック弾
+	}
+
+	HellfireBolt: {
+		DisplayName: インセンディアルボルト
+	}
+
+	SunderedTwilightLaser: {
+		DisplayName: アダプティブレーザー
+	}
+
+	ShockExplosion: {
+		DisplayName: ショック爆発
+	}
+}
+
+Buffs: {
+	Melt: {
+		DisplayName: 融解
+		Description: 防具が腐食している
+	}
+
+	Electrocute: {
+		DisplayName: 感電
+		Description: 関節が制御不能な痙攣を起こしている
+	}
+
+	Irradiated: {
+		DisplayName: 被爆
+		Description: 弱っている
+	}
+
+	Slagged: {
+		DisplayName: スラグ
+		Description: 汚泥に覆われている
+	}
+
+	Intoxicated: {
+		DisplayName: 泥酔
+		Description: 防御力とライフ自然回復が完全に無効化されるが、弾丸を使用するほとんどの銃から追加の発射物が放たれる
+	}
+
+	Called: {
+		DisplayName: 恩寵
+		Description: 遠距離クリティカルダメージが100%上昇し、武器のクリティカル率に基づいて弾薬を節約する確率を得る
+	}
+}
+

@@ -1,0 +1,77 @@
+Configs: {
+	DualWieldingClientConfig: {
+		DisplayName: Dual Wielding クライアント設定
+
+		ShowOffhandHotbarSlots: {
+			Label: オフハンドのホットバースロットを表示する
+			Tooltip: ""
+		}
+
+		SlotX: {
+			Label: スロットの横位置
+			Tooltip: ""
+		}
+
+		SlotY: {
+			Label: スロットの縦位置
+			Tooltip: ""
+		}
+
+		OffhandDrawOffsetX: {
+			Label: オフハンドの横位置
+			Tooltip: ""
+		}
+
+		OffhandDrawOffsetY: {
+			Label: オフハンドの縦位置
+			Tooltip: ""
+		}
+	}
+
+	DualWieldingServerConfig: {
+		DisplayName: Dual Wielding バランス設定
+
+		EnableBalancePenalties: {
+			Label: ペナルティを有効にする
+			Tooltip: ""
+		}
+
+		PassiveBalancePenalties: {
+			Label: 常にペナルティを適用
+			Tooltip: ""
+		}
+
+		DamageMultiplier: {
+			Label: ダメージの乗数
+			Tooltip: ""
+		}
+
+		KnockbackMultiplier: {
+			Label: ノックバックの乗数
+			Tooltip: ""
+		}
+
+		UseSpeedMultiplier: {
+			Label: 使用速度の乗数
+			Tooltip: ""
+		}
+
+		CritChanceMultiplier: {
+			Label: クリティカル率の乗数
+			Tooltip: ""
+		}
+
+		ManaRegenMultiplier: {
+			Label: マナ消費量の乗数
+			Tooltip: ""
+		}
+
+		BaseSpreadDegrees: {
+			Label: 追加の拡散角度
+			Tooltip: ""
+		}
+	}
+}
+
+Tooltips.Memory: 記録したオフハンドのアイテム
+Keybinds.UseOffhand.DisplayName: オフハンドのアイテムを使用

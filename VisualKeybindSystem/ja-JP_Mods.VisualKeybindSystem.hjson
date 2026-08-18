@@ -1,0 +1,79 @@
+Mods: {
+	VisualKeybindSystem: {
+		DisplayName: ビジュアルキー割り当てシステム
+		Keybinds.OpenKeymap.DisplayName: ビジュアルキーマップを開く
+
+		Configs: {
+			VisualKeybindClientConfig: {
+				DisplayName: ビジュアルキー割り当てシステム
+
+				Language: {
+					Label: 言語
+					Tooltip: ModのUIに表示される言語を設定します
+
+					OptionLabels: {
+						FollowGame: ゲーム設定に従う
+						Chinese: 中国語
+						English: 英語
+						Arabic: アラビア語
+						French: フランス語
+						Russian: ロシア語
+						Spanish: スペイン語
+					}
+				}
+			}
+		}
+	}
+}
+
+Keybinds.OpenKeymap.DisplayName: ビジュアルキーマップを開く
+
+Configs: {
+	VisualKeybindClientConfig: {
+		DisplayName: ビジュアルキー割り当てシステム
+
+		Language: {
+			Label: 言語
+			Tooltip: ModのUIに表示される言語を設定します
+		}
+	}
+
+	ViewerLanguage: {
+		Tooltip: ""
+
+		FollowGame: {
+			Label: ゲーム設定に従う
+			Tooltip: ""
+		}
+
+		Chinese: {
+			Label: 中国語
+			Tooltip: ""
+		}
+
+		English: {
+			Label: 英語
+			Tooltip: ""
+		}
+
+		Arabic: {
+			Label: アラビア語
+			Tooltip: ""
+		}
+
+		French: {
+			Label: フランス語
+			Tooltip: ""
+		}
+
+		Russian: {
+			Label: ロシア語
+			Tooltip: ""
+		}
+
+		Spanish: {
+			Label: スペイン語
+			Tooltip: ""
+		}
+	}
+}

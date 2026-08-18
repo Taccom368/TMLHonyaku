@@ -1,7 +1,7 @@
 DeathReasons: {
-	Sun0: "{0}は立派な原子の粘液になった"
-	Sun1: "{0}は太陽の下で楽しい時間を過ごした"
-	Sun2: "{0}は激しく蒸発した"
+	Sun0: "{0}は立派な原子の粘液になりました。"
+	Sun1: "{0}は太陽の下で楽しい時間を過ごしました。"
+	Sun2: "{0}は激しく蒸発しました。"
 }
 
 DaysUIText: {
@@ -32,8 +32,8 @@ DoomsdaySelection: {
 	}
 
 	Enabling: {
-		Title: 太陽の黙示録を有効にする
-		Description: 有効にするとこのワールドは徐々に焼却されるようになる！
+		Title: ワールドの終末を有効にする
+		Description: 有効にするとこのワールドは徐々に終末へと向かう！
 	}
 
 	DaysLeft: {
@@ -49,7 +49,7 @@ WorldFileLabel: 日数 {0}
 Buffs: {
 	SolFire: {
 		DisplayName: 灼熱
-		Description: 太陽が肌を焼いている
+		Description: 太陽光が肌を焼いている
 	}
 
 	HeatStroke: {
@@ -64,7 +64,7 @@ Buffs: {
 }
 
 ObsidianSkinSolar: 太陽光関連のデバフを無効化する
-ObsidianSkinSolarBuff: 太陽光関連のデバフ効果を無効化
+ObsidianSkinSolarBuff: 太陽光関連のデバフを無効化
 StagnationWatchPrefix: "{0}日、"
 
 Items: {
@@ -72,7 +72,7 @@ Items: {
 		DisplayName: コズミックサンブロック
 		Tooltip:
 			'''
-			太陽の黙示録を停止させる
+			ワールドの終末を停止させる
 			昼間かつ地上で使用できる
 			太陽が消滅している場合は使用できない
 			'''
@@ -106,7 +106,7 @@ Items: {
 		DisplayName: 太陽の{0}薬 ({1}-日)
 		Tooltip:
 			'''
-			太陽の黙示録を開始する
+			ワールドの終末を開始する
 			昼間に使用できる
 			太陽が消滅している場合は使用できない
 
@@ -139,7 +139,7 @@ Items: {
 		DisplayName: 太陽の{0}エッセンス
 		Tooltip:
 			'''
-			太陽の黙示録を開始させる薬を作成するのに使用できる
+			ワールドの終末を開始させる薬を作成するのに使用できる
 			{0}
 			'''
 	}
@@ -153,7 +153,7 @@ Items: {
 		DisplayName: 可燃性レモン
 		Tooltip:
 			'''
-			投げたり、ロケットとして使用できる
+			投げたり、ロケットの弾薬として使用できる
 			ブロックに火をつける小さな爆発を起こす
 			「人生からレモンを取り戻そう！」
 			'''
@@ -171,10 +171,10 @@ Items: {
 }
 
 Announcements: {
-	ApocalypseEnd: 黙示録が終わった
-	ApocalypseEndLate: しかし、黙示録後の再生はまだ始まったばかりだ...
+	ApocalypseEnd: ワールドの終末が終わった
+	ApocalypseEndLate: しかし、終末後の再生はまだ始まったばかりだ...
 	TooLate: 遅かったみたいだ...
-	ApocalypseAgain: 黙示録が始まる...
+	ApocalypseAgain: ワールドの終末が始まる...
 }
 
 Projectiles: {
@@ -191,14 +191,14 @@ Projectiles: {
 }
 
 DropConditions: {
-	WorldNotSavedCondition: 太陽の黙示録がまだ続いているならドロップする
+	WorldNotSavedCondition: ワールドの終末がまだ続いているならドロップする
 	IsConfigNPCCondition: コズミックサンブロックをドロップするよう設定したNPCがドロップする
 }
 
 Conditions: {
-	WhileApocalypseInactive: 太陽の黙示録中でないとき
-	ApocalypseNeverStarted: 太陽の黙示録が始まっていないとき
-	WhenApocalypseOver: 太陽の黙示録が止まった後
+	WhileApocalypseInactive: ワールドの終末中でないとき
+	ApocalypseNeverStarted: ワールドの終末が始まっていないとき
+	WhenApocalypseOver: ワールドの終末が止まった後
 	HasCombustibleLemon: 可燃性レモンを持っているとき
 }
 
@@ -224,7 +224,7 @@ Configs: {
 			Label: 雨が降っている間は安全
 			Tooltip:
 				'''
-				オンにすると、雨が降っている間は黙示録の悪影響が全てなくなります
+				オンにすると、雨が降っている間は終末の悪影響が全てなくなります
 				しかし、ワールドは次第に雨が降らなくなっていきます！
 				'''
 		}

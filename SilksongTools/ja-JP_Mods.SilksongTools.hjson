@@ -133,20 +133,20 @@ Buffs: {
 
 	VoltDebuff: {
 		DisplayName: 帯電
-		Description: ライフが徐々に減少
+		Description: ライフが徐々に減っていく
 	}
 }
 
 		NurseReject: あなたの血液は過剰に活性化しているようで、通常の治療は効果がないわ。申し訳ないけど、私には何もできないわ。
 		NurseReject2: すぐに立ち去って！あなたが出す致死性の有毒ガスを吸いたくないわ！
-		NeedlePhobia: "{0}は注射恐怖症だった"
-		DeathByLifeblood_Venom: "{0}のわずかに残っていた血液は乾いてしまった"
-		DeathByLifeblood_Overdose1: "{0}は自然の限界を破ろうとした"
-		DeathByLifeblood_Overdose2: "{0}は生命の血の操り人形となった"
-		DeathByLifeblood_Overdose3: "{0}は祝福を受けるための条件を満たしていなかった"
-		DeathByLifeblood_Overdose4: "{0}は、死によってこの問題の有害性を証明した"
-		DeathByLifeblood_Overdose5: "{0}は薬物の過剰摂取で死亡した"
-		DeathByLifeblood_Overdose_Meme: このメッセージは公開されない
+		NeedlePhobia: "{0}は注射恐怖症でした。"
+		DeathByLifeblood_Venom: "{0}のわずかに残っていた血液は乾いてしまいました。"
+		DeathByLifeblood_Overdose1: "{0}は自然の限界を破ろうとしました。"
+		DeathByLifeblood_Overdose2: "{0}は生命の血の操り人形となりました。"
+		DeathByLifeblood_Overdose3: "{0}は祝福を受けるための条件を満たしていませんでした。"
+		DeathByLifeblood_Overdose4: "{0}は、死によってこの問題の有害性を証明しました。"
+		DeathByLifeblood_Overdose5: "{0}は薬物の過剰摂取で死亡しました。"
+		DeathByLifeblood_Overdose_Meme: このメッセージは公開されません。
 		ShardPendantCondition: 破片のペンダントを装備中にドロップする
 		ThrowingStyleWeapon: "[c/ffff33:投擲武器]"
 		HardcoreOnly: ハードコアのキャラでプレイ中に販売
@@ -361,7 +361,7 @@ Items: {
 			発火宝石を切って鋭く磨き上げた物。
 			近接武器を高熱で熱することでダメージを増加させ、攻撃した敵を炎上させる
 			ポリップのポーチを装備している場合はダメージがより増加し、酸性毒を与えるようになる
-			水に触れると効果がなくなる
+			液体に触れると効果がなくなる
 			'''
 	}
 
@@ -448,7 +448,7 @@ Items: {
 		Tooltip1:
 			'''
 			回復ポーションと予備のシルクの効果が{0}%増加するが、
-			回復時、ライフが即座に回復せず、{1}後に回復する
+			回復時、ライフが即座に回復せず、{1}秒後に回復する
 			爪鏡で攻撃を回避すると、爆発が2回起きる
 			'''
 	}

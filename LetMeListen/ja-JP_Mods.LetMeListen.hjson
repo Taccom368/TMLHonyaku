@@ -1,0 +1,257 @@
+Configs: {
+	LetMeListenConfig: {
+		DisplayName: クライアント設定
+
+		Headers: {
+			GeneralSettings: 一般設定
+			BossFadeSettings: ボス戦中の音量の変化設定
+			EventFadeSettings: イベント中の音量の変化設定
+			EventToggleSettings: 音量を変化させるイベントの設定
+		}
+
+		RespectManualAudioChanges: {
+			Label: 手動での音量の変更を優先させる
+			Tooltip:
+				'''
+				この設定をオンにするとボス戦中とイベント中に、
+				音楽、効果音、環境音の音量を手動で変更した場合、
+				戦闘かイベントが終了するまでこのModによる音量の変化がなくなります
+				'''
+		}
+
+		EnableBossMusicFade: {
+			Label: ボス戦中の音楽の音量の変化を有効にする
+			Tooltip:
+				'''
+				この設定をオンにするとボス戦中、
+				音楽の音量が変化するようになります
+				'''
+		}
+
+		BossMusicTargetVolume: {
+			Label: ボス戦中の音楽の音量
+			Tooltip:
+				'''
+				ボス戦中、ゲーム内の音楽の音量が徐々に小さくなります
+				例えば80と入力すると、音楽の音量が80%まで小さくなります
+				'''
+		}
+
+		BossMusicFadeOutPercentPerSecond: {
+			Label: ボス戦中の音楽の音量の低下速度
+			Tooltip: ボス戦中、音楽の音量がどのくらいの速さで小さくなるか変更します
+		}
+
+		BossMusicFadeInPercentPerSecond: {
+			Label: ボス戦終了後の音楽の音量が戻る速度
+			Tooltip: ボス戦が終了した後、音楽の音量がどのくらいの速さで元に戻るか変更します
+		}
+
+		EnableBossSoundFade: {
+			Label: ボス戦中の効果音の音量の変化を有効にする
+			Tooltip:
+				'''
+				この設定をオンにするとボス戦中、
+				効果音の音量が変化するようになります
+				'''
+		}
+
+		BossSoundTargetVolume: {
+			Label: ボス戦中の効果音の音量
+			Tooltip:
+				'''
+				ボス戦中、ゲーム内の効果音の音量が徐々に小さくなります
+				例えば80と入力すると、効果音の音量が80%まで小さくなります
+				ボスの効果音が大きすぎる場合に役立ちます
+				'''
+		}
+
+		BossSoundFadeOutPercentPerSecond: {
+			Label: ボス戦中の効果音の音量の低下速度
+			Tooltip: ボス戦中、効果音の音量がどのくらいの速さで小さくなるか変更します
+		}
+
+		BossSoundFadeInPercentPerSecond: {
+			Label: ボス戦終了後の効果音の音量が戻る速度
+			Tooltip: ボス戦が終了した後、効果音の音量がどのくらいの速さで元に戻るか変更します
+		}
+
+		EnableBossAmbientFade: {
+			Label: ボス戦中の環境音の音量の変化を有効にする
+			Tooltip:
+				'''
+				この設定をオンにするとボス戦中、
+				環境音の音量が変化するようになります
+				'''
+		}
+
+		BossAmbientTargetVolume: {
+			Label: ボス戦中の環境音の音量
+			Tooltip:
+				'''
+				ボス戦中、ゲーム内の環境音の音量が徐々に小さくなります
+				例えば80と入力すると、環境音の音量が80%まで小さくなります
+				ボスの音楽をより際立たせたい場合に便利です
+				'''
+		}
+
+		BossAmbientFadeOutPercentPerSecond: {
+			Label: ボス戦中の環境音の音量の低下速度
+			Tooltip: ボス戦中、環境音の音量がどのくらいの速さで小さくなるか変更します
+		}
+
+		BossAmbientFadeInPercentPerSecond: {
+			Label: ボス戦終了後の環境音の音量が戻る速度
+			Tooltip: ボス戦が終了した後、環境音の音量がどのくらいの速さで元に戻るか変更します
+		}
+
+		EnableEventMusicFade: {
+			Label: イベント中の音楽の音量の変化を有効にする
+			Tooltip:
+				'''
+				この設定をオンにするとイベント中、
+				環境音の音量が変化するようになります
+				'''
+		}
+
+		EventMusicTargetVolume: {
+			Label: イベント中の音楽の音量
+			Tooltip:
+				'''
+				イベント中、ゲーム内の音楽の音量が徐々に小さくなります
+				例えば80と入力すると、音楽の音量が80%まで小さくなります
+				'''
+		}
+
+		EventMusicFadeOutPercentPerSecond: {
+			Label: イベント中の音楽の音量の低下速度
+			Tooltip: イベント中、音楽の音量がどのくらいの速さで小さくなるか変更します
+		}
+
+		EventMusicFadeInPercentPerSecond: {
+			Label: イベント終了後の音楽の音量が戻る速度
+			Tooltip: イベントが終了した後、音楽の音量がどのくらいの速さで元に戻るか変更します
+		}
+
+		EnableEventSoundFade: {
+			Label: イベント中の効果音の音量の変化を有効にする
+			Tooltip:
+				'''
+				この設定をオンにするとイベント中、
+				効果音の音量が変化するようになります
+				'''
+		}
+
+		EventSoundTargetVolume: {
+			Label: イベント中の効果音の音量
+			Tooltip: 
+				'''
+				イベント中、ゲーム内の効果音の音量が徐々に小さくなります
+				例えば80と入力すると、効果音の音量が80%まで小さくなります
+				'''
+		}
+
+		EventSoundFadeOutPercentPerSecond: {
+			Label: イベント中の効果音の音量の低下速度
+			Tooltip: イベント中、効果音の音量がどのくらいの速さで小さくなるか変更します
+		}
+
+		EventSoundFadeInPercentPerSecond: {
+			Label: イベント終了後の効果音の音量が戻る速度
+			Tooltip: イベントが終了した後、効果音の音量がどのくらいの速さで元に戻るか変更します
+		}
+
+		EnableEventAmbientFade: {
+			Label: イベント中の環境音の音量の変化を有効にする
+			Tooltip: 
+				'''
+				イベント中、ゲーム内の環境音の音量が徐々に小さくなります
+				例えば80と入力すると、環境音の音量が80%まで小さくなります
+				'''
+		}
+
+		EventAmbientTargetVolume: {
+			Label: イベント中の環境音の音量
+			Tooltip: 
+				'''
+				イベント中、ゲーム内の環境音の音量が徐々に小さくなります
+				例えば80と入力すると、環境音の音量が80%まで小さくなります
+				'''
+		}
+
+		EventAmbientFadeOutPercentPerSecond: {
+			Label: イベント中の環境音の音量の低下速度
+			Tooltip: ボス戦中、環境音の音量がどのくらいの速さで小さくなるか変更します
+		}
+
+		EventAmbientFadeInPercentPerSecond: {
+			Label: イベント終了後の環境音の音量が戻る速度
+			Tooltip: ボス戦が終了した後、環境音の音量がどのくらいの速さで元に戻るか変更します
+		}
+
+		EnableBloodMoonFade: {
+			Label: ブラッドムーン
+			Tooltip: オンにすると、ブラッドムーン中に音量が小さくなります
+		}
+
+		EnableGoblinArmyFade: {
+			Label: ゴブリン軍団
+			Tooltip: オンにすると、ゴブリン軍団が襲来中に音量が小さくなります
+		}
+
+		EnableSlimeRainFade: {
+			Label: スライムレイン
+			Tooltip: オンにすると、スライムレイン中に音量が小さくなります
+		}
+
+		EnableOldOnesArmyFade: {
+			Label: オールドワンズ・アーミー
+			Tooltip: オンにすると、オールドワンズ・アーミーが襲来中に音量が小さくなります
+		}
+
+		EnableSnowLegionFade: {
+			Label: フロストレギオン
+			Tooltip: オンにすると、フロストレギオンが襲来中に音量が小さくなります
+		}
+
+		EnableSolarEclipseFade: {
+			Label: 日食
+			Tooltip: オンにすると、日食中に音量が小さくなります
+		}
+
+		EnablePirateInvasionFade: {
+			Label: 海賊の襲来
+			Tooltip: オンにすると、海賊の襲来中に音量が小さくなります
+		}
+
+		EnablePumpkinMoonFade: {
+			Label: パンプキンムーン
+			Tooltip: オンにすると、パンプキンムーン中に音量が小さくなります
+		}
+
+		EnableFrostMoonFade: {
+			Label: フロストムーン
+			Tooltip: オンにすると、フロストムーン中に音量が小さくなります
+		}
+
+		EnableMartianMadnessFade: {
+			Label: 火星の侵攻
+			Tooltip: オンにすると、火星の侵攻中に音量が小さくなります
+		}
+
+		EnableLunarEventsFade: {
+			Label: ルナイベント
+			Tooltip: オンにすると、ルナイベント中に音量が小さくなります
+		}
+
+		EnableCalamityAcidRainFade: {
+			Label: Calamity: 酸性雨
+			Tooltip: オンにすると、Calamityの酸性雨中に音量が小さくなります
+		}
+
+		EnableCalamityBossRushFade: {
+			Label: Calamity: ボスラッシュ
+			Tooltip: オンにすると、Calamityのボスラッシュ中に音量が小さくなります
+		}
+	}
+}

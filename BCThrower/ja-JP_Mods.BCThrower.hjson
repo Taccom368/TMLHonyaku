@@ -318,7 +318,7 @@ Items: {
 
 	UmbraCloth: {
 		DisplayName: 影の布
-		Tooltip: "「その不気味な裏地は太陽の影を彷彿とさせる」"
+		Tooltip: 「その不気味な裏地は太陽の影を彷彿とさせる」
 	}
 
 	DarkKnightHelmet: {
@@ -615,7 +615,7 @@ Items: {
 
 	ThrowingStar: {
 		DisplayName: スローイングスター
-		Tooltip: "「射撃ではなく投擲のための明確さ」"
+		Tooltip: 「射撃ではなく投擲のための明確さ」
 	}
 
 	ShadeStar: {
@@ -632,8 +632,8 @@ Items: {
 		DisplayName: ローズソーン
 		Tooltip:
 			'''
-			敵か地形に当たると壊れて、棘をばら撒く
-			「投げる人には必ずバラの棘がある」
+			敵か地形に当たると壊れて、トゲをばら撒く
+			「投げる人には必ずバラのトゲがある」
 			'''
 	}
 
@@ -693,7 +693,7 @@ Items: {
 
 	StickySpikyBall: {
 		DisplayName: 粘着スパイクボール
-		Tooltip: "「それを3回素早く言ってみて！」"
+		Tooltip: 「それを3回早口で言ってみて！」
 	}
 
 	BouncySpikyBall: {
@@ -759,8 +759,8 @@ Items: {
 	}
 
 	Kunai: {
-		DisplayName: 苦無
-		Tooltip: "「チェーン付き？」"
+		DisplayName: クナイ
+		Tooltip: 「鎖付き？」
 	}
 
 	BlastCrystal: {
@@ -792,7 +792,7 @@ Items: {
 
 	Glaive: {
 		DisplayName: グレイヴ
-		Tooltip: "「ポールアームズと混同しないで」"
+		Tooltip: 「ポールアームズと混同しないで」
 	}
 
 	SandShuriken: {
@@ -845,7 +845,7 @@ Items: {
 
 	ReinforcedEtherianJavelin: {
 		DisplayName: 強化されたエーテリアンのジャベリン
-		Tooltip: "「どうやら少し金属を追加すると効果が大きいようだ」"
+		Tooltip: 「どうやら金属を少し追加すると効果が大きいようだ」
 	}
 
 	BlastCap: {
@@ -973,23 +973,23 @@ Items: {
 		Tooltip:
 			'''
 			敵に突き刺さるジャベリンの頭を発射する
-			ジャベリンの頭が突き刺さった敵は、徐々にダメージを受け、混乱することがある
+			ジャベリンの頭が突き刺さった敵は、ライフが徐々に減り、混乱することがある
 			'''
 	}
 
 	FracturedSpike: {
-		DisplayName: 壊れたスパイク
-		Tooltip: 消滅時に小さな破片をばら撒くスパイクを投げる
+		DisplayName: 壊れたトゲ
+		Tooltip: 消滅時に小さな破片をばら撒くトゲを投げる
 	}
 
 	FallenFury: {
 		DisplayName: 堕落者の怒り
-		Tooltip: 強力な短剣を投げるが、すぐにダメージが減少する
+		Tooltip: すぐにダメージが減少するが、強力な短剣を投げる
 	}
 
 	EnchantedEtherianJavelin: {
 		DisplayName: エンチャントエーテリアンのジャベリン
-		Tooltip: "「実際に使ってみないと違いが分からない」"
+		Tooltip: 「実際に使ってみないと違いが分からない」
 	}
 
 	PlasmaGrenade: {
@@ -998,7 +998,7 @@ Items: {
 			'''
 			地形や敵に張り付いて爆発する
 			敵に張り付くとダメージが増加する
-			「ワート、ワート、ワート」
+			「行け、行け、行け！」
 			'''
 	}
 
@@ -1006,7 +1006,7 @@ Items: {
 		DisplayName: ハイパーカッター
 		Tooltip:
 			'''
-			近くの敵にエネルギーボルトを放つ、とても射程の短い短剣を投げる
+			近くの敵にエネルギーボルトを放つ、射程がとても短い短剣を投げる
 			「セリフを言って、ヨンドゥ」
 			'''
 	}
@@ -1075,7 +1075,7 @@ Items: {
 		DisplayName: 土の瓶
 		Tooltip:
 			'''
-			ターゲットを汚し、被ダメージを増加させる
+			敵を汚し、被ダメージを増加させる
 			「土の入った瓶があるよ！土の入った瓶があるよ！」
 			'''
 	}
@@ -1118,7 +1118,7 @@ Items: {
 		Tooltip:
 			'''
 			地形に張り付き、敵が近づくと自動的に爆発する爆弾を投げる
-			爆弾は最大で10個存在でき、<right>を押すと、全ての爆弾を手動で起爆する
+			爆弾は最大10個存在でき、<right>を押すと、全ての爆弾を手動で起爆する
 			この爆発を当てるとダメージが増加するが、
 			地形に張り付く前に爆発した場合はダメージが減少する
 			「…そしてケーブルウェイ！」
@@ -1138,13 +1138,13 @@ Items: {
 		DisplayName: スリングストーン
 		Tooltip:
 			'''
-			射程の短い石を投げる
+			射程が短い石を投げる
 			「残酷で異常な刑罰」
 			'''
 	}
 
 	EnchantedDagger: {
-		DisplayName: エンチャントナイフ
+		DisplayName: 魔法のナイフ
 		Tooltip:
 			'''
 			ナイフを無限に投げる
@@ -1153,8 +1153,8 @@ Items: {
 	}
 
 	GildedShuriken: {
-		DisplayName: 金ぴかの手裏剣
-		Tooltip: "「儀式用だが、その刃は今でもとても鋭い」"
+		DisplayName: 黄金の手裏剣
+		Tooltip: 「儀式用だが、その刃は今でもとても鋭い」
 	}
 
 	Cryonade: {
@@ -1183,7 +1183,7 @@ Items: {
 
 	FossilShard: {
 		DisplayName: 化石の欠片
-		Tooltip: しばらく残る化石の破片を最大で2つ投げる
+		Tooltip: しばらく残る化石の破片を最大2つ投げる
 	}
 
 	WebTrap: {
@@ -1209,7 +1209,7 @@ Items: {
 		Tooltip:
 			'''
 			敵や地形にずっと刺さる、巨大で強力な釘を投げる
-			釘は最大2本まで同時に投げることができ、右クリックでカーソルに最も近い釘を呼び戻す
+			釘は最大2本まで投げられ、右クリックでカーソルに最も近い釘を呼び戻す
 			'''
 	}
 }
@@ -1337,7 +1337,7 @@ Buffs: {
 
 	RosethornDebuff: {
 		DisplayName: ローズソーン
-		Description: 敵は棘が刺さっている
+		Description: 敵はトゲが刺さっている
 	}
 
 	GoreGougerDebuff: {
@@ -1411,7 +1411,7 @@ Projectiles: {
 	ThrowingStarProj.DisplayName: スローイングスター
 	GoreGougerProj.DisplayName: ゴアガウガー
 	RosethornProj.DisplayName: ローズソーン
-	RosethornSpike.DisplayName: バラの棘
+	RosethornSpike.DisplayName: バラのトゲ
 	DarkSpikeProj.DisplayName: ダークスパイク
 	AirBurstProj.DisplayName: エアバースト
 	BrimstoneProj.DisplayName: ブリムストーン
@@ -1433,7 +1433,7 @@ Projectiles: {
 	CaltropProj.DisplayName: まきびし
 	ChargedSkyMineProj.DisplayName: チャージドスカイマイン
 	ShadowspikeBallProj.DisplayName: シャドウスパイクボール
-	KunaiProj.DisplayName: 苦無
+	KunaiProj.DisplayName: クナイ
 	BlastCrystalProj.DisplayName: ブラストクリスタル
 	BlastCrystalShard.DisplayName: クリスタルの破片
 	CursedMolotovFire.DisplayName: 呪いの炎
@@ -1476,8 +1476,8 @@ Projectiles: {
 	FrostFangShard.DisplayName: 氷の破片
 	FlockoMittProj.DisplayName: フロッコミット
 	DisruptionLanceProj.DisplayName: ディスラプションランス
-	FracturedSpikeProj.DisplayName: 壊れたスパイク
-	FracturedSpikeShard.DisplayName: スパイクの破片
+	FracturedSpikeProj.DisplayName: 壊れたトゲ
+	FracturedSpikeShard.DisplayName: トゲの破片
 	FallenFuryProj.DisplayName: 堕落者の怒り
 	EnchantedEtherianJavelinProj.DisplayName: エンチャントエーテリアンのジャベリン
 	PlasmaGrenadeProj.DisplayName: プラズマグレネード
@@ -1515,9 +1515,9 @@ Projectiles: {
 	WiseMysticTomeSplitshot.DisplayName: プリズマティックオーブ
 	WiseMysticTomeWaterspout.DisplayName: 竜巻
 	ChlorophyteJavelinCloud.DisplayName: 胞子雲
-	EnchantedDaggerProj.DisplayName: エンチャントナイフ
+	EnchantedDaggerProj.DisplayName: 魔法のナイフ
 	SlingStoneProj.DisplayName: 石
-	GildedShurikenProj.DisplayName: 金ぴかの手裏剣
+	GildedShurikenProj.DisplayName: 黄金の手裏剣
 	CryonadeProj.DisplayName: クライオネード
 	ThrowingSpearProj.DisplayName: 投げ槍
 	SmartStrikerProj.DisplayName: スマートストライカー
@@ -1617,7 +1617,7 @@ Configs: {
 			Tooltip:
 				'''
 				バニラの投擲水武器に投擲武器のダメージクラスを与えます
-				これは聖水、不浄の水、血色水に影響します
+				これは聖水、不浄の水、血色の水に影響します
 				これらの武器には通常はダメージクラスは設定されていません
 				'''
 		}

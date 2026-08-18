@@ -1,6 +1,6 @@
 DamageClasses: {
 	LawnmowerDamageGeneric.DisplayName: 芝刈り機ダメージ
-	LawnmowerDamageCelestial.DisplayName: 天体芝刈り機ダメージ
+	LawnmowerDamageCelestial.DisplayName: 宇宙の芝刈り機ダメージ
 }
 
 Items: {
@@ -13,7 +13,7 @@ Items: {
 			'''
 		oreLawnmowerText:
 			'''
-			[c/FE9E23:鉱石芝刈り機 ({0})]
+			[c/FE9E23:鉱石の芝刈り機 ({0})]
 			攻撃が当たると6.5%の確率で鉱石を入手する
 			敵を倒すと25%の確率で鉱石を1-4個入手する
 			'''
@@ -35,7 +35,7 @@ Items: {
 		DisplayName: 芝刈り機のエンジンの紋章
 		Tooltip:
 			'''
-			[c/969696:シマーに入れると芝刈り機の車輪の紋章に変化する]
+			[c/969696:シマーに投げ入れると芝刈り機の車輪の紋章に変化する]
 			芝刈り機のダメージとノックバックが15%増加
 			'''
 	}
@@ -45,10 +45,10 @@ Items: {
 		Tooltip: ""
 		wheelAmount:
 			'''
-			[c/969696:シマーに入れると芝刈り機のエンジンの紋章に変化する]
+			[c/969696:シマーに投げ入れると芝刈り機のエンジンの紋章に変化する]
 			車輪としてカウントされる [c/E9B688:({0})]
 			装備した車輪の攻撃速度上昇効果が増加する [c/E9B688:({1}%)]
-			[c/969696:複数を一つにまとめた物は複数のホイールとしてカウントされる]
+			[c/969696:複数を一つにまとめた物は複数の車輪としてカウントされる]
 			'''
 	}
 
@@ -82,8 +82,8 @@ Items: {
 			ボスに対してダメージが15%増加する
 			接触中は非常に短い間隔でダメージを与える
 			[c/FE9E23:突撃する芝刈り機]
-			突進するテラローンモアを前方に発射する
-			テラローンモアは敵を無限に貫通し、画面外に出ると最大で3回方向が反転する
+			突進するテラローンモアを前方に放つ
+			テラローンモアは敵を無限に貫通し、画面外に出ると最大3回方向が反転する
 			カーソルの位置によってテラローンモアの速度が変わる
 			[c/969696:「マジで？こんなのに壊れた英雄の剣使ったわけ？」]
 			'''
@@ -127,8 +127,8 @@ Items: {
 			弾薬として弾丸を使用する
 			接地時のみ直接攻撃できる
 			[c/E9B688:ブームスティック]
-			攻撃中、前方に弾を発射する
-			4回ごとにショットガンを発射する
+			攻撃中、前方に弾を撃つ
+			4回ごとに弾丸を複数撃つ
 			'''
 	}
 
@@ -148,12 +148,12 @@ Items: {
 	}
 
 	LawnmowerBook: {
-		DisplayName: 芝刈り機百科事典：ページ 1
+		DisplayName: 芝刈り機百科事典：ページ1
 		Tooltip:
 			'''
 			Lawnmower Overloadで追加される全ての芝刈り機の情報が記されている
 			ページ 1: ホワイト、[c/8686E5:ブルー]
-			[c/92F892:<right>でページ2に切り替わる]
+			[c/92F892:<right>でページ2に切り替える]
 			作業台で土のブロック1個で作成できる [i:2]
 			芝刈り機 [i:4049]
 			-----
@@ -164,7 +164,7 @@ Items: {
 			バルチャーマルチャー
 			フレッシュモア
 			スリッパリースロープ
-			怪しげな芝刈り機
+			怪しい芝刈り機
 			[c/8686E5:ファンギ]
 			[c/8686E5:ドロップアウト]
 			[c/8686E5:きらめく芝刈り機]
@@ -182,19 +182,19 @@ Items: {
 	}
 
 	LawnmowerBookHardmode: {
-		DisplayName: 芝刈り機百科事典：ページ 3
+		DisplayName: 芝刈り機百科事典：ページ3
 		Tooltip:
 			'''
 			Lawnmower Overloadで追加される全ての芝刈り機の情報が記されている
 			ページ 3: ハードモード、[c/f89292:ライトレッド、] [c/F892F8:ピンク]
-			[c/BE90E5:<right>でページ4に切り替わる]
+			[c/BE90E5:<right>でページ4に切り替える]
 			芝刈り機 [i:4049]
 			-----
 			[c/f89292:スピードスター、ミスティック、タイタン]
 			[c/f89292:スリークショット]
 			[c/f89292:レイスの怒り]
 			[c/f89292:ワイバーンの芝刈り機]
-			[c/f89292:憑依された芝刈り機]
+			[c/f89292:ポゼストローンモア]
 			[c/f89292:アラクニド]
 			[c/f89292:ルーンルーイン]
 			[c/f89292:ヴァーミンシュプリーム]
@@ -218,13 +218,13 @@ Items: {
 		GrassChargeText:
 			'''
 			[c/92F892:グラスチャージ ({0}/40)]
-			直接攻撃を当てるたびにグラスチャージを1得て、葉の刃を放てる
+			直接攻撃を当てるたびにグラスチャージを1得て、葉の刃を発射できる
 			チャージに応じてこの武器が強力になる
 			'''
 		GrassBladesText:
 			'''
 			[c/E9B688:葉の刃:] [c/92F892:グラスチャージを消費]
-			右クリックで射程の短い葉の刃を放つ
+			右クリックで射程が短い葉の刃を発射する
 			草の刃は毒を与え、グラスチャージのスタックに応じてダメージが増加する
 			1スタックごとに5%増加し、最大で200%増加する [c/E9B688:({0}%)]
 			'''
@@ -243,8 +243,8 @@ Items: {
 			[c/04C3F9:ファントムモアーズ]
 			攻撃が当たると40%の確率でファントムモアを召喚する
 			ボスを攻撃した場合は必ず召喚する
-			ファントムモアは自身の後ろか前の160マスに召喚される
-			ファントムモアが当たると、敵の上か下からテッセラクトバレットで追撃する
+			ファントムモアは自身の後ろか前の160マスに召喚され、
+			敵に当たると、敵の上か下からテッセラクトバレットで追撃する
 			[c/969696:「キューブはすべてを知っている」]
 			'''
 	}
@@ -268,9 +268,9 @@ Items: {
 		MagmaBelchText:
 			'''
 			[c/FE9E23:マグマベルチ: マナを{0}消費]
-			右クリックで地形に当たると跳ね返る巨大なファイアーボールを発射する
+			右クリックで地形に当たると跳ね返る巨大なファイアボールを発射する
 			カーソルの位置の影響を受けず、決まったルートで発射する
-			ファイアーボールはヘルファイアを敵を与え、触れた敵にダメージを与える炎を残す
+			ファイアボールはヘルファイアを敵を与え、触れた敵にダメージを与える炎を残す
 			[c/969696:「これは火でできている！」]
 			'''
 	}
@@ -291,7 +291,7 @@ Items: {
 			静止時はダメージとノックバックが40%減少する
 			横長の芝刈り機で、空中でダメージが10%増加する
 			[c/d780d7:二元性]
-			シマーに入れるとブレッドブッチャラーに変化する
+			シマーに投げ入れるとブレッドブッチャラーに変化する
 			真紅の敵に対してダメージが10%増加する
 			[c/BE90E5:シュレッダー]
 			敵の防御力を2無視する
@@ -307,7 +307,7 @@ Items: {
 			空中ではダメージが25%減少する
 			縦長の芝刈り機で、自分より上の敵に対してダメージが33%増加する
 			[c/d780d7:二元性]
-			シマーに入れるとライツペインに変化する
+			シマーに投げ入れるとライツペインに変化する
 			不浄の敵に対してダメージが増加する
 			[c/f89292:ブラッドボーンカート]
 			一度の攻撃で敵を2回攻撃する
@@ -341,7 +341,7 @@ Items: {
 			'''
 		oreLawnmowerText:
 			'''
-			[c/FE9E23:鉱石芝刈り機 ({0})]
+			[c/FE9E23:鉱石の芝刈り機 ({0})]
 			攻撃が当たると6.25%の確率で鉱石を入手する
 			敵を倒すと33%の確率で鉱石を1-3個入手する
 			'''
@@ -355,7 +355,7 @@ Items: {
 			'''
 		oreLawnmowerText:
 			'''
-			[c/FE9E23:鉱石芝刈り機 ({0})]
+			[c/FE9E23:鉱石の芝刈り機 ({0})]
 			攻撃が当たると5.55%の確率で鉱石を入手する
 			敵を倒すと20%の確率で鉱石を1-5個入手する
 			'''
@@ -370,7 +370,7 @@ Items: {
 			'''
 		oreLawnmowerText:
 			'''
-			[c/FE9E23:鉱石芝刈り機 ({0})]
+			[c/FE9E23:鉱石の芝刈り機 ({0})]
 			攻撃が当たると6.25%の確率で鉱石を入手する
 			敵を倒すと50%の確率で鉱石を1-2個入手する
 			'''
@@ -384,7 +384,7 @@ Items: {
 			'''
 		oreLawnmowerText:
 			'''
-			[c/FE9E23:鉱石芝刈り機 ({0})]
+			[c/FE9E23:鉱石の芝刈り機 ({0})]
 			攻撃が当たると10%の確率で鉱石を入手する
 			敵を倒すと10%の確率で鉱石を1-4個入手する
 			'''
@@ -398,7 +398,7 @@ Items: {
 			'''
 		oreLawnmowerText:
 			'''
-			[c/FE9E23:鉱石芝刈り機 ({0})]
+			[c/FE9E23:鉱石の芝刈り機 ({0})]
 			攻撃が当たると6.67%の確率で鉱石を入手する
 			敵を倒すと6.67%の確率で鉱石を1-9個入手する
 			'''
@@ -412,7 +412,7 @@ Items: {
 			'''
 		oreLawnmowerText:
 			'''
-			[c/FE9E23:鉱石芝刈り機 ({0})]
+			[c/FE9E23:鉱石の芝刈り機 ({0})]
 			攻撃が当たると7%の確率で鉱石を入手する
 			敵を倒すと5%の確率で鉱石を5-25個入手する
 			'''
@@ -426,7 +426,7 @@ Items: {
 			'''
 		oreLawnmowerText:
 			'''
-			[c/FE9E23:鉱石芝刈り機 ({0})]
+			[c/FE9E23:鉱石の芝刈り機 ({0})]
 			攻撃が当たると4%の確率で鉱石を入手する
 			敵を倒すと25%の確率で鉱石を1-4個入手する
 			'''
@@ -451,7 +451,7 @@ Items: {
 			攻撃中は芝刈り機の方向に勝手に移動する
 			クリティカルでマナを少し回復する
 			[c/FE9E23:メテオリックチャージ: (<right>)]
-			ダメージと移動速度が大幅に増加するが、マナを急激に消費する
+			ダメージが大きく増加し、移動速度も大幅に上昇するが、攻撃中、マナを急激に消費する
 			隕石セットを装備しているならマナを消費しない
 			'''
 	}
@@ -471,24 +471,24 @@ Items: {
 			'''
 			[c/969696:芝刈り機を選択中…]
 			移動速度が10%上昇
-			[c/92F892:サボテンの棘]
-			ダメージを受けるとサボテンの棘をばら撒く
-			棘は敵を貫通し、被ダメージの33%のダメージを与える
+			[c/92F892:サボテンのトゲ]
+			ダメージを受けるとサボテンのトゲをばら撒く
+			トゲは敵を貫通し、被ダメージの33%のダメージを与える
 			'''
 	}
 
 	PossessedLawnmower: {
-		DisplayName: 憑依された芝刈り機
+		DisplayName: ポゼストローンモア
 		Tooltip:
 			'''
-			シマーに入れると憑依された帽子に変化する
+			シマーに投げ入れるとポゼストハットに変化する
 			シャドウフレイムを与える
 			[c/BE90E5:自我]
 			シャドウフレイムを受けていない近くの敵を高速で追尾する
-			範囲内に対象がいない場合は速度が落ち、カーソルを追尾する
+			範囲内に敵がいない場合は速度が落ち、カーソルを追尾する
 			[c/BE90E5:一緒に乗ろう]
 			攻撃中、芝刈り機はあなたを運ぶ
-			この間は憑依装甲を得て、被ダメージを軽減する
+			この間はポゼストアーマーを得て、被ダメージを軽減する
 			'''
 	}
 
@@ -518,7 +518,7 @@ Items: {
 			[c/92F892:サーキュラーリーズニング]
 			レーザーを時計周りに高速で発射する
 			隕石セットを装備しているならマナを消費しない
-			[c/969696:「土星には274個の衛星があり、この芝刈り機もその1つ」]
+			[c/969696:「土星には衛星が274個あり、この芝刈り機もその1つ」]
 			'''
 	}
 
@@ -528,7 +528,7 @@ Items: {
 			'''
 			[c/d780d7:ダブルヘリックス]
 			ボスに対してダメージが15%増加する
-			神聖な芝刈り機2機を前方と後方に発射する
+			神聖な芝刈り機2機を前方と後方に放つ
 			自身の位置から前後に素早く芝刈りを行い、広範囲に攻撃する
 			'''
 	}
@@ -539,10 +539,10 @@ Items: {
 			'''
 			[c/d780d7:クアドリブルヘリックス]
 			ボスに対してダメージが15%増加する
-			四方に神聖な芝刈り機を発射する
+			四方に神聖な芝刈り機を放つ
 			自身の位置から前後に素早く芝を刈り、広範囲に攻撃する
 			[c/d780d7:エイムトゥルー]
-			<right>でマナを32消費して、自身の位置からではなく、カーソルの位置に芝刈り機を発射する
+			<right>でマナを32消費して、自身の位置からではなく、カーソルの位置に芝刈り機を放つ
 			マナ酔い中はダメージが減少する
 			'''
 	}
@@ -669,7 +669,7 @@ Items: {
 			静止時はダメージとノックバックが60%減少する
 			[c/04C3F9:バブル！]
 			泡を発射する
-			<right>で全ての泡を破裂させ、短時間ダメージを与える
+			<right>で全ての泡を破裂させ、ダメージを短時間与える
 			泡は破裂する前に数フレーム、近くの敵を追尾する
 			'''
 	}
@@ -684,7 +684,7 @@ Items: {
 			ボスに対してダメージが33%増加する
 			選択中は被ダメージを16%軽減する
 			[c/FE9E23:恐怖と不安]
-			フォボスとデイモスが周囲を周回し、触れた敵に0%のダメージを与える
+			フォボスとデイモスが周囲を周回し、触れた敵にダメージを与える
 			ダメージを与えると、衛星の軌道速度が上昇し、軌道半径が広がり、ダメージが増加し、
 			触れた敵にヘルファイアを与えるようになる
 			攻撃中は衛星の軌道速度が上昇し、
@@ -696,16 +696,16 @@ Items: {
 		DisplayName: スターマン
 		Tooltip:
 			'''
-			シマーに入れるとフェーズ2に変化する
+			シマーに投げ入れるとフェーズ2に変化する
 			空中でダメージとノックバックが30%増加する
 			[c/04C3F9:セレスティアル]
 			全てのダメージクラスの特殊効果を継承する
 			芝刈り機以外のクラスから50%のステータスブーストを得る
 			[c/f9f909:スターマン]
 			攻撃範囲が横に広い
-			攻撃するたびに2つの星を発射する
+			攻撃するたびに2つの星を放つ
 			[c/FE9E23:スターリーナイト: マナを16消費]
-			<right>で2種の星を同時に発射する
+			<right>で2種の星を同時に放つ
 			<left>での直接攻撃で与えたダメージに応じてマナを回復する
 			[c/969696:「空には芝刈り機が待っている」]
 			'''
@@ -746,7 +746,7 @@ Items: {
 			'''
 			[c/BE90E5:何が起こったのか: ({0}/24)]
 			直接攻撃でチャージが1増加し、ボスを攻撃した場合は3増加する
-			チャージが最大で右クリックを押し続けると、スーパーメガデスロケットを発射する
+			チャージが最大で右クリックを押し続けると、強力なロケットを発射する
 			[c/969696:「この世界は何も育たない荒れ地だ…」]
 			'''
 	}
@@ -779,7 +779,7 @@ Items: {
 			静止時はダメージが40%増加する
 			[c/04C3F9:アイスビーコン]
 			芝刈り機の真上に霜のビームを発射する
-			霜のビームは基本ダメージの55%を与えるが、ノックバックはない
+			霜のビームは基本ダメージの55%を与えるが、ノックバックがない
 			'''
 	}
 
@@ -795,10 +795,10 @@ Items: {
 	RainBoots: {
 		SetBonus:
 			'''
-			c/8686E5:レインダンス]
+			[c/8686E5:レインダンス]
 			防御力が4増加
 			移動速度が10%上昇し、芝刈り機のダメージが10%増加
-			雨が降っているか、水中では、防御力が更に4増加
+			雨が降っているか、液体内で防御力がさらに4増加
 			'''
 		DisplayName: 雨靴
 		Tooltip: ""
@@ -881,11 +881,11 @@ Items: {
 			静止時はダメージが15%減少する
 			静止時と空中ではノックバックが15%減少する
 			[c/E9B688:スウォーム]
-			攻撃が当たると、60%のダメージを与えるキラービーを召喚する
-			ハチの巣パックを装備しているならキラービーが巨大化しやすくなり、ダメージが増加する
+			攻撃が当たると、60%のダメージを与える蜂を召喚する
+			ハチの巣パックを装備しているなら蜂が巨大化しやすくなり、ダメージが増加する
 			[c/BE90E5:ディスコムバビュレイション]
 			攻撃が当たると、33%の確率で混乱を2秒間与える
-			混乱した敵を攻撃するとダメージが15%増加し、キラービーを追加で1匹召喚する
+			混乱した敵を攻撃するとダメージが15%増加し、蜂を追加で1匹召喚する
 			'''
 	}
 
@@ -907,7 +907,7 @@ Items: {
 		DisplayName: センチネル
 		Tooltip:
 			'''
-			[c/969696:シマーに入れるとカリプソに変化する]
+			[c/969696:シマーに投げ入れるとカリプソに変化する]
 			一度に複数回攻撃する
 			空中でダメージが33%増加するが、ノックバックが50%減少する
 			[c/04C3F9:アブダクター]
@@ -928,7 +928,7 @@ Items: {
 		BlossomChargeText:
 			'''
 			[c/92F892:グラスチャージ: ({0}/80)]
-			直接攻撃を当てるたびにグラスチャージを1得て、跳ね返る花の刃を放てる
+			直接攻撃を当てるたびにグラスチャージを1得て、跳ね返る花の刃を発射できる
 			チャージが50%以上でこの武器が強化される
 			'''
 		BlossomBladesText:
@@ -948,7 +948,7 @@ Items: {
 			敵の防御力を70無視する
 			静止時と空中でダメージとノックバックが20%増加する
 			[c/92F892:上昇する芝刈り機]
-			上昇するきらめく芝刈り機を前方に発射する
+			上昇するきらめく芝刈り機を前方に放つ
 			きらめく芝刈り機は自分より上の敵に対してダメージが40%増加する
 			'''
 	}
@@ -960,8 +960,8 @@ Items: {
 			弾薬として弾丸を使用する
 			接地時のみ直接攻撃できる
 			[c/E9B688:ショットガン]
-			攻撃中、前方に弾を発射する
-			2回ごとにショットガンを発射する
+			攻撃中、前方に弾を撃つ
+			2回ごとに弾丸を複数撃つ
 			'''
 	}
 
@@ -971,8 +971,8 @@ Items: {
 			'''
 			静止時と空中ではダメージが25%減少する
 			[c/8686E5:強制的な移動]
-			攻撃された者はこの芝刈り機に引っ掛かり、位置がこの芝刈り機に固定​​される
-			攻撃を停止すると解放し、ノックバックしやすい敵は吹っ飛ばす
+			攻撃された者はこの芝刈り機に引っ掛かり、位置がこの芝刈り機に固定される
+			攻撃を停止すると解放し、ノックバックしやすい敵は吹き飛ばす
 			タウンNPCにも有効だが、ボスには無効
 			[c/969696:これは壊れている]
 			'''
@@ -986,11 +986,11 @@ Items: {
 			全てのダメージクラスの特殊効果を継承する
 			芝刈り機以外のクラスから50%のステータスブーストを得る
 			[c/d780d7:オクテットヘリックス]
-			周囲に8つの不定形の芝刈り機を発射する
+			周囲に8つの不定形の芝刈り機を放つ
 			自身の位置から前後に素早く芝刈りを行い、広範囲に攻撃する
 			敵に与えたダメージの5%のマナを回復する
 			[c/FE9E23:コレクティブオブリゲーション]
-			<right>でマナを40消費して、自身の位置からではなく、カーソルの位置に芝刈り機を発射する
+			<right>でマナを40消費して、自身の位置からではなく、カーソルの位置に芝刈り機を放つ
 			マナ酔い中はダメージが減少する
 			'''
 	}
@@ -1010,17 +1010,17 @@ Items: {
 		Tooltip:
 			'''
 			[c/F892F8:メカニスト]
-			攻撃が当たると、キラーメカビーを召喚し、33%の確率で混乱を与える
-			混乱した敵を攻撃するとダメージが15%増加し、キラーメカビーを追加で1匹召喚する
+			攻撃が当たると、機械の蜂を召喚し、33%の確率で混乱を与える
+			混乱した敵を攻撃するとダメージが15%増加し、機械の蜂を追加で1匹召喚する
 			[c/f9f909:ハチの巣パック]
-			キラーメカビーのダメージと召喚数が増加し、キラーメカビーが50%の確率で巨大化する
+			機械の蜂のダメージと召喚数が増加し、機械の蜂が50%の確率で巨大化する
 			'''
 		CultistWaspText:
 			'''
-			[c/4BB9E9:カルトな蜂: ({0})]
+			[c/4BB9E9:狂気の蜂: ({0})]
 			ルナティックバッテリーを装備していると、ダメージが増加し、外観とエフェクトが変化する
-			全てのメカビーをカルティストワスプに変身させる
-			カルティストワスプは当たると、4種類の属性を持つ弾丸のうち1つを発射する
+			全ての機械の蜂を崇拝者の蜂に変身させる
+			崇拝者の蜂は当たると、4種類の属性を持つ弾のうち1つを発射する
 			[c/60F8C2:氷は遠距離ダメージを与え、] [c/FE9E23:火は近接ダメージを与える]
 			[c/EE86E7:影は魔法ダメージを与え、] [c/4BB9E9:ビジョンは召喚ダメージを与える]
 			'''
@@ -1039,7 +1039,7 @@ Items: {
 		DisplayName: 邪悪な車輪
 		Tooltip:
 			'''
-			[c/969696:シマーに入れると真紅の車輪に変化する]
+			[c/969696:シマーに投げ入れると真紅の車輪に変化する]
 			ライフが最大で芝刈り機を選択中...
 			[c/BE90E5:高い信頼性]
 			ダメージが1.15倍に、移動速度が1.3倍になる
@@ -1050,7 +1050,7 @@ Items: {
 		DisplayName: 真紅の車輪
 		Tooltip:
 			'''
-			[c/969696:シマーに入れると邪悪な車輪に変化する]
+			[c/969696:シマーに投げ入れると邪悪な車輪に変化する]
 			ライフが20%以下で、芝刈り機を選択中...
 			[c/f89292:絶望]
 			ダメージが1.15倍に、移動速度が1.3倍になる
@@ -1074,7 +1074,7 @@ Items: {
 			'''
 			いくつかの芝刈り機の性能を終盤レベルまで高め、ダメージを増加させ、効果を強化する
 			強化する芝刈り機...
-			全てのハードモード前の鉱石芝刈り機 | 怪しげな芝刈り機 | 紙の芝刈り機
+			全てのハードモード前の鉱石の芝刈り機 | 怪しい芝刈り機 | 紙の芝刈り機
 			[c/8686E5:ファンギ | きらめく芝刈り機 | ミートグラインダー | コンヒューズドローンモア]
 			[c/92F892:クリーパー | スカルクラッシャー]
 			[c/E9B688:ハッピーニューイヤー! | アフロディーテエンジン]
@@ -1097,7 +1097,7 @@ Items: {
 			[c/B227FD:ボルテックス]
 			芝刈り機は近くの全ての生物を吸い込んでダメージを与える
 			[c/FE9E23:リパルサーブラスト]
-			<right>で小さな重力爆発を起こし、敵を押し戻す
+			<right>で小さな重力爆発を起こし、敵を吹き飛ばす
 			'''
 	}
 
@@ -1130,7 +1130,7 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			[c/fe9e23:O' Flame!]
+			[c/fe9e23:炎！]
 			被ダメージを13%軽減
 			最大ライフとマナが60増加
 			芝刈り機で攻撃すると敵を燃やす
@@ -1156,7 +1156,7 @@ Items: {
 	}
 
 	SusLawnmower: {
-		DisplayName: 怪しげな芝刈り機
+		DisplayName: 怪しい芝刈り機
 		Tooltip:
 			'''
 			クリティカル時のダメージが800%増加する
@@ -1184,10 +1184,10 @@ Items: {
 	}
 
 	MeowLawnmower: {
-		DisplayName: フェーズ 2
+		DisplayName: フェーズ2
 		Tooltip:
 			'''
-			シマーに入れるとスターマンに変化する
+			シマーに投げ入れるとスターマンに変化する
 			急速にダメージを与え、空中でダメージとノックバックが30%増加する
 			[c/04C3F9:セレスティアル]
 			全てのダメージクラスの特殊効果を継承する
@@ -1243,19 +1243,19 @@ Items: {
 			'''
 			直接攻撃のダメージとノックバックが100%増加する
 			[c/f89292:血税]
-			攻撃中はライフが徐々に減少するが、クリティカル時にライフが少し回復する
+			攻撃中はライフが徐々に減っていくが、クリティカル時にライフが少し回復する
 			敵を追尾する幻の芝刈り機を周囲に召喚する
 			幻の芝刈り機は当たるたびにダメージが増加するが、1ヒット後は追尾しなくなる
 			'''
 	}
 
 	LawnmowerBook2: {
-		DisplayName: 芝刈り機百科事典：ページ 2
+		DisplayName: 芝刈り機百科事典：ページ2
 		Tooltip:
 			'''
 			Lawnmower Overloadで追加される全ての芝刈り機の情報が記されている
 			ページ 2: [c/92F892:グリーン、] [c/E9B688:オレンジ、] [c/f89292:ライトレッド]
-			[c/d780d7:<right>でページ3に切り替わる]
+			[c/d780d7:<right>でページ3に切り替える]
 			芝刈り機 [i:4049]
 			-----
 			[c/92F892:マイクロプラスチック]
@@ -1282,12 +1282,12 @@ Items: {
 	}
 
 	LawnmowerBookHardmode2: {
-		DisplayName: 芝刈り機百科事典：ページ 4
+		DisplayName: 芝刈り機百科事典：ページ4
 		Tooltip:
 			'''
 			Lawnmower Overloadで追加される全ての芝刈り機の情報が記されている
 			ページ 4: ハードモード、[c/BE90E5:ライトパープル、] [c/8CF10A:ライム、] [c/f9f909:イエロー]
-			[c/04C3F9:<right>でページ5に切り替わる]
+			[c/04C3F9:<right>でページ5に切り替える]
 			芝刈り機 [i:4049]
 			-----
 			[c/BE90E5:ハレルヤ]
@@ -1421,10 +1421,10 @@ Items: {
 		Tooltip:
 			'''
 			静止時と空中ではダメージとノックバックが20%減少する
-			[c/BE90E5:怪しげな鞭]
+			[c/BE90E5:怪しい鞭]
 			召喚タグダメージ 13
 			攻撃を当てた敵にミニオンが集中攻撃する
-			芝刈り機ダメージではなく召喚ダメージを与え、クリティカルしない
+			この武器は芝刈り機ダメージではなく召喚ダメージを与え、クリティカルしない
 			[c/f89292:スパイダーダンス: クールダウン4秒]
 			<right>でカーソルに向けて糸を発射する
 			糸は敵の移動速度を数秒間大幅に低下させる
@@ -1445,7 +1445,7 @@ Items: {
 	}
 
 	WheelHeart: {
-		DisplayName: ハート型の車輪
+		DisplayName: ハートの車輪
 		Tooltip:
 			'''
 			芝刈り機を選択中に移動速度が10%上昇
@@ -1464,18 +1464,18 @@ Items: {
 			静止時と空中ではダメージとノックバックが30%減少する
 			[c/f89292:肉屋]
 			攻撃が当たると、跳ねる目玉を放ち、敵にダメージを与える
-			クリティカルが発生してもダメージが増加しない代わりに、目玉を2倍発射する
-			敵を倒したときは9倍の目玉を発射し、クリティカルでさらに増加する
+			クリティカルが発生してもダメージが増加しない代わりに、目玉を2倍放つ
+			敵を倒したときは9倍の目玉を放ち、クリティカルしたならさらに増える
 			[c/969696:「もし私があなたを肉挽き器で切り刻んだとして、出てくるのが]
 			[c/969696:あなたに残っているのは目玉だけ、あなたは…あなたはおそらく死んでいます！」]
 			'''
 	}
 
 	PossessedHat: {
-		DisplayName: 憑依された帽子
+		DisplayName: ポゼストハット
 		Tooltip:
 			'''
-			シマーに入れると憑依された芝刈り機に変化する
+			シマーに投げ入れるとポゼストローンモアに変化する
 			芝刈り機のダメージが13%増加
 			芝刈り機のクリティカル率が13%上昇
 			[c/BE90E5:他の防具を装備していないならセットボーナスを得る]
@@ -1485,7 +1485,7 @@ Items: {
 			'''
 			[c/B227FD:芝刈り機複製術]
 			防御力が23増加し、被ダメージを13%軽減
-			攻撃時に憑依された芝刈り機のクローンを召喚する
+			攻撃時にポゼストローンモアのクローンを召喚する
 			クローンはカーソルに向かって飛んでいき、クリティカル時にシャドウフレイムを敵に与える
 			'''
 	}
@@ -1561,7 +1561,7 @@ Items: {
 			[c/FE9E23:フレアモア]
 			弾薬として照明弾を使用する
 			33%の確率で照明弾を消費しない
-			下方に照明弾を発射する
+			下方に照明弾を撃つ
 			使用する照明弾によって違う効果があり、持続時間が短縮される
 			'''
 	}
@@ -1576,7 +1576,7 @@ Items: {
 			選択中は翼とロケットブーツで無限に飛べるようになる
 			空中でダメージが33%増加する
 			[c/FE9E23:マイト]
-			接地時は防御力が12、ノックバック33%増加し、
+			接地時は防御力が12、ノックバックが33%増加し、
 			攻撃が当たると、敵に霊液を与える
 			[c/969696:「さらに長く！」]
 			'''
@@ -1604,13 +1604,13 @@ Items: {
 			[c/FE9E23:フレアモア]
 			弾薬として照明弾を使用する
 			33%の確率で照明弾を消費しない
-			下方に照明弾を発射する
+			下方に照明弾を撃つ
 			使用する照明弾によって違う効果があり、持続時間が短縮される
 			[c/f89292:ブリムストーン]
 			普通の照明弾をヘルフレアに変換する
 			ヘルフレアは敵を炎上させ、地形に当たると少し遅れて爆発する
 			爆発は30ダメージを与え、ヘルファイアを与える
-			[c/969696:「熱いように落としてください」]
+			[c/969696:「熱いうちに落としてください」]
 			'''
 	}
 
@@ -1618,12 +1618,12 @@ Items: {
 		DisplayName: 闇の使者
 		Tooltip:
 			'''
-			[c/969696:シマーに入れると光の使者に変化する]
+			[c/969696:シマーに投げ入れると光の使者に変化する]
 			弾薬として弾丸を使用する
 			接地時は直接攻撃のダメージが60%増加する
 			[c/F892F8:オニキス]
 			攻撃中、オニキスボルトを連射し、70%のダメージを与える
-			2回攻撃するごとに、強力なショットガンも発射される
+			2回攻撃するごとに、強力なショットガンも撃つ
 			[c/969696:「闇を呼び起こせ」]
 			'''
 	}
@@ -1632,12 +1632,12 @@ Items: {
 		DisplayName: イーターオブローンズ
 		Tooltip:
 			'''
-			シマーに入れるとコンヒューズドローンモアに変化する
+			シマーに投げ入れるとコンヒューズドローンモアに変化する
 			前方と後方を攻撃できる
 			空中ではダメージが70%減少し、ノックバックが33%減少する
 			静止時はダメージとノックバックが33%増加する
 			[c/92F892:ヴァイルスピットマシンガン]
-			<right>を押し続けている間、ヴァイルスピットを連射する
+			<right>を押し続けている間、ヴァイルスピットを撃つ
 			ヴァイルスピットは3ダメージを与え、スタックする毒を与える
 			直接攻撃は毒を受けている敵に対してダメージが70%増加する
 			'''
@@ -1647,7 +1647,7 @@ Items: {
 		DisplayName: コンヒューズドローンモア
 		Tooltip:
 			'''
-			シマーに入れるとイーターオブローンズに変化する
+			シマーに投げ入れるとイーターオブローンズに変化する
 			セントリースロットを1つ消費する
 			[c/B227FD:コンヒュージョン]
 			攻撃が当たると、2秒間混乱を与える
@@ -1676,7 +1676,7 @@ Items: {
 	}
 
 	WheelOfReturnHeart: {
-		DisplayName: ハート型の帰還の車輪
+		DisplayName: ハートの帰還の車輪
 		Tooltip:
 			'''
 			芝刈り機を選択中に移動速度が15%上昇
@@ -1727,8 +1727,8 @@ Items: {
 			弾薬として弾丸か矢を使用する
 			静止時と空中では直接攻撃のダメージとノックバックが40%減少する
 			[c/E9B688:オクトパス]
-			一度の攻撃で弾丸を前方に8発発射し、33%のダメージとノックバックを与える
-			水中だと移動速度が8倍になり、弾丸の連射速度が2倍になる
+			一度の攻撃で弾丸を前方に8発撃ち、33%のダメージとノックバックを与える
+			液体内で移動速度が8倍になり、弾丸の連射速度が2倍になる
 			[c/E9B688:<right>]で使用する弾薬を[c/E9B688:弾丸か矢に切り替える]
 			'''
 	}
@@ -1745,7 +1745,7 @@ Items: {
 			'''
 		oreLawnmowerText:
 			'''
-			[c/FE9E23:鉱石芝刈機 ({0})]
+			[c/FE9E23:鉱石の芝刈機 ({0})]
 			攻撃が当たると6.25%の確率で鉱石を入手する
 			敵を倒すと33%の確率で鉱石を1-4個入手する
 			'''
@@ -1766,7 +1766,7 @@ Items: {
 			'''
 		oreLawnmowerText:
 			'''
-			[c/FE9E23:鉱石芝刈り機 ({0})]
+			[c/FE9E23:鉱石の芝刈り機 ({0})]
 			攻撃が当たると6.25%の確率で鉱石を入手する
 			敵を倒すと33%の確率で鉱石を1-4個入手する
 			'''
@@ -1786,14 +1786,14 @@ Items: {
 			'''
 		oreLawnmowerText:
 			'''
-			[c/FE9E23:鉱石芝刈り機 ({0})]
+			[c/FE9E23:鉱石の芝刈り機 ({0})]
 			攻撃が当たると6.25%の確率で鉱石を入手する
 			敵を倒すと33%の確率で鉱石を1-4個入手する
 			'''
 	}
 
 	HappyNewYearMK2: {
-		DisplayName: ハッピーニューイヤー！ Mk2
+		DisplayName: ハッピーニューイヤー！Mk2
 		Tooltip:
 			'''
 			接触中は非常に短い間隔でダメージを与える
@@ -1889,13 +1889,13 @@ Items: {
 			[c/FE9E23:フレアモア]
 			弾薬として照明弾を使用する
 			50%の確率で照明弾を消費しない
-			下方に照明弾を発射する
+			下方に照明弾を撃つ
 			使用する照明弾によって違う効果があり、持続時間が短縮される
 			[c/f9f909:テラフレア]
 			通常の照明弾をテラフレアに変換する
 			テラフレアは様々なデバフを与えることがある
 			[c/92F892:アースバウンド]
-			接地時は照明弾を上に発射し、直接攻撃のダメージとノックバックが67%増加する
+			接地時は照明弾を上に撃ち、直接攻撃のダメージとノックバックが67%増加する
 			[c/969696:「デバフを与える...全ての」]
 			'''
 	}
@@ -1921,7 +1921,7 @@ Items: {
 	}
 
 	WheelBlight: {
-		DisplayName: 荒廃の車輪
+		DisplayName: 穢れの車輪
 		Tooltip:
 			'''
 			[c/969696:芝刈り機を選択中…]
@@ -2030,8 +2030,8 @@ Items: {
 			攻撃命中時、追加攻撃として花びらが敵に飛んでいく 
 			[c/04C3F9:チタンの嵐]
 			敵に攻撃を命中させたとき、チタンのバリアを得る
-			[c/8CF10A:金属の棘]
-			被ダメージ時、金属の棘をばら撒く
+			[c/8CF10A:金属のトゲ]
+			被ダメージ時、金属のトゲをばら撒く
 			'''
 	}
 
@@ -2053,7 +2053,7 @@ Items: {
 			一度の攻撃で複数回攻撃し、横に攻撃範囲が広い
 			接地時はダメージとノックバックが25%増加する
 			[c/f9f909:砂嵐]
-			5回攻撃するごとに、猛烈な砂の竜巻を前方に発射する
+			5回攻撃するごとに、猛烈な砂の竜巻を前方に放つ
 			接触ダメージを受けると、10%の確率で砂の竜巻が発生する
 			[c/FE9E23:サンドシャーク]
 			<right>を押し続けている間、ブロックを無視して移動できる
@@ -2126,12 +2126,12 @@ Items: {
 	}
 
 	LawnmowerBookHardmode3: {
-		DisplayName: 芝刈り機百科事典：ページ 5
+		DisplayName: 芝刈り機百科事典：ページ5
 		Tooltip:
 			'''
 			Lawnmower Overloadで追加される全ての芝刈り機の情報が記されている
 			ページ 5: ハードモード、 [c/04C3F9:シアン、] [c/e10643:レッド、] [c/B227FD:パープル]
-			[c/8686E5:<right>でページ1に切り替わる]
+			[c/8686E5:<right>でページ1に切り替える]
 			芝刈り機 [i:4049]
 			-----
 			[c/04C3F9:オーメン]
@@ -2176,7 +2176,7 @@ Items: {
 		DisplayName: 光の使者
 		Tooltip:
 			'''
-			[c/969696:シマーに入れると闇の使者に変化する]
+			[c/969696:シマーに投げ入れると闇の使者に変化する]
 			弾薬として矢を使用する
 			空中で直接攻撃のダメージが50%増加する
 			[c/04C3F9:フラクチャー]
@@ -2207,7 +2207,7 @@ Items: {
 		DisplayName: カリプソ
 		Tooltip:
 			'''
-			[c/969696:シマーに入れるとセンチネルに変化する]
+			[c/969696:シマーに投げ入れるとセンチネルに変化する]
 			空中では直接攻撃のダメージが40%増加するが、ノックバックさせなくなる
 			[c/04C3F9:サーキュラーリーズニング]
 			レーザーを時計周りに高速で発射する
@@ -2215,7 +2215,7 @@ Items: {
 			[c/FE9E23:スペースマン]
 			隕石セットを装備しているならマナを消費しない
 			隕石の車輪のダメージ増加量が大きくなる
-			[c/969696:「土星には146個の衛星があり、この芝刈り機もその1つ」]
+			[c/969696:「土星には衛星が146個あり、この芝刈り機もその1つ」]
 			'''
 	}
 
@@ -2284,8 +2284,8 @@ Items: {
 			'''
 			[c/969696:芝刈り機を選択中…]
 			移動速度が10%上昇
-			[c/8CF10A:金属の棘]
-			被ダメージ時に金属の棘をばら撒く
+			[c/8CF10A:金属のトゲ]
+			被ダメージ時に金属のトゲをばら撒く
 			受けたダメージの50%のダメージを与える
 			'''
 	}
@@ -2362,7 +2362,7 @@ Items: {
 			[c/04C3F9:ヘイルストーム]
 			任意方向入力2回で高速ステップ
 			上下にもダッシュでき、騎乗中でも可能
-			ダッシュ時に空中に氷の棘を連射する
+			ダッシュ時に空中に氷のトゲを連射する
 			クールダウンは2秒
 			'''
 	}
@@ -2452,7 +2452,7 @@ Items: {
 			[c/8686E5:ブリトル]
 			被ダメージ時に脆弱を9秒間受ける
 			防御力が7減少し、最大3回までスタックする
-			水中ではダメージを受けても脆弱を受けない
+			液体内ではダメージを受けても脆弱を受けない
 			'''
 	}
 
@@ -2469,8 +2469,8 @@ Items: {
 		DisplayName: シェルパイルシューズ
 		Tooltip:
 			'''
-			水中での移動速度が20%上昇
-			砂の上での移動速度が30%上昇
+			液体内で移動速度が20%上昇
+			砂の上で移動速度が30%上昇
 			'''
 	}
 
@@ -2506,7 +2506,7 @@ Items: {
 	}
 
 	LawnmowerBookZArmor: {
-		DisplayName: 芝刈り機百科事典： 防具
+		DisplayName: 芝刈り機百科事典：防具
 		Tooltip:
 			'''
 			Lawnmower Overloadで追加される全ての防具の情報が記されている
@@ -2516,7 +2516,7 @@ Items: {
 			[c/8686E5:シェルパイルセット]
 			[c/8686E5:雲渡りセット]
 			[c/92F892:フロストボーンセット]
-			[c/f89292:憑依された帽子]
+			[c/f89292:ポゼストハット]
 			[c/BE90E5:メカニカルセット]
 			[c/f9f909:地獄セット]
 			[c/04C3F9:星の旅人セット]
@@ -2587,16 +2587,16 @@ Items: {
 		Tooltip:
 			'''
 			[c/969696:芝刈り機を選択中…]
-			4.5秒ごとに敵に自動で弾丸を発射する
+			4.5秒ごとに敵に自動で弾丸を撃つ
 			'''
 	}
 
 	AutoTurretII: {
-		DisplayName: 自動タレット MkII
+		DisplayName: 自動タレットMkII
 		Tooltip:
 			'''
 			[c/969696:芝刈り機を選択中…]
-			3秒ごとに敵に自動で高速弾を発射する
+			3秒ごとに敵に自動で高速弾を撃つ
 			'''
 	}
 
@@ -2648,7 +2648,7 @@ Items: {
 		Tooltip:
 			'''
 			[c/969696:芝刈り機を選択中…]
-			敵に自動で爆発弾を発射して攻撃し続ける
+			敵に自動で爆発弾を撃ち続ける
 			[c/fe9e23:エクスプローシブパーソナリティ]
 			敵の防御力を9無視する
 			このタレットから攻撃された敵は、低確率で炎上する
@@ -2771,7 +2771,7 @@ Items: {
 
 	LawnmowerStatue: {
 		DisplayName: 芝刈り機の石像
-		Tooltip: 起動すると石の芝刈り機を前方に発射する
+		Tooltip: 起動すると石の芝刈り機を前方に放つ
 	}
 
 	Hotrod: {
@@ -2835,7 +2835,7 @@ Items: {
 			'''
 			空中でダメージが20%増加する
 			[c/92F892:ペーパプレーンオーバーロード！]
-			2回攻撃するごとに紙飛行機が発射される
+			2回攻撃するごとに紙飛行機を放つ
 			Paper-Plane Overload modと相乗効果がある
 			[c/E9B688:パッシブ: 折り紙エンジン]
 			遠距離ダメージが2増加
@@ -2884,7 +2884,7 @@ Projectiles: {
 	CubeEngineProj2.DisplayName: ファントムモア
 	CubeEngineBullet.DisplayName: テッセラクトバレット
 	EruptionProj.DisplayName: エラプション
-	EruptionFireball.DisplayName: ファイアーボール
+	EruptionFireball.DisplayName: ファイアボール
 	IronBoulderMini.DisplayName: 鉄の岩
 	LightsPainProj.DisplayName: ライツペイン
 	BreadButchererProj.DisplayName: ブレッドブッチャラー
@@ -2901,10 +2901,10 @@ Projectiles: {
 	CultistWaspShadowball.DisplayName: カルティストシャドウボール
 	CultistWasp.DisplayName: カルティストウィスプ
 	MeteoriteLawnmowerProj.DisplayName: クラッシュ＆バーン
-	PossessedLawnmowerProj.DisplayName: 憑依された芝刈り機
-	PossessedExplosion.DisplayName: 憑依された爆発
+	PossessedLawnmowerProj.DisplayName: ポゼストローンモア
+	PossessedExplosion.DisplayName: ポゼストの爆発
 	TheCreeperProj.DisplayName: クリーパー
-	TheCreeperEXP.DisplayName: クリーパー爆発
+	TheCreeperEXP.DisplayName: クリーパーの爆発
 	TelestoProj.DisplayName: テレスト
 	TruthseekerProj.DisplayName: トゥルーシーカー
 	TruthtellerProj.DisplayName: トゥルーテラー
@@ -2912,31 +2912,31 @@ Projectiles: {
 	TerraMeleeProj.DisplayName: テラローンモア
 	HallelujahProj.DisplayName: ハレルヤ
 	NPCRain.DisplayName: NPCの雨
-	NPCRainGolfball.DisplayName: ハレルヤ ゴルフボール
-	NPCRainDye.DisplayName: ハレルヤ 酸の染料
-	NPCRainGrenade.DisplayName: ハレルヤ グレネード
+	NPCRainGolfball.DisplayName: ハレルヤのゴルフボール
+	NPCRainDye.DisplayName: ハレルヤの酸の染料
+	NPCRainGrenade.DisplayName: ハレルヤのグレネード
 	StarchildProj.DisplayName: スターチャイルド
-	StarchildStar.DisplayName: スターチャイルド スター
+	StarchildStar.DisplayName: スターチャイルドの星
 	EnchantedLawnmowerProj.DisplayName: エンチャントモーンモア
 	SlimeFriendProj.DisplayName: スライムフレンド
 	BubbleBathProj.DisplayName: バブルバス
-	BubbleBathBubble.DisplayName: バス バブル
+	BubbleBathBubble.DisplayName: バスのバブル
 	MarsProj.DisplayName: アレス
-	MarsRocks.DisplayName: フォボス & デイモス (古代)
+	MarsRocks.DisplayName: フォボス&デイモス (古代)
 	StarmanProj.DisplayName: スターマン
 	DissonanceProj.DisplayName: ディスナンス
 	WastelanderProj.DisplayName: ウェイストランダーズ
 	WastelanderHoldout.DisplayName: ウェイストランダーズ
-	WastelanderRocket.DisplayName: スーパーメガデスロケット
+	WastelanderRocket.DisplayName: 強力なロケット
 	WastelanderGrenade.DisplayName: グレネード
 	MarsFist.DisplayName: アレスフィスト
 	FrostpunkProj.DisplayName: フロストパンク
-	FrostpunkBeam.DisplayName: フロストパンク アイスビーム
+	FrostpunkBeam.DisplayName: フロストパンクのアイスビーム
 	EnchantedSpikyBallProj.DisplayName: エンチャントスパイクボール
 	BeeLawnmowerProj.DisplayName: バケット・オー・ビーズ
 	NinthCircleProj.DisplayName: ナインサークル
 	SentinelProj.DisplayName: センチネル
-	SentinelBeam.DisplayName: センチネル ビーム
+	SentinelBeam.DisplayName: センチネルのビーム
 	PlantLawnmowerProj.DisplayName: プラントシュレッダー
 	FlowerBullet.DisplayName: 花の刃
 	FlowerBullet2.DisplayName: 花の刃
@@ -2947,22 +2947,22 @@ Projectiles: {
 	TheHivemindProj.DisplayName: ハイブマインド
 	PhantomLawnmowerProj.DisplayName: ファントムペイン
 	BeeLawnmowerProjMech.DisplayName: バケット・オー・メカビーズ
-	MechBee.DisplayName: メカビー
+	MechBee.DisplayName: 機械の蜂
 	MechBeeLaser.DisplayName: メカレーザー
-	MechBeeGiant.DisplayName: 巨大なメカビー
+	MechBeeGiant.DisplayName: 巨大な機械の蜂
 	CultWaspLawnmowerHoldout.DisplayName: カルト芝刈り機ホールドアウト
 	VortexLawnmowerProj.DisplayName: イベントホライゾン
 	CultistWaspGiant.DisplayName: カルティストワスプ
-	CultistWaspIce.DisplayName: カルティスト 氷
-	CultistWaspFireball.DisplayName: カルティスト ファイア
+	CultistWaspIce.DisplayName: カルティストの氷
+	CultistWaspFireball.DisplayName: カルティストの炎
 	CultistWaspSummon.DisplayName: エンシェントビジョン
 	CrystalLawnmower.DisplayName: クリスタルの芝刈り機
-	LawnmowerCrystal.DisplayName: 芝刈り機 クリスタル
+	LawnmowerCrystal.DisplayName: 芝刈り機のクリスタル
 	CrystalLawnmower2.DisplayName: 月の芝刈り機
 	WastelanderBullet.DisplayName: マ・メイユール・エネミー
-	SusLawnmowerProj.DisplayName: 怪しげな芝刈り機
+	SusLawnmowerProj.DisplayName: 怪しい芝刈り機
 	RatLawnmowerProj.DisplayName: ヴァーミンシュプリーム
-	MeowLawnmowerProj.DisplayName: フェーズ 2
+	MeowLawnmowerProj.DisplayName: フェーズ2
 	PillarsOfCreationProj.DisplayName: クリエイションピラー
 	TheSolarPillarProj.DisplayName: ソーラーピラー
 	ZenithLawnmowerProj.DisplayName: クリエイションピラー
@@ -2970,8 +2970,8 @@ Projectiles: {
 	BloodTaxProj.DisplayName: ブラッドタックス
 	BloodTaxProj2.DisplayName: 幻の芝刈り機
 	MidasMachineProj.DisplayName: ミダスマシン
-	WheelOfReturnPortal.DisplayName: 帰還の車輪 ポータル
-	WheelOfReturnPortal2.DisplayName: 帰還の車輪 ポータル2
+	WheelOfReturnPortal.DisplayName: 帰還の車輪のポータル
+	WheelOfReturnPortal2.DisplayName: 帰還の車輪のポータル2
 	ShroomiteLawnmowerProj.DisplayName: ファンギ
 	WraithLawnmowerProj.DisplayName: レイスの怒り
 	WraithLawnmowerSoul.DisplayName: 怒りの魂
@@ -2982,24 +2982,24 @@ Projectiles: {
 	ChristmasLawnmowerPresent.DisplayName: クリスマスプレゼント
 	FruitcakeStarBallLO.DisplayName: フルーツケーキスター
 	SpiderLawnmowerProj.DisplayName: アラクニド
-	SpiderLawnmowerWeb.DisplayName: アラクニド 糸
+	SpiderLawnmowerWeb.DisplayName: アラクニドの糸
 	AntlionLawnmowerProj.DisplayName: チャージャー
 	TheMeatGrinderProj.DisplayName: ミートグラインダー
-	MiniBouncingEye.DisplayName: ミートグラインダー 目玉
+	MiniBouncingEye.DisplayName: ミートグラインダーの目玉
 	OreLawnmowerProjectiles.DisplayName: 跳ねる鉱石
 	HeartLawnmowerProj.DisplayName: アフロディーテエンジン
-	HappyNewYearProj.DisplayName: ハッピーニューイヤー!
-	DreamscapeAura.DisplayName: ドリームスケープ オーラ
+	HappyNewYearProj.DisplayName: ハッピーニューイヤー！
+	DreamscapeAura.DisplayName: ドリームスケープのオーラ
 	DreamscapeProj.DisplayName: ドリームスケープ
 	DreamscapeProj2.DisplayName: スターダストローンモア
 	FlareLawnmowerProj.DisplayName: ドロップアウト
-	FlareFade.DisplayName: ドロップアウト 照明弾
-	FlareFadeBlue.DisplayName: ドロップアウト 照明弾（青）
+	FlareFade.DisplayName: ドロップアウトの照明弾
+	FlareFadeBlue.DisplayName: ドロップアウトの照明弾（青）
 	WyvernLawnmowerArchProj.DisplayName: アークワイバーンの芝刈り機
 	RadianceProj.DisplayName: レイディアンス
 	FlareLawnmower2Proj.DisplayName: ホットドロップ
 	HellFlare.DisplayName: ヘルフレア
-	HellFlareEXP.DisplayName: ヘルフレア 爆発
+	HellFlareEXP.DisplayName: ヘルフレアの爆発
 	RustBucketProj3.DisplayName: 闇の使者
 	EaterOfLawnsProj.DisplayName: イーターオブローンズ
 	EaterOfLawnsHoldout.DisplayName: イーターオブローンズ
@@ -3007,9 +3007,9 @@ Projectiles: {
 	ConfusedLawnmowerSentry.DisplayName: コンヒューズドローンモア
 	ConfusedLawnmowerEXP.DisplayName: 血の爆発
 	EgocentrismProj.DisplayName: エゴセントリズム
-	EgocentrismLaser.DisplayName: エゴセントリズム レーザ
+	EgocentrismLaser.DisplayName: エゴセントリズムのレーザー
 	MicroplasticsProj.DisplayName: マイクロプラスチック
-	MicroplasticTrail.DisplayName: マイクロプラスチック 軌道
+	MicroplasticTrail.DisplayName: マイクロプラスチックの軌道
 	SwampLawnmowerProj.DisplayName: 深海の芝刈り機
 	SwampOrb.DisplayName: 沼のオーブ
 	SwampOrbBig.DisplayName: 巨大な沼のオーブ
@@ -3017,10 +3017,10 @@ Projectiles: {
 	OreLawnmowerTitanProj.DisplayName: タイタン
 	OreLawnmowerSpeedProj.DisplayName: スピードスター
 	OreLawnmowerMysticProj.DisplayName: ミスティック
-	HappyNewYearMK2Proj.DisplayName: ハッピーニューイヤー! Mk2
+	HappyNewYearMK2Proj.DisplayName: ハッピーニューイヤー！Mk2
 	InfestationProj.DisplayName: インフェステイション
-	InfestationEgg.DisplayName: インフェステイション 卵
-	InfestationMinion.DisplayName: インフェステイション ミニオン
+	InfestationEgg.DisplayName: インフェステイションの卵
+	InfestationMinion.DisplayName: インフェステイションのミニオン
 	CoinLawnmowerProj.DisplayName: 貪欲のクラッチ
 	BouncingCoin_Gold.DisplayName: 貪欲のゴールドコイン
 	BouncingCoin_Copper.DisplayName: 貪欲のカッパーコイン
@@ -3028,7 +3028,7 @@ Projectiles: {
 	FlareLawnmower3Proj.DisplayName: ガイアの恵み
 	TerraFlare.DisplayName: テラフレア
 	MarblousProj.DisplayName: マーブルス
-	MarblousJavelin.DisplayName: マーブルス 槍
+	MarblousJavelin.DisplayName: マーブルスの槍
 	GnomeLawnmowerProj.DisplayName: ガーデンガーディアン
 	RuneLawnmowerProj.DisplayName: ルーンルーイン
 	SlipperySlopeProj.DisplayName: スリッパリースロープ
@@ -3039,27 +3039,27 @@ Projectiles: {
 	TelestoProj2.DisplayName: カリプソ
 	OmenProj.DisplayName: オーメン
 	OmenSkull.DisplayName: オーメン スカル
-	CactusWheelSpike.DisplayName: サボテンの棘
-	CactusWheelSpike2.DisplayName: 金属のサボテンの棘
-	FrostborneDashIce.DisplayName: 氷の棘
+	CactusWheelSpike.DisplayName: サボテンのトゲ
+	CactusWheelSpike2.DisplayName: 金属のサボテンのトゲ
+	FrostborneDashIce.DisplayName: 氷のトゲ
 	SandSharkProjectile.DisplayName: トンネルプロジェクト
 	MechSelfDestructExplosion.DisplayName: 機械の故障
 	MechSkullBookProj.DisplayName: 機械の頭蓋骨
 	MiniProbe.DisplayName: ミニプローブ
-	MarsRock1.DisplayName: フォボス & ディモス
+	MarsRock1.DisplayName: フォボス&ディモス
 	CultistLawnmowerProj.DisplayName: セレスティアルボディ
 	OrbitalStrikeLawnmower.DisplayName: 天体の芝刈り機
 	OrbitalStrikeTarget.DisplayName: 天体の芝刈り機
 	CelestialShield.DisplayName: 天空の盾
-	AutoTurretBullet.DisplayName: 自動タレット 弾
-	AutoTurretIIBullet.DisplayName: 自動タレットII 弾
+	AutoTurretBullet.DisplayName: 自動タレットの弾
+	AutoTurretIIBullet.DisplayName: 自動タレットIIの弾
 	InfernalWingsLawnmower.DisplayName: 地獄の翼
 	InfernalLawnmowerProj.DisplayName: 地獄の芝刈り機
 	QueenLawnmowerProj.DisplayName: ベル＆ホイッスル
-	AutoTurretIII_InfernalBullet.DisplayName: 自動タレットIII: 爆発弾
-	AutoTurretIII_ShroomiteBullet.DisplayName: 自動タレットIII: シュルーマイトキノコ
+	AutoTurretIII_InfernalBullet.DisplayName: 自動タレットIIIの爆発弾
+	AutoTurretIII_ShroomiteBullet.DisplayName: 自動タレットIIIのシュルーマイトキノコ
 	ShroomiteSniperBullet.DisplayName: キノコ
-	AutoTurretIII_SpectreBullet.DisplayName: 自動タレットIII: スペクター
+	AutoTurretIII_SpectreBullet.DisplayName: 自動タレットIIIのスペクター
 	SpectreBolt.DisplayName: スペクターボルト
 	PvZmowerProj.DisplayName: デイブスモア
 	NomaiStar.DisplayName: セレスティアルスター
@@ -3136,12 +3136,12 @@ Buffs: {
 	}
 
 	CactusLawnmowerThorns: {
-		DisplayName: "[c/92F892:サボテンの棘]"
+		DisplayName: "[c/92F892:サボテンのトゲ]"
 		Description: ダメージの一部を反射
 	}
 
 	PossessedArmorBuff: {
-		DisplayName: "[c/BE90E5:憑依装甲]"
+		DisplayName: "[c/BE90E5:ポゼストアーマー]"
 		Description:
 			'''
 			防御力が18増加
@@ -3150,8 +3150,8 @@ Buffs: {
 	}
 
 	PossessedLawnmowerDebuff: {
-		DisplayName: 憑依ターゲットのクールダウン
-		Description: 憑りつかれた芝刈り機にぶつかる！
+		DisplayName: ポゼストターゲットのクールダウン
+		Description: ポゼストローンモアにぶつかる！
 	}
 
 	CreeperBuff: {
@@ -3208,7 +3208,7 @@ Buffs: {
 
 	CrystalLawnmowerBuff: {
 		DisplayName: "[c/8CF10A:クリスタルの芝刈り機]"
-		Description: 近くの敵にクリスタルの芝刈り機を発射する
+		Description: 近くの敵にクリスタルの芝刈り機を放つ
 	}
 
 	MyBestEnemy: {
@@ -3308,7 +3308,7 @@ Buffs: {
 		DisplayName: 鉱石除去サービス
 		Description:
 			'''
-			鉱石芝刈り機がそれぞれの鉱石を入手しないようになる
+			鉱石の芝刈り機がそれぞれの鉱石を入手しないようになる
 			芝刈り機をインベントリで右クリックすると、削除/有効化できる
 			'''
 	}
@@ -3351,7 +3351,7 @@ Buffs: {
 
 	MiniOctopusBuff: {
 		DisplayName: "[c/E9B688:オクトポダ]"
-		Description: 水中だと移動速度が8倍になり、弾丸の連射速度が2倍になる
+		Description: 液体内で移動速度が8倍になり、弾丸の連射速度が2倍になる
 	}
 
 	ValliantChargeMax: {
@@ -3505,7 +3505,7 @@ Configs: {
 
 		OreRemovalService: {
 			Label: 鉱石除去サービス
-			Tooltip: 鉱石芝刈り機でのが攻撃が当たっても、鉱石を入手しないようにします
+			Tooltip: 鉱石の芝刈り機でのが攻撃が当たっても、鉱石を入手しないようにします
 		}
 
 		MowTheLawn: {
@@ -3518,7 +3518,7 @@ Configs: {
 		}
 
 		StartWithInfoBooks: {
-			Label: 辞典を持って始める
+			Label: 事典を持って始める
 			Tooltip: このModのアイテムをリストする「芝刈り機百科事典」を所持してスポーンします
 		}
 	}

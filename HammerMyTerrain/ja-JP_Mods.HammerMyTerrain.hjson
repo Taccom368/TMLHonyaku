@@ -1,11 +1,11 @@
 Configs: {
 	HammerMyTerrainConfig: {
-		DisplayName: オートハンマー設定
+		DisplayName: 自動ハンマー設定
 
 		Headers: {
 			General: 一般
 			SmartHammerHeader: 実験的: スマートハンマーモード
-			HammerModeHeader: オートハンマー設定
+			HammerModeHeader: 自動ハンマー設定
 			FilterHeader: フィルターモード
 		}
 
@@ -21,7 +21,7 @@ Configs: {
 
 		DisableOnWorldLoad: {
 			Label: ワールドロード時に無効化する
-			Tooltip: オンにすると、ワールドをロードする際にオートハンマーは常にオフになります
+			Tooltip: オンにすると、ワールドをロードする際に自動ハンマーは常にオフになります
 		}
 
 		PopOffEnabled: {
@@ -40,7 +40,7 @@ Configs: {
 		}
 
 		HammerMode: {
-			Label: オートハンマーモード
+			Label: 自動ハンマーモード
 			Tooltip:
 				'''
 				両方：斜面とハーフブロックにハンマーを自動的に使う
@@ -63,8 +63,9 @@ Configs: {
 			Label: 追加のハーフブロック
 			Tooltip:
 				'''
-				オンにすると、ブロックがハーフブロックになった場合、
-				最初のハーフブロックの後に最大で2つの追加のハーフブロックが生成されることがあります
+				オンにすると、ブロックをハーフブロックにした後、
+				ハーフブロックにしたブロックの後、
+				最大で2つ追加でブロックがハーフブロックになります
 				'''
 		}
 
@@ -141,7 +142,7 @@ Configs: {
 Keybinds: {
 	ToggleMod: {
 		$parentVal: Hammer My Terrainの切り替え
-		DisplayName: オートハンマーの切り替え
+		DisplayName: 自動ハンマーの切り替え
 	}
 
 	OpenFilterUI: {

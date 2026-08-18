@@ -1,9 +1,9 @@
 
 GameTips: {
-	DepthsTip0: 正体不明の友好的なNPCが、かつての姿の結晶として深淵に囚われている。彼らを浄化する方法があればいいのだが…。
+	DepthsTip0: 正体不明の友好的なNPCが、かつての姿の結晶として深淵に囚われている。彼らを浄化する方法があればいいのだが…
 	DepthsTip1: 正しい世界で十分に深く掘り下げれば、深淵にたどり着くかもしれない！
 	DepthsTip2: 影の石の巨人、チャスメを倒して、世界を永遠に変えよう。ジェムフォージでルビーの遺物を使うと、彼女を召喚できるかもしれない…
-	DepthsTip3: アルケライトは非常に強い毒性を持つので、水晶のドクロを作れば毒に対する耐性を得られます。
+	DepthsTip3: アルケライトは非常に強い毒性を持つ。水晶のドクロを身につければ上を歩いても毒を受けなくなります。
 	DepthsTip4: 水晶の肌のポーションを飲まずに、水銀に落ちないように！
 	DepthsTip5: 適切な装備があれば、最大で16秒間水銀の中にいても何の悪影響も受けません！
 	DepthsTip6: チャスメとの戦闘中、深淵と地下世界の間に魔法の障壁が作られ、それを通り抜けることで戦闘から安全に脱出することができます。
@@ -19,7 +19,7 @@ SetBonus: {
 	MercuryHelmet:
 		'''
 		3 防御力
-		水銀中毒を無効化
+		有毒なブロックのダメージを無効化
 		'''
 	NightwoodHelmet:
 		'''
@@ -72,44 +72,44 @@ Bestiary: {
 	CrystalKing: 風水術の王である彼は、歩くことはできないが、他の多くの魔術師と同様に瞬間移動することができる。
 	Ferroslime: このスライムはトゲトゲしているように見えるかもしれないが、それは単に磁性流体がトゲ状に突き出ているだけで、実際よりも威嚇的に見えるようにしているだけだ。
 	Geomancer: 忠実な信者たちは、風水術に精通している。伝説によれば、彼らは生きたシャドウフレイムの存在を崇拝しているという。
-	GoldBat: 深淵に生息する珍しいコウモリで、地霊術師によって呪いをかけられ、宝石のような姿になった。その名とは裏腹に、実際はトパーズと同じ色をしている。
+	GoldBat: 深淵に生息する珍しいコウモリで、ジオマンサーによって呪いをかけられ、宝石のような姿になった。その名とは裏腹に、実際はトパーズと同じ色をしている。
 	KingCoal: 彼は陽気な老人なんかじゃない。水晶の王のライバルである弟で、炎の中で生まれ、あなたを倒すためならどんな手も使うだろう！
 	DepthsWorm: 石とサファイアでできた蛇。その血管には水が流れている。他に類を見ないショベルを携えている。
 	Shade: 深淵を漂う純粋な闇の存在であり、空中を自由に浮遊する能力を持つ。彼らの集団は「闇の集団」と呼ばれる。
 	ShadowBat: この半分黒、半分エメラルド色のコウモリは、深淵に生息するコウモリのより強力な亜種だ。これはコウモリの影なのか、それとも影のコウモリなのか？
 	ShadowSlime: 硬化した深淵を徘徊する、真っ黒なスライム。これに触れると、重度の失明を引き起こす可能性がある。
 	EnchantedNightmareWorm: 時が経ち、地下深くへとたどり着いたワームは、悪夢の森を発見する。周囲に溶け込むことを余儀なくされた彼らは、周囲の環境が持つ自然な紫色の色合いを受け継ぐことになる。
-	QuartzCrawler: 石英の塊によく似た殻を持つ黒いカタツムリ。水銀に潜む魚にとって、特に美味しいごちそうとな​​る。
+	QuartzCrawler: 石英の塊によく似た殻を持つ黒いカタツムリ。水銀に潜む魚にとって、特に美味しいごちそうとなる。
 	AlbinoRat: 周囲の石英や水銀に溶け込もうとした、珍しい色素を持つラット。こんなものでどうやって魚を捕まえるつもりなんだ？
 	Chasme: 純粋な頁岩でできた巨人。チャスメと呼ばれているが、これは彼女の破壊と安全のための深淵の道具に過ぎない。チャスメも強力だったが、彼女は決して戦いを望んでいなかった。もしかしたら、これは全て誤解だったのかもしれない。
 	ChasmeHands: チャスメが深淵を今日のような姿に形作るために作り出した頁岩の顕現。これらはディアクロップスの手によるものとは何の関係もない。あなた達は古代の精霊たちの自由のために、彼女と彼女の故郷を破壊しました。幸福には代償が伴うのだ。
 	ChasmeSoul: チャスメは皆既日食の日に生まれ、その呪いによりあなたが当時見たような姿になってしまった。彼女は地下深くに閉じ込められ、そこで全てを永遠の暗黒の淵に変えてしまった。いつか彼女の呪いが解ける日が来るのだろうかと、時々思う。
-	CrystalBoundTaxCollector: その結晶体は、チャスメが地上にもたらした混沌の時代に生きた老人の遺物である。数年後、彼の野望は彼を深淵へと誘い込み、そこでチャスメの地術師教団によって水晶に変えられてしまった。
+	CrystalBoundTaxCollector: その結晶体は、チャスメが地上にもたらした混沌の時代に生きた老人の遺物である。数年後、彼の野望は彼を深淵へと誘い込み、そこでチャスメのジオマンサー教団によって水晶に変えられてしまった。
 }
 
 PlayerDeathReason: {
 	Gemforge: {
-		0: "{0}は純粋な光でカルト集団を召喚しようとした"
-		1: "{0}はジェムフォージを元の場所から動かした"
-		2: "{0}は地表で遺物を燃やそうとした"
+		0: "{0}は純粋な光でカルト集団を召喚しようとしました。"
+		1: "{0}はジェムフォージを元の場所から動かしました。"
+		2: "{0}は地表で遺物を燃やそうとしました。"
 	}
 
 	MercuryPoisoning: {
-		0: "{0}は治療法は見つけられなかった"
-		1: "{0}は病気で亡くなった"
-		2: "{0}は電球を飲み込んだ"
-		3: "{0}は特別な石を舐めた"
+		0: "{0}は治療法は見つけられませんでした。"
+		1: "{0}は病気で亡くなりました。"
+		2: "{0}は電球を飲み込みました。"
+		3: "{0}は特別な石を舐めました。"
 	}
 
 	ChasmeHead: {
-		0: "{0}はチャスメに貪り食われた"
-		1: "{0}はハッチから降りていった"
-		2: "{0}はまさに求めていたものだった"
+		0: "{0}はチャスメに貪り食われました。"
+		1: "{0}はハッチから降りていきました。"
+		2: "{0}はまさに求めていたものでした。"
 	}
 }
 
 Tiles: {
-	ArqueriteOre.MapEntry: アルケライト鉱石
+	ArqueriteOre.MapEntry: アルケライト
 	BlackTorch.MapEntry: 松明（黒）
 	CoreBuilderTile.MapEntry: コアビルダー
 	DepthsBanners.MapEntry: バナー
@@ -139,7 +139,7 @@ Tiles: {
 	PetrifiedSapling.MapEntry: 珪化木の苗
 	NightSapling.MapEntry: ナイトウッドの苗
 	QuicksilverSensor.MapEntry: 液体センサー (水銀)
-	OtherPortal.MapEntry: 別のポータル
+	OtherPortal.MapEntry: 絵画『別のポータル』
 	NightwoodBath.MapEntry: ナイトウッドの浴槽
 	NightwoodBed.MapEntry: ナイトウッドのベッド
 	NightwoodBookcase.MapEntry: ナイトウッドの本棚
@@ -177,13 +177,13 @@ Tiles: {
 	QuartzBath.MapEntry: 石英の浴槽
 	DepthsVanityBanners.MapEntry: バナー
 	DepthsOtherworldlyMusicBox.MapEntry: アザーワールドのオルゴール（深淵）
-	AltarOfGems.MapEntry: 宝石の祭壇
-	ForTheSakeOfMakingGadgets.MapEntry: ジェットを作るために
-	ImPurrSonation.MapEntry: なりすまし
-	Mercury.MapEntry: 水銀
-	MusiciansBestFriend.MapEntry: 混沌の猫
-	ChaosCat.MapEntry: Painting
-	DONOTDRINK.MapEntry: 飲まないで
+	AltarOfGems.MapEntry: 絵画『宝石の祭壇』
+	ForTheSakeOfMakingGadgets.MapEntry: 絵画『ガジェットを作るために』
+	ImPurrSonation.MapEntry: 絵画『なりすまし』
+	Mercury.MapEntry: 絵画『水銀』
+	MusiciansBestFriend.MapEntry: 絵画『混沌の猫』
+	ChaosCat.MapEntry: 絵画『混沌の猫』
+	DONOTDRINK.MapEntry: 絵画『飲まないで』
 	WaterGeyser.MapEntry: 水の間欠泉
 	PlacedGems.MapEntry: ジオード
 	PlacedOnyx.MapEntry: オニキス
@@ -274,7 +274,7 @@ Buffs: {
 		}
 
 	PurpleflameJellyBuff: {
-		DisplayName: パープルフレイムのクラゲ
+		DisplayName: 騎乗（パープルフレイムのクラゲ）
 		Description: 水銀に生息している、独特だが希少で温和なクラゲの一種
 	}
 
@@ -287,7 +287,7 @@ Buffs: {
 	OnyxMinecartBuff.DisplayName: トロッコ
 
 	NightmareHorseBuff: {
-		DisplayName: 悪夢の馬
+		DisplayName: 騎乗（悪夢の馬）
 		Description: チャスメ自身が制作した、おぞましい姿をした頁岩製の馬の像
 	}
 
@@ -325,13 +325,13 @@ Items: {
 			攻撃を受けていない時間に応じて弾によるダメージを軽減する
 			最大でダメージを50%軽減する
 			ほとんどの弾を25%の確率で敵に反射する
-			水銀被曝を無効化
+			有毒なブロックのダメージを無効化
 			'''
 	}
 
 	CrystalSkull: {
 		DisplayName: 水晶のドクロ
-		Tooltip: 水銀被曝を無効化
+		Tooltip: 有毒なブロックのダメージを無効化
 	}
 
 	CrystalWaterWalkingBoots: {
@@ -339,7 +339,7 @@ Items: {
 		Tooltip:
 			'''
 			水と蜂蜜の上を歩行可能
-			水銀被曝を無効化
+			有毒なブロックのダメージを無効化
 			'''
 	}
 
@@ -350,7 +350,7 @@ Items: {
 
 	QuickSilverSurfboard: {
 		DisplayName: 水銀のサーフボード
-		Tooltip: 装備者が数秒間浮くことができる
+		Tooltip: 少しの間浮遊出来る
 	}
 
 	SanctusShield: {
@@ -360,7 +360,7 @@ Items: {
 			攻撃を受けていない時間に応じて弾によるダメージを軽減する
 			最大でダメージを50%軽減する
 			ほとんどの弾を25%の確率で敵に反射する
-			水銀被曝を無効化
+			有毒なブロックのダメージを無効化
 			ほとんどの状態異常に耐性
 			'''
 	}
@@ -370,14 +370,14 @@ Items: {
 		Tooltip:
 			'''
 			水、蜂蜜、溶岩、水銀の上を歩行可能
-			水銀被曝を無効化
+			有毒なブロックのダメージを無効化
 			水銀を4秒間無効化
 			'''
 	}
 
 	StoneRose: {
 		DisplayName: 石のバラ
-		Tooltip: 水銀のダメージを軽減
+		Tooltip: 水銀中毒を受けるのが遅くなり、ダメージを軽減する
 	}
 
 	CharredCrown: {
@@ -563,8 +563,8 @@ Items: {
 		DisplayName: コアビルダー
 		Tooltip:
 			'''
-			地下世界の素材を深淵の素材に変換したり、その逆に変換することができる
-			「世界の中心を作り出したと噂される伝説の鍛冶場」
+			地下世界と深淵の素材を相互変換できる
+			「世界の中枢を作り出したと噂される伝説のかまど」
 			'''
 	}
 
@@ -757,8 +757,8 @@ Items: {
 	}
 
 	Mercury: {
-		DisplayName: 水銀
-		Tooltip: 「L. ケーキ」
+		DisplayName: 絵画『水銀』
+		Tooltip: 「L.ケーキ」
 	}
 
 	NightFury: {
@@ -861,11 +861,11 @@ Items: {
 	}
 
 	CoreGlobe: {
-		DisplayName: コア球
+		DisplayName: 中枢球
 		Tooltip:
 			'''
-			投げてコアを変化させよう！
-			「風景を変える時」
+			投げて中枢を変化させよう！
+			「景色を変える時」
 			'''
 	}
 
@@ -939,11 +939,11 @@ Items: {
 	}
 
 	OtherPortal: {
-		DisplayName: 別のポータル
+		DisplayName: 絵画『別のポータル』
 		Tooltip:
 			'''
-			「ダイヤモンド1個分の値段しかしない。」
-			「L. ケーキ」
+			「ダイヤモンド1個分の値段しかしない」
+			「L.ケーキ」
 			'''
 	}
 
@@ -1005,7 +1005,7 @@ Items: {
 		DisplayName: パープルフレイムネックレス
 		Tooltip:
 			'''
-			パープルフレイムのクラゲを召喚する
+			騎乗（パープルフレイムのクラゲ）を召喚する
 			「彼は放電はしないよね？」
 			'''
 	}
@@ -1402,33 +1402,33 @@ Items: {
 	}
 
 	AltarOfGems: {
-		DisplayName: 宝石の祭壇
-		Tooltip: 「L. ケーキ」
+		DisplayName: 絵画『宝石の祭壇』
+		Tooltip: 「L.ケーキ」
 	}
 
 	ForTheSakeOfMakingGadgets: {
-		DisplayName: ガジェットを作るために
-		Tooltip: 「L. ケーキ」
+		DisplayName: 絵画『ガジェットを作るために』
+		Tooltip: 「L.ケーキ」
 	}
 
 	ImPurrSonation: {
-		DisplayName: なりすまし
-		Tooltip: 「L. ケーキ & W. セフィ」
+		DisplayName: 絵画『なりすまし』
+		Tooltip: 「L.ケーキ & W.セフィ」
 	}
 
 	MusiciansBestFriend: {
-		DisplayName: ミュージシャンの親友
-		Tooltip: 「L. ケーキ」
+		DisplayName: 絵画『ミュージシャンの親友』
+		Tooltip: 「L.ケーキ」
 	}
 
 	ChaosCat: {
-		DisplayName: 混沌の猫
-		Tooltip: 「L. ケーキ & B. キャット」
+		DisplayName: 絵画『混沌の猫』
+		Tooltip: 「L.ケーキ & B.キャット」
 	}
 
 	DONOTDRINK: {
-		DisplayName: 飲まないで
-		Tooltip: 「L. ケーキ」
+		DisplayName: 絵画『飲まないで』
+		Tooltip: 「L.ケーキ」
 	}
 
 	LivingFogDye: {
@@ -1446,7 +1446,7 @@ Items: {
 		Tooltip:
 			'''
 			落下ダメージを無効化
-			水銀被曝を無効化
+			有毒なブロックのダメージを無効化
 			'''
 	}
 
@@ -1454,7 +1454,7 @@ Items: {
 		DisplayName: 銀のお守り
 		Tooltip:
 			'''
-			水銀被曝を無効化
+			有毒なブロックのダメージを無効化
 			水銀を4秒間無効化
 			'''
 	}
@@ -1464,8 +1464,8 @@ Items: {
 		Tooltip:
 			'''
 			水銀を4秒間無効化
-			水銀被曝を無効化
-			水銀のダメージを軽減
+			有毒なブロックのダメージを無効化
+			水銀中毒を受けるのが遅くなり、ダメージを軽減する
 			'''
 	}
 
@@ -1474,7 +1474,7 @@ Items: {
 		Tooltip:
 			'''
 			水銀を4秒間無効化
-			水銀被曝を無効化
+			有毒なブロックのダメージを無効化
 			'''
 	}
 
@@ -1482,13 +1482,13 @@ Items: {
 		DisplayName: 水晶のバラ
 		Tooltip:
 			'''
-			水銀被曝を無効化
-			水銀のダメージを軽減
+			有毒なブロックのダメージを無効化
+			水銀中毒を受けるのが遅くなり、ダメージを軽減する
 			'''
 	}
 
 	MercuryMoss: {
-		DisplayName: 水銀の苔
+		DisplayName: 苔（水銀）
 		Tooltip: 「忘れられない光景」
 	}
 
@@ -1497,7 +1497,7 @@ Items: {
 		Tooltip:
 			'''
 			フィッシング・パワーが10向上する
-			君の浮きは光る
+			浮きが光るようになる
 			'''
 	}
 
@@ -1662,7 +1662,7 @@ Items: {
 
 	MidnightHorseshoe: {
 		DisplayName: 真夜中の蹄鉄
-		Tooltip: ""
+		Tooltip: 騎乗（悪夢の馬）を召喚する
 	}
 
 	AmethystShalestoneBlock: {
@@ -1712,17 +1712,17 @@ Items: {
 
 	QuartzHood: {
 		DisplayName: 石英のフード
-		Tooltip: Increases whip range by 15%
+		Tooltip: 鞭の攻撃範囲が15%増加
 	}
 
 	QuartzLeggings: {
 		DisplayName: 石英のレギンス
-		Tooltip: Increases max number of minions by 1
+		Tooltip: 召喚できるミニオンの数が1体増える
 	}
 
 	QuartzWinterCoat: {
 		DisplayName: 石英の冬のコート
-		Tooltip: Increases whip speed by 15%
+		Tooltip: 鞭の攻撃速度が15%上昇
 	}
 
 	HungryLeash: {
@@ -1904,7 +1904,7 @@ Items: {
 
 	FelineTombstone: {
 		DisplayName: 猫の墓石
-		Tooltip: 「たとえ亡くなっても、私たちは彼らを記憶にとどめ、未来永劫にわたって彼らの功績を語り継いでいこう。」
+		Tooltip: 「たとえ亡くなっても、私たちは彼らを記憶にとどめ、未来永劫にわたって彼らの功績を語り継いでいこう」
 	}
 }
 
@@ -1968,7 +1968,7 @@ Projectiles: {
 	SkyfallYoyo.DisplayName: スカイフォール
 	Steelocanth.DisplayName: スティールカンス
 	LivingShadowSummonProj.DisplayName: 影
-	CoreGlobe.DisplayName: コア球
+	CoreGlobe.DisplayName: 中枢球
 	WhiteLightning.DisplayName: ホワイトライトニング
 	WhiteLightningOrb.DisplayName: ホワイトライトニングオーブ
 	WhiteLightningOrb2.DisplayName: ホワイトライトニングオーブ
@@ -2142,5 +2142,5 @@ ItemTooltip.TerrasparkBoots:
 	水、蜂蜜、溶岩、水銀の上を歩行可能
 	燃えるブロックと有毒なブロックのダメージを無効化
 	溶岩を7秒間、水銀を8秒間無効化し、
-	溶岩と水銀のダメージを軽減
+	溶岩のダメージを軽減し、水銀中毒を受けるのが遅くなり、ダメージを軽減する
 	'''

@@ -146,7 +146,7 @@ Buffs: {
 
 	LegendaryFlames: {
 		DisplayName: 伝説の炎
-		Description: 敵は価値がない！ ライフが徐々にものすごく減少する
+		Description: 敵は価値がない！ ライフがものすごい速さで減っていく
 	}
 
 	UmbralRend: {

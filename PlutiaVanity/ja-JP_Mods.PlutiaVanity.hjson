@@ -1,0 +1,16 @@
+Items: {
+	Plutia_Body: {
+		DisplayName: プルルートの服
+		Tooltip: ""
+	}
+
+	Plutia_Head: {
+		DisplayName: プルルートの頭
+		Tooltip: ""
+	}
+
+	Plutia_Legs: {
+		DisplayName: プルルートのスリッパ
+		Tooltip: ""
+	}
+}

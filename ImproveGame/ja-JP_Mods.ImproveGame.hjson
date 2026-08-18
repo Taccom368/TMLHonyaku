@@ -2,7 +2,7 @@ Other: {
 
 	ModName: Quality of Terraria
 	Search: 検索中...
-	PathIllegal: ファイル名には次の文字を含めないでください: \, /, :, *, ?, ", <, > or |
+	PathIllegal: ファイル名には次の文字を含めないでください: \、/、:、*、?、"、 <、>、|
 	FolderNameEmpty: フォルダ名を空にすることはできません
 
 	Tiles: {
@@ -53,7 +53,7 @@ Other: {
 		EnableQuickShimmer: クイックシマーを有効化
 		EnableMinimapMark: 構造物マーカー有効
 		EnableWeatherControl: 天候制御有効化
-		AvailableShimmerBucket: シマーバケツを入手可能
+		AvailableShimmerBucket: シマー入りバケツを入手可能
 	}
 }
 
@@ -89,9 +89,11 @@ QuickHome: {
 Tips: {
 	AmmoChainDisabled: 弾薬チェーンが無効です
 	AmmoChain: "[centeritem:ImproveGame/AmmoChainItem] 弾薬チェーン: "
-	ShimmerInto: "シマーに入れると: "
-	ShimmerIntoWithStack: シマーに{0}個入れると:
-	ShimmerIntoWithCoinLuck: シマーにこれを入れると一時的に運が{0}増加する
+	AmmoInfo: "[i:{0}] {1}系を使用する武器に対応"
+	UseAmmoInfo: 弾薬として[i:{0}] {1}系を使用する
+	ShimmerInto: "シマーに投げ入れると: "
+	ShimmerIntoWithStack: シマーに{0}個投げ入れると:
+	ShimmerIntoWithCoinLuck: シマーにこれを投げ入れると運が一時的に{0}増加する
 	PrefixCount: "リフォージカウント: "
 	AnglerQuest: 釣り人のクエストがリフレッシュされました
 	FromMod: 【{DisplayName}】
@@ -190,12 +192,16 @@ Tips: {
 			'''
 		CreateWand:
 			'''
+			建築の杖のコントローラーで、
+			建築の杖のデータマップか構造ファイルを使って建築スタイルをインポートできる
 			中クリックで杖を使用し、建物をカスタマイズするためのpngファイルを選択します
 			[c/88CCEE:"Document/My Games/Terraria/tModLoader]
 			[c/88CCEE:/Mods/ImproveGame/CreateWand"]内のファイルは自動的にインポートされます
 			
-			FFのBチャンネルは壁あり、00は壁なしを意味します
-			RGチャンネルのタイルテーブルは以下の通りです
+			データマップ:
+			FFのBチャンネルは壁ありの意味で、00は壁なしを意味する
+			FFのチャネルは左方向を意味し、7Fは右方向を意味する
+			RGチャンネルのタイルテーブルは以下の通り
 			| カラー |    ヘックス   |        タイル        |
 			| ------- | ---------- | ------------------- |
 			|   [c/000000:■]   |   0000  |      無し       |
@@ -344,7 +350,7 @@ SuperVault: {
 }
 
 MoveChest: {
-	Heavy: 宝箱の重みで動きが制限される
+	Heavy: 宝箱の重さで動きが制限される
 }
 
 BuffController: {
@@ -373,7 +379,7 @@ LifeAnalyzer: {
 
 Architecture: {
 	Materials: 家の素材
-	StoredMaterials: (保管済: {MaterialCount})
+	StoredMaterials: (全て: {MaterialCountTotal}、保管: {MaterialCountWand}、インベントリ: {MaterialCountInventory})(保管済: {MaterialCount})
 	MaterialsRequired: "必要な素材: "
 	Block: ブロック
 	Platform: 足場
@@ -805,6 +811,11 @@ Items: {
 		NotFound: 御影石の洞窟が見つかりませんでした
 	}
 
+	HiveGlobe: {
+		BiomeName: 蜂の巣
+		NotFound: 蜂の巣が見つかりませんでした
+	}
+
 	AetherGlobe: {
 		BiomeName: エーテル
 		NotFound: シマーが見つかりませんでした
@@ -1126,6 +1137,15 @@ UI: {
 		個人設定から無効化できます
 		'''
 
+	CreateWandController: {
+		Title: 建築の杖のコントローラー
+		BuildingMaterial: 建築素材
+		StructureSelection: 建物の選択
+		ImportFromStructureFile: 建築の杖にインポート
+		ImportFromDatamap: 建築の杖のデータマップ
+		BackToBuildingDataList: リストに戻る
+	}
+
 	InfiniteBUFFController: {
 		DisplayName: バフコントローラー
 		Placeholder: 名称を入力してください
@@ -1207,7 +1227,7 @@ UI: {
 		MoonPhaseUnlocked: 月の月相のロックが解除されました
 		AlreadyUnlocked: 天候の制御はこのワールドですでに使用できます
 		Unlocked: 天候制御が使用可能になりました！ コントロールパネルから開いてください
-		EasterEgg: マッシュルーム！
+		EasterEgg: キノコ！
 		Locked: 天候制御を使用可能にするには[i:ImproveGame/WeatherBook] を使用してください
 		TimeUnlockCondition: ウォールオブフレッシュを倒して時間を変更可能にしてください
 	}
@@ -1271,7 +1291,7 @@ ExtremeStorage: {
 			'''
 			選択したカテゴリ内のアイテムが[c/CC88AA: クラフトでカウントされるかどうか]を制御します
 			開いている宝箱内のアイテムは引き続き使用可能です
-			カテゴリ内のアイテムが多すぎるとパフォーマンス問題を引き起こす可能性があります。
+			カテゴリ内のアイテムが多すぎるとパフォーマンス問題を引き起こす可能性があります
 			低スペックPCでは注意してください
 			'''
 	}

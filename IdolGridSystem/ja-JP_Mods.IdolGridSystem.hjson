@@ -176,7 +176,7 @@ Items: {
 	}
 
 	ThornedSmallIdol: {
-		DisplayName: 棘の小さな霊像
+		DisplayName: トゲの小さな霊像
 		Tooltip: ""
 	}
 
@@ -354,7 +354,7 @@ Configs: {
 		}
 
 		ThornedSmallIdolDropRate: {
-			Label: 棘の小さな霊像のドロップ率
+			Label: トゲの小さな霊像のドロップ率
 			Tooltip: ""
 		}
 

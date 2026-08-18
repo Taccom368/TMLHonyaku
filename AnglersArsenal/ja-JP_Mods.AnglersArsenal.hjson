@@ -1,0 +1,51 @@
+Conditions: {
+	NearAngler: 釣り人のそばで
+}
+
+Prefixes: {
+	Masterful: {
+		DisplayName: 達人級の
+	}
+
+	Defective: {
+		DisplayName: 不良品の
+	}
+
+	Childlike: {
+		DisplayName: 子供用の
+	}
+
+	Beginner: {
+		DisplayName: 入門用の
+	}
+
+	Profesional: {
+		DisplayName: プロ級の
+	}
+}
+
+Items: {
+	Accessories: {
+		"Iron hook": {
+			DisplayName: 鉄の浮き
+			Tooltip: 浮きを1つ追加する
+		}
+
+		"Holy hook": {
+			DisplayName: 聖なる浮き
+			Tooltip: 浮きを2つ追加する
+		}
+
+		"Cosmic hook": {
+			DisplayName: 宇宙の浮き
+			Tooltip: 浮きを4つ追加する
+		}
+
+		"Angler Emblem": {
+			DisplayName: 釣り人の紋章
+			Tooltip: フィッシング・パワーが20向上する
+		}
+	}
+}
+
+

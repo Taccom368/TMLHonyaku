@@ -32,36 +32,36 @@ Items: {
 
 Configs: {
 	VitalityMusicConfig: {
-		DisplayName: BGM設定
+		DisplayName: 音楽設定
 
 		CorruptionRain: {
 			Label: 不浄 - 雨
-			Tooltip: 雨の不浄のBGM「Diseased Deluge」の再生のオン/オフを変更します
+			Tooltip: 雨の不浄の音楽「Diseased Deluge」の再生のオン/オフを変更します
 		}
 
 		CrimsonRain: {
 			Label: 真紅 - 雨
-			Tooltip: 雨の真紅のBGM「Jagged Downpour」の再生のオン/オフを変更します
+			Tooltip: 雨の真紅の音楽「Jagged Downpour」の再生のオン/オフを変更します
 		}
 
 		JungleRain: {
 			Label: ジャングル - 雨
-			Tooltip: 雨のジャングルのBGM「Tropic Rainfall」の再生のオン/オフを変更します
+			Tooltip: 雨のジャングルの音楽「Tropic Rainfall」の再生のオン/オフを変更します
 		}
 
 		OceanRain: {
 			Label: 海 - 雨
-			Tooltip: 雨の海のBGM「Tidal Showers」の再生のオン/オフを変更します
+			Tooltip: 雨の海の音楽「Tidal Showers」の再生のオン/オフを変更します
 		}
 
 		GlowingMoss: {
 			Label: 輝く苔の洞窟
-			Tooltip: 輝く苔の洞窟のBGM「Glowing Caverns」の再生のオン/オフを変更します
+			Tooltip: 輝く苔の洞窟の音楽「Glowing Caverns」の再生のオン/オフを変更します
 		}
 
 		HallowRain: {
 			Label: 聖域 - 雨
-			Tooltip: 雨の聖域のBGM「Dazzling Drizzle」の再生のオン/オフを変更します
+			Tooltip: 雨の聖域の音楽「Dazzling Drizzle」の再生のオン/オフを変更します
 		}
 	}
 }

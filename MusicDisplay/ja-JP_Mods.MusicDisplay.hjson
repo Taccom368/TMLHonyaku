@@ -3,8 +3,8 @@ Configs: {
 		DisplayName: 表示設定
 
 		HideUnknown: {
-			Label: 不明なBGMを非表示にする
-			Tooltip: この設定がオンの場合、未知のBGMは表示されません。そうでない場合は、BGM名の代わりに「未知のBGM」と表示されます
+			Label: 不明な音楽を非表示にする
+			Tooltip: この設定がオンの場合、未知の音楽は表示されません。そうでない場合は、音楽名の代わりに「未知の音楽」と表示されます
 		}
 
 		Placement: {
@@ -14,7 +14,7 @@ Configs: {
 
 		AlwaysOn: {
 			Label: 常に表示
-			Tooltip: この設定がオンだとBGMトラックが常に表示されます
+			Tooltip: この設定がオンだと音楽トラックが常に表示されます
 		}
 
 		AlwaysOnOpacity: {
@@ -33,7 +33,11 @@ Configs: {
 
 		TextPlacement: {
 			Label: テキストの位置
-			Tooltip: ""
+			Tooltip:
+				'''
+				音楽トラックの表示位置を変更します
+				表示位置が「カスタム」の場合にのみ機能します
+				'''
 		}
 	}
 
@@ -62,7 +66,13 @@ Configs: {
 	}
 }
 
-CurrentMusic: 現在のBGM:
+CurrentMusic: 現在の音楽:
+
+Errors: {
+	Detected: 無効な音楽トラックが検出されました。Music Displayには、メインテキスト、作者、およびサブタイトルの入力が必要です
+	Info: "音楽トラック情報: {0}、{1}、{2}"
+	Notice: Modが無効な音楽エントリを追加しました！この問題を報告し、ログを確認してください。このエラーはゲーム再開時に一度だけ発生します
+}
 
 TrackNames: {
 
@@ -73,8 +83,8 @@ TrackNames: {
 	OtherworldFrankKlepacki: by Jeff Broadbent、Jonathan van den Wijngaarden、James Hannigan、Frank Klepacki
 	TerrariaName: Terraria
 	OtherworldName: Terraria Otherworld
-	UnknownTrack: (不明なBGM)
-	SampleTrack: サンプルBGM
+	UnknownTrack: (不明な音楽)
+	SampleTrack: サンプル音楽
 	SampleMusician: サンプルの音楽家
 	MusicDisplay: Music Display
 
@@ -130,7 +140,7 @@ TrackNames: {
 		50: 旅の始まり
 		51: 旅の始まり
 		52: 嵐
-		53: 墓地
+		53: 墓場
 		54: 地下ジャングル
 		55: ジャングル 夜
 		56: クイーンスライム
