@@ -230,8 +230,8 @@ VanillaChanges: {
 		'''
 	FishingPotion: フィッシング・パワーが15向上する
 	BuffFishing: フィッシング・パワーが15向上する
-	FlipperPotion: 水中で素早く泳げるようになる
-	BuffFlipper: 水中で素早く泳げるようになる
+	FlipperPotion: 液体内で素早く泳げるようになる
+	BuffFlipper: 液体内で素早く泳げるようになる
 	GillsPotion: 水中で呼吸できるようになる
 	BuffGills: 水中で呼吸できるようになる
 	GravitationPotion:

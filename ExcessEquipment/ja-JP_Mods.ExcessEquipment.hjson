@@ -63,17 +63,17 @@ Items: {
 
 	SpookySword: {
 		DisplayName: 不気味な剣
-		Tooltip: ""
+		Tooltip: 敵を炎上させることがある
 	}
 
 	SpookyHammer: {
 		DisplayName: 不気味なハンマー
-		Tooltip: ""
+		Tooltip: 敵を炎上させることがある
 	}
 
 	SpookyBow: {
 		DisplayName: 不気味な弓
-		Tooltip: ""
+		Tooltip: 木の矢に火をつけて発射する
 	}
 
 	ChlorophyteHookItem: {
@@ -83,7 +83,7 @@ Items: {
 
 	ChlorophyteMachinegun: {
 		DisplayName: クロロファイトのマシンガン
-		Tooltip: ""
+		Tooltip: 33%の確率で弾薬を消費しない
 	}
 
 	BunnyWorkbench: {
@@ -218,7 +218,7 @@ Items: {
 
 	ChlorophyteStaff: {
 		DisplayName: クロロファイトの杖
-		Tooltip: 一度だけ敵を貫通するか、壁で跳ね返る魔法の葉を3枚発射する
+		Tooltip: 一度だけ敵を貫通し、追尾する魔法の葉を3枚発射する
 	}
 
 	PlayerProposesIceWolfDisposes: {
@@ -534,11 +534,6 @@ Items: {
 			'''
 	}
 
-	BrokenBlade: {
-		Tooltip: 「花びらは散らなければならない」
-		DisplayName: 壊れた剣
-	}
-
 	ManaforcePotion: {
 		Tooltip: 最大マナが20増加
 		DisplayName: マナ強化ポーション
@@ -607,13 +602,13 @@ Items: {
 	}
 
 	CursedRocket: {
-		Tooltip: ブロックと壁を破壊しない
+		Tooltip: 小さい爆発が起きる。ブロックと壁を破壊しない
 		DisplayName: 呪炎のロケット
 	}
 
 	IchorRocket: {
 		DisplayName: 霊液のロケット
-		Tooltip: ブロックと壁を破壊しない
+		Tooltip: 小さい爆発が起きる。ブロックと壁を破壊しない
 	}
 
 	CopperWhip: {
@@ -832,44 +827,9 @@ Items: {
 		DisplayName: 木の斧
 	}
 
-	ArmletGold: {
-		DisplayName: 金の腕輪
-		Tooltip: 魔法攻撃で倒した敵が落とすお金が増加
-	}
-
-	ArmletCursedFire: {
-		DisplayName: 呪炎の腕輪
-		Tooltip: 魔法攻撃で攻撃した敵に呪炎を与える
-	}
-
-	ArmletFire: {
-		DisplayName: 炎の腕輪
-		Tooltip: 魔法攻撃で攻撃した敵を炎上させる
-	}
-
-	ArmletIchor: {
-		DisplayName: 霊液の腕輪
-		Tooltip: 魔法攻撃で攻撃した敵に霊液を与える
-	}
-
-	ArmletConfusion: {
-		Tooltip: 魔法攻撃で攻撃した敵を混乱させる
-		DisplayName: 眩惑の腕輪
-	}
-
-	ArmletPoison: {
-		Tooltip: 魔法攻撃で攻撃した敵に毒を与える
-		DisplayName: 毒の腕輪
-	}
-
 	StrengthPotion: {
 		Tooltip: 近接ダメージとノックバックが増加し、近接攻撃速度が上昇
 		DisplayName: 筋力強化ポーション
-	}
-
-	ArmletSlime: {
-		Tooltip: 魔法攻撃で攻撃した敵にスライムを与える
-		DisplayName: スライムの腕輪
 	}
 
 	SpellbookPoison: {
@@ -878,18 +838,13 @@ Items: {
 	}
 
 	SpellbookIcicles: {
-		Tooltip: 地形に当たると跳ね返る氷柱を複数発射する
+		Tooltip: 跳ね返る氷柱を複数発射する
 		DisplayName: アイススプレー
 	}
 
 	SpellbookFireball: {
 		Tooltip: 地形に当たると爆発するファイアボールを発射する
 		DisplayName: ファイアボール
-	}
-
-	ArmletChilly: {
-		DisplayName: 氷の腕輪
-		Tooltip: 魔法攻撃で攻撃した敵の移動速度が低下
 	}
 
 	WireBlockYellow: {
@@ -922,18 +877,8 @@ Items: {
 		Tooltip: 「古代の呪いは含まれていない」
 	}
 
-	ArmletAcid: {
-		DisplayName: 酸性毒の腕輪
-		Tooltip: 魔法攻撃で攻撃した敵に酸性毒を与える
-	}
-
 	MageBlade: {
 		DisplayName: 魔法の剣
-		Tooltip: ""
-	}
-
-	MageBow: {
-		DisplayName: 魔法の弓
 		Tooltip: ""
 	}
 
@@ -1090,7 +1035,7 @@ Items: {
 		DisplayName: 鞭強化ポーション
 		Tooltip:
 			'''
-			鞭の攻撃範囲が10%増加し、鞭の攻撃速度が10%上昇
+			鞭の攻撃範囲とダメージが10%増加
 			「しっかり混ぜて！」
 			'''
 	}
@@ -1218,7 +1163,8 @@ Items: {
 		Tooltip:
 			'''
 			魔法と召喚ダメージが20%増加
-			魔法攻撃速度と鞭の攻撃速度が20%低下
+			魔法攻撃速度と鞭の攻撃速度が20%低下し、
+			最大マナが10減少
 			召喚できるミニオンの数が1体増える
 			'''
 	}
@@ -1372,6 +1318,198 @@ Items: {
 		DisplayName: ボルテックスのジャックソー
 		Tooltip: ""
 	}
+
+
+	CavernCrate: {
+		DisplayName: 洞窟の木箱
+		Tooltip: 右クリックで開く
+	}
+
+	MantleCrate: {
+		DisplayName: 岩石の木箱
+		Tooltip: 右クリックで開く
+	}
+
+	MushroomCrate: {
+		DisplayName: キノコの箱
+		Tooltip: 右クリックで開く
+	}
+
+	MyceliumCrate: {
+		DisplayName: 菌糸の箱
+		Tooltip: 右クリックで開く
+	}
+
+	Heartstone: {
+		Tooltip: 永久に最大ライフを20増加
+		DisplayName: ハートストーン
+	}
+
+	Starheart: {
+		DisplayName: スターハート
+		Tooltip: 永久に最大ライフとマナを20増加
+	}
+
+	VultureStatue: {
+		Tooltip: ""
+		DisplayName: ハゲワシの石像
+	}
+
+	FlinxStatue: {
+		Tooltip: ""
+		DisplayName: フリンクスの石像
+	}
+
+	CrimsonStatue: {
+		Tooltip: ""
+		DisplayName: 真紅の石像
+	}
+
+	BookStatue: {
+		Tooltip: ""
+		DisplayName: 本の石像
+	}
+
+	GoldenVase: {
+		Tooltip: ""
+		DisplayName: 黄金の花瓶
+	}
+
+	SeahorseStatue: {
+		Tooltip: ""
+		DisplayName: タツノオトシゴの石像
+	}
+
+	FairyStatye: {
+		Tooltip: ""
+		DisplayName: フェアリーの石像
+	}
+
+	LihzahrdVase: {
+		Tooltip: ""
+		DisplayName: リザードの花瓶
+	}
+
+	LihzahrdColumn: {
+		Tooltip: ""
+		DisplayName: リザードの柱
+	}
+
+	PraiseTheSun: {
+		Tooltip: 「C.リストロン」
+		DisplayName: 絵画『太陽を讃えよ』
+	}
+
+	SurfaceBox: {
+		Tooltip: ""
+		DisplayName: 地上の箱
+	}
+
+	MartianRemote: {
+		Tooltip: 火星の侵攻を発生させる
+		DisplayName: 遭難した火星のビーコン
+	}
+
+	MothFish: {
+		Tooltip: 地下ジャングルで釣れる
+		DisplayName: モスフィッシュ
+		CatchLocation: 地下ジャングルで釣れる
+		Description: この前、ジャングルの水面にすごく綺麗なモスが映っているのを見かけたんだ。でもよく見たら、実は魚だったんだよ！きっと巨大なモスと同じくらい珍しくて価値があるはずだから、キミに捕まえてきてほしいんだ！
+	}
+
+	AntlionSwimmer: {
+		Tooltip: 地下砂漠で釣れる
+		DisplayName: アントリオンスワーナー
+		CatchLocation: 地下砂漠で釣れる
+		Description: もしアントリオンが水中で卵を産んだら、水中で呼吸できるアントリオンが孵化することもあるんだ！つまり、それは魚じゃなくて虫ってことなんだけど……そんなのどうでもいい！それが欲しいから、ボクの所に持って来てよ！
+	}
+
+	LavaLamprey: {
+		Tooltip: 溶岩で釣れる
+		DisplayName: ラヴァランプレイ
+		CatchLocation: 溶岩で釣れる
+		Description: もし溶岩の中に住む魚がいるなら、肉食の溶岩の魚だっているはずだよね？その通り！温かそうで愛らしい見た目の何かが泳ぎ回って、ボクの溶岩の魚をみんな食べちゃってるんだ。何とかしてくれないか？
+	}
+
+	RuneFire: {
+		DisplayName: 炎のルーン
+		Tooltip: 魔法攻撃で攻撃した敵を炎上させる
+	}
+
+	RuneAcid: {
+		DisplayName: 酸性毒のルーン
+		Tooltip: 魔法攻撃で攻撃した敵に酸性毒を与える
+	}
+
+	RuneConfusion: {
+		DisplayName: 眩惑のルーン
+		Tooltip: 魔法攻撃で攻撃した敵を混乱させる
+	}
+
+	RuneCursedFire: {
+		DisplayName: 呪炎のルーン
+		Tooltip: 魔法攻撃で攻撃した敵に呪炎を与える
+	}
+
+	RuneFrost: {
+		DisplayName: 氷のルーン
+		Tooltip: 魔法攻撃で攻撃した敵の移動速度が低下
+	}
+
+	RuneIchor: {
+		DisplayName: 霊液のルーン
+		Tooltip: 魔法攻撃で攻撃した敵に霊液を与える
+	}
+
+	RuneMidas: {
+		DisplayName: 金のルーン
+		Tooltip: 魔法攻撃で倒した敵が落とすお金が増加
+	}
+
+	RunePoison: {
+		DisplayName: 毒のルーン
+		Tooltip: 魔法攻撃で攻撃した敵に毒を与える
+	}
+
+	RuneSlime: {
+		DisplayName: スライムのルーン
+		Tooltip: 魔法攻撃で攻撃した敵にスライムを与える
+	}
+
+	HoneyWall: {
+		Tooltip: ""
+		DisplayName: 蜂蜜の壁
+	}
+
+	FairyStatue: {
+		Tooltip: ""
+		DisplayName: フェアリーの石像
+	}
+
+	DemoniteStaff: {
+		Tooltip: ""
+		DisplayName: シャドウキャスト
+	}
+
+	CrimtaneStaff: {
+		DisplayName: エクスサンギネーター
+		Tooltip: ""
+	}
+
+	VortexCannon: {
+		Tooltip: 開発中、チートを使用しないと入手できない
+		DisplayName: ボルテックスキャノン
+	}
+
+	HallowedJackhammer: {
+		Tooltip: デーモンアルターを破壊できる
+		DisplayName: フラックハンマー
+	}
+
+	Drillsaw: {
+		Tooltip: リザードのレンガの採掘が可能
+		DisplayName: ドリルソー
+	}
 }
 
 Projectiles: {
@@ -1458,6 +1596,10 @@ Projectiles: {
 	NebulaJacksawProjectile.DisplayName: ネビュラのジャックソー
 	StardustJacksawProjectile.DisplayName: スターダストのジャックソー
 	VortexJacksawProjectile.DisplayName: ボルテックスのジャックソー
+	DemoniteStaffProjectile.DisplayName: デモナイトの杖
+	CrimtaneStaffProjectile.DisplayName: クリムタンの杖
+	HallowedJackhammerProjectile.DisplayName: フラックハンマー
+	DrillsawProjectile.DisplayName: ドリルソー
 }
 
 Tiles: {
@@ -1497,6 +1639,10 @@ Tiles: {
 	HeartBanner.MapEntry: ハートのバナー
 	StarBanner.MapEntry: 星のバナー
 	TreeBanner.MapEntry: 木のバナー
+	CavernCrate.MapEntry: 洞窟の木箱
+	MantleCrate.MapEntry: 岩石の木箱
+	MushroomCrate.MapEntry: キノコの箱
+	MyceliumCrate.MapEntry: 菌糸の箱
 }
 
 Buffs: {
@@ -1587,7 +1733,7 @@ Buffs: {
 
 	WhippingBuff: {
 		DisplayName: 鞭強化
-		Description: 鞭の攻撃範囲が10%増加し、鞭の攻撃速度が10%上昇
+		Description: 鞭の攻撃範囲とダメージが10%増加
 	}
 
 	GentleBuff: {
@@ -1599,4 +1745,51 @@ Buffs: {
 		Description: ノックバックと移動を阻害するデバフを無効化
 		DisplayName: 稼働
 	}
+
+	MagicImbueFire: {
+		Description: 魔法攻撃で攻撃した敵を炎上させる
+		DisplayName: 炎魔法付与
+	}
+
+	MagicImbueAcid: {
+		DisplayName: 酸性毒魔法付与
+		Description: 魔法攻撃で攻撃した敵に酸性毒を与える
+	}
+
+	MagicImbueConfusion: {
+		DisplayName: 混乱魔法付与
+		Description: 魔法攻撃で攻撃した敵を混乱させる
+	}
+
+	MagicImbueCursedFire: {
+		DisplayName: 呪炎魔法付与
+		Description: 魔法攻撃で攻撃した敵に呪炎を与える
+	}
+
+	MagicImbueFrost: {
+		DisplayName: 氷魔法付与
+		Description: 魔法攻撃で攻撃した敵の移動速度が低下
+	}
+
+	MagicImbueIchor: {
+		DisplayName: 霊液魔法付与
+		Description: 魔法攻撃で攻撃した敵に霊液を与える
+	}
+
+	MagicImbueMidas: {
+		DisplayName: 金増加魔法付与
+		Description: 魔法攻撃で倒した敵が落とすお金が増加
+	}
+
+	MagicImbuePoison: {
+		DisplayName: 毒魔法付与
+		Description: 魔法攻撃で攻撃した敵に毒を与える
+	}
+
+	MagicImbueSlime: {
+		DisplayName: スライム魔法付与
+		Description: 魔法攻撃で攻撃した敵にスライムを与える
+	}
 }
+
+FishingPlayer.Wrong: Mods.ExcessEquipment.FishingPlayer.Wrong

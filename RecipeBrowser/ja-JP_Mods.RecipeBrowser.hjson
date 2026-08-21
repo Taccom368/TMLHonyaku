@@ -366,7 +366,7 @@ HelpUI: {
 	CategoriesSubCategoriesSortsAndFilters:
 		'''
 		[c/{0}:Categories, Sub Categories, Sorts, and Filters]
-		    レシピパネルとアイテムパネルには、アイテムやレシピをフィルタリングおよびソートする方法が多数あります。ツールチップやアイテム名を検索するために入力でき、[image:RecipeBrowser/Images/filterMod]ボタンでソースModごとにフィルタリングできます。[image:RecipeBrowser/Images/Help/Item_2430]や[image:RecipeBrowser/Images/Help/Item_54]などのカテゴリをクリックしてカテゴリ別にフィルタリングも可能です。一部カテゴリにはサブカテゴリがあります。2行目には[image:RecipeBrowser/Images/sortValue]や[image:RecipeBrowser/Images/sortAZ]などのさまざまなソートがあります。また、[image:RecipeBrowser/Images/Help/Item_531]のようなフィルターもあります。多くのソートやフィルターは特定のカテゴリ内でしか表示されません。弾薬フィルターのような一部のフィルターは複数のオプションを切り替えます。これらのフィルターでは、左右クリックで前後に移動し、中クリックでフィルターをクリアします。
+		    レシピパネルとアイテムパネルには、アイテムやレシピをフィルタリングおよびソートする方法が多数あります。ツールチップやアイテム名を検索するために入力でき、[image:RecipeBrowser/Images/filterMod]ボタンでソースModごとにフィルタリングできます。[image:RecipeBrowser/Images/Help/Item_2430]や[image:RecipeBrowser/Images/Help/Item_54]などのカテゴリをクリックしてカテゴリ別にフィルタリングも可能です。一部カテゴリにはサブカテゴリがあります。2行目には[image:RecipeBrowser/Images/sortValue]や[image:RecipeBrowser/Images/sortAZ]などのさまざまなソートがあります。また、[image:RecipeBrowser/Images/Help/Item_531]のようなフィルターもあります。多くのソートやフィルターは特定のカテゴリ内でしか表示されません。弾薬フィルターのような一部のフィルターは複数のオプションを切り替えます。これらのフィルターでは、左右クリックで前後に移動し、ミドルクリックでフィルターをクリアします。
 		[image:RecipeBrowser/Images/Help/sortsExplanation_en-US]
 		'''
 	ItemChecklistIntegration:

@@ -1,3 +1,5 @@
+Conditions.DownedCoralShellerBroodmother: マザーコーラルシェラーを倒した後
+
 Items: {
 	TunnelRatHead: {
 		DisplayName: トンネルラットの兜
@@ -17,35 +19,35 @@ Items: {
 	}
 
 	CrimsonAnarchyHead: {
-		DisplayName: クリムゾンアナーキーの兜
+		DisplayName: 真紅のアナーキーの兜
 		Tooltip: 爆発範囲が4%拡大
 		SetBonus: 爆発が当たると、ライフを吸収する [c/FF0000:(2秒のクールダウン)]
 	}
 
 	CorruptedAnarchyHead: {
-		DisplayName: コラプトアナーキーの兜
+		DisplayName: 不浄のアナーキーの兜
 		Tooltip: 爆発範囲が4%拡大
 		SetBonus: 爆発が当たると、ライフを吸収する [c/FF0000:(2秒のクールダウン)]
 	}
 
 	CrimsonAnarchyBody: {
-		DisplayName: クリムゾンアナーキーの胸当て
+		DisplayName: 真紅のアナーキーの胸当て
 		Tooltip: 爆発ダメージが2%増加
 		
 	}
 
 	CorruptedAnarchyBody: {
-		DisplayName: コラプトアナーキーの胸当て
+		DisplayName: 不浄のアナーキーの胸当て
 		Tooltip: 爆発ダメージが2%増加
 	}
 
 	CrimsonAnarchyLegs: {
-		DisplayName: クリムゾンアナーキーのレギンス
+		DisplayName: 真紅のアナーキーのレギンス
 		Tooltip: 爆発範囲が2%拡大	
 	}
 
 	CorruptedAnarchyLegs: {
-		DisplayName: コラプトアナーキーのレギンス
+		DisplayName: 不浄のアナーキーのレギンス
 		Tooltip: 爆発範囲が2%拡大
 	}
 
@@ -286,7 +288,7 @@ Items: {
 
 	LihzahrdBombardHead: {
 		DisplayName: リザードの爆撃手の兜
-		SetBonus: 敵を追尾するミサイルを発射して攻撃するトカゲドローンを呼び出す
+		SetBonus: 敵を追尾するミサイルを発射して攻撃するリザードのドローンを呼び出す
 		Tooltip:
 			'''
 			爆発範囲が11%拡大
@@ -337,6 +339,12 @@ Items: {
 			爆発範囲が15%拡大
 			爆発クリティカル率が11%上昇
 			30%の確率で弾薬を消費しない
+			'''
+		SetBonus:
+			'''
+
+			[{0}]で爆発が起きる
+			爆発の状態: {1}
 			'''
 	}
 
@@ -479,12 +487,12 @@ Items: {
 	}
 
 	ChemicalNotes: {
-		DisplayName: 化学について書かれたページ
+		DisplayName: 化学についてのメモ
 		Tooltip: 爆発クリティカル率が15%上昇
 	}
 
 	ResourcefulNotes: {
-		DisplayName: 工夫について書かれたページ
+		DisplayName: 工夫についてのメモ
 		Tooltip:
 			'''
 			爆発ダメージが2%増加
@@ -494,19 +502,19 @@ Items: {
 	}
 
 	SafetyNotes: {
-		DisplayName: 安全について書かれたページ
+		DisplayName: 安全についてのメモ
 		Tooltip:
 			'''
 			爆発範囲が4%拡大
 			爆発ダメージが1%増加
 			爆発の自爆ダメージを50%軽減
-			地雷があなたの周囲を旋回する
+			地雷があなたの周囲を周回する
 			作動中の地雷はダメージが3倍
 			'''
 	}
 
 	StatisticsNotes: {
-		DisplayName: 統計について書かれたページ
+		DisplayName: 統計についてのメモ
 		Tooltip:
 			'''
 			爆発範囲が18%拡大
@@ -516,7 +524,7 @@ Items: {
 	}
 
 	UtilityNotes: {
-		DisplayName: 使い方について書かれたページ
+		DisplayName: 使い方についてのメモ
 		Tooltip:
 			'''
 			爆発ダメージが4%増加
@@ -529,10 +537,11 @@ Items: {
 		DisplayName: 地雷のリモコン
 		Tooltip:
 			'''
-			爆発ダメージが1%増加
-			地雷があなたの周囲を旋回する
+			爆発ダメージが5%増加
+			地雷があなたの周囲を周回する
 			作動中の地雷はダメージが3倍
 			'''
+		MineTooltip: 地雷のクールダウン: {0}
 	}
 
 	AnarchistCookbook: {
@@ -548,8 +557,10 @@ Items: {
 			爆発物がノヴァ爆発を追加で起こす [c/FF0000:(6秒のクールダウン)]
 			爆発が当たると、ノヴァグレネードを発射する [c/FF0000:(3秒のクールダウン)]
 			ノヴァマインがあなたの周囲を旋回する
-			作動中の地雷は、ダメージが3倍
+			作動中の地雷はダメージが3倍
 			'''
+		CannotEquip: メモやその素材と一緒に装備できない
+		MineTooltip: 地雷のクールダウン: {0}
 	}
 
 	DemolisherEmblem: {
@@ -621,7 +632,7 @@ Items: {
 			'''
 			ロケットを手蜂弾に変換する
 			手蜂弾を3つ発射する
-			10%の確率で弾薬を消費しない
+			10%の確率でロケットを消費しない
 			弾薬としてロケットを使用する
 			'''
 	}
@@ -630,7 +641,7 @@ Items: {
 		DisplayName: タクティカルボーンライフル
 		Tooltip:
 			'''
-			左クリックで爆発弾を発射し、
+			左クリックで爆発弾を撃ち、
 			右クリックでグレネードを発射する
 			20%の確率で弾薬を消費しない
 			弾薬としてロケットや爆発弾を使用する
@@ -675,9 +686,11 @@ Items: {
 	}
 
 	DeepseaEruption: {
-		DisplayName: ディープシーエラプション
+		DisplayName: ディープシーイラプション
 		Tooltip:
 			'''
+			古びたロケット弾、ロケット弾 0、ロケット弾 Iを爆発時に複数の泡をばら撒く、
+			深海のグレネードに変換する
 			5点バーストでグレネードを発射
 			初弾のみロケットを消費
 			弾薬としてロケットを使用する
@@ -698,7 +711,7 @@ Items: {
 		DisplayName: サイレントクリケット
 		Tooltip:
 			'''
-			敵か地形に当たると電撃の爆発を起こすレーザーを発射する
+			敵か地形に当たると電撃の爆発が起きるレーザーを発射する
 			弾薬としてロケットを使用する
 			'''
 	}
@@ -767,37 +780,37 @@ Items: {
 	}
 
 	CaptainMusicBoxItem: {
-		DisplayName: フォールボムのオルゴール (キャプテン・エクスプローシブ)
+		DisplayName: オルゴール (エクスプローシブ船長)
 		Tooltip: ""
 	}
 
 	CaptainTreasureBag: {
-		DisplayName: トレジャーバッグ (キャプテン・エクスプローシブ)
+		DisplayName: トレジャーバッグ (エクスプローシブ船長)
 		Tooltip: 右クリックで開く
 	}
 
 	CaptainRelicItem: {
-		DisplayName: キャプテン・エクスプローシブのレリック
+		DisplayName: エクスプローシブ船長のレリック
 		Tooltip: ""
 	}
 
 	BombCloak: {
-		DisplayName: ボムクローク
+		DisplayName: 爆弾のマント
 		Tooltip: 敵に接触すると爆発する
 	}
 
 	UnhingedLetter: {
 		DisplayName: 狂った手紙
-		Tooltip: キャプテン・エクスプローシブを召喚する
+		Tooltip: エクスプローシブ船長を召喚する
 	}
 
 	CaptainBossMask: {
-		DisplayName: キャプテン・エクスプローシブのマスク
+		DisplayName: エクスプローシブ船長のマスク
 		Tooltip: ""
 	}
 
 	CaptainTrophyItem: {
-		DisplayName: キャプテン・エクスプローシブのトロフィー
+		DisplayName: エクスプローシブ船長のトロフィー
 		Tooltip: ""
 	}
 
@@ -896,8 +909,8 @@ Items: {
 	}
 
 	TombGrenadeItem: {
-		DisplayName: トゥームグレネード
-		Tooltip: ブロックを破壊しない小さな爆発を起こす
+		DisplayName: 墓のグレネード
+		Tooltip: 爆発時、爆発範囲に応じてサイズが変化し、長時間残る小さな砂嵐が発生する
 	}
 
 	C4Item: {
@@ -929,8 +942,8 @@ Items: {
 		DisplayName: ヘルストーングレネード
 		Tooltip:
 			'''
-			ブロックを破壊しない小さな爆発を起こす
-			敵を炎上させる爆発が起きる
+			爆発時、複数のファイアボールをばら撒き、
+			敵を炎上させる
 			'''
 	}
 
@@ -967,7 +980,7 @@ Items: {
 		DisplayName: リザードグレネード
 		Tooltip:
 			'''
-			ブロックを破壊しない大きな爆発を起こす
+			爆発時、複数の火花とファイアボールをばら撒き、
 			敵を炎上させる
 			'''
 	}
@@ -978,7 +991,7 @@ Items: {
 	}
 
 	SlimeBlaster: {
-		DisplayName: スライムブラスター
+		DisplayName: スライムグレネードランチャー
 		Tooltip: 弾薬としてロケットを使用する
 	}
 
@@ -994,10 +1007,10 @@ Items: {
 	}
 
 	PrimeBombItem: {
-		DisplayName: プライムコア
+		DisplayName: プライムボム
 		Tooltip:
 			'''
-			ほとんどのブロックを破壊できる大きな爆発を起こす
+			ほとんどのブロックを破壊できる小さな爆発を起こす
 			消費しない
 			'''
 	}
@@ -1036,8 +1049,12 @@ Items: {
 	}
 
 	TheCrystalClatter: {
-		DisplayName: クリスタルクラッター
-		Tooltip: 弾薬として砲丸を使用する
+		DisplayName: クリスタルキャノン
+		Tooltip:
+			'''	
+			敵を複数貫通し、地形に当たると跳ね返るクリスタルの砲丸を発射する
+			弾薬として砲丸を使用する
+			'''
 	}
 
 	Trashcannon: {
@@ -1062,6 +1079,7 @@ Items: {
 		DisplayName: リザードの感知地雷ランチャー
 		Tooltip:
 			'''
+			地雷が爆発時、火花とファイアボールをばら撒き、敵を炎上させる
 			地雷は起爆すると3倍のダメージを与える
 			弾薬としてロケットを使用する
 			'''
@@ -1089,12 +1107,12 @@ Items: {
 
 	BombChairItem: {
 		DisplayName: 爆弾のイス
-		Tooltip: 「ここに座りながら、できるだけ多くのキャンドルを扱ってください」 - キャプテン・エクスプローシブ
+		Tooltip: 「ここに座りながら、できるだけ多くのキャンドルを扱ってください」 - エクスプローシブ船長
 	}
 
 	BombBannerItem: {
 		DisplayName: 爆弾のバナー
-		Tooltip: 「あなたは本当にこれを獲得したわけではない。」 - キャプテン・エクスプローシブ
+		Tooltip: 「あなたは本当にこれを獲得したわけではない」 - エクスプローシブ船長
 	}
 
 	NukeTheCorruptionItem: {
@@ -1104,7 +1122,7 @@ Items: {
 
 	BombShelfItem: {
 		DisplayName: 爆弾の棚
-		Tooltip: 「キャプテン・エクスプローシブは、他の誰かがこれを持っていると知ったら激怒するだろう！」
+		Tooltip: 「エクスプローシブ船長は、他の誰かがこれを持っていると知ったら激怒するだろう！」
 	}
 
 	BombStorageItem: {
@@ -1149,7 +1167,7 @@ Items: {
 		DisplayName: レベラー
 		Tooltip:
 			'''
-			横100マス、高さ5マスのブロックを破壊できる爆発を起こす
+			横200マス、高さ10マスのブロックを破壊できる爆発を起こす
 			平らな面に張り付く
 			'''
 	}
@@ -1205,7 +1223,7 @@ Items: {
 	}
 
 	CaptainStatueItem: {
-		DisplayName: キャプテン・エクスプローシブの像
+		DisplayName: エクスプローシブ船長の像
 		Tooltip: 「彼はいつも正しい方向を見ていた…」
 	}
 
@@ -1353,7 +1371,7 @@ Items: {
 			'''
 			弾速の早いグレネードを3発発射する
 			弾薬としてロケットを使用する
-			20%の確率で弾薬を消費しない
+			20%の確率でロケットを消費しない
 			'''
 	}
 
@@ -1361,9 +1379,8 @@ Items: {
 		DisplayName: ノヴァ爆発アサルトライフル
 		Tooltip:
 			'''
-			敵を炎上させる
 			弾薬として爆発弾を使用する
-			33%の確率で弾薬を消費しない
+			33%の確率で爆発弾を消費しない
 			'''
 	}
 
@@ -1392,20 +1409,22 @@ Items: {
 		Tooltip:
 			'''
 			3点バースト
-			初弾のみ弾薬を消費
+			初弾のみ爆発弾を消費
 			弾薬として爆発弾を使用する
-			10%の確率で弾薬を消費しない
+			10%の確率で爆発弾を消費しない
 			'''
 	}
 
 	HallowedPopper: {
-		DisplayName: ホーリーポッパー
+		DisplayName: 聖なる爆発アサルトライフル
 		Tooltip:
 			'''
+			地形に当たると跳ね返り、爆発時に爆発範囲に応じて、
+			サイズが変化する泡をばら撒く爆発弾を撃つ
 			3点バースト
-			初弾のみ弾薬を消費
+			初弾のみ爆発弾を消費
 			弾薬として爆発弾を使用する
-			33%の確率で弾薬を消費しない
+			33%の確率で爆発弾を消費しない
 			'''
 	}
 
@@ -1413,24 +1432,24 @@ Items: {
 		DisplayName: ブームベリースリンガー
 		Tooltip:
 			'''
-			ブームベリーバレットを発射する
-			ブームベリーバレットは敵か地形に当たると爆発し、ブームベリーをばら撒く
+			敵か地形に当たると爆発し、ブームベリーをばら撒くブームベリーバレットを撃つ
 			ブームベリーは敵と地形に張り付く
 			4点バースト
-			初弾のみ弾薬を消費
+			初弾のみ爆発弾を消費
 			弾薬として爆発弾を使用する
-			15%の確率で弾薬を消費しない
+			15%の確率で爆発弾を消費しない
 			'''
 	}
 
 	LihzahrdPopper: {
-		DisplayName: リザードポッパー
+		DisplayName: リザードの爆発アサルトライフル
 		Tooltip:
 			'''
+			爆発時、火花とファイアボールをばら撒く爆発弾を撃つ
 			3点バースト
-			初弾のみ弾薬を消費
+			初弾のみ爆発弾を消費
 			弾薬として爆発弾を使用する
-			20%の確率で弾薬を消費しない
+			20%の確率で爆発弾を消費しない
 			'''
 	}
 
@@ -1497,7 +1516,6 @@ Items: {
 			'''
 			砲丸を3発連続して発射する
 			弾薬として砲丸を使用する
-			敵を炎上させる
 			'''
 	}
 
@@ -1507,7 +1525,6 @@ Items: {
 			'''
 			地雷は起爆すると3倍のダメージを与える
 			弾薬としてロケットを使用する
-			敵を炎上させる
 			'''
 	}
 
@@ -1525,7 +1542,6 @@ Items: {
 		Tooltip:
 			'''
 			直撃させるとダメージが増加
-			敵を炎上させる
 			弾薬としてロケットを使用する
 			'''
 	}
@@ -1548,19 +1564,19 @@ Items: {
 		DisplayName: ヘルファイアキャノン
 		Tooltip:
 			'''
-			砲丸をヘルストーンキャノンボールに変換する
+			ヘルストーンの砲丸とファイアボール2発を同時に発射する
 			弾薬として砲丸を使用する
 			'''
 	}
 
 	UnholyProximityRifle: {
-		DisplayName: アンホーリープロクシミティライフル
+		DisplayName: 不浄の感知地雷ライフル
 		Tooltip:
 			'''
 			爆発弾をヘルストーンの爆発弾に変換し、
-			ロケットをヘルストーンの近接地雷に変換する
-			左クリックで爆発弾を発射し
-			右クリックで近接地雷を発射する
+			ロケットをヘルストーンの感知地雷に変換する
+			左クリックで爆発弾を撃ち、
+			右クリックで感知地雷を発射する
 			10%の確率で弾薬を消費しない
 			弾薬としてロケットや爆発弾を使用する
 			'''
@@ -1579,6 +1595,8 @@ Items: {
 		DisplayName: アビサルランチャー
 		Tooltip:
 			'''
+			古びたロケット弾、ロケット弾 0、ロケット弾 Iを爆発時に複数の泡をばら撒く、
+			深海のロケットに変換する
 			直撃させるとダメージが増加
 			5点バースト
 			初弾のみロケットを消費
@@ -1587,10 +1605,10 @@ Items: {
 	}
 
 	HellstoneCannonballAmmo: {
-		DisplayName: ヘルストーンキャノンボール
+		DisplayName: ヘルストーンの砲丸
 		Tooltip:
 			'''
-			小さい爆発が起きる。ブロックと壁を破壊しない
+			大爆発が起きる。ブロックと壁を破壊しない
 			敵を炎上させる
 			'''
 	}
@@ -1599,8 +1617,7 @@ Items: {
 		DisplayName: ベリーバラージ
 		Tooltip:
 			'''
-			ブームベリーロケットを発射する
-			ブームベリーロケットは敵か地形に当たると爆発し、ブームベリーをばら撒く
+			敵か地形に当たると爆発し、ブームベリーをばら撒くブームベリーロケットを発射する
 			ブームベリーは敵と地形に張り付く
 			直撃させるとダメージが増加
 			弾薬としてロケットを使用する
@@ -1633,20 +1650,28 @@ Items: {
 
 	UniLauncher: {
 		DisplayName: ユニランチャー
-		Tooltip: 弾薬としてロケットを使用する
+		Tooltip:
+			'''
+			ユニコーンのグレネードを発射する
+			弾薬としてロケットを使用する
+			'''
 	}
 
 	CurseOfSet: {
 		DisplayName: カースオブセット
-		Tooltip: 弾薬としてロケットを使用する
+		Tooltip:
+			'''
+			爆発時、爆発範囲に応じてサイズが変化し、長時間残る小さな砂嵐が発生する、
+			墓のグレネードを発射する
+			弾薬としてロケットを使用する
+			'''
 	}
 
 	MycelialCannon: {
 		DisplayName: マイシーリアルロケットランチャー
 		Tooltip:
 			'''
-			キノコロケットを発射する
-			キノコロケットは爆発時に胞子を複数ばら撒く
+			爆発時、胞子を複数ばら撒くキノコロケットを発射する
 			直撃させるとダメージが増加
 			弾薬としてロケットを使用する
 			'''
@@ -1656,6 +1681,7 @@ Items: {
 		DisplayName: オブリタレーションオベリスク
 		Tooltip:
 			'''
+			敵を複数貫通するオベリスクのロケットを発射する
 			直撃させるとダメージが増加
 			弾薬としてロケットを使用する
 			'''
@@ -1665,7 +1691,7 @@ Items: {
 		DisplayName: ブラックボックス
 		Tooltip:
 			'''
-			敵に75ダメージを与えるごとにライフが1回復する(最大5まで)
+			敵に75ダメージを与えるごとにライフが1回復する(最大で5まで)
 			複数の敵に当たった場合、回復は発射物ごとに一度だけ適用される
 			ロケットをブラックボックスロケットに変換し、ロケットジャンプに使用できる
 			直撃させるとダメージが増加
@@ -1677,11 +1703,12 @@ Items: {
 		DisplayName: ゼノキャノン
 		Tooltip:
 			'''
-			砲丸をゼノキャノンボールに変換する
 			ゼノキャノンボールはカーソルを追尾し、カーソルに到達すると、右クリックするまで停止する
-			右クリックで動かすことができ、右クリックを離すと速度に応じた物理法則に従って動く
+			右クリックで動かすことができ、右クリックを離すと速度に応じた物理法則に従って動き、
+			爆発時に火花を複数ばら撒く
 			制御できる数は25発までで、一度だけ制御できる
-			弾薬として砲丸を使用する
+			[c/9B59FF:プロのヒント：左クリックと右クリックを同時に押すと、ゼノキャノンボールを瞬時に制御できる]
+			[c/9B59FF:大量の砲撃を素早く構築するのに最適]
 			'''
 	}
 
@@ -1691,7 +1718,10 @@ Items: {
 			'''
 			カーソルを追尾し、カーソルに到達すると、右クリックするまで停止する
 			右クリックで動かすことができ、右クリックを離すと速度に応じた物理法則に従って動く
+			爆発時に火花を複数ばら撒く			
 			制御できる数は25発までで、一度だけ制御できる
+			[c/9B59FF:プロのヒント：左クリックと右クリックを同時に押すと、ゼノキャノンボールを瞬時に制御できる]
+			[c/9B59FF:大量の砲撃を素早く構築するのに最適]
 			'''
 	}
 
@@ -1699,8 +1729,7 @@ Items: {
 		DisplayName: ファンガルフロスト
 		Tooltip:
 			'''
-			キノコスノーマンロケットを発射する
-			キノコスノーマンロケットは敵を追尾し、爆発時に胞子を複数ばら撒く
+			敵を追尾し、爆発時、胞子を複数ばら撒くキノコスノーマンロケットを発射する
 			弾薬としてロケットを使用する
 			'''
 	}
@@ -1733,10 +1762,11 @@ Items: {
 	}
 
 	BlazingBlizzard: {
-		DisplayName: ブレイジングブリザード
+		DisplayName: ヘルストーンのスノーマンキャノン
 		Tooltip:
 			'''
 			ロケットをヘルストーンスノーマンロケットに変換する
+			ヘルストーンスノーマンロケットとファイアボールを同時に発射する
 			弾薬としてロケットを使用する
 			'''
 	}
@@ -1751,10 +1781,11 @@ Items: {
 	}
 
 	ElevatedFrost: {
-		DisplayName: エレヴェイテッドフロスト
+		DisplayName: エレヴェイテッドスノーマンキャノン
 		Tooltip:
 			'''
-			敵を追尾するミサイルを発射する
+			敵を追尾し、爆発時に嵐を発生させるミサイルを発射する
+			爆発範囲に応じて嵐のサイズが変換する
 			弾薬としてロケットを使用する
 			'''
 	}
@@ -1784,7 +1815,6 @@ Items: {
 			'''
 			敵を追尾するミサイルを発射する
 			スノーマンロケットを3発連続で発射する
-			敵を炎上させる
 			弾薬としてロケットを使用する
 			'''
 	}
@@ -1838,8 +1868,8 @@ Items: {
 	}
 
 	CoralShellerBanner: {
-		DisplayName: コーラルシェラーのバナー
-		Tooltip: 近くのモンスターに対してボーナスを得る: コーラルシェラー
+		DisplayName: 幼体のコーラルシェラーのバナー
+		Tooltip: 近くのモンスターに対してボーナスを得る: 幼体のコーラルシェラー
 	}
 
 	ObsidianShellerBanner: {
@@ -1849,14 +1879,19 @@ Items: {
 
 	BoomThrobber: {
 		DisplayName: ブームスロバー
-		Tooltip: 弾薬としてロケットを使用する
+		Tooltip:
+			'''
+			時間とともに大きくなる、脈動するロケットを発射する
+			弾薬としてロケットを使用する
+			「どういうわけか、真紅のverは常に通常のより劣っている」
+			'''
 	}
 
 	VileLobber: {
 		DisplayName: ヴァイルロバー
 		Tooltip:
 			'''
-			地雷は起爆すると3倍のダメージを与える
+			爆発時、カースボールを2つばら撒くヴァイルグレネードを発射する
 			弾薬としてロケットを使用する
 			'''
 	}
@@ -1865,7 +1900,7 @@ Items: {
 		DisplayName: シェラー
 		Tooltip:
 			'''
-			左クリックで爆発弾を発射し、
+			左クリックで爆発弾を撃ち、
 			右クリックでグレネードを発射する
 			25%の確率で弾薬を消費しない
 			弾薬としてロケットや爆発弾を使用する
@@ -1892,7 +1927,7 @@ Items: {
 			'''
 			爆発弾を蜂の爆発弾に変換し、
 			ロケットをビーグレネードに変換する
-			左クリックで爆発弾を発射し、
+			左クリックで爆発弾を撃ち、
 			右クリックでグレネードを発射する
 			15%の確率で弾薬を消費しない
 			弾薬としてロケットや爆発弾を使用する
@@ -1927,7 +1962,7 @@ Items: {
 	}
 
 	ScottishResistanceStickybombAmmo: {
-		DisplayName: 棘付き粘着爆弾
+		DisplayName: トゲ付き粘着爆弾
 		Tooltip:
 			'''
 			接触時と爆発時にダメージを与える
@@ -1940,13 +1975,13 @@ Items: {
 	}
 
 	RadiantPummeler: {
-		DisplayName: レイディアントパメラ―
+		DisplayName: エンプレスの爆発ライフル
 		Tooltip:
 			'''
 			爆発弾をシマーの爆発弾に変換し、
-			ロケットをシマーの近接地雷に変換する
-			左クリックで爆発弾を発射し
-			右クリックで近接地雷を発射する
+			ロケットをシマーの感知地雷に変換する
+			左クリックで爆発弾を撃ち、
+			右クリックで感知地雷を発射する
 			30%の確率で弾薬を消費しない
 			弾薬としてロケットや爆発弾を使用する
 			'''
@@ -1968,7 +2003,7 @@ Items: {
 			'''
 			爆発する弾丸を血塗れの爆発弾に変換し、
 			ロケットを血塗れのグレネードに変換する
-			左クリックで爆発弾を発射し、
+			左クリックで爆発弾を撃ち、
 			右クリックでグレネードを発射する
 			22%の確率で弾薬を消費しない
 			弾薬としてロケットや爆発弾を使用する
@@ -2036,7 +2071,7 @@ Items: {
 	}
 
 	ExtraSpikedStickybombAmmo: {
-		DisplayName: 強化棘付き粘着爆弾
+		DisplayName: 強化トゲ付き粘着爆弾
 		Tooltip:
 			'''
 			接触時と爆発時にダメージを与える
@@ -2052,14 +2087,19 @@ Items: {
 		DisplayName: スコットランドレジスタンス
 		Tooltip:
 			'''
-			棘付き粘着爆弾を使うとダメージが増加
+			トゲ付き粘着爆弾を使うとダメージが増加
 			弾薬として粘着爆弾を使用する
 			'''
 	}
 
 	TombTrapper: {
 		DisplayName: トゥームトラッパー
-		Tooltip: 弾薬として粘着爆弾を使用する
+		Tooltip:
+			'''
+			爆発時、爆発範囲に応じてサイズが変化し、長時間残る小さな砂嵐が発生する、
+			墓の粘着爆弾を発射する
+			弾薬として粘着爆弾を使用する
+			'''
 	}
 
 	MythrilStickybombLauncher: {
@@ -2118,7 +2158,7 @@ Items: {
 	}
 
 	ExtraSpikedChlorophyteStickybombAmmo: {
-		DisplayName: クロロファイトの棘付き粘着爆弾
+		DisplayName: クロロファイトのトゲ付き粘着爆弾
 		Tooltip:
 			'''
 			接触時と爆発時にダメージを与える
@@ -2163,14 +2203,13 @@ Items: {
 		Tooltip:
 			'''
 			粘着爆弾にカーソルを移動させ、爆弾を右クリックするとすぐに爆発する
-			敵を炎上させる
 			弾薬として粘着爆弾を使用する
 			'''
 	}
 
 	CaptainPortraitItem: {
-		DisplayName: キャプテン・エクスプローシブの肖像
-		Tooltip: 『シンジド：史上最強のキャプテン・エクスプローシブ』
+		DisplayName: エクスプローシブ船長の肖像
+		Tooltip: 『シンジド：史上最強のエクスプローシブ船長』
 	}
 
 	CursedFlameGrenadeItem: {
@@ -2186,8 +2225,7 @@ Items: {
 		DisplayName: ブームベリーキャノン
 		Tooltip:
 			'''
-			ブームベリーキャノンボールを発射する
-			ブームベリーキャノンボールは敵か地形に当たると爆発し、ブームベリーをばら撒く
+			敵か地形に当たると爆発し、ブームベリーをばら撒くブームベリーの砲丸を発射する
 			ブームベリーは敵と地形に張り付く
 			弾薬として砲丸を使用する
 			'''
@@ -2199,7 +2237,7 @@ Items: {
 	}
 
 	BoomberryShield: {
-		DisplayName: ブームベリーシールド
+		DisplayName: ブームベリーの盾
 		Tooltip:
 			'''
 			敵に向かってダッシュ攻撃できる
@@ -2229,11 +2267,7 @@ Items: {
 
 	UnbeatableNutAmmo: {
 		DisplayName: 無敵のナッツ
-		Tooltip:
-			'''
-			爆発時にどんぐりの破片を複数ばら撒く
-			小さい爆発が起きる。ブロックと壁を破壊しな
-			'''
+		Tooltip: とても小さい爆発が起きる。ブロックと壁を破壊しない
 	}
 
 	UnbeatableBoomslinger: {
@@ -2276,15 +2310,6 @@ Items: {
 			'''
 			爆発範囲が100%拡大されるが、
 			爆発の自爆ダメージが100%増加する
-			'''
-	}
-
-	StunGrenade: {
-		DisplayName: スタングレネード
-		Tooltip:
-			'''
-			攻撃を受けたとき、10%の確率で敵を2秒間スタンさせる
-			ボスと最大ライフが2500以上の敵には無効
 			'''
 	}
 
@@ -2375,7 +2400,7 @@ Items: {
 	}
 
 	GunpowderHourglassItem: {
-		DisplayName: 火薬の砂時計
+		DisplayName: 火薬の時計
 		Tooltip: ""
 	}
 
@@ -2397,7 +2422,7 @@ Items: {
 		DisplayName: 下水道キャノン
 		Tooltip:
 			'''
-			砲丸を下水砲丸に変換し、敵を毒を与える
+			砲丸を下水砲丸に変換し、敵に毒を与える
 			砲丸を弾薬として使用する
 			'''
 	}
@@ -2468,11 +2493,11 @@ Items: {
 	}
 
 	OrnamentStickybombLauncher: {
-		DisplayName: 装飾された粘着爆弾ランチャー
+		DisplayName: オーナメントの粘着爆弾ランチャー
 		Tooltip:
 			'''
-			粘着爆弾を装飾された粘着爆弾に変換する
-			装飾された粘着爆弾は爆発時に破片をばら撒く
+			粘着爆弾をオーナメントの粘着爆弾に変換する
+			オーナメントの粘着爆弾は爆発時に破片をばら撒く
 			弾薬として粘着爆弾を使用する
 			'''
 	}
@@ -2484,11 +2509,7 @@ Items: {
 
 	RunedGrenadeItem: {
 		DisplayName: ルーングレネード
-		Tooltip:
-			'''
-			敵に呪炎と霊液を与える
-			ブロックを破壊しない小さな爆発を起こす
-			'''
+		Tooltip: 呪炎と霊液を与え、爆発時、火花を複数ばら撒く爆発が起きる
 	}
 
 	GoryGrenadeItem: {
@@ -2553,8 +2574,8 @@ Items: {
 		DisplayName: スペースグレネード
 		Tooltip:
 			'''
-			爆発時に隕石の破片を複数ばら撒く
-			ブロックを破壊しない小さな爆発を起こす
+			爆発時、爆発範囲に応じてサイズが変化し、
+			長時間残る渦が発生する
 			'''
 	}
 
@@ -2562,8 +2583,7 @@ Items: {
 		DisplayName: シーストーンサーペント
 		Tooltip:
 			'''
-			シーストーンロケットを発射する
-			シーストーンロケットは爆発時にシーストーンミニボムを4つばら撒く
+			爆発時、泡をばら撒き、竜巻を発生させるシーストーンロケットを発射する
 			弾薬としてロケットを使用する
 			'''
 	}
@@ -2717,7 +2737,7 @@ Items: {
 
 	HeavyLihzahrdBombardHead: {
 		DisplayName: リザードの爆撃手の重兜
-		SetBonus: 敵を追尾するミサイルを発射して攻撃するトカゲドローンを呼び出す
+		SetBonus: 敵を追尾するミサイルを発射して攻撃するリザードのドローンを呼び出す
 		Tooltip:
 			'''
 			爆発の自爆ダメージを34%軽減
@@ -2824,7 +2844,7 @@ Items: {
 		DisplayName: エーテルアーティラリー
 		Tooltip:
 			'''
-			地形を貫通するエーテルキャノンボールを発射する
+			地形を貫通するエーテルの砲丸を発射する
 			弾薬として砲丸を使用する
 			'''
 	}
@@ -2921,20 +2941,340 @@ Items: {
 			[c/AA00FF:アイテムコンセプト: メカ]
 			'''
 	}
+
+	CrabFood: {
+		Tooltip: 海で使用するとマザーコーラルシェラーを召喚する
+		DisplayName: サンゴの餌
+	}
+
+	CoralShellerBroodmotherTreasureBag: {
+		Tooltip: 右クリックで開く
+		DisplayName: トレジャーバッグ (マザーコーラルシェラー)
+	}
+
+	CrabMask: {
+		Tooltip: ""
+		DisplayName: マザーコーラルシェラーののマスク
+	}
+
+	CoralShellerBroodmotherRelicItem: {
+		DisplayName: マザーコーラルシェラーのレリック
+		Tooltip: ""
+	}
+
+	CoralTrimarang: {
+		DisplayName: サンゴのトライメラン
+		Tooltip:
+			'''
+			敵か地形に当たると爆発するサンゴの破片のボールをランダムな方向に放つ
+			「3本のブーメランは1本のそれよりも優れる」
+			'''
+	}
+
+	CoralExplosiveAssaultRifle: {
+		Tooltip:
+			'''
+			弾薬として爆発弾を使用する
+			敵か地形に当たるとサンゴの破片をばら撒くサンゴの破片の爆発弾を撃つ
+			サンゴの破片は敵か地形に当たると爆発する
+			33%の確率で爆発弾を消費しない
+			'''
+		DisplayName: サンゴの爆発ライフル
+	}
+
+	CoralBomb: {
+		Tooltip:
+			'''
+			ほとんどのブロックを破壊できる大きな爆発を起こす
+			「爆弾が多すぎる」
+			'''
+		DisplayName: サンゴの爆弾
+	}
+
+	CoralMortarRemote: {
+		DisplayName: サンゴの迫撃砲のリモコン
+		Tooltip:
+			'''
+			セントリーを召喚する
+			敵を砲弾で攻撃するサンゴの迫撃砲を召喚する
+			'''
+	}
+
+	CoralEgg: {
+		Tooltip: ""
+		DisplayName: サンゴの卵
+	}
+
+	CoralShellerBroodmotherTrophyItem: {
+		DisplayName: マザーコーラルシェラーのトロフィー
+		Tooltip: ""
+	}
+
+	CoralClawNecklace: {
+		Tooltip:
+			'''
+			液体内での動きが素早くなり、
+			液体内で爆発ダメージが20%増加し、ライフ自然回復量が3増加
+			'''
+		DisplayName: サンゴの爪のネックレス
+	}
+
+	MiniShellerPetItem: {
+		Tooltip: ベビーコーラルシェラーを召喚する
+		DisplayName: サンゴの卵
+	}
+
+	CoralCore: {
+		Tooltip: ""
+		DisplayName: サンゴのコア
+	}
+
+	CoralLegs: {
+		Tooltip: 移動速度が10%上昇
+		DisplayName: コーラルブラスターのすね当て
+	}
+
+	CoralHelmet: {
+		Tooltip: 爆発ダメージが4%増加
+		DisplayName: コーラルブラスターの兜
+		SetBonus:
+			'''
+			液体内で自由に動ける
+			液体内で爆発ダメージが10%増加し、
+			爆発範囲が50%拡大されるが、爆発で受けるダメージが50%増加する
+			'''
+	}
+
+	CoralBreastplate: {
+		Tooltip: 爆発ダメージが2%増加
+		DisplayName: コーラルブラスターの胸当て
+	}
+
+	LivingSulphur: {
+		Tooltip: ベビーサルファーエレメンタルを召喚する
+		DisplayName: 生きた硫黄
+	}
+
+	SulphurElementalTrophyItem: {
+		Tooltip: ""
+		DisplayName: サルファーエレメンタルのトロフィー
+	}
+
+	SulphurElementalBossBag: {
+		Tooltip: 右クリックで開く
+		DisplayName: トレジャーバッグ (サルファーエレメンタル)
+	}
+
+	SulphurElementalBossMask: {
+		Tooltip: ""
+		DisplayName: サルファーエレメンタルのマスク
+	}
+
+	SulphuricRifle: {
+		DisplayName: 硫黄のライフル
+		Tooltip:
+			'''
+			爆発時、硫黄の雲を発生させる爆発が起きる硫黄弾を撃つ
+			硫黄の雲は爆発範囲に応じてサイズが変化する
+			弾薬として爆発弾を使用する
+			50%の確率で爆発弾を消費しない
+			'''
+	}
+
+	SulphurTrimarang: {
+		Tooltip:
+			'''
+			炎をランダムな方向に定期的に放つ
+			「3本のブーメランは1本のそれよりも優れる」
+			'''
+		DisplayName: 硫黄のトライメラン
+	}
+
+	SulphurElementalRelicItem: {
+		Tooltip: ""
+		DisplayName: サルファーエレメンタルのレリック
+	}
+
+	SulphurHeart: {
+		Tooltip: 時折、爆発範囲に応じてサイズが変化する硫黄の雲を発生させる
+		DisplayName: 硫黄の心臓
+	}
+
+	SulphurStaff: {
+		Tooltip: 敵か地形に当たると爆発し、硫黄の雲を発生させる硫黄の欠片を発射する
+		DisplayName: 硫黄の杖
+	}
+
+	SulphurSnowmanCannon: {
+		Tooltip:
+			'''
+			硫黄の雲を残す硫黄のスノーマンロケットを発射する	
+			硫黄の雲は爆発範囲に応じてサイズが変化する
+			'''
+		DisplayName: 硫黄のスノーマンキャノン
+	}
+
+	GambleLauncher: {
+		Tooltip:
+			'''
+			敵か地形に当たると爆発するカジノのチップを発射する
+			発射するチップの数は何が出たかによって変化する (以下を参照)
+			[c/FFD700:1%  黄のチップ - 50x]
+			[c/FF8C00:3%  オレンジのチップ - 25x]
+			[c/00FF00:10% 緑のチップ - 10x]
+			[c/FF0000:22% 赤のチップ - 5x]
+			[c/FF69B4:22% ピンクのチップ - 4x]
+			[c/0000FF:22% 青のチップ - 3x]
+			[c/FFFFFF:15% 白のチップ - 2x]
+			[c/8B4513:5%  茶のチップ - 1x]
+			弾薬としてロケットを使用する
+			'''
+		DisplayName: ギャンブルネードランチャー
+	}
+
+	LootBox: {
+		DisplayName: 戦利品箱 (CEの予備計画)
+		Tooltip: 右クリックで開く
+	}
+
+	EpicMechTrophyItem: {
+		Tooltip: ""
+		DisplayName: CEの予備計画のトロフィー
+	}
+
+	RocketSword: {
+		Tooltip: 「紳士諸君、私は頭脳明晰ではないかもしれないが、アイデアはある」
+		DisplayName: ディスロケーションブレード
+	}
+
+	EpicMechRelicItem: {
+		Tooltip: ""
+		DisplayName: CEの予備計画のレリック
+	}
+
+	Flamer: {
+		Tooltip:
+			'''
+			左クリックで炎を発射、右クリックでガスを発射
+			ガスが炎に触れると爆発する
+			炎とガスは爆発範囲に応じて爆発範囲が広がる
+			弾薬としてジェルを使用する
+			'''
+		DisplayName: デストロイヤーオブフレイム
+	}
+
+	MultiMortarRemote: {
+		Tooltip:
+			'''
+			セントリーを召喚する
+			敵を砲弾で攻撃する3つの銃身を持つ複合迫撃砲を召喚する
+			'''
+		DisplayName: 複合迫撃砲のリモコン
+	}
+
+	DisposableMissileLauncher: {
+		DisplayName: 使い捨てのミサイルランチャー
+		Tooltip: ""
+		DMLKeybindTooltip: "[{0}]でミサイルを大量に発射する"
+		DMLReadyTooltip: 発射準備完了
+		DMLCooldownTooltip: クールダウン: {0}秒
+	}
+
+	FaradaySpur: {
+		DisplayName: ファラデイスパー
+		Tooltip:
+			'''
+			移動すると移動速度が上昇し、ジャンプ高度が増加
+			チャージが25%のときにジャンプすると電撃の爆発が起きる
+			爆発は爆発ダメージとチャージ量に応じてダメージが増加し、
+			爆発範囲に応じてサイズが増加する
+			'''
+	}
+
+	GenesisLoop: {
+		Tooltip: ライフが少なくなるとノヴァの電撃を発射する
+		DisplayName: 創世のループ
+	}
+
+	MechBossMask: {
+		Tooltip: ""
+		DisplayName: メカボスのマスク
+	}
+
+	TinyBeacon: {
+		Tooltip: 小さな面白い男を召喚する
+		DisplayName: 小さなビーコン
+	}
+
+	CrystalShellerBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：クリスタルシェラー
+		DisplayName: クリスタルシェラーのバナー
+	}
+
+	PlasmaShrimp: {
+		DisplayName: プラズマのエビ
+		Tooltip:
+			'''
+			ライフが最大時、シールドを得る
+			ダメージを受けるとシールドが破壊され、10秒のクールダウンが発生する
+			ライフが最大で、クールダウンが終了するまでシールドは得られない
+			シールドがあるときに敵を攻撃すると、
+			元の攻撃のダメージの影響を受け、敵を追尾するミサイルを発射する
+			'''
+	}
+
+	SulphurAltarItem: {
+		DisplayName: 硫黄の祭壇
+		Tooltip: ""
+	}
+
+	BeaconItem: {
+		Tooltip: 配置したこのアイテムを右クリックするとCEの予備計画が召喚される
+		DisplayName: 怪しいビーコン
+	}
+
+	GhastlyDynamiteItem: {
+		DisplayName: スペクターのダイナマイト
+		Tooltip:
+			'''
+			地形と重力を無視する
+			ほとんどのブロックを破壊できる大きな爆発を起こす
+			'''
+	}
+
+	CropperMask: {
+		Tooltip: ""
+		DisplayName: クロッパーのマスク
+	}
+
+	CropperTrophyItem: {
+		DisplayName: クロッパーのトロフィー
+		Tooltip: ""
+	}
+
+	SulphurBlockItem: {
+		Tooltip: ""
+		DisplayName: 硫黄のブロック
+	}
 }
 
-DamageClasses.DemolisherDamage.DisplayName: 爆発ダメージ
+DamageClasses: {
+	DemolisherDamage.DisplayName: 爆発ダメージ
+	ExplosiveSummonDamage.DisplayName: 爆発&召喚ダメージ
+	ExplosiveRangedDamage.DisplayName: 爆発&遠距離ダメージ
+	ExplosiveMeleeDamage.DisplayName: 爆発&魔法ダメージ
+	ExplosiveMagicDamage.DisplayName: 爆発&近接ダメージ
+}
 
 Projectiles: {
 	AutomatedExplosion.DisplayName: 自動爆発
 	ExplosionNova.DisplayName: ノヴァバースト
 	Explo.DisplayName: 爆発弾 II
 	SlimyExplosion.DisplayName: ぬるぬるした爆発
-	DeathExplosion.DisplayName: 爆発
 	RemoteMines.DisplayName: セントリー地雷
 	CookbookMines.DisplayName: ノヴァセントリー地雷
 	RicketyRocket.DisplayName: 古びたロケット
-	LihzahrdDrone.DisplayName: トカゲドローン
+	LihzahrdDrone.DisplayName: リザードのドローン
 	LizhardRocket.DisplayName: リザードのロケット
 	Grenade.DisplayName: グレネード0
 	CookbookExplosion.DisplayName: ノヴァ爆発
@@ -2970,7 +3310,7 @@ Projectiles: {
 	FrozenGrenade.DisplayName: 冷却グレネード
 	HotPotato.DisplayName: 熱いポテト
 	BunnyGrenade.DisplayName: バニーグレネード
-	TombGrenade.DisplayName: トゥームグレネード
+	TombGrenade.DisplayName: 墓のグレネード
 	C4.DisplayName: C4 I
 	RecluseGrenade.DisplayName: レクルースグレネード
 	GourdGrenade.DisplayName: カボチャグレネード
@@ -2981,7 +3321,7 @@ Projectiles: {
 	HolyHandGrenade.DisplayName: ホーリーグレネード
 	LihzahrdGrenade.DisplayName: リザードグレネード
 	NovaGrenade.DisplayName: ノヴァグレネード
-	PrimeBomb.DisplayName: プライムコア
+	PrimeBomb.DisplayName: プライムボム
 	MechProximityMine.DisplayName: レーザーマイン
 	MechRocket.DisplayName: カースインフェルノロケット
 	SnowballProximityMine.DisplayName: 雪玉地雷
@@ -3041,7 +3381,7 @@ Projectiles: {
 	HellstoneProximityMine.DisplayName: ヘルストーン感知地雷
 	HellstoneGrenade.DisplayName: ヘルストーングレネード
 	Cannonball.DisplayName: 砲丸
-	HellstoneCannonball.DisplayName: ヘルストーンキャノンボール
+	HellstoneCannonball.DisplayName: ヘルストーンの砲丸
 	HallowedCannonball.DisplayName: 聖なる砲丸
 	BoomberryRocket.DisplayName: ブームベリーロケット
 	BlackBoxRocket.DisplayName: ブラックボックスロケット
@@ -3055,24 +3395,24 @@ Projectiles: {
 	ObsidianCannonball.DisplayName: 黒曜石の砲丸
 	BeeExplodingBullet.DisplayName: 蜂の爆発弾
 	Stickybomb.DisplayName: 粘着爆弾
-	ScottishResistanceStickybomb.DisplayName: 棘付き粘着爆弾
+	ScottishResistanceStickybomb.DisplayName: トゲ付き粘着爆弾
 	ShimmeringExplodingBullet.DisplayName: シマーの爆発弾
-	ShimmeringProximityMine.DisplayName: シマーの近接地雷
+	ShimmeringProximityMine.DisplayName: シマーの感知地雷
 	BloodExplodingBullet.DisplayName: 血塗れの爆発弾
 	BloodstainedGrenade.DisplayName: 血塗れのグレネード
 	HallowedGrenade.DisplayName: 聖なるグレネード
-	HallowedProximityMine.DisplayName: 聖なる近接地雷
+	HallowedProximityMine.DisplayName: 聖なる感知地雷
 	HallowedRocket.DisplayName: 聖なるロケット
 	HallowedSnowmanRocket.DisplayName: 聖なるスノーマンロケット
 	EyeballStickybomb.DisplayName: 目玉の粘着爆弾
 	GelStickybomb.DisplayName: ジェルスティッキーボム
-	ExtraSpikedStickybomb.DisplayName: 強化棘付き粘着爆弾
+	ExtraSpikedStickybomb.DisplayName: 強化トゲ付き粘着爆弾
 	GoryStickybomb.DisplayName: 血濡れの粘着爆弾
-	ExtraSpikedChlorophyteStickybomb.DisplayName: クロロファイトの棘付き粘着爆弾
+	ExtraSpikedChlorophyteStickybomb.DisplayName: クロロファイトのトゲ付き粘着爆弾
 	NovaStickybomb.DisplayName: ノヴァの粘着爆弾
 	IchorGrenade.DisplayName: イコルグレネード
 	CursedFlameGrenade.DisplayName: カースフレイムグレネード
-	BoomberryCannonball.DisplayName: ブームベリーキャノンボール
+	BoomberryCannonball.DisplayName: ブームベリーの砲丸
 	BossPoisonBomb.DisplayName: 毒爆弾
 	BossMoltenBomb.DisplayName: 溶岩爆弾
 	BossGiantTNT.DisplayName: 巨大TNT
@@ -3093,13 +3433,13 @@ Projectiles: {
 	SewerCannonball.DisplayName: 下水砲丸
 	ChristmasBomb.DisplayName: クリスマスボム
 	BoomberryFriendly.DisplayName: ブームベリー
-	OrnamentStickybomb.DisplayName: 装飾粘着爆弾
-	GoldOrnamentShrapnel.DisplayName: 装飾破片
-	OrnamentStickybombGold.DisplayName: 装飾粘着爆弾
-	OrnamentStickybombRed.DisplayName: 装飾粘着爆弾
-	OrnamentStickybombSilver.DisplayName: 装飾粘着爆弾
-	RedOrnamentShrapnel.DisplayName: 装飾破片
-	SilverOrnamentShrapnel.DisplayName: 装飾破片
+	OrnamentStickybomb.DisplayName: オーナメントの粘着爆弾
+	GoldOrnamentShrapnel.DisplayName: オーナメントの破片
+	OrnamentStickybombGold.DisplayName: オーナメントの粘着爆弾
+	OrnamentStickybombRed.DisplayName: オーナメントの粘着爆弾
+	OrnamentStickybombSilver.DisplayName: オーナメントの粘着爆弾
+	RedOrnamentShrapnel.DisplayName: オーナメントの破片
+	SilverOrnamentShrapnel.DisplayName: オーナメントの破片
 	RunedGrenade.DisplayName: ルーングレネード
 	GoryGrenade.DisplayName: 血塗れの手榴弾
 	ArmedAcorn.DisplayName: 固いどんぐり
@@ -3115,17 +3455,98 @@ Projectiles: {
 	ShroomSnowmanRocket.DisplayName: キノコスノーマンロケット
 	OversizedMushroom.DisplayName: 大きくなりすぎたキノコ
 	PSDAMedalShrapnel.DisplayName: 破片
-	AetherCannonball.DisplayName: エーテルキャノンボール
+	AetherCannonball.DisplayName: エーテルの砲丸
 	HighTechC4.DisplayName: 高性能C4
 	LemonGrenade.DisplayName: レモンネード
+	BoomberryExplosion.DisplayName: ブームベリーの爆発
+	NovaExplosion.DisplayName: ノヴァ爆発
+	ReactivePlatingExplosion.DisplayName: 反応性めっきの爆発
+	BombCloakExplosion.DisplayName: 爆弾のマントの爆発
+	GigaKrak.DisplayName: 大きな破片
+	CoralKrakRocket1.DisplayName: サンゴの破片ロケット
+	CoralKrakRocket2.DisplayName: サンゴの破片ロケット
+	CoralKrakRocket3.DisplayName: サンゴの破片ロケット
+	BallKrak.DisplayName: 破片のボール
+	CoralTrimarangTrimarang.DisplayName: サンゴのトライメラン
+	BallerKrak.DisplayName: Baller Krak
+	CoralKrakBullet.DisplayName: サンゴの破片弾
+	TileKrak.DisplayName: ブロックの破片
+	MiniCoralBombProjectile.DisplayName: 小さなサンゴの爆弾
+	CoralBombProjectile.DisplayName: サンゴの爆弾
+	CoralMortar.DisplayName: サンゴの迫撃砲
+	CoralKrakShell.DisplayName: コーラルクラックシェラー
+	MiniShellerPetProjectile.DisplayName: ベビーコーラルシェラー
+	SulphurGeyserProjectile.DisplayName: 硫黄の間欠泉
+	SulphurFingerGunSplitProjectile.DisplayName: サルファーフィンガーガンのスピリット
+	SulphurFingerGunProjectile.DisplayName: サルファーフィンガーガンの爆発
+	FistbumpExplosion.DisplayName: フィストバンプの爆発
+	SulphurElementalGeyser.DisplayName: サルファーエレメンタルの間欠泉
+	SulphurElementalBoulder.DisplayName: サルファーエレメンタルの大岩
+	Sun.DisplayName: 太陽
+	EnergyBolt.DisplayName: エナジーボルト
+	Forcefield.DisplayName: フォースフィールド
+	CoolBlastWave.DisplayName: クールな爆発の衝撃波
+	PurpleBlastWave.DisplayName: 紫の爆発の衝撃波
+	BallExplosion.DisplayName: ボールの爆発
+	Star.DisplayName: 星
+	Phase2BlastWave.DisplayName: フェーズ2の爆発の衝撃波
+	TelegraphStar.DisplayName: テレグラフの星
+	MissileBatteryMissile.DisplayName: ミサイルバッテリーのミサイル
+	PurpleLaser.DisplayName: ムラサキノレーザー
+	BigTelegraph.DisplayName: 大きなテレグラフ
+	Projectile1.DisplayName: 弾
+	SpawnBlastWave.DisplayName: 爆発の衝撃波
+	MinorSulphurElemental.DisplayName: 小さなサルファーエレメンタル
+	SulphurShot.DisplayName: 硫黄弾
+	SulphurTrimarangTrimarang.DisplayName: 硫黄のトライメラン
+	SulphurStaffProjectile.DisplayName: 硫黄の欠片
+	SulphurSnowmanRocket.DisplayName: 硫黄のスノーマンロケット
+	NukeTelegraph.DisplayName: 核の予告
+	LightningProjectile.DisplayName: 電撃
+	CursedBalls.DisplayName: カースボール
+	HisFireBall.DisplayName: ファイアボール
+	ThatsHuge.DisplayName: 信じられない
+	Fireball.DisplayName: ファイアボール
+	ObeliskRocket.DisplayName: オベリスクのロケット
+	UnicornGrenade.DisplayName: ユニコーンのグレネード
+	SandstoneGrenade.DisplayName: サンドストーンのグレネード
+	TombStickybomb.DisplayName: 墓の粘着爆弾
+	ElevatedFrostRocket.DisplayName: エレヴェイテッドスノーマンロケット
+	MechBossRocket.DisplayName: メカボスのロケット
+	ExplosiveChip.DisplayName: 爆発の破片
+	PinkBullet.DisplayName: ピンクの弾丸
+	ThrobbingRocket.DisplayName: 脈動するロケット
+	VileGrenade.DisplayName: ヴァイルグレネード
+	FriendlyCursedBalls.DisplayName: 味方のカースボール
+	AbyssalRocket.DisplayName: 深海のグレネード
+	DeepseaGrenade.DisplayName: 深海のグレネード
+	FireballGravity.DisplayName: 落ちていくファイアボール
+	LihzahrdProximityMine.DisplayName: リザードの感知地雷
+	LihzahrdExplodingBullet.DisplayName: リザードの爆発弾
+	FriendlyThickLaser.DisplayName: 味方の厚いレーザー
+	MushroomClubProjectile.DisplayName: キノコのクラブ
+	DislocaterBladeSwing.DisplayName: ディスロケーションブレード
+	FriendlyMechBossRocket.DisplayName: 味方のメカボスのロケット
+	MultiMortar.DisplayName: 複合迫撃砲
+	RORHomingMissile.DisplayName: RORのホーミングミサイル
+	MultiMortarShell.DisplayName: 複合迫撃砲の砲弾
+	SpurExplosion.DisplayName: 電撃の爆発
+	GenesisLoopBlast.DisplayName: 創世のループの爆発
+	RocketPet.DisplayName: 面白い男
+	ExplosiveCrystalBall.DisplayName: 爆発するクリスタルの砲丸
+	ShrimpRocket.DisplayName: エビのロケット
+	CrystalCannonball.DisplayName: クリスタルの砲丸
+	GhastlyDynamite.DisplayName: スペクターのダイナマイト
+	GhastlyDynamiteItemProjectile.DisplayName: スペクターのダイナマイト
 }
 
 "Keybinds.Nova Burst.DisplayName": ノヴァバースト
+"Disposable Missile Launcher.DisplayName": 使い捨てのミサイルランチャー
 
 Buffs: {
 	NovaFlamesDebuff: {
 		DisplayName: ノヴァフレイム
-		Description: ライフが徐々に大きく減少
+		Description: ライフが急速に減っていく
 	}
 
 	CaptainPetBuff: {
@@ -3155,7 +3576,7 @@ Buffs: {
 
 	RadiatedDebuff: {
 		DisplayName: 放射能
-		Description: ライフが徐々に大きく減少
+		Description: ライフが急速に減っていく
 	}
 
 	StunnedDebuff: {
@@ -3179,7 +3600,7 @@ Buffs: {
 	}
 
 	LihzahrdDroneBuff: {
-		DisplayName: トカゲドローン
+		DisplayName: リザードのドローン
 		Description: 近くの敵を追尾するミサイルを発射する
 	}
 
@@ -3192,15 +3613,59 @@ Buffs: {
 		DisplayName: 純粋なフロギストン
 		Description: 最大ライフが60増加
 	}
+
+	MiniShellerPetBuff: {
+		Description: ベビーコーラルシェラーが後をついてくる
+		DisplayName: ベビーコーラルシェラー
+	}
+
+	MinorSulphurElementalBuff: {
+		Description: ベビーサルファーエレメンタルが後をついてくる
+		DisplayName: ベビーサルファーエレメンタル
+	}
+
+	EyesOnYou: {
+		Description: 隠れようとしているのか？
+		DisplayName: 目があなたを見ている
+	}
+
+	EpicMechBuff: {
+		DisplayName: ???
+		Description:
+			'''
+			空間や液体による動きの変化を無視するが、
+			同じ方向に3秒以上移動するとダメージを受ける
+			'''
+	}
+
+	DMLCooldown: {
+		Description: ミサイルを大量に発射できない
+		DisplayName: 使い捨てのミサイルランチャーのクールダウン
+	}
+
+	GLCooldown: {
+		Description: ""
+		DisplayName: 創世のループのクールダウン
+	}
+
+	RocketPetBuff: {
+		Description: かわいいホバリングするものが後をついてくる
+		DisplayName: 浮いている男
+	}
+
+	VoidShieldCooldown: {
+		DisplayName: 虚無のシールドのクールダウン
+		Description: ""
+	}
 }
 
 NPCs: {
 	GhostOfCaptainExplosive: {
-		DisplayName: 幽霊のキャプテン・エクスプローシブ
+		DisplayName: エクスプローシブ船長の幽霊
 
 		TownNPCMood: {
 			LoveBiome: 硫黄の鉱山ではないが、この森はかなりいい...
-			Princess_LovesNPC: キャプテン・エクスプローシブはみんなが思っているほど悪い人じゃないわ。きっとただ自分に自信がないだけだと思う​​けど、一度仲良くなるととても面白い人ですわ。
+			Princess_LovesNPC: エクスプローシブ船長はみんなが思っているほど悪い人じゃないわ。きっとただ自分に自信がないだけだと思う​​けど、一度仲良くなるととても面白い人ですわ。
 			LikeNPC_Princess: "{NPCName}はすごく優しい！お金をたくさん使うんだな！爆弾なんて使わないと思うが、かわいいと思って買ってるみたいだ。"
 			HateCrowded: ここには人が多すぎる！
 			DislikeCrowded: 人が多すぎて、ここでは自分の声が聞こえない。
@@ -3214,18 +3679,19 @@ NPCs: {
 			HateNPC: "{NPCName}は、いつも安全についてうるさく言っていて、本当にうっとうしい。爆発物を安全に扱う喜びはどこにあるんだ？"
 		}
 
-		Census.SpawnCondition: 不明
+		Census.SpawnCondition: エクスプローシブ船長を倒す
+		DeathMessage: エクスプローシブ船長の幽霊は死後の世界に戻っていった...
 	}
 
-	CaptainExplosive.DisplayName: キャプテン・エクスプローシブ
-	CaptainExplosiveAt0.DisplayName: キャプテン・エクスプローシブ
+	CaptainExplosive.DisplayName: エクスプローシブ船長
+	CaptainExplosiveAt0.DisplayName: エクスプローシブ船長
 	Cropper.DisplayName: クロッパー
 	ObsidianSheller.DisplayName: オプシディアンシェラー
-	CoralSheller.DisplayName: コーラルシェラー
+	CoralSheller.DisplayName: 幼体のコーラルシェラー
 	BossRocket.DisplayName: 大型ロケット
 	BossBombProbe.DisplayName: ボムプローブ
-	ForestSheller1.DisplayName: フロストシェラー
-	ForestSheller2.DisplayName: フロストシェラー
+	ForestSheller1.DisplayName: ミニフロストシェラー
+	ForestSheller2.DisplayName: 小さなフロストシェラー
 	ForestSheller3.DisplayName: フロストシェラー
 	ForestSheller4.DisplayName: フロストシェラー
 	SquirrelCopter.DisplayName: リスコプター
@@ -3239,8 +3705,19 @@ NPCs: {
 	KaboomCrateMimic.DisplayName: カブームクレートミミック
 	GunpowderCarrier.DisplayName: ガンパウダーキャリア
 	BoomberryBush.DisplayName: ブーベリーブッシュ
-	Grenadeling.DisplayName: グレナディン
 	SuspiciousLookingBarrel.DisplayName: 怪しい樽
+	AdultCoralShellerBody.DisplayName: マザーコーラルシェラー
+	CoralEgg.DisplayName: 怪しい卵
+	CoralWall.DisplayName: サンゴの壁
+	SulphurElementalHand.DisplayName: サルファーエレメンタルの手
+	SulphurElementalHead.DisplayName: サルファーエレメンタル
+	EpicMech.DisplayName: CEの予備計画
+	Twins.DisplayName: ツインズ
+	DestroyerTail.DisplayName: デストロイヤー
+	DestroyerHead.DisplayName: デストロイヤー
+	DestroyerBody.DisplayName: デストロイヤー
+	SkeletronHead.DisplayName: スケルトロン
+	CrystalSheller.DisplayName: クリスタルシェラー
 }
 
 Tiles: {
@@ -3249,20 +3726,25 @@ Tiles: {
 	BlastingSupplyBoxTile.MapEntry: 爆弾箱
 	BombBannerTile.MapEntry: 爆弾のバナー
 	BombChairTile.MapEntry: 爆弾のイス
-	BombClockTile.MapEntry: 爆弾の柱時計
+	BombClockTile.MapEntry: 爆弾の時計
 	BombShelfTile.MapEntry: 爆弾の棚
 	BombStorageTile.MapEntry: 壁掛け式のTNT収納
 	BombTableTile.MapEntry: 爆弾のテーブル
 	NukeTheCorruptionTile.MapEntry: "『不浄を核兵器で滅ぼせ』ポスター"
-	CaptainStatueTile.MapEntry: キャプテン・エクスプローシブの像
+	CaptainStatueTile.MapEntry: エクスプローシブ船長の像
 	PottedCropperTile.MapEntry: ポティドクロッパー
-	CaptainPortraitTile.MapEntry: キャプテン・エクスプローシブの肖像
+	CaptainPortraitTile.MapEntry: エクスプローシブ船長の肖像
 	BombBookshelfTile.MapEntry: TNTの本棚
 	TNTTableTile.MapEntry: TNTのテーブル
 	GunpowderHourglassTile.MapEntry: 火薬の砂時計
 	BombCookingPotTile.MapEntry: 爆弾の調理鍋
 	RealBombChairTile.MapEntry: 爆弾のイス
 	StickybombLightTile.MapEntry: 粘着爆弾の壁ライト
+	CoralEggTile2.MapEntry: 怪しい卵
+	CoralEggTile3.MapEntry: 怪しい卵
+	CoralEggTile1.MapEntry: 怪しい卵
+	SulphurAltar.MapEntry: 硫黄の祭壇
+	BeaconTile.MapEntry: ビーコン
 }
 
 Configs: {
@@ -3270,8 +3752,8 @@ Configs: {
 		DisplayName: DemolisherClass 設定
 
 		EnableBlastRadius: {
-			Label: "[i:Bomb] 爆発半径ステータスの切り替え"
-			Tooltip: これがオンだと、爆発半径による爆発ヒットボックスの拡大がなくなります
+			Label: "[i:Bomb] 爆発範囲ステータスの切り替え"
+			Tooltip: これがオンだと、爆発範囲による爆発ヒットボックスの拡大がなくなります
 		}
 
 		Headers: {
@@ -3321,7 +3803,7 @@ Prefixes: {
 Achievements: {
 	FallingBombs: {
 		FriendlyName: 落ちる爆弾
-		Description: 飛行船を指揮する狂人、キャプテン・エクスプローシブを倒す。
+		Description: 飛行船を指揮する狂人、エクスプローシブ船長を倒す。
 	}
 
 	AnarchistCookbookObtained: {
@@ -3331,7 +3813,7 @@ Achievements: {
 
 	NovaArmorObtained: {
 		FriendlyName: 最高級の爆撃機
-		Description: 爆発的なパワーとファッションの頂点、ノヴァアーマーセットを手に入れる。
+		Description: 爆発的なパワーとファッションの頂点、ノヴァの防具セットを手に入れる。
 	}
 
 	HeavyPlateArmorObtained: {
@@ -3356,16 +3838,47 @@ Achievements: {
 
 	Shrubbery: {
 		FriendlyName: 低木による死
-		Description: クロッパーにより死亡する。
+		Description: クロッパーやブームベリーの茂みにやられる。
 	}
 
 	CEShopAchievement: {
 		FriendlyName: 船長の目録
-		Description: キャプテン・エクスプローシブのゴーストが販売する全てのアイテムを購入する。	
+		Description: エクスプローシブ船長の幽霊が販売する全てのアイテムを購入する。	
 	}
 
 	ThinkFastChucklenuts: {
 		FriendlyName: 早く考えろ、チャックルナッツ
 		Description: 敵、友人、あるいは自分自身の愚かさからフラッシュバンの閃光を受ける。
 	}
+
+	ShellShocked: {
+		FriendlyName: シェルショック
+		Description: 群れを産み出し、爆発するサンゴで侵入者を攻撃する巨大なクラブ、マザーコーラルシェラーを倒す。
+	}
+
+	SulphurShatterer: {
+		FriendlyName: サルファーシャタラー
+		Description: 硫黄の塊であり、激しい噴火を起こすサルファーエレメンタルを倒す。
+	}
+
+	FoiledPlans: {
+		FriendlyName: 失敗に終わった計画
+		Description: CEの予備計画を倒す。これはエクスプローシブ船長が君を抹殺するために作り上げた最後の兵器だ。もしAIに制御されていなければ、彼は成功していたかもしれない。
+	}
+
+	CrabulaRaza: {
+		FriendlyName: クラブラ・ラザ
+		Description: 全てのタイプのシェラーを倒す。
+	}
 }
+
+CannonballTooltip: 大爆発が起きる。ブロックと壁を破壊しない
+AcornTooltip: 爆発時にどんぐりの破片を複数ばら撒く\nAmmo\n小さい爆発が起きる。ブロックと壁を破壊しない
+EquipRestrictionIngredient: これと一緒にこれを素材として使うメモや爆発物の説明書を装備できない
+EquipRestrictionNote: これと一緒に爆発物の説明書を装備できない
+ExplosionDeath0: "{0}は爆発により染みに変わりました。"
+ExplosionDeath1: "{0}が突然爆発しました。"
+ExplosionDeath2: "{0}はその爆弾を見ていませんでした。"
+ExplosionDeath3: "{0}は防爆仕様ではありませんでした。"
+ExplosionDeath4: "{0}は、、破片で死ぬ可能性があることに気づきました。"
+NukeDeath: "{0}は蒸発しました。"

@@ -9,7 +9,7 @@ Menu: {
 	GalleryText: ギャラリー
 	Options: 設定
 	SwitchManosabaBackground: ""
-	ModVersion: Ver. 1.3.2.3
+	ModVersion: Ver. 1.3.4.1
 	LogoCanPlay: メインタイトル画面のロゴをクリックすると、Bloom(PV)を再生できます！
 	InGameContext: 右クリックでスキップ
 	ButtonStart: ""
@@ -25,7 +25,7 @@ Configs: {
 		DisplayName: クライアント設定
 
 		ParticleDontEmitLight: {
-			Label: パーティクルが光らない
+			Label: "[i:Torch] パーティクルを光らなくする"
 			Tooltip:
 				'''
 				Modのパーティクルが光を発しなくなります（例：衣装セットのパーティクル）
@@ -34,7 +34,7 @@ Configs: {
 		}
 
 		NoFinalBloomPlay: {
-			Label: ムーンロード戦後にブルーム(PV)を再生しない
+			Label: "[i:MusicBox] ムーンロード戦後にブルーム(PV)を再生しない"
 			Tooltip:
 				'''
 				ムーンロード戦後にブルーム(PV)を再生しないようにします
@@ -43,11 +43,50 @@ Configs: {
 		}
 
 		UseCharactorLifeBar: {
-			Label: カスタムキャラライフバーを使用する
+			Label: "[i:LifeCrystal] カスタムキャラライフバーを使用する"
 			Tooltip:
 				'''
 				キャラの衣装アイテムを装備中、カスタムキャラライフバーを使用するようにします
+				Split Modと同時に有効にするとと現在表示上の具合が発生するため、有効にする場合は、
+				オフにすることをお勧めします
 				デフォルトはオン
+				'''
+		}
+
+		TraditionalTooltipShowcase: {
+			Label: "[i:Paintbrush] ツールチップ内に原罪を表示する"
+			Tooltip:
+				'''
+				キャラの衣装アイテムのツールチップ内に原罪を表示します
+				デフォルトはオフ
+				'''
+		}
+
+		NoCustomCharactorSounds: {
+			Label: "[i:Megaphone] カスタムキャラの効果音を再生しない"
+			Tooltip:
+				'''
+				キャラの衣装アイテムを装備中、攻撃を受けた時の音を再生しなくなります
+				デフォルトはオフ
+				'''
+		}
+
+		NoCharactorAvatar: {
+			Label: "[i:ItemFrame] キャラのアバターを無効にする"
+			Tooltip:
+				'''
+				オンにするとキャラのアバターや衣装アイテムの描画を停止します
+				デフォルトはオフ
+				'''
+		}
+
+		NoCharactorParticle: {
+			Label: "[i:Diamond] キャラのパーティクルを無効にする"
+			Tooltip:
+				'''
+				オンにするとキャラクターの衣装アイテムを装備中に発生する、
+				パーティクルの生成を停止させます
+				デフォルトはオフ
 				'''
 		}
 	}
@@ -56,7 +95,7 @@ Configs: {
 Items: {
 	SakurabaEmma: {
 		DisplayName: 異界のベレー帽
-		Tooltip: これにカーソルを合わせて中クリックで効果音が切り替わる
+		Tooltip: これにカーソルを合わせてミドルクリックで効果音を切り替える
 		FlavorTooltip: "[-忌み嫌われるもの-]"
 		RealTooltip:
 			'''
@@ -73,7 +112,7 @@ Items: {
 		SinnerType: "[-虚言の眠り姫-]"
 		SinnerTooltip:
 			'''
-			彼女は今日もまた一人で寝る。
+			彼女は今日もまた一人で眠る。
 			誰にも危害を加えないことが、彼女自身も傷つかない理由だ。
 			'''
 	}
@@ -92,27 +131,33 @@ Items: {
 		SinnerTooltip:
 			'''
 			彼女が歩んできた道には、一点の瑕疵もない。
-			自己完成という理想郷には、絞首台のような忌まわしいものの居場所はない。
+			自己完成という理想郷には、
+			絞首台のような忌まわしいものの居場所はない。
 			'''
 	}
 
 	JougasakiNoahItem: {
 		DisplayName: 偽りのショートハット
-		Tooltip: これにカーソルを合わせて中クリックで死亡時の効果音が切り替わる
+		Tooltip: これにカーソルを合わせてミドルクリックで死亡時の効果音を切り替える
 		SinnerType: "[-偽りの芸術家-]"
 		SinnerTooltip:
 			'''
 			彼女は激しい苦痛の中で、容赦なくもがき続ける。
-			しかし彼女は、自分を縛り付けている鎖が他ならぬ自分の尻尾であることに決して気づかない。
+			しかし彼女は、
+			自分を縛り付けている鎖が他ならぬ自分の尻尾であることに決して気づかない。
 			'''
 		CrySound: 現在の死亡時の効果音: 子供のすすり泣く声
 		RegularSound: 現在の死亡時の効果音: 通常
 	}
 
 	TachibanaSherryItem: {
-		DisplayName: Tachibana Sherry Item
+		DisplayName: コンパクトな虫眼鏡
 		Tooltip: ""
-		SinnerType: ""
-		SinnerTooltip: ""
+		SinnerType: "[-破壊探偵-]"
+		SinnerTooltip:
+			'''
+			彼女はすべてを破壊した。
+			事件も、人々も、そして自らの心さえも。
+			'''
 	}
 }

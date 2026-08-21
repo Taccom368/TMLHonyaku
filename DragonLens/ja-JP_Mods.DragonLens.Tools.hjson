@@ -408,8 +408,8 @@ DustSpawner: {
 
 	FieldEditors: {
 		NewDustPerfect: NewDustPerfect を使用
-		Scale: スケール
-		Alpha: アルファ
+		Scale: 大きさ
+		Alpha: 透明度
 		Velocity: 速度
 		Color: 色
 	}

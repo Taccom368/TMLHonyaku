@@ -28,17 +28,17 @@ Configs: {
 		}
 		
 		OverrideOtherworldlyMusic: {
-			Label: "[i:MusicBoxOWRain] アザーワールドの音楽を上書きする"
+			Label: "[i:MusicBoxOWRain] アザーワールドの音楽を優先する"
 			Tooltip:
 				'''
-				アザーワールドの音楽をVCMMの音楽で上書きするか切り替えます
+				VCMMの音楽をアザーワールドの音楽より優先するか切り替えます
 				この設定はパーティガールの音楽切り替えがオンになっている際に効果があります
 				'''
 		}
 
 		OverrideAnahitasLureMusic: {
-			Label: "[i:UnCalamityModMusic/OceanDayMusicBox] アナヒタの歌を上書きする"
-			Tooltip: アナヒタの歌声が海の音楽を上書きするかどうかを切り替えます
+			Label: "[i:UnCalamityModMusic/OceanDayMusicBox] アナヒタの歌を優先する"
+			Tooltip: アナヒタの歌声を海の音楽より優先するかどうかを切り替えます
 
 		}
 
@@ -47,7 +47,9 @@ Configs: {
 			Tooltip:
 				'''
 				他のバニラの音楽を変更するModの音楽をVCMMの音楽より優先するかどうかを切り替えます
-				さらなる音楽のカスタマイズについては、他のMod設定で確認してください
+				オンにするとVCMMの音楽の優先度が40%に低下します
+				オフだと優先度は標準値である50%に設定されます
+				さらなる音楽のカスタマイズについては、それぞれのMod設定で確認してください
 				'''
 		}
 	}
@@ -193,7 +195,7 @@ Items: {
 		Tooltip: Heart Plus Up!制作の「Amidst the Minerals」を再生する
 	}
 
-	GlowingMushroomFieldsMusicBox: {
+	GlowingMushroomsMusicBox: {
 		DisplayName: オルゴール (キノコ群生地)
 		Tooltip: Heart Plus Up!制作の「Psychedelic Depths」を再生する
 	}
@@ -402,7 +404,7 @@ ModSupport: {
 			ForestDayMorning: A Legend's Strife (Epiphany)
 			ForestNight: Laze of the Sky
 			Geodes: Amidst the Minerals
-			GlowingMushroomFields: Psychedelic Depths
+			GlowingMushrooms: Psychedelic Depths
 			HardmodeInterlude: The Resurrection of a Cruel World
 			JungleDay: Nature's Reprieve
 			KingSlime: Gelatinous Monarch

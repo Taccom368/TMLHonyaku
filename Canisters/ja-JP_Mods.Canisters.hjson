@@ -1,7 +1,7 @@
 Projectiles: {
 	BlightedBall.DisplayName: カースボール
 	BlightedBolt.DisplayName: 呪炎の弾
-	BlightedCanister.DisplayName: 病害のキャニスター
+	BlightedCanister.DisplayName: 穢れのキャニスター
 	GlisteningBall.DisplayName: 霊液のボール
 	GlisteningBlob.DisplayName: 霊液の弾
 	GlisteningCanister.DisplayName: 輝くキャニスター
@@ -16,8 +16,8 @@ Projectiles: {
 	GelBall.DisplayName: ジェル
 	VolatileCanister.DisplayName: 揮発性のキャニスター
 	Nanites.DisplayName: Nanites
-	NaniteCanister.DisplayName: ナナイトキャニスター
-	NaniteBlob.DisplayName: ナナイト弾
+	NaniteCanister.DisplayName: ナノマシンのキャニスター
+	NaniteBlob.DisplayName: ナノマシン弾
 	GhastlyShot.DisplayName: スペクトラルボルト
 	GhastlyExplosion.DisplayName: 恐ろしい爆発
 	GhastlyCanister.DisplayName: 恐ろしいキャニスター
@@ -63,7 +63,7 @@ Items: {
 	}
 
 	ModifiedHandgun: {
-		DisplayName: 改造ハンドガン
+		DisplayName: 改造拳銃
 		Tooltip: キャニスターの中身を発射する
 	}
 
@@ -71,7 +71,7 @@ Items: {
 		DisplayName: 揮発性のキャニスター
 		Tooltip:
 			'''
-			発射するタイプは敵か地形に当たると、激しい爆発を起こす
+			発射するタイプは敵か地形に当たると爆発する
 			中身を発射するタイプは、ジェルを発射し、敵を炎に対して弱くする
 			'''
 	}
@@ -80,8 +80,8 @@ Items: {
 		DisplayName: 青々としたキャニスター
 		Tooltip:
 			'''
-			発射するタイプは敵か地形に当たると、いくつかのツタを発生させる
-			中身を発射するタイプは、毒ガスを発射する
+			発射するタイプは敵か地形に当たると、ツタがいくつか発生する
+			中身を発射するタイプは、毒ガスを噴射する
 			'''
 	}
 
@@ -89,7 +89,7 @@ Items: {
 		DisplayName: 毒のキャニスター
 		Tooltip:
 			'''
-			発射するタイプは敵か地形に当たると、毒ガスを発生させる
+			発射するタイプは敵か地形に当たると、毒ガスが発生する
 			中身を発射するタイプは、敵を追尾する毒弾を発射する
 			'''
 	}
@@ -99,7 +99,7 @@ Items: {
 		Tooltip:
 			'''
 			発射するタイプは射程が短いが、敵を貫通し、消滅時に爆発する
-			中身を発射するタイプは、螺旋状の弾を発射する
+			中身を発射するタイプは、螺旋状に飛ぶ弾を2発発射する
 			'''
 	}
 
@@ -107,18 +107,18 @@ Items: {
 		DisplayName: 輝くキャニスター
 		Tooltip:
 			'''
-			発射するタイプは敵か地形に当たると爆発し、地形に当たると跳ね返る霊液のボールを発生させる
+			発射するタイプは敵か地形に当たると爆発し、地形に当たると跳ね返る霊液のボールをばら撒く
 			中身を発射するタイプは、敵か地形に当たると分裂する霊液の弾を発射する
 			'''
 	}
 
 	EmptyCanister: {
 		DisplayName: 空のキャニスター
-		Tooltip: さまざまな種類のキャニスターを作るのに使う
+		Tooltip: さまざまな種類のキャニスターの作成に使用する
 	}
 
 	BlightedCanister: {
-		DisplayName: 病害のキャニスター
+		DisplayName: 穢れのキャニスター
 		Tooltip:
 			'''
 			発射するタイプは敵か地形に当たると、カースボールの螺旋を放つ
@@ -127,10 +127,10 @@ Items: {
 	}
 
 	NaniteCanister: {
-		DisplayName: ナナイトキャニスター
+		DisplayName: ナノマシンのキャニスター
 		Tooltip:
 			'''
-			発射するタイプは敵か地形に当たると、敵を追尾するいくつかの弾を放つ
+			発射するタイプは敵か地形に当たると、敵を追尾する弾をいくつかばら撒く
 			中身を発射するタイプは、敵を貫通するレーザーを発射する
 			'''
 	}
@@ -139,7 +139,7 @@ Items: {
 		DisplayName: 恐ろしいキャニスター
 		Tooltip:
 			'''
-			発射するタイプは敵か地形に当たると、クラスター爆弾を放つ
+			発射するタイプは敵か地形に当たると、クラスター爆弾が発生する
 			中身を発射するタイプは、スペクトラルボルトを複数発射する
 			'''
 		
@@ -149,8 +149,8 @@ Items: {
 		DisplayName: 月のキャニスター
 		Tooltip:
 			'''
-			発射するタイプは敵か地形に当たると、雷の渦を発生させる
-			中身を発射するタイプは、月の炎を放つ
+			発射するタイプは敵か地形に当たると、雷の渦が発生する
+			中身を発射するタイプは、月の炎を発射する
 			「暗闇で光るが、常夜灯としては使えない」
 			'''
 	}
@@ -207,7 +207,7 @@ Items: {
 		DisplayName: レゾナンス
 		Tooltip:
 			'''
-			キャニスターの中身を一度に2つ発射する
+			一度にキャニスターの中身を2つ発射する
 			30%の確率でキャニスターを消費しない
 			'''
 	}
@@ -286,7 +286,7 @@ Items: {
 		DisplayName: アビサルブラスター
 		Tooltip:
 			'''
-			キャニスターを一度に3つ発射する
+			一度にキャニスターを3つ発射する
 			「部屋の大きさは聞いてないけど…」
 			'''
 	}

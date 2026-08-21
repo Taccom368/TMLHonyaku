@@ -9,9 +9,9 @@ CommonItemtooltip: {
 	SentryDisplay: "使用中のセントリースロット {0}/{1}"
 	RegenDisplayFull: ライフが最大
 	RegenDisplayPos: 1秒ごとにライフが{0}回復
-	RegenDisplayNeg: "1秒ごとにライフが{0}減少"
-	SpawnRateDisplayS: "1秒ごとに敵が{0}出現"
-	SpawnRateDisplayP: "1秒ごとに敵が{0}出現"
+	RegenDisplayNeg: 1秒ごとにライフが{0}減少
+	SpawnRateDisplayS: 1秒ごとに敵が{0}出現
+	SpawnRateDisplayP: 1秒ごとに敵が{0}出現
 	SpawnCapDisplay: "敵の出現限界 {0}"
 	SpawnRateDisplayError: エラー: 極めて高い/低い出現率！
 	ComboDisplayNone: コンボなし
@@ -21,7 +21,7 @@ CommonItemtooltip: {
 	AggroDisplay: "狙われやすさ {0}"
 	ManaDisplayFull: マナが最大
 	ManaDisplayPos: 1秒ごとにマナが{0}回復
-	ManaDisplayNeg: "1秒ごとにマナが{0}減少"
+	ManaDisplayNeg: 1秒ごとにマナが{0}減少
 	SuffixThousand: " 千"
 	SuffixMillion: " 万"
 	SuffixBillion: " 億"
@@ -58,7 +58,7 @@ Biomes: {
 		Beehive: 蜂の巣
 		Granite: 御影石の洞窟
 		Marble: 大理石の洞窟
-		Graveyard: 墓地
+		Graveyard: 墓場
 		Forest: 森林
 		Town: 町
 	}

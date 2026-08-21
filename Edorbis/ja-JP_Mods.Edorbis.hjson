@@ -36,12 +36,12 @@ Buffs: {
 
 	Irradiated: {
 		DisplayName: 照射
-		Description: ライフが徐々に減少する
+		Description: ライフが徐々に減っていく
 	}
 
 	MadnessFire: {
 		DisplayName: 狂気の炎
-		Description: ライフが徐々に減少し、ステータスが低下
+		Description: ライフが徐々に減り、ステータスが低下
 	}
 
 	MoonBlessing: {
@@ -611,7 +611,7 @@ Items: {
 		Tooltip:
 			'''
 			敵の防御力を10無視する
-			攻撃者にダメージと霜焼けを与える
+			触れた敵にダメージと霜焼けを与える
 			ボスに対してダメージが増加する
 			'''
 	}
@@ -648,7 +648,7 @@ Items: {
 		Tooltip:
 			'''
 			弓の攻撃速度が5%上昇
-			また、稀に追加で矢を放つことがある
+			また、稀に追加で矢を発射することがある
 			'''
 	}
 
@@ -666,7 +666,7 @@ Items: {
 		DisplayName: オムニファイアストーン
 		Tooltip:
 			'''
-			攻撃した敵に全種類の炎のデバフを与える
+			攻撃した敵に全ての炎のデバフを与える
 			炎のデバフ耐性
 			'''
 	}
@@ -844,7 +844,7 @@ Items: {
 		DisplayName: 混沌の胸当て
 		Tooltip:
 			'''
-			近接ダメージと魔法ダメージが10%増加
+			近接と魔法ダメージが10%増加
 			最大マナが60増加
 			'''
 	}
@@ -853,7 +853,7 @@ Items: {
 		DisplayName: 混沌のすね当て
 		Tooltip:
 			'''
-			近接ダメージと魔法ダメージが5%増加
+			近接と魔法ダメージが5%増加
 			近接クリティカル率と魔法クリティカル率が5%上昇
 			移動速度が5%上昇
 			'''
@@ -1653,7 +1653,7 @@ Items: {
 		DisplayName: アダマンタイトのレンチ
 		Tooltip:
 			'''
-			ブーメランを発射して攻撃するアダマンタイトのドローンを建造する
+			ブーメランを発射して攻撃するアダマンタイトのドローンを製造する
 			ドローン1機につきエネルギーを3消費する
 			ドローンを制御するには技師のマーカーが必要
 			[c/00FF00:特殊能力: ドローンが3秒間、攻撃しないと、ダメージが増加し、速度が上昇]
@@ -1676,10 +1676,10 @@ Items: {
 		DisplayName: ブライトレンチ
 		Tooltip:
 			'''
-			レーザーを発射して攻撃するブライトプリンスを建造する
+			レーザーを発射して攻撃するブライトプリンスを製造する
 			ドローン1機につきエネルギーを2消費する
 			ドローンを制御するには技師のマーカーが必要
-			[c/00FF00:特殊能力: 夜間は3発ごとに疫病ミサイルを発射する]
+			[c/00FF00:特殊能力: 夜間は3発ごとに穢れのミサイルを発射する]
 			'''
 	}
 
@@ -1745,12 +1745,12 @@ Items: {
 		DisplayName: 銅のレンチ
 		Tooltip:
 			'''
-			3つの分裂する銅の弾丸を発射する銅のドローンを製造する
+			3つの分裂する銅の弾丸を撃つ銅のドローンを製造する
 			ドローン1機につきエネルギーを1消費する
 			ドローンを制御するには技師のマーカーが必要
 			[c/00FF00:特殊能力: リチウムのマーカーを使うと、]
 			[c/00FF00:カーソルの位置に近づくと弾丸が砕け散り、]
-			[c/00FF00:弾丸の射程と速度も向上する]
+			[c/00FF00:弾丸の射程が伸び、速度も上昇する]
 			'''
 	}
 
@@ -1770,7 +1770,7 @@ Items: {
 		DisplayName: 呪いのレンチ
 		Tooltip:
 			'''
-			呪いの弾丸を発射して攻撃するデモナイトドラゴンを製造する
+			呪いの弾丸を撃って攻撃するデモナイトドラゴンを製造する
 			ドローン1機につきエネルギーを3消費する
 			ドローンを制御するには技師のマーカーが必要
 			[c/00FF00:特殊能力: 全てのドローンとタレットは呪炎を受けている敵に対して、]
@@ -1782,7 +1782,7 @@ Items: {
 		DisplayName: デモナイトのレンチ
 		Tooltip:
 			'''
-			弾丸を発射して攻撃するシャドウドローンを製造する
+			弾丸を撃って攻撃するシャドウドローンを製造する
 			ドローン1機につきエネルギーを3消費する
 			ドローンを制御するには技師のマーカーが必要
 			[c/00FF00:特殊能力: 不浄にいるとダメージが増加し、移動速度が上昇する]
@@ -1806,7 +1806,7 @@ Items: {
 			'''
 			ボルトを発射して攻撃する金のドローンを製造する
 			ボルトは5本装填され、時間経過でリロードされる
-			全てのボルトを一度に発射すると、最後のボルトが爆発する
+			一度に全てのボルトを発射すると、最後のボルトが爆発する
 			ドローン1機につきエネルギーを2消費する
 			ドローンを制御するには技師のマーカーが必要
 			[c/00FF00:特殊能力: リチウムマーカーを使うとリロードが早くなるが、]
@@ -1821,7 +1821,7 @@ Items: {
 			聖なるボールを発射して攻撃する神聖なドローンを製造する
 			ドローン1機につきエネルギーを4消費する
 			ドローンを制御するには技師のマーカーが必要
-			[c/00FF00:特殊能力: 神聖セットを装備しているなら、ドローンから神聖な棘も発射する]
+			[c/00FF00:特殊能力: 神聖セットを装備しているなら、ドローンから神聖なトゲも発射する]
 			'''
 	}
 
@@ -1840,10 +1840,10 @@ Items: {
 		DisplayName: ジャングルのレンチ
 		Tooltip:
 			'''
-			毒の棘を発射して攻撃するジャングルのドローンを製造する
+			毒のトゲを発射して攻撃するジャングルのドローンを製造する
 			ドローン1機につきエネルギーを3消費する
 			ドローンを制御するには技師のマーカーが必要
-			[c/00FF00:特殊能力: ジャングルでは棘を追加で2本発射し、毒に耐性を得る]
+			[c/00FF00:特殊能力: ジャングルではトゲを追加で2本発射し、毒に耐性を得る]
 			'''
 	}
 
@@ -1911,7 +1911,7 @@ Items: {
 		DisplayName: プラチナのレンチ
 		Tooltip:
 			'''
-			弾丸を発射して攻撃するプラチナのドローンを製造する
+			弾丸を撃って攻撃するプラチナのドローンを製造する
 			ターゲット付近に多数の敵がいると、ドローンは爆発するポーチを発射する
 			ドローン1機につきエネルギーを2消費する
 			ドローンを制御するには技師のマーカーが必要
@@ -2072,9 +2072,9 @@ Items: {
 		DisplayName: アトランティウムのタレットの設計図
 		Tooltip:
 			'''
-			射程の短いアトランティウムの破片を連射して攻撃するトランティウムのタレットを製造する
+			射程が短いアトランティウムの破片を連射して攻撃するトランティウムのタレットを製造する
 			タレット1基につきエネルギーを4消費する
-			[c/00FF00:特殊能力: 水中に設置すると破片を一度に3つ発射する]
+			[c/00FF00:特殊能力: 溶岩と蜂蜜を除く液体内に設置すると一度に破片を3つ発射する]
 			'''
 	}
 
@@ -2237,7 +2237,7 @@ Items: {
 
 	IceDemonScythe: {
 		DisplayName: アイスデーモンサイス
-		Tooltip: 攻撃が当たると、速度を低下させるアイスデーモンサイスを召喚する
+		Tooltip: 攻撃が当たると、移動速度を低下させるアイスデーモンサイスを召喚する
 	}
 
 	NecromancerBook: {
@@ -2431,7 +2431,7 @@ Items: {
 
 	LithiumSword: {
 		DisplayName: リチウムの剣
-		Tooltip: 射程の短い稲妻を放つ
+		Tooltip: 射程が短い稲妻を放つ
 	}
 
 	NightwoodSword: {
@@ -2582,7 +2582,7 @@ Items: {
 		DisplayName: AWP
 		Tooltip:
 			'''
-			強力で高速な弾丸を発射する
+			強力で高速な弾丸を撃つ
 			右クリックでズームアウト
 			「ラッシュB！」
 			'''
@@ -2611,7 +2611,7 @@ Items: {
 		DisplayName: ハックAWP
 		Tooltip:
 			'''
-			強力で高速の弾丸を発射する
+			強力で高速の弾丸を撃つ
 			「チートはやめろ」
 			'''
 	}
@@ -2620,7 +2620,7 @@ Items: {
 		DisplayName: ジャングルストライカー
 		Tooltip:
 			'''
-			弾速の異なる5つの弾丸を発射する
+			弾速の異なる5つの弾丸を撃つ
 			弾丸をクロロファイト弾に変換する
 			'''
 	}
@@ -2637,12 +2637,12 @@ Items: {
 
 	Nightshooter: {
 		DisplayName: ナイトシューター
-		Tooltip: 弾速の異なる3つの弾丸を発射する
+		Tooltip: それぞれ弾速が違う弾丸を3発撃つ
 	}
 
 	ShroomiteRailgun: {
 		DisplayName: シュルーマイトのレールガン
-		Tooltip: 弾丸を高速弾に変換し、クロロファイト弾を追加で2発発射する
+		Tooltip: 弾丸を高速弾に変換し、クロロファイト弾を追加で2発撃つ
 	}
 
 	SteampunkRevolver: {
@@ -2759,7 +2759,7 @@ Items: {
 
 	CryoCannon: {
 		DisplayName: クライオキャノン
-		Tooltip: 霜焼けを与えるクライオボムを3発発射する
+		Tooltip: 霜焼けを与えるクライオボムを3つ発射する
 	}
 
 	KelviniteBrick: {
@@ -2797,8 +2797,8 @@ Items: {
 		Tooltip:
 			'''
 			セントリーを召喚する
-			敵を追尾するマジックボルトで攻撃するナイトウッドトーテムを召喚する
-			敵がいない場合は5本のボルトを装填する
+			敵を追尾するマジックボルトを発射して攻撃するナイトウッドトーテムを召喚する
+			敵がいない場合はボルトを5本装填する
 			ボルトを5本装填した後、トーテムは自身と味方に月の祝福を与える
 			'''
 	}
@@ -2939,8 +2939,8 @@ Items: {
 	}
 
 	StickyArrow: {
-		DisplayName: スティッキーアロー
-		Tooltip: 敵にくっつく
+		DisplayName: 粘着の矢
+		Tooltip: 敵に張り付く
 	}
 
 	TestWrench: {
@@ -3044,7 +3044,7 @@ Items: {
 			'''
 			強力なマシンガンを搭載したヴィリジアンドローンを製造する
 			撃ち続けていると攻撃速度が上昇していく
-			20回の攻撃ごとに、敵か地形に当たると棘の罠を設置する種を発射
+			20回の攻撃ごとに、敵か地形に当たるとトゲの罠を設置する種を発射
 			ドローン1機につき7エネルギーを消費する
 			ドローンを制御するには技師のマーカーが必要
 			'''
@@ -3264,7 +3264,7 @@ Items: {
 		DisplayName: スクラップのレンチ
 		Tooltip:
 			'''
-			錆びた大砲を搭載したスクラップドローンを建造する
+			錆びた大砲を搭載したスクラップドローンを製造する
 			砲弾を3発発射する
 			時折、砲弾ではなくスクラップブレードを発射し、さらに1体の敵に当たる
 			ドローン1機につきエネルギーを1消費する
@@ -3285,7 +3285,7 @@ Items: {
 		DisplayName: 銀河のレンチ
 		Tooltip:
 			'''
-			4発のホーミングミサイルを発射するインターギャラクティックプローブを建造する
+			敵を追尾するミサイルを4発発射するインターギャラクティックプローブを製造する
 			ミサイルが目標に到達すると、ホーミングを停止して加速する
 			ドローン1機につきエネルギーを7消費する
 			ドローンを制御するには技師のマーカーが必要
@@ -3328,7 +3328,7 @@ Items: {
 
 	NightsClaws: {
 		DisplayName: ナイトクロー
-		Tooltip: 5本の敵を貫通するボルトを発射する
+		Tooltip: 敵を貫通するボルトを5本発射する
 	}
 }
 
@@ -3409,7 +3409,7 @@ NPCs: {
 
 	CursedLord: {
 		DisplayName: 呪いの伝道者
-		BossChecklistIntegration.SpawnInfo: "[i:Edorbis/CursedSoul]を夜間に使用する。"
+		BossChecklistIntegration.SpawnInfo: "[i:Edorbis/CursedSoul] を夜間に使用する。"
 	}
 
 	DarkZombie.DisplayName: 闇のゾンビ
@@ -3419,7 +3419,7 @@ NPCs: {
 
 	GlaciationHead: {
 		DisplayName: グレイシエーション
-		BossChecklistIntegration.SpawnInfo: "[i:Edorbis/KelviniteRadar]を雪原で使用する。"
+		BossChecklistIntegration.SpawnInfo: "[i:Edorbis/KelviniteRadar] を雪原で使用する。"
 	}
 
 	GlaciationProbe.DisplayName: グレイシエーションプローブ
@@ -3578,7 +3578,7 @@ Projectiles: {
 	FrozenMissile.DisplayName: フローズンミサイル
 	FrozenRay.DisplayName: フローズンレーザー
 	HallowedBall.DisplayName: 聖なるボール
-	HallowedSpike.DisplayName: 神聖な棘
+	HallowedSpike.DisplayName: 神聖なトゲ
 	HighVelocityNail.DisplayName: 高速釘
 	IchorNail.DisplayName: 霊液の釘
 	IronNail.DisplayName: 鉄の釘
@@ -3597,7 +3597,7 @@ Projectiles: {
 	PurpleRay.DisplayName: パープルレーザー
 	RedFlowerTrap.DisplayName: 赤い花
 	ShroomiteShard.DisplayName: シュルーマイトの破片
-	SpikyBone.DisplayName: 骨の棘
+	SpikyBone.DisplayName: 骨のトゲ
 	SteamShot.DisplayName: 蒸気
 	CentauriumTarget.DisplayName: ケンタウリウムターゲット
 	CrimsonTarget.DisplayName: 真紅のターゲット
@@ -3623,7 +3623,7 @@ Projectiles: {
 	ShroomiteTurret.DisplayName: シュルーマイトのタレット
 	SpikyBallDropper.DisplayName: スパイクボールドロッパー
 	TackShooter.DisplayName: 釘発射機
-	WoodenSpike.DisplayName: 木の棘
+	WoodenSpike.DisplayName: 木のトゲ
 	YellowSpore.DisplayName: 黄色の胞子
 	AlienHornet.DisplayName: エイリアンホーネット
 	BlightRain.DisplayName: ブライトレイン
@@ -3663,7 +3663,7 @@ Projectiles: {
 	Punch.DisplayName: パンチ
 	ShadowPunch.DisplayName: シャドウスマッシャー
 	SpectralPunch.DisplayName: ポルターガイスト
-	RazorLeaf.DisplayName: 鋭い葉っぱ
+	RazorLeaf.DisplayName: 鋭い葉
 	ThiefKnife.DisplayName: 盗賊のナイフ
 	GoblinSpearProjectile.DisplayName: ゴプリンの槍
 	JungleSpearProjectile.DisplayName: ジャングルの槍
@@ -3688,13 +3688,13 @@ Projectiles: {
 	GardenerSpore.DisplayName: ガーデナーの胞子
 	GardenerWall.DisplayName: ガーデナーの壁
 	GlaciationRay.DisplayName: グレイシエーションレイ
-	GlaciationSpike.DisplayName: グレイシエーションの棘
+	GlaciationSpike.DisplayName: グレイシエーションのトゲ
 	HocTrident.DisplayName: クトゥルフのトライデント
 	HostileAtlanteanShell.DisplayName: アトランティスの貝殻
 	HostileAtlantiumArrow.DisplayName: アトランティウムの矢
 	HostileCentauriumRay.DisplayName: ケンタウリウムレーザー
 	MagicWave.DisplayName: マジックウェーブ
-	MiniGlaciationSpike.DisplayName: 小さなグレイシエーションの棘
+	MiniGlaciationSpike.DisplayName: 小さなグレイシエーションのトゲ
 	WallSeed.DisplayName: 壁の種
 	AtlantiumShard.DisplayName: アトリウムの破片
 	BlightWave.DisplayName: ブライトウェーブ
@@ -3751,7 +3751,7 @@ Projectiles: {
 	BlobHook.DisplayName: ブロブのフック
 	BlobStinger.DisplayName: ブロブスティンガー
 	BlobTentacle.DisplayName: ブロブの触手
-	StickyArrow.DisplayName: スティッキーアロー
+	StickyArrow.DisplayName: 粘着の矢
 	ExplosiveBolt.DisplayName: 爆発ボルト
 	GoldBolt.DisplayName: 金のボルト
 	TestDrone.DisplayName: テストドローン
@@ -3765,10 +3765,10 @@ Projectiles: {
 	LihzahrdDrone.DisplayName: リザードのドローン
 	Sunbeam.DisplayName: サンビーム
 	LihzahrdWreckingBall.DisplayName: レッキングボール
-	LihzahrdSpike.DisplayName: リザードの棘
+	LihzahrdSpike.DisplayName: リザードのトゲ
 	HomingLeaf.DisplayName: ホーミングリーフ
-	InquisitorLeaf.DisplayName: インクイジターの葉っぱ
-	LeafBoomerang.DisplayName: 葉っぱのブーメラン
+	InquisitorLeaf.DisplayName: インクイジターの葉
+	LeafBoomerang.DisplayName: 葉のブーメラン
 	StormFlower.DisplayName: 嵐の花
 	FloralTrap.DisplayName: 花
 	MantisBlade.DisplayName: マンティスブレード
@@ -3783,11 +3783,11 @@ Projectiles: {
 	MantisLeaf.DisplayName: Mantis Leaf
 	ViridianDrone.DisplayName: ヴィリジアンドローン
 	ViridianDroneBullet.DisplayName: ヴィリジアンドローンの弾丸
-	ViridianDroneThorn.DisplayName: ヴィリジアンドローンの棘
+	ViridianDroneThorn.DisplayName: ヴィリジアンドローンのトゲ
 	ViridianDroneFlower.DisplayName: ヴィリジアンドローンの花
 	ViridianDroneSeed.DisplayName: ヴィリジアンドローンの種
 	MantisScythe.DisplayName: カマキリのシックル
-	GoldenLeaf.DisplayName: 金の葉っぱ
+	GoldenLeaf.DisplayName: 金の葉
 	ShadowTouch.DisplayName: シャドウタッチ
 	AndroidExplosion.DisplayName: アンドロイドの爆弾の爆発
 	AndroidBomb.DisplayName: アンドロイドの爆弾
@@ -3845,8 +3845,8 @@ Tiles: {
 	ThermiteReactor.MapEntry: テルミットのリアクター
 	WindTurbine.MapEntry: 風力タービン
 	MonsterBanner.MapEntry: バナー
-	CentauriumOre.MapEntry: ケンタウリウム鉱石
-	KelviniteOre.MapEntry: ケルビナイト鉱石
+	CentauriumOre.MapEntry: ケンタウリウム
+	KelviniteOre.MapEntry: ケルビナイト
 	Lithium.MapEntry: リチウム
 	NightwoodChest.MapEntry: ナイトウッドの宝箱
 	NightwoodTree.MapEntry: ナイトウッドの木
