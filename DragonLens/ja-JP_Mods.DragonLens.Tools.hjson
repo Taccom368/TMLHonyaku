@@ -892,13 +892,105 @@ PlayerManager: {
 	RemoveAdmin: "{0}は管理者ではなくなりました"
 	AddAdmin: "{0}は管理者になりました"
 
-	InventoryManager: {
-		Inventory: "{0}のインベントリ"
-		Equipment: 装備
-		Piggy: 貯金箱
-		Safe: セーフ
-		DefendersForge: ディフェンダーの炉
-		VoidVault: 虚空の金庫
+	Refresh: {
+		Name: 更新
+		Tooltip: 更新ボタンの表示/非表示を切り替え
+		DisplayName: 更新
+		Description: 全プレイヤーの情報を更新
+	}
+
+	FilterCategories: {
+		Filter: フィルター
+		Team: チームフィルター
+		Biome: バイオームフィルター
+		ButtonOptions: ボタン設定
+		StatOptions: ステータス設定
+		BackgroundOptions: 背景設定
+		PlayerOptions: プレイヤー設定
+	}
+
+	Filters: {
+		Frozen: {
+			Name: 凍結
+			Description: 現在凍結中のプレイヤー
+			Toggle: 凍結ボタンの表示/非表示を切り替え
+		}
+
+		Admin: {
+			Name: 管理者
+			Description: 管理者権限を持つプレイヤー
+			Toggle: 管理者ボタンの表示/非表示を切り替え
+		}
+
+		Dead: {
+			Name: 死亡中
+			Description: 現在死亡中のプレイヤー
+		}
+
+		LowHealth: {
+			Name: ライフが50%以下
+			Description: ライフが50%以下のプレイヤー
+		}
+
+		FullHealth: {
+			Name: ライフが最大
+			Description: ライフが最大のプレイヤー
+		}
+
+		NoTeam: {
+			Name: 無所属
+			Description: どのチームにも所属していないプレイヤー
+		}
+
+		Red: {
+			Name: 赤チーム
+			Description: 赤チームのプレイヤー
+		}
+
+		Green: {
+			Name: 緑チーム
+			Description: 緑チームのプレイヤー
+		}
+
+		Blue: {
+			Name: 青チーム
+			Description: 青チームのプレイヤー
+		}
+
+		Yellow: {
+			Name: 黄チーム
+			Description: 黄チームのプレイヤー
+		}
+
+		Pink: {
+			Name: ピンクチーム
+			Description: ピンクチームのプレイヤー
+		}
+
+		Kick: {
+			Name: キック
+			Toggle: キックボタンの表示/非表示を切り替え
+		}
+
+		View: {
+			Name: 観戦
+			Toggle: 観戦ボタンの表示/非表示を切り替え
+		}
+
+		Inventory: {
+			Name: インベントリ
+			Toggle: インベントリボタンの表示/非表示を切り替え
+		}
+
+		BringHere: {
+			Name: ここへ呼ぶ
+			Toggle: ここへ呼ぶボタンの表示/非表示を切り替え
+		}
+
+		GoTo: {
+			Name: 移動する
+			Toggle: 移動するボタンの表示/非表示を切り替え
+		}
 	}
 
 	Admin: {
@@ -907,18 +999,42 @@ PlayerManager: {
 	}
 
 	Kick: {
-		Name:キック
+		Name: キック
 		Tooltip: このプレイヤーをゲームから強制的に切断させます
 	}
 
 	View: {
-		Name:ビュー
+		Name: 観戦
 		Tooltip: カメラをこのプレイヤーの位置に移動させます
 	}
 
 	Inventory: {
 		Name: インベントリ
 		Tooltip: このプレイヤーのインベントリを表示および編集します
+	}
+
+	BringHere: {
+		Name: ここへ呼ぶ
+		Tooltip: このプレイヤーを自身の位置にテレポートさせる
+	}
+
+	GoTo: {
+		Name: 移動する
+		Tooltip: このプレイヤーの位置にテレポートする
+	}
+
+	Freeze: {
+		Name: 凍結
+		Tooltip: このプレイヤーを凍結させる
+	}
+
+	InventoryManager: {
+		Inventory: "{0}のインベントリ"
+		Equipment: 装備
+		Piggy: 貯金箱
+		Safe: 金庫
+		DefendersForge: ディフェンダーの炉
+		VoidVault: 虚空の金庫
 	}
 
 	Stats:
@@ -928,6 +1044,11 @@ PlayerManager: {
 		位置: {2}
 		速度: {3}
 		生存: {4}
+		'''
+	PlayerTooltip:
+		'''
+		ライフ: {0}
+		位置: {1}
 		'''
 }
 
@@ -975,4 +1096,10 @@ Pause: {
 	DisplayName: 停止
 	Description: ゲームを一時停止します。一時停止中にこのツールを右クリックすると、1フレーム進めることができます
 	RightClickName: （一時停止）1フレーム進む
+}
+
+SpawnPoint: {
+	DisplayName: スポーン地点
+	Description: 現在の位置をスポーン地点に設定します
+	Message: スポーン地点をX: {0}、Y: {1}に設定しました
 }

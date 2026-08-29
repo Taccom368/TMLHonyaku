@@ -580,7 +580,7 @@ Items: {
 
 	RicketyRocketAmmo: {
 		DisplayName: 古びたロケット弾
-		Tooltip: とても小さい爆発が起きる。ブロックと壁を破壊しない
+		Tooltip: 小さい爆発が起きる。ブロックと壁を破壊しない
 	}
 
 	NovaFragment: {
@@ -608,7 +608,7 @@ Items: {
 
 	CoralKrakAmmo: {
 		DisplayName: サンゴの破片
-		Tooltip: 小さい爆発が起きる。ブロックと壁を破壊しない
+		Tooltip: 爆発が起きる。ブロックと壁を破壊しない
 	}
 
 	Snipesploder: {

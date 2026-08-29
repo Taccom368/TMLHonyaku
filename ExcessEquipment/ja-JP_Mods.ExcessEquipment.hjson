@@ -111,14 +111,9 @@ Items: {
 		Tooltip: 上方に落下する
 	}
 
-	IyonMask: {
-		DisplayName: イヨンのマスク
-		Tooltip: 「Mod開発者に成りすますのに最適！」
-	}
-
 	ShimmerBullet: {
 		DisplayName: シマーの弾丸
-		Tooltip: 弾速が遅いが、敵を貫通し、地形を無視する
+		Tooltip: 地形を無視する
 	}
 
 	BunnyBed: {
@@ -213,7 +208,11 @@ Items: {
 
 	LuminiteDart: {
 		DisplayName: ルミナイトのダーツ
-		Tooltip: 「壁を貫通できる！」
+		Tooltip:
+			'''
+			敵を追尾する
+			「逃げ場はない」
+			'''
 	}
 
 	ChlorophyteStaff: {
@@ -549,36 +548,9 @@ Items: {
 		DisplayName: ベレー帽
 	}
 
-	CorruptAbcess: {
-		Tooltip:
-			'''
-			未完成のアイテム
-			現在は装飾品としてのみ使用されている
-			'''
-		DisplayName: 不浄の膿瘍
-	}
-
-	CrimsonPustule: {
-		DisplayName: 真紅の膿疱
-		Tooltip:
-			'''
-			未完成のアイテム
-			現在は装飾品としてのみ使用されている
-			'''
-	}
-
 	InfernalBlowpipe: {
 		Tooltip: 木のダーツに火をつけて発射する
 		DisplayName: デビルブレス
-	}
-
-	HallowedCluster: {
-		Tooltip:
-			'''
-			未完成のアイテム
-			現在は装飾品としてのみ使用されている
-			'''
-		DisplayName: 聖域のクラスター
 	}
 
 	ChlorophyteFishingRod: {
@@ -602,13 +574,13 @@ Items: {
 	}
 
 	CursedRocket: {
-		Tooltip: 小さい爆発が起きる。ブロックと壁を破壊しない
+		Tooltip: 爆発が起きる。ブロックと壁を破壊しない
 		DisplayName: 呪炎のロケット
 	}
 
 	IchorRocket: {
 		DisplayName: 霊液のロケット
-		Tooltip: 小さい爆発が起きる。ブロックと壁を破壊しない
+		Tooltip: 爆発が起きる。ブロックと壁を破壊しない
 	}
 
 	CopperWhip: {
@@ -722,11 +694,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	BouncyThing: {
-		Tooltip: ""
-		DisplayName: 弾むアイテム
-	}
-
 	HallowedFishingRod: {
 		Tooltip: ""
 		DisplayName: アークアングラー
@@ -818,12 +785,12 @@ Items: {
 	}
 
 	WoodenPickaxe: {
-		Tooltip: 採掘にはあまり適さない
+		Tooltip: 表示名: 木のつるはし
 		DisplayName: 木のつるはし
 	}
 
 	WoodenAxe: {
-		Tooltip: たたき切るにはあまり向かない
+		Tooltip: 表示名: 木の斧
 		DisplayName: 木の斧
 	}
 
@@ -904,8 +871,8 @@ Items: {
 	}
 
 	MinionPowerPotion: {
-		DisplayName: ミニオンの力のポーション
-		Tooltip: 召喚ダメージとミニオンのノックバックが増加
+		DisplayName: セントリーポーション
+		Tooltip: 召喚できるセントリーの数が1体増える
 	}
 
 	CurePotion: {
@@ -969,23 +936,21 @@ Items: {
 			'''
 			召喚できるミニオンの数が1体増える
 			召喚ダメージが10%増加
-			セットボーナス: 召喚できるミニオンの数が1体増える
 			'''
 	}
 
 	AdamantiteVisor: {
-		SetBonus: Mods.ExcessEquipment.Items.AdamantiteVisor.SetBonus
+		SetBonus: 召喚できるミニオンの数が1体増える
 		DisplayName: アダマンタイトのバイザー
 		Tooltip:
 			'''
 			召喚できるミニオンの数が1体増える
 			召喚ダメージが10%増加
-			セットボーナス: 召喚できるミニオンの数が1体増える
 			'''
 	}
 
 	MythrilMask: {
-		SetBonus: Mods.ExcessEquipment.Items.MythrilMask.SetBonus
+		SetBonus: 召喚できるミニオンの数が1体増える
 		DisplayName: ミスリルの仮面
 		Tooltip:
 			'''
@@ -996,7 +961,11 @@ Items: {
 	}
 
 	OrichalcumVisor: {
-		SetBonus: Mods.ExcessEquipment.Items.OrichalcumVisor.SetBonus
+		SetBonus:
+			'''
+			召喚できるミニオンの数が1体増え、
+			花びらが攻撃した敵にダメージを追加で与える
+			'''
 		DisplayName: オリハルコンのバイザー
 		Tooltip:
 			'''
@@ -1008,26 +977,30 @@ Items: {
 	}
 
 	PalladiumHat: {
-		SetBonus: Mods.ExcessEquipment.Items.PalladiumHat.SetBonus
+		SetBonus:
+			'''
+			召喚できるミニオンの数が1体増え、
+			敵を攻撃すると、ライフ自然回復を大幅に増進
+			'''
 		DisplayName: パラジウムの帽子
 		Tooltip:
 			'''
 			召喚できるミニオンの数が1体増える
 			召喚ダメージが10%増加
-			セットボーナス: 召喚できるミニオンの数が1体増え、
-			敵を攻撃すると、ライフ自然回復を大幅に増進
 			'''
 	}
 
 	TitaniumHood: {
-		SetBonus: Mods.ExcessEquipment.Items.TitaniumHood.SetBonus
+		SetBonus:
+			'''
+			召喚できるミニオンの数が1体増え、
+			攻撃を当てると、チタンの欠片の防護を生成
+			'''
 		DisplayName: チタンのフード
 		Tooltip:
 			'''
 			召喚できるミニオンの数が1体増える
 			召喚ダメージが10%増加
-			セットボーナス: 召喚できるミニオンの数が1体増え、
-			攻撃を当てると、チタンの欠片の防護を生成
 			'''
 	}
 
@@ -1110,8 +1083,8 @@ Items: {
 	}
 
 	MagicThread: {
-		DisplayName: 魔法の糸
-		Tooltip: 鞭の攻撃範囲が10%増加
+		DisplayName: 魔法の糸巻き
+		Tooltip: 鞭の攻撃範囲が15%増加
 	}
 
 	Telescope: {
@@ -1250,7 +1223,7 @@ Items: {
 	}
 
 	FrostBullet: {
-		Tooltip: ""
+		Tooltip: 当たった敵の移動速度を低下させる
 		DisplayName: 氷の弾丸
 	}
 
@@ -1286,11 +1259,6 @@ Items: {
 
 	TitaniumJackhammer: {
 		DisplayName: チタンの機械槌
-		Tooltip: ""
-	}
-
-	Excavator: {
-		DisplayName: エクスカベーター
 		Tooltip: ""
 	}
 
@@ -1380,11 +1348,6 @@ Items: {
 		DisplayName: タツノオトシゴの石像
 	}
 
-	FairyStatye: {
-		Tooltip: ""
-		DisplayName: フェアリーの石像
-	}
-
 	LihzahrdVase: {
 		Tooltip: ""
 		DisplayName: リザードの花瓶
@@ -1398,11 +1361,6 @@ Items: {
 	PraiseTheSun: {
 		Tooltip: 「C.リストロン」
 		DisplayName: 絵画『太陽を讃えよ』
-	}
-
-	SurfaceBox: {
-		Tooltip: ""
-		DisplayName: 地上の箱
 	}
 
 	MartianRemote: {
@@ -1497,7 +1455,7 @@ Items: {
 	}
 
 	VortexCannon: {
-		Tooltip: 開発中、チートを使用しないと入手できない
+		Tooltip: 33%の確率でロケットを消費しない
 		DisplayName: ボルテックスキャノン
 	}
 
@@ -1509,6 +1467,177 @@ Items: {
 	Drillsaw: {
 		Tooltip: リザードのレンガの採掘が可能
 		DisplayName: ドリルソー
+	}
+
+	SuspiciousLookingSeed: {
+		Tooltip: ジャングルの草に植えることができ、プランテラのつぼみを植える
+		DisplayName: 怪しい種
+	}
+
+	SelenianMask: {
+		Tooltip: ""
+		DisplayName: セレニアンのマスク
+	}
+
+	VortexianMask: {
+		Tooltip: ""
+		DisplayName: ボルテキシアンのマスク
+	}
+
+	StargazerMask: {
+		Tooltip: ""
+		DisplayName: スターゲイザーのマスク
+	}
+
+	PredictorMask: {
+		Tooltip: ""
+		DisplayName: 預言者のマスク
+	}
+
+	CheatAccessory: {
+		Tooltip:
+			'''
+			無限飛行、超高速走行、氷の上で滑らない
+			飛行と空中での機動力を強化
+			移動速度が大きく上昇し、液体の上を歩ける
+			シマーを無効化し、落下、炎のブロック、溶岩によるダメージを無効化
+			採掘スピードとブロックと壁の配置速度が50%上昇
+			ブロックの配置範囲と道具が届く範囲が5マス広がる
+			アイテムを拾う距離が広がる
+			設置した物に自動的に塗装やコーティングをする
+			ワイヤーが見えるようになる
+			ブロック設置時に距離と厚さを測れる
+			'''
+		DisplayName: チートアクセサリ
+	}
+
+	SolarGreatsword: {
+		Tooltip: ""
+		DisplayName: ソーラーグレートソード
+	}
+
+	Aberrator: {
+		Tooltip: ""
+		DisplayName: アベレーター
+	}
+
+	Thunderstorm: {
+		Tooltip:
+			'''
+			66%の確率で弾薬を消費しない
+			「これはやりすぎというレベルを超えている」
+			'''
+		DisplayName: サンダーストーム
+	}
+
+	IchorFlare: {
+		Tooltip: ""
+		DisplayName: 照明弾（霊液）
+	}
+
+	EndlessBlueFlareBox: {
+		DisplayName: 無限照明弾（青）箱
+		Tooltip: ""
+	}
+
+	UltrabrightFlare: {
+		DisplayName: 明るい照明弾
+		Tooltip: ""
+	}
+
+	NanoDart: {
+		Tooltip: ""
+		DisplayName: ナノダーツ
+	}
+
+	ShimmerRocket: {
+		Tooltip: ""
+		DisplayName: ロケット弾（シマー）
+	}
+
+	LuminiteRocket: {
+		Tooltip:
+			'''
+			爆発が起きる。ブロックと壁を破壊しない
+			「月の力を、その掌に！」
+			'''
+		DisplayName: ロケット弾（ルミナイト）
+	}
+
+	LuminiteFlare: {
+		Tooltip: 「本当に？ルミナイトをこれに使ったのか？」
+		DisplayName: 照明弾（ルミナイト）
+	}
+
+	WhitePearlNecklace: {
+		Tooltip:
+			'''
+			運がわずかに増加
+			「失われた名誉の代わりを、どうして俗世のものが果たせようか」
+			'''
+		DisplayName: 真珠のネックレス（白）
+	}
+
+	BlackPearlNecklace: {
+		Tooltip:
+			'''
+			運が増加
+			「失われた名誉の代わりを、どうして俗世のものが果たせようか」
+			'''
+		DisplayName: 真珠のネックレス（黒）
+	}
+
+	PinkPearlNecklace: {
+		Tooltip:
+			'''
+			運が大きく増加
+			「失われた名誉の代わりを、どうして俗世のものが果たせようか」
+			'''
+		DisplayName: 真珠のネックレス（ピンク）
+	}
+
+	SpectreDart: {
+		Tooltip: 敵を貫通し、地形を無視する
+		DisplayName: スペクターのダーツ
+	}
+
+	SpectreBullet: {
+		Tooltip: 敵を貫通し、地形を無視する
+		DisplayName: スペクター弾
+	}
+
+	SpectreArrow: {
+		Tooltip: 敵を貫通し、地形を無視する
+		DisplayName: スペクターの矢
+	}
+
+	DiamondDust: {
+		Tooltip: 「超自然的なほど冷たい」
+		DisplayName: 細氷
+	}
+
+	InfernalGauntlet: {
+		Tooltip:
+			'''
+			炎上耐性
+			触れた敵にヘルファイアを与える
+			'''
+		DisplayName: 地獄の腕当て
+	}
+
+	FossilPipe: {
+		Tooltip: ""
+		DisplayName: 化石の筒
+	}
+
+	MeteoritePickaxe: {
+		Tooltip: ""
+		DisplayName: 隕石のつるはし
+	}
+
+	Corona: {
+		Tooltip: ""
+		DisplayName: コロナ
 	}
 }
 
@@ -1560,7 +1689,6 @@ Projectiles: {
 	HunterStaffProjectile.DisplayName: スピリットシーカー
 	ScrollLightning.DisplayName: 巻物の電撃
 	FrostDartProjectile.DisplayName: 氷のダーツ
-	MageBowProjectile.DisplayName: 魔法の弓
 	SlimeBulletProjectile.DisplayName: 弾む弾丸
 	RopeWhipProjectile.DisplayName: ロープの鞭
 	BouncyDartProjectile.DisplayName: 弾むダーツ
@@ -1591,7 +1719,6 @@ Projectiles: {
 	OrichalcumStaffProjectile.DisplayName: オリハルコンボルト
 	PalladiumStaffProjectile.DisplayName: パラジウムボルト
 	TitaniumStaffProjectile.DisplayName: チタンボルト
-	ExcavatorProjectile.DisplayName: エクスカベーター
 	SolarFlareJacksawProjectile.DisplayName: ソーラーフレアのジャックソー
 	NebulaJacksawProjectile.DisplayName: ネビュラのジャックソー
 	StardustJacksawProjectile.DisplayName: スターダストのジャックソー
@@ -1600,6 +1727,20 @@ Projectiles: {
 	CrimtaneStaffProjectile.DisplayName: クリムタンの杖
 	HallowedJackhammerProjectile.DisplayName: フラックハンマー
 	DrillsawProjectile.DisplayName: ドリルソー
+	AberratorProjectile.DisplayName: Aberrator Projectile
+	IchorFlareProjectile.DisplayName: Ichor Flare Projectile
+	UltrabrightFlareProjectile.DisplayName: Ultrabright Flare Projectile
+	NanoDartProjectile.DisplayName: Nano Dart Projectile
+	LuminiteSnowmanRocketProjectile.DisplayName: Luminite Snowman Rocket Projectile
+	LuminiteRocketProjectile.DisplayName: Luminite Rocket Projectile
+	LuminiteProximityMineProjectile.DisplayName: Luminite Proximity Mine Projectile
+	LuminiteGrenadeProjectile.DisplayName: Luminite Grenade Projectile
+	LuminiteFlareProjectile.DisplayName: Luminite Flare Projectile
+	SpectreDartProjectile.DisplayName: Spectre Dart Projectile
+	SpectreBulletProjectile.DisplayName: Spectre Bullet Projectile
+	SpectreArrowProjectile.DisplayName: Spectre Arrow Projectile
+	CoronaProjectile.DisplayName: Corona Projectile
+	SolarGreatswordEnergy.DisplayName: Solar Greatsword Energy
 }
 
 Tiles: {
@@ -1623,9 +1764,6 @@ Tiles: {
 	}
 
 	ChlorophyteAnvil.MapEntry: クロロファイトの金床
-	CorruptAbcess.MapEntry: 不浄の膿瘍
-	CrimsonPustule.MapEntry: 真紅の膿疱
-	HallowedCluster.MapEntry: 聖域のクラスター
 	DungeonModel.MapEntry: ダンジョンの模型
 	TempleModel.MapEntry: 寺院の模型
 	PyramidModel.MapEntry: ピラミッドの模型
@@ -1696,19 +1834,14 @@ Buffs: {
 		DisplayName: デッドアイ
 	}
 
-	ChillyDebuff: {
-		Description: 移動速度が低下
-		DisplayName: 凍え
-	}
-
 	WeaponImbueFrost: {
 		DisplayName: 凍え付与
 		Description: 近接攻撃で敵の移動速度を低下させる
 	}
 
 	MinionPowerBuff: {
-		DisplayName: ミニオンの力
-		Description: 召喚ダメージとミニオンのノックバックが増加
+		DisplayName: セントリー
+		Description: 召喚できるセントリーの数が1体増える
 	}
 
 	CureBuff: {
@@ -1767,7 +1900,7 @@ Buffs: {
 	}
 
 	MagicImbueFrost: {
-		DisplayName: 氷魔法付与
+		DisplayName: 凍え魔法付与
 		Description: 魔法攻撃で攻撃した敵の移動速度が低下
 	}
 

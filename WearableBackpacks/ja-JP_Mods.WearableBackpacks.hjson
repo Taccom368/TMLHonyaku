@@ -1,178 +1,201 @@
-# This file will automatically update with entries for new content after a build and reload.
+DisplayName: Wearable Backpacks 
+AccessorySlots.Backpack.DisplayName: バックパック
 
-Mods: {
-	WearableBackpacks: {
-		DisplayName: Wearable Backpacks
-		AccessorySlots.Backpack.DisplayName: バックパック
+UI: {
+	RecipeLine: レシピ: {0}
+	StorageSlots: 容量: {0}
+	LooksOnly: 見た目のみでインベントリは追加しない
+	BackpacksTab: バックパック
+	VanityTab: 衣装
+	Sort: ソート
+	DepositAll: 全て取り出す
+	LootAll: 全て預ける
+	DefaultBackpackColor: バックパックのデフォルト色
+	DefaultDogColor: ドッグのデフォルト色
+}
 
-		Items: {
-			DogBackpackWhistle: {
-				DisplayName: バックパック付きのイヌ笛
-				Tooltip: バックパックを背負った子イヌを召喚する
-			}
+Keybinds: {
+	OpenBackpack.DisplayName: バックパックを開く
+	OpenDogBackpack.DisplayName: ドッグのバックパックを開く
+}
 
-			WearableBackpack: {
-				DisplayName: キャンプサイズのバックパック
-				Tooltip: 装備するとバックパックのスロットが40追加される
-			}
+BackpackPickupMode: {
+	OverflowOnly: あふれた分のみ
+	BackpackFirst: バックパックを優先
+	Disabled: 自動的に入れない
+}
 
-			WearableBackpackSmall: {
-				DisplayName: ミニバックパック
-				Tooltip: 装備するとバックパックのスロットが10追加される
-			}
+Items: {
+	DogBackpackWhistle: {
+		DisplayName: バックパック付きのイヌ笛
+		Tooltip: バックパックを背負った子イヌを召喚する
+	}
 
-			WearableBackpackTravel: {
-				DisplayName: 旅行用のバックパック
-				Tooltip: 装備するとバックパックのスロットが20追加される
-			}
+	TailorsCatalog: {
+		DisplayName: 仕立て屋のカタログ
+		Tooltip: 全てのバックパックのレシピ一覧を開く
+	}
 
-			WearableBackpackPouch: {
-				DisplayName: バックパックポーチ
-				Tooltip: 装備するとバックパックのスロットが15追加される
-			}
+	WearableBackpack: {
+		DisplayName: キャンプサイズのバックパック
+		Tooltip: 装備するとバックパックのスロットが40追加される
+	}
 
-			WearableBackpackMining: {
-				DisplayName: 採掘用のバックパック
-				Tooltip: 装備するとバックパックのスロットが35追加され、採掘スピードが10%上昇し、探検家のポーションの効果時間が5分延長される
-			}
+	WearableBackpackSmall: {
+		DisplayName: ミニバックパック
+		Tooltip: 装備するとバックパックのスロットが10追加される
+	}
 
-			WearableBackpackVanity: {
-				DisplayName: キャンプサイズのバックパック (衣装)
-				Tooltip: 衣装スロット専用
-			}
+	WearableBackpackTravel: {
+		DisplayName: 旅行用のバックパック
+		Tooltip: 装備するとバックパックのスロットが20追加される
+	}
 
-			WearableBackpackSmallVanity: {
-				DisplayName: ミニバックパック (衣装)
-				Tooltip: 衣装スロット専用
-			}
+	WearableBackpackPouch: {
+		DisplayName: バックパックポーチ
+		Tooltip: 装備するとバックパックのスロットが15追加される
+	}
 
-			WearableBackpackTravelVanity: {
-				DisplayName: 旅行用のバックパック (衣装)
-				Tooltip: 衣装スロット専用
-			}
+	WearableBackpackMining: {
+		DisplayName: 採掘用のバックパック
+		Tooltip: 装備するとバックパックのスロットが35追加され、採掘スピードが10%上昇し、探検家のポーションの効果時間が5分延長される
+	}
 
-			WearableBackpackPouchVanity: {
-				DisplayName: バックパックポーチ (衣装)
-				Tooltip: 衣装スロット専用
-			}
+	WearableBackpackVanity: {
+		DisplayName: キャンプサイズのバックパック (衣装)
+		Tooltip: 見た目のみでインベントリは追加しない
+	}
 
-			WearableBackpackMiningVanity: {
-				DisplayName: 採掘用のバックパック (衣装)
-				Tooltip: 衣装スロット専用
-			}
+	WearableBackpackSmallVanity: {
+		DisplayName: ミニバックパック (衣装)
+		Tooltip: 見た目のみでインベントリは追加しない
+	}
 
-			WearableBackpackFishingBasket: {
-				DisplayName: 釣り桶のバックパック
-				Tooltip: 装備するとバックパックのスロットが18追加され、釣りのポーションの効果時間が8分延長される
-			}
+	WearableBackpackTravelVanity: {
+		DisplayName: 旅行用のバックパック (衣装)
+		Tooltip: 見た目のみでインベントリは追加しない
+	}
 
-			WearableBackpackWorkbench: {
-				DisplayName: 作業台のバックパック
-				Tooltip: 装備するとバックパックのスロットが5追加され、いつでも作業台を使用できる
-			}
+	WearableBackpackPouchVanity: {
+		DisplayName: バックパックポーチ (衣装)
+		Tooltip: 見た目のみでインベントリは追加しない
+	}
 
-			WearableBackpackSchool: {
-				DisplayName: 学校のバックパック
-				Tooltip: 衣装スロット専用
-			}
+	WearableBackpackMiningVanity: {
+		DisplayName: 採掘用のバックパック (衣装)
+		Tooltip: 見た目のみでインベントリは追加しない
+	}
 
-			WearableBackpackChest: {
-				DisplayName: 宝箱のバックパック
-				Tooltip: 装備するとバックパックのスロットが40追加されるが、移動速度が20%低下し、落下速度が上昇する
-			}
+	WearableBackpackFishingBasket: {
+		DisplayName: 釣り桶のバックパック
+		Tooltip: 装備するとバックパックのスロットが18追加され、釣りのポーションの効果時間が8分延長される
+	}
 
-			WearableBackpackTurtleshell: {
-				DisplayName: 亀の甲羅のバックパック
-				Tooltip: 装備するとバックパックのスロットが15追加され、防御力が10増加し、近接攻撃速度が15%上昇する
-			}
+	WearableBackpackWorkbench: {
+		DisplayName: 作業台のバックパック
+		Tooltip: 装備するとバックパックのスロットが5追加され、いつでも作業台を使用できる
+	}
 
-			WearableBackpackTurtleClean: {
-				DisplayName: 亀の甲羅
-				Tooltip: 衣装スロット専用
-			}
+	WearableBackpackSchool: {
+		DisplayName: 学校のバックパック
+		Tooltip: 見た目のみでインベントリは追加しない
+	}
 
-			WearableBackpackMilitaryDesert: {
-				DisplayName: 砂漠迷彩の軍用バックパック
-				Tooltip: 衣装スロット専用
-			}
+	WearableBackpackChest: {
+		DisplayName: 宝箱のバックパック
+		Tooltip: 装備するとバックパックのスロットが40追加されるが、移動速度が15%低下し、落下ダメージが10%増加する
+	}
 
-			WearableBackpackMilitaryForest: {
-				DisplayName: 森林迷彩の軍用バックパック
-				Tooltip: 衣装スロット専用
-			}
+	WearableBackpackTurtleshell: {
+		DisplayName:  亀の甲羅のバックパック
+		Tooltip: 装備するとバックパックのスロットが15追加され、防御力が10増加し、近接攻撃速度が15%上昇する
+	}
 
-			WearableBackpackDrifter: {
-				DisplayName: 放浪者のバックパック
-				Tooltip: 衣装スロット専用
-			}
+	WearableBackpackTurtleClean: {
+		DisplayName: 亀の甲羅
+		Tooltip: 見た目のみでインベントリは追加しない
+	}
 
-			WearableBackpackJack: {
-				DisplayName: 労働者のバックパック
-				Tooltip: 衣装スロット専用
-			}
+	WearableBackpackMilitaryDesert: {
+		DisplayName: 砂漠迷彩の軍用バックパック
+		Tooltip: 見た目のみでインベントリは追加しない
+	}
 
-			WearableBackpackRimbo: {
-				DisplayName: 辺獄のバックパック
-				Tooltip: 衣装スロット専用
-			}
+	WearableBackpackMilitaryForest: {
+		DisplayName: 森林迷彩の軍用バックパック
+		Tooltip: 見た目のみでインベントリは追加しない
+	}
 
-			WearableBackpackZombie: {
-				DisplayName: ゾンビのバックパック
-				Tooltip: 衣装スロット専用
-			}
+	WearableBackpackDrifter: {
+		DisplayName: 放浪者のバックパック
+		Tooltip: 見た目のみでインベントリは追加しない
+	}
 
-			WearableBackpackAnvil: {
-				DisplayName: 金床のバックパック
-				Tooltip: 装備するとバックパックのスロットが5追加され、いつでも金床を使用できる
-			}
+	WearableBackpackJack: {
+		DisplayName: 労働者のバックパック
+		Tooltip: 見た目のみでインベントリは追加しない
+	}
 
-			WearableBackpackTerrariumRex: {
-				DisplayName: テラリウムのバックパック
-				Tooltip: 衣装スロット専用
-			}
+	WearableBackpackRimbo: {
+		DisplayName: 辺獄のバックパック
+		Tooltip: 見た目のみでインベントリは追加しない
+	}
 
-			WearableBackpackRaincoat: {
-				DisplayName: レインコートのバックパック
-				Tooltip: 衣装スロット専用
-			}
+	WearableBackpackZombie: {
+		DisplayName: ゾンビのバックパック
+		Tooltip: 見た目のみでインベントリは追加しない
+	}
 
-			WearableBackpackViolet: {
-				DisplayName: 紫のバックパック
-				Tooltip: 衣装スロット専用
-			}
+	WearableBackpackAnvil: {
+		DisplayName: 金床のバックパック
+		Tooltip: 装備するとバックパックのスロットが5追加され、いつでも金床を使用できる
+	}
 
-			WearableBackpackEgg: {
-				DisplayName: 卵のバックパック
-				Tooltip: 衣装スロット専用
-			}
+	WearableBackpackTerrariumRex: {
+		DisplayName: テラリウムのバックパック
+		Tooltip: 見た目のみでインベントリは追加しない
+	}
 
-			WearableBackpackEggCracked: {
-				DisplayName: 割れた卵のバックパック
-				Tooltip: 衣装スロット専用
-			}
+	WearableBackpackRaincoat: {
+		DisplayName: レインコートのバックパック
+		Tooltip: 見た目のみでインベントリは追加しない
+	}
 
-			WearableBackpackGladiator: {
-				DisplayName: 剣闘士のバックパック
-				Tooltip: 装備するとバックパックのスロットが5追加され、防御力が5増加し、近接攻撃速度が20%上昇する
-			}
+	WearableBackpackViolet: {
+		DisplayName: 紫のバックパック
+		Tooltip: 見た目のみでインベントリは追加しない
+	}
 
-			WearableBackpackAnvilVanity: {
-				DisplayName: 金床のバックパック (衣装)
-				Tooltip: 衣装スロット専用
-			}
+	WearableBackpackEgg: {
+		DisplayName: 卵のバックパック
+		Tooltip: 見た目のみでインベントリは追加しない
+	}
 
-			WearableBackpackGladiatorVanity: {
-				DisplayName: 剣闘士のバックパック (衣装)
-				Tooltip: 衣装スロット専用
-			}
-		}
+	WearableBackpackEggCracked: {
+		DisplayName: 割れた卵のバックパック
+		Tooltip: 見た目のみでインベントリは追加しない
+	}
 
-		Buffs: {
-			DogBackpackPuppyBuff: {
-				DisplayName: ベストフレンド
-				Description: 子イヌがあなたの荷物を運んでくれる
-			}
-		}
+	WearableBackpackGladiator: {
+		DisplayName: 剣闘士のバックパック
+		Tooltip: 装備するとバックパックのスロットが5追加され、防御力が5増加し、近接攻撃速度が20%上昇する
+	}
+
+	WearableBackpackAnvilVanity: {
+		DisplayName: 金床のバックパック (衣装)
+		Tooltip: 見た目のみでインベントリは追加しない
+	}
+
+	WearableBackpackGladiatorVanity: {
+		DisplayName: 剣闘士のバックパック (衣装)
+		Tooltip: 見た目のみでインベントリは追加しない
+	}
+}
+
+Buffs: {
+	DogBackpackPuppyBuff: {
+		DisplayName: ベストフレンド
+		Description: 子イヌがあなたの荷物を運んでくれる
 	}
 }
 
@@ -204,57 +227,57 @@ Items: {
 
 	WearableBackpackMining: {
 		DisplayName: 採掘用のバックパック
-		Tooltip: 装備するとバックパックのスロットが35追加され、採掘スピードが10%上昇し、探検家のポーションの効果時間を10分に延長する
+		Tooltip: 装備するとバックパックのスロットが35追加され、採掘スピードが10%上昇し、探検家のポーションの効果時間が5分延長される
 	}
 
 	WearableBackpackVanity: {
 		DisplayName: キャンプサイズのバックパック (衣装)
-		Tooltip: 衣装スロット専用
+		Tooltip: 見た目のみでインベントリは追加しない
 	}
 
 	WearableBackpackSmallVanity: {
 		DisplayName: ミニバックパック (衣装)
-		Tooltip: 衣装スロット専用
+		Tooltip: 見た目のみでインベントリは追加しない
 	}
 
 	WearableBackpackTravelVanity: {
 		DisplayName: 旅行用のバックパック (衣装)
-		Tooltip: 衣装スロット専用
+		Tooltip: 見た目のみでインベントリは追加しない
 	}
 
 	WearableBackpackPouchVanity: {
 		DisplayName: バックパックポーチ (衣装)
-		Tooltip: 衣装スロット専用
+		Tooltip: 見た目のみでインベントリは追加しない
 	}
 
 	WearableBackpackMiningVanity: {
 		DisplayName: 採掘用のバックパック (衣装)
-		Tooltip: 衣装スロット専用
+		Tooltip: 見た目のみでインベントリは追加しない
 	}
 
 	WearableBackpackFishingBasket: {
-		DisplayName: 釣り桶付きのバックパック
-		Tooltip: 装備するとバックパックのスロットが18追加され、釣りのポーションの効果時間を16分に延長する
+		DisplayName: 釣り桶のバックパック
+		Tooltip: 装備するとバックパックのスロットが18追加され、釣りのポーションの効果時間が8分延長される
 	}
 
 	WearableBackpackFishingBasketVanity: {
-		DisplayName: 釣り桶付きのバックパック (衣装)
-		Tooltip: 衣装スロット専用
+		DisplayName: 釣り桶のバックパック (衣装)
+		Tooltip: 見た目のみでインベントリは追加しない
 	}
 
 	WearableBackpackWorkbench: {
-		DisplayName: 作業台付きのバックパック
+		DisplayName: 作業台のバックパック
 		Tooltip: 装備するとバックパックのスロットが5追加され、いつでも作業台を使用できる
 	}
 
 	WearableBackpackWorkbenchVanity: {
-		DisplayName: 作業台付きのバックパック (衣装)
-		Tooltip: 衣装スロット専用
+		DisplayName: 作業台のバックパック (衣装)
+		Tooltip: 見た目のみでインベントリは追加しない
 	}
 
 	WearableBackpackSchool: {
 		DisplayName: 学校のバックパック
-		Tooltip: 衣装スロット専用
+		Tooltip: 見た目のみでインベントリは追加しない
 	}
 
 	WearableBackpackChest: {
@@ -264,82 +287,82 @@ Items: {
 
 	WearableBackpackChestVanity: {
 		DisplayName: 宝箱のバックパック (衣装)
-		Tooltip: 衣装スロット専用
+		Tooltip: 見た目のみでインベントリは追加しない
 	}
 
 	WearableBackpackTurtleshell: {
-		DisplayName: 亀の甲羅のバックパック
-		Tooltip: 装備するとバックパックのスロットが15追加され、防御力が10増加し、近接攻撃速度が15%上昇
+		DisplayName:  亀の甲羅のバックパック
+		Tooltip: 装備するとバックパックのスロットが15追加され、防御力が10増加し、近接攻撃速度が15%上昇する
 	}
 
 	WearableBackpackTurtleshellVanity: {
 		DisplayName: 亀の甲羅のバックパック (衣装)
-		Tooltip: 衣装スロット専用
+		Tooltip: 見た目のみでインベントリは追加しない
 	}
 
 	WearableBackpackTurtleClean: {
 		DisplayName: 亀の甲羅
-		Tooltip: 衣装スロット専用
+		Tooltip: 見た目のみでインベントリは追加しない
 	}
 
 	WearableBackpackMilitaryDesert: {
 		DisplayName: 砂漠迷彩の軍用バックパック
-		Tooltip: 衣装スロット専用
+		Tooltip: 見た目のみでインベントリは追加しない
 	}
 
 	WearableBackpackMilitaryForest: {
 		DisplayName: 森林迷彩の軍用バックパック
-		Tooltip: 衣装スロット専用
+		Tooltip: 見た目のみでインベントリは追加しない
 	}
 
 	WearableBackpackDrifter: {
 		DisplayName: 放浪者のバックパック
-		Tooltip: 衣装スロット専用
+		Tooltip: 見た目のみでインベントリは追加しない
 	}
 
 	WearableBackpackJack: {
 		DisplayName: 労働者のバックパック
-		Tooltip: 衣装スロット専用
+		Tooltip: 見た目のみでインベントリは追加しない
 	}
 
 	WearableBackpackRimbo: {
 		DisplayName: 辺獄のバックパック
-		Tooltip: 衣装スロット専用
+		Tooltip: 見た目のみでインベントリは追加しない
 	}
 
 	WearableBackpackZombie: {
 		DisplayName: ゾンビのバックパック
-		Tooltip: 衣装スロット専用
+		Tooltip: 見た目のみでインベントリは追加しない
 	}
 
 	WearableBackpackAnvil: {
 		DisplayName: 金床のバックパック
-		Tooltip: 装備するとバックパックのスロットが10追加され、いつでも金床を使用できる
+		Tooltip: 装備するとバックパックのスロットが5追加され、いつでも金床を使用できる
 	}
 
 	WearableBackpackTerrariumRex: {
 		DisplayName: テラリウムのバックパック
-		Tooltip: 衣装スロット専用
+		Tooltip: 見た目のみでインベントリは追加しない
 	}
 
 	WearableBackpackRaincoat: {
 		DisplayName: レインコートのバックパック
-		Tooltip: 衣装スロット専用
+		Tooltip: 見た目のみでインベントリは追加しない
 	}
 
 	WearableBackpackViolet: {
-		DisplayName: 紫色のバックパック
-		Tooltip: 衣装スロット専用
+		DisplayName: 紫のバックパック
+		Tooltip: 見た目のみでインベントリは追加しない
 	}
 
 	WearableBackpackEgg: {
 		DisplayName: 卵のバックパック
-		Tooltip: 衣装スロット専用
+		Tooltip: 見た目のみでインベントリは追加しない
 	}
 
 	WearableBackpackEggCracked: {
 		DisplayName: 割れた卵のバックパック
-		Tooltip: 衣装スロット専用
+		Tooltip: 見た目のみでインベントリは追加しない
 	}
 
 	WearableBackpackGladiator: {
@@ -349,17 +372,22 @@ Items: {
 
 	WearableBackpackAnvilVanity: {
 		DisplayName: 金床のバックパック (衣装)
-		Tooltip: 衣装スロット専用
+		Tooltip: 見た目のみでインベントリは追加しない
 	}
 
 	WearableBackpackGladiatorVanity: {
 		DisplayName: 剣闘士のバックパック (衣装)
-		Tooltip: 衣装スロット専用
+		Tooltip: 見た目のみでインベントリは追加しない
 	}
 
 	TailorBench: {
 		DisplayName: 仕立て台
 		Tooltip: ""
+	}
+
+	TailorsCatalog: {
+		DisplayName: 仕立て屋のカタログ
+		Tooltip: 全てのバックパックのレシピ一覧を開く
 	}
 }
 
@@ -420,7 +448,7 @@ Configs: {
 		}
 
 		Backpack10TurtleshellSlots: {
-			Label: 亀の甲羅
+			Label:  亀の甲羅のバックパック
 			Tooltip: ""
 		}
 
@@ -434,4 +462,130 @@ Configs: {
 			Tooltip: ""
 		}
 	}
+
+	WearableBackpacksClientConfig: {
+		DisplayName: Wearable Backpacks 設定
+
+		Headers: {
+			InventoryAppearance: インベントリの見た目
+			Pickup: 拾得の動作
+			Inventory: インベントリ
+			BackpackPosition: バックパックの位置
+		}
+
+		BackpackColors: {
+			Label: バックパックのカラー
+			Tooltip: 装備可能なバックパックのパネルとスロットのカラー
+		}
+
+		DogBackpackColors: {
+			Label: ドッグのバックパックのカラー
+			Tooltip: ドッグのバックパックのパネルとスロットのカラー
+		}
+
+		ResetBagColorsButtons: {
+			Label: " "
+			Tooltip: バックパックのパネルとスロットのカラーを通常のインベントリのカラーにリセットする
+		}
+
+		BackpackUIScale: {
+			Label: バックパックのUIのスケール
+			Tooltip: バックパックとドッグのバックパックのウィンドウサイズ
+		}
+
+		PickupMode: {
+			Label: 拾得モード
+			Tooltip:
+				'''
+				あふれた分のみに設定するとインベントリが一杯のときのみバックパックに入れ、
+				バックパックを優先だと常にバックパックに入れます
+				自動的に入れないは拾ったアイテムをインベントリに入れます
+				'''
+		}
+
+		SortBackpacksWithInventory: {
+			Label: インベントリと同時にバックパックをソート
+			Tooltip:
+				'''
+				オンにすると、インベントリをソートすると、
+				バッグパックとドッグのバックパックもソートするようになります
+				'''
+		}
+
+		LockDogBagDuringBosses: {
+			Label: ボス戦中にドッグのバッグをロック
+			Tooltip:
+				'''
+				オンにするとボス戦中、ドッグのバッグパックを右クリックしても、
+				バッグパックが開かなくなります
+				ドッグのバックパックを開くは機能します
+				'''
+		}
+
+		LockDogBagNearbyBossesOnly: {
+			Label: ボスが近くにいるときのみロック
+			Tooltip:
+				'''
+				これとボス戦中にドッグのバッグをロックがオンだと、
+				ボスが近くにいるときのみドッグの右クリックが無効になります
+				これがオフだと他のプレイヤーが戦闘中でも、ボス戦中は常にロックされます
+				'''
+		}
+
+		PlaceDogWindowBesideBackpack: {
+			Label: ドッグのバックパックのウィンドウをバックパックの横に配置
+			Tooltip:
+				'''
+				ドッグのバックパックのウィンドウを開くたびに、
+				バックパックのウィンドウの横にスナップされます
+				'''
+		}
+
+		ResetBackpackWindowPositions: {
+			Label: バックパックの位置をリセット
+			Tooltip:
+				'''
+				クリックするとバックパックとドッグのバックパックのウィンドウを、
+				インベントリの右側に移動します
+				'''
+		}
+	}
+
+	BagColorSettings: {
+		Panel: {
+			Label: パネルの色
+			Tooltip: バックパックウィンドウのカラー
+		}
+
+		Slots: {
+			Label: スロットのカラー
+			Tooltip: アイテムスロットのカラー
+		}
+
+		Tooltip: ""
+	}
+
+	BackpackPickupMode: {
+		Tooltip: ""
+
+		OverflowOnly: {
+			Label: あふれた分のみ
+			Tooltip: ""
+		}
+
+		BackpackFirst: {
+			Label: バックパックを優先
+			Tooltip: ""
+		}
+
+		Disabled: {
+			Label: 無効
+			Tooltip: ""
+		}
+	}
+}
+
+Keybinds: {
+	OpenBackpack.DisplayName: バックパックを開く
+	OpenDogBackpack.DisplayName: ドッグのバックパックを開く
 }

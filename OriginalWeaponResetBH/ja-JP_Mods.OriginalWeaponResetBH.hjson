@@ -1,14 +1,14 @@
 Projectiles: {
 	CustomBoneProjectile.DisplayName: 骨
 	CactusSpineProjectile.DisplayName: サボテンのトゲ
-	GladiusProjectile.DisplayName: グラディウスソードビーム
+	GladiusProjectile.DisplayName: グラディウスのソードビーム
 	BatProjectile.DisplayName: コウモリ
 	MeteorBoomerangProjectile.DisplayName: 投げたフェーズブレード
 	MeteorLaserProjectile.DisplayName: フェーズレーザー
 	TwoHitSwordProjectile.DisplayName: Two Hit Sword Projectile
 	DoubleComboProjectile.DisplayName: Double Combo Projectile
 	SwordAttackProjectile.DisplayName: Sword Attack Projectile
-	TestProj.DisplayName: テスト 発射物
+	TestProj.DisplayName: テスト発射物
 	SkullJackProjectile.DisplayName: 追尾頭蓋骨
 	TestThrowableProjectile.DisplayName: Test Throwable Projectile
 	TestThrowableComboProj.DisplayName: Test Throwable Combo Proj
@@ -24,7 +24,7 @@ Projectiles: {
 	LightsBaneProxy.DisplayName: ライツベインの斬撃
 	BloodShotProxy.DisplayName: 血の弾
 	MyChargedSwordHoldout.DisplayName: My Charged Sword Holdout
-	FieryGreatswordCharge.DisplayName: ヴォルケイノチャージ
+	FieryGreatswordCharge.DisplayName: ヴォルケイノのチャージ
 	test3.DisplayName: テスト3
 	test4.DisplayName: テスト4
 	FieryGreatswordRight.DisplayName: ヴォルケイノ
@@ -36,7 +36,7 @@ Projectiles: {
 	IceSpikeProjectile.DisplayName: 氷のトゲ
 	BeeKeeperProjectile.DisplayName: ビー・キーパー
 	PurpleToxicBubble.DisplayName: 紫の泡
-	NightsEdgeStyled.DisplayName: ナイトエッジスタイル
+	NightsEdgeStyled.DisplayName: ナイトエッジのスタイル
 	NightsScytheProjectile.DisplayName: 夜の鎌
 	PhasesaberHoldProjectile.DisplayName: フェーズセイバー
 	PhasesaberThrowProjectile.DisplayName: 投げたフェーズセイバー
@@ -73,28 +73,28 @@ Projectiles: {
 	ChlorophyteClaymoreProj2.DisplayName: クロロファイトオーブ
 	BeamProjectile.DisplayName: ライトビーム
 	HamBatThrowProjectile.DisplayName: ハムのバット
-	WoodenBoomerangRight.DisplayName: 木のブーメラン溜め
-	EnchantedBoomerangRight.DisplayName: 魔法のブーメラン溜め
+	WoodenBoomerangRight.DisplayName: 木のブーメランの溜め
+	EnchantedBoomerangRight.DisplayName: 魔法のブーメランの溜め
 	ShroomerangProj2.DisplayName: シュルーメランの胞子雲
-	ShroomerangRight.DisplayName: シュルーメラン溜め
-	IceBoomerangRight.DisplayName: 氷のブーメラン溜め
-	TrimarangRight.DisplayName: トライメラン溜め
-	TrimarangProj2.DisplayName: トライメランブーメラン
-	ThornChakramRight.DisplayName: イバラのチャクラム溜め
-	FruitcakeChakramRight.DisplayName: フルーツケーキチャクラム溜め
-	BloodyMacheteRight.DisplayName: 血塗られたナタ右
-	CombatWrenchRight.DisplayName: コンバットレンチ溜め
+	ShroomerangRight.DisplayName: シュルーメランの溜め
+	IceBoomerangRight.DisplayName: 氷のブーメランの溜め
+	TrimarangRight.DisplayName: トライメランの溜め
+	TrimarangProj2.DisplayName: トライメランのブーメラン
+	ThornChakramRight.DisplayName: イバラのチャクラムの溜め
+	FruitcakeChakramRight.DisplayName: フルーツケーキチャクラムの溜め
+	BloodyMacheteRight.DisplayName: 血塗られたナタ右クリック
+	CombatWrenchRight.DisplayName: コンバットレンチの溜め
 	DartTrapProj2.DisplayName: ダーツの罠
-	FlamarangRight.DisplayName: フレイメラン溜め
+	FlamarangRight.DisplayName: フレイメランの溜め
 	FriendlyFlamethrowerTrap.DisplayName: フレイメランの炎
 	FriendlyFlamesTrap.DisplayName: 炎の罠
-	FlyingKnifeRight.DisplayName: フライングナイフ溜め
+	FlyingKnifeRight.DisplayName: フライングナイフの溜め
 	DD2SquireDemonSwordProj2.DisplayName: インフェルノブランドのヘルファイア
-	LightDiscRight.DisplayName: ライトディスク溜め
-	BananarangRight.DisplayName: バナナラン溜め
+	LightDiscRight.DisplayName: ライトディスクの溜め
+	BananarangRight.DisplayName: バナナランの溜め
 	BananarangProj2.DisplayName: 分裂したバナナラン
-	PaladinsHammerRight.DisplayName: パラディンのハンマー右
-	PossessedHatchetRight.DisplayName: 狂気の手斧右
+	PaladinsHammerRight.DisplayName: パラディンのハンマー右クリック
+	PossessedHatchetRight.DisplayName: 狂気の手斧右クリック
 	PossessedHatchetProj2.DisplayName: 分裂した狂気の手斧
 	FriendlyPoisonDartTrap.DisplayName: スーパーダーツの罠
 	FriendlySpearTrap.DisplayName: 槍の罠
@@ -103,7 +103,7 @@ Projectiles: {
 	StarfuryBladeOrb.DisplayName: スカイフラクチャーのエネルギーソード
 	DeathSickleProjectile.DisplayName: 死神の鎌
 	DeathSickleProj2.DisplayName: 死の鎌
-	DeathSickleRight.DisplayName: 死神の鎌溜め
+	DeathSickleRight.DisplayName: 死神の鎌の溜め
 	DeathSickleProj3.DisplayName: 死の鎌
 	HeatRayProjectile.DisplayName: 熱線銃
 	SharpTearsProj2.DisplayName: Sharp Tears Proj2
@@ -143,11 +143,11 @@ Projectiles: {
 	TyphoonProj.DisplayName: 渦潮の刃 台風
 	SharknadoProj.DisplayName: 渦潮の刃 竜巻
 	LunarFlareBookProj.DisplayName: クトゥルフの小さい目玉
-	PhantasmalBolt2.DisplayName: 魔法弾
-	FriendlyPhantasmalDeathray.DisplayName: 薙ぎ払いビーム
-	PhantasmalEyeProj.DisplayName: 目玉
+	PhantasmalBolt2.DisplayName: 小さいの魔法弾
+	FriendlyPhantasmalDeathray.DisplayName: 小さいの目玉の薙ぎ払いビーム
+	PhantasmalEyeProj.DisplayName: クトゥルフの目玉
 	TsunamiProj.DisplayName: ウェーブアロー
-	TsunamiProj2.DisplayName: ツナミ 竜巻
+	TsunamiProj2.DisplayName: ツナミの竜巻
 	StakeClone.DisplayName: 木の杭
 	HallowedRepeaterProj2.DisplayName: 聖なるビーム
 	SpikeSpawner.DisplayName: Spike Spawner
@@ -155,14 +155,14 @@ Projectiles: {
 	FairyQueenRangedItemProj2.DisplayName: トワイライトアロー
 	FairyQueenRangedItemProj.DisplayName: トワイライトアロー
 	FairyQueenRangedItemShotClone.DisplayName: トワイライトランス
-	DD2BetsyBowProj.DisplayName: エアリアルベイン 右
+	DD2BetsyBowProj.DisplayName: エアリアルベイン右クリック
 	DD2BetsyBowProj2.DisplayName: 煉獄の矢
 	DD2BetsyArrowClone.DisplayName: スプリットアロー
 	InstantLightningBolt.DisplayName: Instant Lightning Bolt
 	FriendlyLightningBolt.DisplayName: Friendly Lightning Bolt
 	PulseBowProj.DisplayName: パルスアロー
 	PulseBowProj2.DisplayName: 雷
-	DaedalusStormbowProj.DisplayName: ダイダロスストームボウ右
+	DaedalusStormbowProj.DisplayName: ダイダロスストームボウ右クリック
 	DaedalusStormbowProj2.DisplayName: エネルギーアロー
 	DaedalusStormbowProj3.DisplayName: 貫通エネルギーアロー
 	VineWhipProjectile.DisplayName: 蔓の鞭
@@ -170,9 +170,9 @@ Projectiles: {
 	OctopusTentacleScheduler.DisplayName: タコの触手
 	OctopusTentacleProj2.DisplayName: タコの触手 爆発
 	ExampleSimpleMinion.DisplayName: Example Simple Minion
-	TrueExcaliburMinion.DisplayName: 魔法のエクスカリバーミニオン
-	CursedHammerMinion.DisplayName: カースドハンマーミニオン
-	CrimsonAxeMinion.DisplayName: クリムゾンアックスミニオン
+	TrueExcaliburMinion.DisplayName: 魔法のエクスカリバーのミニオン
+	CursedHammerMinion.DisplayName: カースドハンマーのミニオン
+	CrimsonAxeMinion.DisplayName: クリムゾンアックスのミニオン
 	CrimsonAxeExplosion.DisplayName: クリムゾンアックスの爆発
 	VenomSpiderBH.DisplayName: Venom Spider B H
 	TempestProj2.DisplayName: 嵐の杖 竜巻
@@ -193,9 +193,9 @@ Projectiles: {
 	RocketFireworkBoxSentryProj.DisplayName: ロケット花火箱
 	RocketFireworkBoxSentryShot1.DisplayName: ロケット花火
 	RocketFireworkBoxSentryShot.DisplayName: ロケット花火
-	MuramasaProjectile.DisplayName: ムラマサ 斬撃
+	MuramasaProjectile.DisplayName: ムラマサの斬撃
 	SwingingEnergySwordProjectile.DisplayName: Swinging Energy Sword Projectile
-	MuramasaProjectile2.DisplayName: ムラマサ 追撃
+	MuramasaProjectile2.DisplayName: ムラマサの追撃
 	NightsEdgeProjectile.DisplayName: ナイトエッジの衝撃波
 	NightsEdgeProjectile2.DisplayName: 闇の斬撃
 	FalconBladeProjectile.DisplayName: ファルコンブレードのかまいたち
@@ -207,11 +207,11 @@ Projectiles: {
 	BabyBirdMinion.DisplayName: 小鳥の赤ちゃん
 	RavenMinion.DisplayName: カラス
 	DeadlySphereProj2.DisplayName: ライトニングボルト
-	DeadlySphereExplosion.DisplayName: ライトニングボルト爆発
+	DeadlySphereExplosion.DisplayName: ライトニングボルトの爆発
 	BigUFOMinion.DisplayName: 大型UFO
 	UFOMinion.DisplayName: UFO
-	UFOMinionProj2.DisplayName: UFOミサイル
-	UFOMinionProjLaser.DisplayName: UFOレーザー
+	UFOMinionProj2.DisplayName: UFOのミサイル
+	UFOMinionProjLaser.DisplayName: UFOのレーザー
 	BigStardustCellMinion.DisplayName: 巨大なスターダストセル
 	StardustCellMinion.DisplayName: スターダストセル
 	StardustCellMinionProj.DisplayName: 小さいスターダストセル
@@ -229,61 +229,68 @@ Projectiles: {
 	NettleBurstProj2.DisplayName: 植物の
 	MoltenFuryProj.DisplayName: 爆発矢
 	PhoenixBlasterProj.DisplayName: フェニックスブラスターのグレネード
-	PhoenixBlasterExplosion.DisplayName: フェニックスグレネード爆発
+	PhoenixBlasterExplosion.DisplayName: フェニックスグレネードの爆発
 	MegasharkProj.DisplayName: メガシャークの魚
-	VenusMagnumProj.DisplayName: ヴィーナスマグナムレーザー
+	VenusMagnumProj.DisplayName: ヴィーナスマグナムのレーザー
 	UziHoldProj.DisplayName: ウージー
-	CornExplosion.DisplayName: コーン爆発
+	CornExplosion.DisplayName: コーンの爆発
 	CornProj.DisplayName: コーングレネード
 	SDMGProj.DisplayName: SDMG イルカ
-	StyngerHoldProj.DisplayName: スティンガー発射準備
+	StyngerHoldProj.DisplayName: スティンガーの発射準備
 	JackOLanternLauncherProj.DisplayName: ジャック・オー・ランタン爆弾
 	BladetongueProj.DisplayName: ブレイドタン
 	OnyxBlasterShardProj.DisplayName: オニキスブラスタークリスタルの欠片
 	XenopopperProj2.DisplayName: ゼノホッパーの泡
 	XenopopperProj.DisplayName: エイリアンバレット
-	MagicDaggerRight.DisplayName: マジックダガー右
+	MagicDaggerRight.DisplayName: マジックダガー右クリック
 	FrostStaffProj.DisplayName: 降霜の杖の氷の弾
-	StaffofEarthProj.DisplayName: 大地の杖魔法陣
+	StaffofEarthProj.DisplayName: 大地の杖の魔法陣
 	SpiritFlameProj.DisplayName: スピリットフレイムの炎
-	ThunderStaffLeftProj.DisplayName: サンダーザッパー左
-	ThunderStaffShotProj.DisplayName: サンダーザッパーライトニングオーブ
-	ThunderStaffShotProj2.DisplayName: サンダーザッパー電撃
-	ThunderStaffRightProj.DisplayName: サンダーザッパー右
-	AmberStaffRightProj.DisplayName: コハクの杖右
-	AmethystStaffRightProj.DisplayName: アメジストの杖右
-	DiamondStaffRightProj.DisplayName: ダイアモンドの杖右
-	EmeraldStaffRightProj.DisplayName: エメラルドの杖右
-	RubyStaffRightProj.DisplayName: ルビーの杖右
-	SapphireStaffRightProj.DisplayName: サファイアの杖右
-	TopazStaffRightProj.DisplayName: トパーズの杖右
-	TopazStaffLeftProj.DisplayName: トパーズの杖左
+	ThunderStaffLeftProj.DisplayName: サンダーザッパーの左クリック
+	ThunderStaffShotProj.DisplayName: サンダーザッパーのライトニングオーブ
+	ThunderStaffShotProj2.DisplayName: サンダーザッパーの電撃
+	ThunderStaffRightProj.DisplayName: サンダーザッパー右クリック
+	AmberStaffRightProj.DisplayName: コハクの杖右クリック
+	AmethystStaffRightProj.DisplayName: アメジストの杖右クリック
+	DiamondStaffRightProj.DisplayName: ダイアモンドの杖右クリック
+	EmeraldStaffRightProj.DisplayName: エメラルドの杖右クリック
+	RubyStaffRightProj.DisplayName: ルビーの杖右クリック
+	SapphireStaffRightProj.DisplayName: サファイアの杖右クリック
+	TopazStaffRightProj.DisplayName: トパーズの杖右クリック
+	TopazStaffLeftProj.DisplayName: トパーズの杖の左クリック
 	TopazStaffShotProj.DisplayName: トパーズの杖の魔法弾
+	TopazStaffShot.DisplayName: トパーズの杖の魔法弾
 	AmethystStaffShotProj.DisplayName: アメジストの杖の魔法弾
-	AmethystStaffLeftProj.DisplayName: アメジストの杖左
-	SapphireStaffLeftProj.DisplayName: サファイアの杖左
+	AmethystStaffShot.DisplayName: アメジストの杖の魔法弾
+	AmethystStaffLeftProj.DisplayName: アメジストの杖左クリック
+	SapphireStaffLeftProj.DisplayName: サファイアの杖左クリック
 	SapphireStaffShotProj.DisplayName: サファイアの杖の魔法弾
-	EmeraldStaffLeftProj.DisplayName: エメラルドの杖左
+	SapphireStaffShot.DisplayName: サファイアの杖の魔法弾
+	EmeraldStaffLeftProj.DisplayName: エメラルドの杖左クリック
 	EmeraldStaffShotProj.DisplayName: エメラルドの杖の魔法弾
+	EmeraldStaffShot.DisplayName: エメラルドの杖の魔法弾
 	RubyStaffShotProj.DisplayName: ルビーの杖の魔法弾
-	RubyStaffLeftProj.DisplayName: ルビーの杖左
-	DiamondStaffLeftProj.DisplayName: ダイアモンドの杖左
+	RubyStaffShot.DisplayName: ルビーの杖の魔法弾
+	RubyStaffLeftProj.DisplayName: ルビーの杖左クリック
+	DiamondStaffLeftProj.DisplayName: ダイアモンドの杖左クリック
 	DiamondStaffShotProj.DisplayName: ダイアモンドの杖の魔法弾
+	DiamondStaffShot.DisplayName: ダイアモンドの杖の魔法弾
 	SkyFractureLeftProj.DisplayName: スカイフラクチャー魔法陣
-	AmberStaffLeftProj.DisplayName: コハクの杖左
+	AmberStaffLeftProj.DisplayName: コハクの杖左クリック
 	AmberStaffShotProj.DisplayName: コハクの杖の魔法弾
+	AmberStaffShot.DisplayName: コハクの杖の魔法弾
 	FrostStaffShotProj.DisplayName: 降霜の杖の氷の弾2
-	FrostStaffRightProj.DisplayName: 降霜の杖右
-	FrostStaffLeftProj.DisplayName: 降霜の杖左
+	FrostStaffRightProj.DisplayName: 降霜の杖右クリック
+	FrostStaffLeftProj.DisplayName: 降霜の杖左クリック
 	FrostStaffShotProj2.DisplayName: 降霜の杖の氷のトゲ
-	CrystalSerpentRightProj.DisplayName: クリスタルサーペント右
-	CrystalSerpentLeftProj.DisplayName: クリスタルサーペント左
+	CrystalSerpentRightProj.DisplayName: クリスタルサーペント右クリック
+	CrystalSerpentLeftProj.DisplayName: クリスタルサーペント左クリック
 	CrystalPulseShotProj.DisplayName: クリスタルサーペント1
 	CrystalPulseShotProj2.DisplayName: クリスタルサーペント2
 	MeteorStaffShotProj2.DisplayName: 隕石の杖の大きな隕石
 	MeteorStaffShotProj.DisplayName: 隕石の杖の隕石
-	MeteorStaffLeftProj.DisplayName: 隕石の杖左
-	UnholyTridentLeftProj.DisplayName: 不浄のトライデント魔法陣
+	MeteorStaffLeftProj.DisplayName: 隕石の杖左クリック
+	UnholyTridentLeftProj.DisplayName: 不浄のトライデントの魔法陣
 	UnholyTridentShotProj.DisplayName: 不浄のトライデント
 	RoseCrystalMinion.DisplayName: ローズクリスタル
 	RoseCrystalMinionShotProj.DisplayName: ローズクリスタルの射撃
@@ -292,27 +299,27 @@ Projectiles: {
 	PixieGreenMinion.DisplayName: 緑のピクシー
 	PixieBlueMinionShot.DisplayName: 青のピクシーの射撃
 	PixieBlueMinion.DisplayName: 青のピクシー
-	PixieGreenMinionExplosion.DisplayName: 緑のピクシー爆弾の爆発
+	PixieGreenMinionExplosion.DisplayName: 緑のピクシーの爆弾の爆発
 	PixieGreenMinionShot.DisplayName: 緑のピクシーの爆弾
-	StardustCellMinionShotExplosion.DisplayName: スターダストセル爆発
-	BatScepterLeftProj.DisplayName: コウモリの短杖魔法陣
+	StardustCellMinionShotExplosion.DisplayName: スターダストセルの爆発
+	BatScepterLeftProj.DisplayName: コウモリの短杖の魔法陣
 	BatScepterRightProj.DisplayName: コウモリの短杖
 	BatScepterShot.DisplayName: 巨大コウモリ
 	BlizzardStaffRightProj.DisplayName: 吹雪の杖
-	BlizzardStaffLeftProj.DisplayName: 吹雪の杖魔法陣
+	BlizzardStaffLeftProj.DisplayName: 吹雪の杖の魔法陣
 	BlizzardStaffLeftProj2.DisplayName: ツララ
 	InfernoForkLeftProj.DisplayName: インフェルノフォーク
 	InfernoForkRightProj.DisplayName: インフェルノフォーク
-	InfernoForkMagicCircleProj.DisplayName: インフェルノフォーク魔法陣
+	InfernoForkMagicCircleProj.DisplayName: インフェルノフォークの魔法陣
 	AdamAcceleratorBeam.DisplayName: Adam Accelerator Beam
 	ShadowbeamStaffShotProj.DisplayName: シャドウビーム
 	ShadowbeamStaffRightProj.DisplayName: シャドウビームスタッフ
 	ShadowbeamStaffLeftProj.DisplayName: シャドウビームスタッフ
-	LaserRifleShotProj.DisplayName: ライフルレーザー
+	LaserRifleShotProj.DisplayName: ライフルのレーザー
 	StormBookClone.DisplayName: 無限の知の書
 	DD2ApprenticeStormProj.DisplayName: 無限の知の書の竜巻
 	BookStaffRightProj.DisplayName: 無限の知の書
-	BookStaffLeftProj.DisplayName: 無限の知の書魔法陣
+	BookStaffLeftProj.DisplayName: 無限の知の書の魔法陣
 	ChlorophytePartisanProjectile.DisplayName: クロロファイトの貫通槍
 	SpearProjectile.DisplayName: 槍
 	TridentProjectile.DisplayName: トライデント
@@ -338,7 +345,7 @@ Projectiles: {
 	TitaniumTridentShot.DisplayName: チタンの衝撃波
 	TitaniumTridentShard.DisplayName: チタンの欠片
 	GungnirProjectile.DisplayName: グングニル
-	GungnirReticle.DisplayName: グングニルレーザー
+	GungnirReticle.DisplayName: グングニルのレーザー
 	MonkStaffT2Projectile.DisplayName: ガーストリィグレイブ
 	MushroomSpearProjectile.DisplayName: キノコの槍
 	MushroomMini.DisplayName: 胞子
@@ -353,7 +360,7 @@ Projectiles: {
 	ScourgeoftheCorruptorProjectile.DisplayName: スカージオブコラプター
 	ScourgeoftheCorruptorShot1.DisplayName: コラプター
 	DayBreakProjectile.DisplayName: デイブレイカー
-	DayBreakShot.DisplayName: デイブレイカー斬撃
+	DayBreakShot.DisplayName: デイブレイカーの斬撃
 	MonkStaffT3Projectile.DisplayName: スカイドラゴンの怒り
 	Thunder2.DisplayName: 稲妻
 	MonkStaffT3Shot.DisplayName: 電撃
@@ -438,7 +445,7 @@ Projectiles: {
 	DD2PhoenixExplosion.DisplayName: フェニックスエクスプロージョン
 	DD2BetsyBowLaser.DisplayName: エアリアルレーザー
 	HoundiusShootiusSentryProj.DisplayName: ハウンディウス・シューティウス
-	HoundiusShootiusLaser.DisplayName: ハウンディウス・シューティウスレーザー
+	HoundiusShootiusLaser.DisplayName: ハウンディウス・シューティウスのレーザー
 	FairyCritterStumpSentryProj.DisplayName: 妖精の切り株
 	FairyCritterStumpSentryShot.DisplayName: 妖精の切り株の妖精
 	TombstoneImitatorSentryProj.DisplayName: 墓石のミミック
@@ -462,9 +469,9 @@ Projectiles: {
 	SporeCloud2.DisplayName: 胞子雲2
 	DD2SquireBetsySwordShot.DisplayName: フライングドラゴンの弾
 	DD2SquireBetsySwordProj2.DisplayName: フライングドラゴンの弾
-	TrueExcaliburShot.DisplayName: トゥルーエクスカリバービーム1
-	TrueExcaliburShot2.DisplayName: トゥルーエクスカリバービーム2
-	TrueExcaliburShot3.DisplayName: トゥルーエクスカリバービーム3
+	TrueExcaliburShot.DisplayName: トゥルーエクスカリバーのビーム1
+	TrueExcaliburShot2.DisplayName: トゥルーエクスカリバーのビーム2
+	TrueExcaliburShot3.DisplayName: トゥルーエクスカリバーのビーム3
 	TerraBeam.DisplayName: テラビーム
 	TrueNightsEdgeProj4.DisplayName: トゥルーナイトエッジ
 	TrueNightsEdgeSlash.DisplayName: トゥルーナイトエッジの斬撃
@@ -487,7 +494,7 @@ Projectiles: {
 	KeybrandProjectile.DisplayName: キーブランド
 	KeybrandShot.DisplayName: キーブランドの閃光
 	KeybrandShot2.DisplayName: キーブランドの光弾
-	KeybrandRight.DisplayName: キーブランド右
+	KeybrandRight.DisplayName: キーブランド右クリック
 	SeedlerProjectile.DisplayName: シードラー
 	ChristmasTreeSwordProjectile.DisplayName: クリスマスツリーソード
 	ChristmasTreeSwordShot.DisplayName: クリスマスツリーソードの星
@@ -550,8 +557,8 @@ Projectiles: {
 	ChristmasTreeSwordStar.DisplayName: クリスマスツリーソードの星
 	ChristmasTreeSwordShot2.DisplayName: クリスマスツリーソードの星
 	SpaceGunShot.DisplayName: スペースガンのレーザー
-	LeafBlowerLeftProj.DisplayName: リーフブロワー左
-	LeafBlowerRightProj.DisplayName: リーフブロワー右
+	LeafBlowerLeftProj.DisplayName: リーフブロワー左クリック
+	LeafBlowerRightProj.DisplayName: リーフブロワー右クリック
 	LeafBlowerShot.DisplayName: リーフブロワー
 	FlareProjectile.DisplayName: ソーラーフレア
 	FlareShot.DisplayName: ソーラーフレア
@@ -560,59 +567,59 @@ Projectiles: {
 	FlareShotCounter.DisplayName: ソーラーフレア
 	WandofSparkingShot.DisplayName: 火花
 	WandofFrostingShot.DisplayName: 降霜の火花
-	AquaScepterLeftProj.DisplayName: アクアセプター左
-	AquaScepterRightProj.DisplayName: アクアセプター右
+	AquaScepterLeftProj.DisplayName: アクアセプター左クリック
+	AquaScepterRightProj.DisplayName: アクアセプター右クリック
 	AquaScepterShot.DisplayName: 水流
-	VilethornLeftProj.DisplayName: ヴァイルソーン左
+	VilethornLeftProj.DisplayName: ヴァイルソーン左クリック
 	VilethornMagicCircleProj.DisplayName: ヴァイルソーンの魔法陣
-	VilethornRightProj.DisplayName: ヴァイルソーン右
+	VilethornRightProj.DisplayName: ヴァイルソーン右クリック
 	VilethornShot.DisplayName: ヴァイルソーンのトゲ
 	VilethornShot2.DisplayName: ヴァイルソーンのトゲ
-	CrystalVileShardLeftProj.DisplayName: クリスタルヴァイルシャード左
+	CrystalVileShardLeftProj.DisplayName: クリスタルヴァイルシャード左クリック
 	CrystalVileShardMagicCircleProj.DisplayName: クリスタルヴァイルシャードの魔法陣
-	CrystalVileShardRightProj.DisplayName: クリスタルヴァイルシャード右
+	CrystalVileShardRightProj.DisplayName: クリスタルヴァイルシャード右クリック
 	CrystalVileShardShot.DisplayName: クリスタルヴァイルシャードのクリスタルのトゲ
 	CrystalVileShardShot2.DisplayName: クリスタルヴァイルシャードのクリスタルのトゲ
-	NettleBurstLeftProj.DisplayName: ネトルバースト左
+	NettleBurstLeftProj.DisplayName: ネトルバースト左クリック
 	NettleBurstMagicCircleProj.DisplayName: ネトルバーストの魔法陣
-	NettleBurstRightProj.DisplayName: ネトルバースト右
+	NettleBurstRightProj.DisplayName: ネトルバースト右クリック
 	NettleBurstShot.DisplayName: トゲ
 	NettleBurstShot2.DisplayName: トゲ
 	NettleBurstFlowerShot.DisplayName: 花びら
 	NettleBurstFlowerShot2.DisplayName: 花びら
 	NettleBurstHealShot.DisplayName: ネトルバーストの回復
-	NimbusRodLeftProj.DisplayName: 雨雲の杖左
+	NimbusRodLeftProj.DisplayName: 雨雲の杖左クリック
 	NimbusRodShotProj.DisplayName: 雨雲の杖の電撃
-	NimbusRodRightProj.DisplayName: 雨雲の杖右
-	CrimsonRodLeftProj.DisplayName: クリムゾンロッド左
-	CrimsonRodRightProj.DisplayName: クリムゾンロッド右
+	NimbusRodRightProj.DisplayName: 雨雲の杖右クリック
+	CrimsonRodLeftProj.DisplayName: クリムゾンロッド左クリック
+	CrimsonRodRightProj.DisplayName: クリムゾンロッド右クリック
 	CrimsonRodShot.DisplayName: クリムゾンロッドの血流
-	PoisonStaffLeftProj.DisplayName: 毒の杖左
-	PoisonStaffRightProj.DisplayName: 毒の杖右
+	PoisonStaffLeftProj.DisplayName: 毒の杖左クリック
+	PoisonStaffRightProj.DisplayName: 毒の杖右クリック
 	PoisonStaffShot.DisplayName: 毒の杖の毒の牙
-	VenomStaffLeftProj.DisplayName: 猛毒の杖左
-	VenomStaffRightProj.DisplayName: 猛毒の杖右
+	VenomStaffLeftProj.DisplayName: 猛毒の杖左クリック
+	VenomStaffRightProj.DisplayName: 猛毒の杖右クリック
 	VenomStaffShot.DisplayName: 猛毒の杖の毒の牙
-	SoulDrainLeftProj.DisplayName: ライフドレイン左
-	SoulDrainShot.DisplayName: ライフドレイン右
-	SpectreStaffLeftProj.DisplayName: スペクタースタッフ左
-	SpectreStaffRightProj.DisplayName: スペクタースタッフ右
+	SoulDrainLeftProj.DisplayName: ライフドレイン左クリック
+	SoulDrainShot.DisplayName: ライフドレイン右クリック
+	SpectreStaffLeftProj.DisplayName: スペクタースタッフ左クリック
+	SpectreStaffRightProj.DisplayName: スペクタースタッフ右クリック
 	SpectreStaffShot.DisplayName: スペクタースタッフのスペクターオーブ
 	TestLaser.DisplayName: テストレーザー
 	ShadowbeamStaffLaser.DisplayName: シャドウビームスタッフのレーザー
-	HeatRayLeftProj.DisplayName: 熱線銃左
+	HeatRayLeftProj.DisplayName: 熱線銃左クリック
 	HeatRayRightLaser.DisplayName: 熱線銃のチャージレーザー
-	HeatRayRightProj.DisplayName: 熱線銃右
+	HeatRayRightProj.DisplayName: 熱線銃右クリック
 	HeatRayLeftLaser.DisplayName: 熱線銃のレーザー
-	ApprenticeStaffT3LeftProj.DisplayName: ベッツイの怒り左
-	ApprenticeStaffT3RightProj.DisplayName: ベッツイの怒り右
+	ApprenticeStaffT3LeftProj.DisplayName: ベッツイの怒り左クリック
+	ApprenticeStaffT3RightProj.DisplayName: ベッツイの怒り右クリック
 	ApprenticeStaffT3Shot.DisplayName: ベッツイの怒りの炎
-	StaffofEarthLeftProj.DisplayName: 大地の杖左
+	StaffofEarthLeftProj.DisplayName: 大地の杖左クリック
 	StaffofEarthShot.DisplayName: 大地の杖の岩
-	ClingerStaffLeftProj.DisplayName: クリンガースタッフ左
+	ClingerStaffLeftProj.DisplayName: クリンガースタッフ左クリック
 	ClingerStaffShot.DisplayName: クリンガースタッフのクリンガー
 	ClingerStaffShot2.DisplayName: クリンガースタッフのクリンガーの呪炎
-	ClingerStaffRightProj.DisplayName: クリンガースタッフ右
+	ClingerStaffRightProj.DisplayName: クリンガースタッフ右クリック
 	FetidBaghnakhsProjectile.DisplayName: 悪臭のバクナウ
 	FetidBaghnakhsShot.DisplayName: 悪臭のバクナウの追撃
 	BladedGloveProjectile.DisplayName: 爪付きグローブ
@@ -637,8 +644,8 @@ Projectiles: {
 	BoomstickHoldout.DisplayName: ブームスティック
 	QuadBarrelShotgunHoldout.DisplayName: クワッドバレルショットガン
 	HandgunHoldout.DisplayName: 拳銃
-	PhoenixBlasterLeftHoldout.DisplayName: フェニックスブラスター左
-	PhoenixBlasterRightHoldout.DisplayName: フェニックスブラスター右
+	PhoenixBlasterLeftHoldout.DisplayName: フェニックスブラスター左クリック
+	PhoenixBlasterRightHoldout.DisplayName: フェニックスブラスター右クリック
 	ClockworkAssaultRifleHoldout.DisplayName: ゼンマイ式アサルトライフル
 	ClockworkAssaultRifleShot.DisplayName: ゼンマイ式アサルトライフルの歯車
 	GatligatorHoldout.DisplayName: ガトリゲイター
@@ -655,19 +662,19 @@ Projectiles: {
 	ChainGunMissile.DisplayName: チェーンガンのミサイル
 	XenopopperHoldout.DisplayName: ゼノホッパー
 	VortexBeaterHoldout.DisplayName: ボルテックスビーター
-	VortexBeaterRightHoldout.DisplayName: ボルテックスビーター右
+	VortexBeaterRightHoldout.DisplayName: ボルテックスビーター右クリック
 	VortexBeaterVortexPortal.DisplayName: ボルテックスビーターの渦
 	VortexBeaterVortexLightning.DisplayName: ボルテックスビーターの渦の電撃
 	SDMGHoldout.DisplayName: SDMG
 	SDMGProj2.DisplayName: SDMGのイルカ
 	ProximityMineLauncherHoldout.DisplayName: 感知地雷ランチャー
-	ProximityMineLauncherRightHoldout.DisplayName: 感知地雷ランチャー右
+	ProximityMineLauncherRightHoldout.DisplayName: 感知地雷ランチャー右クリック
 	ProximityMineLauncherRightShot.DisplayName: 感知地雷ランチャーのナノボット
 	GrenadeLauncherHoldout.DisplayName: グレネードランチャー
-	GrenadeLauncherRightHoldout.DisplayName: グレネードランチャー右
+	GrenadeLauncherRightHoldout.DisplayName: グレネードランチャー右クリック
 	GrenadeLauncherRightShot.DisplayName: グレネードランチャーのシードグレネード
 	RocketLauncherHoldout.DisplayName: ロケットランチャー
-	RocketLauncherRightHoldout.DisplayName: ロケットランチャー右
+	RocketLauncherRightHoldout.DisplayName: ロケットランチャー右クリック
 	RocketLauncherRightShot.DisplayName: ロケットランチャーのクラスターロケット
 	RocketLauncherExhaustFlame.DisplayName: ロケットランチャー
 	RocketLauncherMinissile.DisplayName: ロケットランチャーのマイクロロケット
@@ -675,20 +682,73 @@ Projectiles: {
 	NailGunHoldout.DisplayName: 釘打機
 	NailGunShot.DisplayName: 釘打
 	StyngerHoldout.DisplayName: スティンガー
-	StyngerRightHoldout.DisplayName: スティンガー右
+	StyngerRightHoldout.DisplayName: スティンガー右クリック
 	JackOLanternLauncherFire.DisplayName: ジャック・オー・ランタンの炎
 	JackOLanternLauncherHoldout.DisplayName: ジャック・オー・ランタン・ランチャー
-	JackOLanternLauncherRightHoldout.DisplayName: ジャック・オー・ランタン・ランチャー右
+	JackOLanternLauncherRightHoldout.DisplayName: ジャック・オー・ランタン・ランチャー右クリック
 	SnowmanCannonHoldout.DisplayName: スノーマンキャノン
-	SnowmanCannonRightHoldout.DisplayName: スノーマンキャノン右
+	SnowmanCannonRightHoldout.DisplayName: スノーマンキャノン右クリック
 	SnowmanCannonBigShot.DisplayName: スノーマンキャノンのエネルギーブラスト
 	ElectrosphereLauncherHoldout.DisplayName: エレクトロスフィアランチャー
 	ElectrosphereLauncherShot.DisplayName: エレクトロスフィアミサイル
 	ElectrosphereLauncherShot2.DisplayName: エレクトロスフィア
-	ElectrosphereLauncherRightHoldout.DisplayName: エレクトロスフィアランチャー右
+	ElectrosphereLauncherRightHoldout.DisplayName: エレクトロスフィアランチャー右クリック
 	ElectrosphereLauncherRightShot.DisplayName: エレクトロスフィアランチャーのライトニングオーブ
 	ElectrosphereLauncherRightShotLightning.DisplayName: エレクトロスフィアランチャーの電撃
 	SnowballCannonHoldout.DisplayName: 雪玉キャノン
+	ThunderStaffLeftShotProj.DisplayName: サンダーザッパー左クリック
+	AnchorExplosion.DisplayName: アンカーの爆発
+	NebulaRiftMagicCircle.DisplayName: ネビュラリフトの魔法陣
+	NebulaRiftProjectile.DisplayName: ネビュラリフト
+	NebulaRiftShot.DisplayName: ネビュラリフトの魔法弾
+	NebulaRiftShot2.DisplayName: ネビュラリフトの魔法弾
+	GemStaffShot.DisplayName: 宝石の杖の魔法弾
+	GemMagicStaffHoldout.DisplayName: 宝石の杖
+	AmberStaffHoldout.DisplayName: コハクの杖
+	AmethystStaffHoldout.DisplayName: アメジストの杖
+	DiamondStaffHoldout.DisplayName: ダイアモンドの杖
+	EmeraldStaffHoldout.DisplayName: エメラルドの杖
+	RubyStaffHoldout.DisplayName: ルビーの杖
+	SapphireStaffHoldout.DisplayName: サファイアの杖
+	TopazStaffHoldout.DisplayName: トパーズの杖
+	GemStaffHoldout.DisplayName: 宝石の杖
+	RinbowStaffShot.DisplayName: 虹の杖の虹
+	AquaScepterHoldout.DisplayName: アクアセプター
+	CrimsonRodHoldout.DisplayName: クリムゾンロッド
+	CrystalSerpentHoldout.DisplayName: クリスタルサーペント
+	CrystalSerpentShot.DisplayName: クリスタルサーペントの魔法弾
+	SkyFractureHoldout.DisplayName: スカイフラクチャー
+	SkyFractureShot.DisplayName: スカイフラクチャーのエネルギーソード
+	SkyFractureShot2.DisplayName: スカイフラクチャーのエネルギーソード
+	FrostStaffHoldout.DisplayName: 降霜の杖
+	VenomStaffHoldout.DisplayName: 猛毒の杖
+	PoisonStaffHoldout.DisplayName: 毒の杖
+	UnholyTridentHoldout.DisplayName: 不浄のトライデント
+	BookStaffHoldout.DisplayName: 無限の知の書
+	BatScepterHoldout.DisplayName: コウモリの短杖
+	SpectreStaffHoldout.DisplayName: スペクタースタッフ
+	WaterBoltHoldout.DisplayName: ウォーターボルト
+	WaterBoltShot.DisplayName: ウォーターボルトの魔法弾
+	BookofSkullsHoldout.DisplayName: 骸骨の魔導書
+	BookofSkullsShot.DisplayName: 骸骨の魔導書の骸骨
+	DemonScytheHoldout.DisplayName: デーモンサイス
+	DemonScytheShot.DisplayName: デーモンサイスの鎌
+	GoldenShowerHoldout.DisplayName: ゴールデンシャワー
+	GoldenShowerShot.DisplayName: ゴールデンシャワーの霊液
+	CrystalStormHoldout.DisplayName: クリスタルストーム
+	CrystalStormShot.DisplayName: クリスタルストームのクリスタル
+	CursedFlamesHoldout.DisplayName: カースドフレイム
+	CursedFlamesShot.DisplayName: カースドフレイムの炎
+	MagnetSphereShot.DisplayName: マグネットスフィアの電撃
+	MagnetSphereHoldout.DisplayName: マグネットスフィア
+	RazorbladeTyphoonHoldout.DisplayName: 渦潮の刃
+	RazorbladeTyphoonShot.DisplayName: 渦潮の刃の刃
+	LunarFlareBookHoldout.DisplayName: ルナフレア
+	LunarFlareBookCircle.DisplayName: ルナフレアの魔法陣
+	LunarFlareBookShot.DisplayName: ルナフレアのレーザー
+	LunarFlareBookHoldoutCircle.DisplayName: ルナフレアの魔法陣
+	LunarFlareBookLaser.DisplayName: ルナフレアのルナレーザー
+	LunarFlareBookShot2.DisplayName: ルナフレアのレーザー
 }
 
 ItemDescriptions: {
@@ -1941,75 +2001,57 @@ ItemDescriptions: {
 		攻撃の仕様が変更された
 		雪玉を30発装填し、雪玉が拡散しにくくなった
 		'''
-	SkyFracture:
-		'''
-		左クリックを押し続けると自身の後ろに最大15つのエネルギーソードを召喚する
-		超過したエネルギーソードは古いものから発射される
-		左クリックを離すと全てのエネルギーソードを発射する（発射直後は地形を貫通する）
-		エネルギーソードは敵を追尾する
-		'''
+	SkyFracture: 敵を追尾するエネルギーソードを3連射する
 	CrystalSerpent:
 		'''
-		左クリックを押し続けるとチャージし、完了すれば、
 		敵か地形に当たると大爆発し複数の欠片に分裂する、
-		大きなクリスタルの弾を断続的に連射する
-		右クリックで従来と同じくクリスタルの弾を発射するが、弾速が上昇している
+		大きなクリスタルの弾を発射する
 		'''
 	WandofSparking: 火花が敵を1体貫通し、地面に落ちた後、短時間残るようになった
 	WandofFrosting: 火花が敵を2体貫通し、地面に落ちた後、短時間残るようになった
 	TopazStaff:
 		'''
-		左クリックを押し続けるとチャージし、完了すれば、
 		敵か地形に当たると大爆発する強力な魔法弾を発射する
-		右クリックで従来の攻撃を行う
+		爆発は35%のダメージを与える
 		宝石のローブかミスティックローブを装備しているなら
 		クリティカル率が5%上昇し、マナ消費量が5%減少する
 		'''
 	AmethystStaff:
 		'''
-		左クリックを押し続けるとマナを消費してチャージし、完了すれば、
-		敵か地形に当たると大爆発する強力な魔法弾を発射する
-		右クリックで従来の攻撃を行う
+		敵を追尾する魔法弾を発射する
 		宝石のローブかミスティックローブを装備しているなら
 		クリティカル率が5%上昇し、マナ消費量が5%減少する
 		'''
 	SapphireStaff:
 		'''
-		左クリックを押し続けるとマナを消費してチャージし、完了すれば、
-		敵か地形に当たると特大爆発する強力な魔法弾を発射する
-		右クリックで従来の攻撃を行う
+		それぞれ60%のダメージを与える魔法弾を2つ、螺旋の軌道で発射する
 		宝石のローブかミスティックローブを装備しているなら
 		クリティカル率が5%上昇し、マナ消費量が5%減少する
 		'''
 	EmeraldStaff:
 		'''
-		左クリックを押し続けるとマナを消費してチャージし、完了すれば、
-		敵か地形に当たると特大爆発する強力な魔法弾を発射する
-		右クリックで従来の攻撃を行う
+		敵を1体貫通し、弾速が早い魔法弾を発射する
+		魔法弾は地形に当たるとそこに短時間残り、触れた敵にダメージを与える
 		宝石のローブかミスティックローブを装備しているなら
 		クリティカル率が5%上昇し、マナ消費量が5%減少する
 		'''
 	RubyStaff:
 		'''
-		左クリックを押し続けるとマナを消費してチャージし、完了すれば、マナを消費し続けて
-		敵か地形に当たると爆発する強力な魔法弾を連射する
-		右クリックで従来の攻撃を行う
+		他の宝石杖より早く、魔法弾を連射する
+		マナ消費量が50%と少ないが、ダメージが60%と少ない
 		宝石のローブかミスティックローブを装備しているなら
 		クリティカル率が5%上昇し、マナ消費量が5%減少する
 		'''
 	DiamondStaff:
 		'''
-		左クリックを押し続けるとマナを消費してチャージし、完了すれば、マナを消費し続けて
-		敵を追尾し、敵か地形に当たると爆発する強力な魔法弾を連射する
-		右クリックで従来の攻撃を行う
+		他の宝石杖より大きく、敵を1体貫通する魔法弾を発射する
 		宝石のローブかミスティックローブを装備しているなら
 		クリティカル率が5%上昇し、マナ消費量が5%減少する
 		'''
 	AmberStaff:
 		'''
-		左クリックを押し続けるとマナを消費してチャージし、完了すれば、マナを消費し続けて
-		敵か地形に当たると大爆発する強力な魔法弾を断続的に連射する
-		右クリックで従来の攻撃を行う
+		地形で跳ね返り、敵を最大で2体貫通するが、
+		ダメージが80%と少ない魔法弾を発射する
 		宝石のローブかミスティックローブを装備しているなら
 		クリティカル率が5%上昇し、マナ消費量が5%減少する
 		'''
@@ -2042,6 +2084,7 @@ ItemDescriptions: {
 		'''
 	MagnetSphere:
 		'''
+		一番近い敵に電撃を発射する
 		右クリックでマグネットスフィアを召喚する
 		マグネットスフィアは射程内の敵にビームを発射する
 		2つまで召喚でき、1つにつきアーケインスロットを1つ消費する
@@ -2074,6 +2117,9 @@ ItemDescriptions: {
 		'''
 	LunarFlareBook:
 		'''
+		レーザーが敵を追尾するようになり、80発発射するとチャージされ、
+		左クリックしたまま、右クリックすると大ダメージを与えるレーザーを発射する
+		攻撃中、3発のレーザーが周囲を回り、停止時に発射する
 		右クリックでクトゥルフの小さい目玉を召喚する
 		クトゥルフの小さい目は敵に魔法弾を発射する
 		また、時折敵を貫通する薙ぎ払いビームや敵を追尾し、爆発する目玉で攻撃する
@@ -2086,41 +2132,20 @@ ItemDescriptions: {
 		インフェルノフォークは敵に当たるか、3回地形に当たると爆風が発生する
 		右クリックで従来の攻撃を行う
 		'''
-	SpectreStaff:
-		'''
-		左クリックを押し続けるとマナを消費してチャージし、完了すれば、
-		マナを消費し続けて、4ヒットするスペクターオーブを連射する
-		右クリックで従来の攻撃を行う
-		'''
+	SpectreStaff: 霊魂が4ヒットするようになった
 	BlizzardStaff:
 		'''
 		左クリックを押し続けるとマナを消費してチャージし、完了すれば、
 		マナを消費し続けて、氷柱を降らせ続ける
+		また、攻撃中、氷の結晶が周囲を回り、触れた敵にダメージを与える
 		右クリックで氷塊を召喚する
 		氷塊はゆっくりと飛び、敵を追尾する氷のトゲを連射する
 		氷塊は1つしか召喚できない
 		'''
-	BatScepter:
-		'''
-		左クリックを押し続けるとマナを消費してチャージし、完了すれば、マナを消費し続けて
-		敵を追尾するコウモリを連射する
-		一定確率で巨大コウモリを発射し、当たるとライフを回復する
-		右クリックで従来の攻撃を行う
-		また、コウモリが2ヒットするようになった
-		'''
+	BatScepter: 一定確率で巨大コウモリを発射し、当たるとライフを回復する
 	WaspGun: 蜂が当たったときの無敵フレームが短縮された
-	PoisonStaff:
-		'''
-		左クリックを押し続けるとマナを消費してチャージし、完了すれば、
-		マナを消費し続けて、毒の牙を連射する
-		右クリックで従来の攻撃を行う
-		'''
-	VenomStaff:
-		'''
-		左クリックを押し続けるとマナを消費してチャージし、完了すれば、
-		マナを消費し続けて、毒の牙を連射する
-		右クリックで従来の攻撃を行う
-		'''
+	PoisonStaff: 毒の魔法弾を連射する
+	VenomStaff: 酸性毒の魔法弾を連射する
 	LeafBlower:
 		'''
 		左クリックを押し続けるとマナを消費してチャージし、完了すれば、
@@ -2162,12 +2187,7 @@ ItemDescriptions: {
 		右クリックでチャージし、離すと敵か地形に当たるか、一定距離で分裂するダガーを投げる
 		長くチャージすれば分裂数が増え、最大20本まで分裂する
 		'''
-	FrostStaff:
-		'''
-		左クリックを押し続けるとマナを消費してチャージし、完了すれば、マナを消費し続けて
-		敵か地形に当たるといくつかの氷のトゲに分裂する氷の弾を連射する
-		右クリックで従来と同じくフロストボルトを発射するが、弾速が上昇している
-		'''
+	FrostStaff: 敵か地形に当たるといくつかの氷のトゲに分裂する氷の弾を発射する
 	ShadowFlameHexDoll: シャドウフレイムの触手の射程が延長され、拡散しにくくなった
 	StaffofEarth:
 		'''
@@ -2175,24 +2195,11 @@ ItemDescriptions: {
 		超過した岩は古いものから発射される
 		左クリックを押しながら右クリックで召喚した岩を全て発射する
 		'''
-	NimbusRod:
-		'''
-		左クリックを押し続けるとマナを消費してチャージし、完了すれば、マナを消費し続けて
-		敵を貫通する電撃を連射する
-		右クリックで従来の攻撃を行う
-		'''
-	Crimsonrod:
-		'''
-		左クリックを押し続けるとマナを消費してチャージし、完了すれば、マナを消費し続けて
-		血流を複数連射する
-		右クリックで従来の攻撃を行う
-		'''
 	ThunderStaff:
 		'''
 		左クリックを押し続けるとマナを消費してチャージし、完了すれば、
-		敵を2体貫通するライトニングオーブを発射する
-		ライトニングオーブが消滅すると最大で12回跳ね返る電撃を発生させる
-		右クリックで従来の攻撃を行う
+		電撃を発射する
+		右クリックで従来の攻撃を行うが、当たった敵の近くの敵に電撃が伝達する
 		'''
 	MeteorStaff:
 		'''
@@ -2206,38 +2213,22 @@ ItemDescriptions: {
 		アーケインスロットが1つ増加
 		魔法と召喚ダメージが10%増加
 		'''
-	UnholyTrident:
-		'''
-		左クリックを押し続けるとマナを消費してチャージし、完了すれば、
-		マナを消費し続けて、一定まで飛ぶと敵を追尾するトライデントを3つ召喚し続ける
-		また、弾速が上昇した
-		'''
-	ShadowbeamStaff:
-		'''
-		左クリックを押し続けるとシャドウレーザーを断続的に連射する
-		右クリックでシャドウビームを発射する通常攻撃を行う
-		'''
+	UnholyTrident: 一度にトライデントを3つ発射するようになり、敵を追尾するようになった
+	ShadowbeamStaff: シャドウレーザーを断続的に連射する
 	BookStaff:
 		'''
-		左クリックを押し続けるとマナを消費してチャージし、完了すれば、
-		マナを消費し続けて、本のページを連射する
-		右クリックで、敵に接近する竜巻を召喚する
+		左クリックで本のページを連射する
+		右クリックで敵に接近する竜巻を召喚する
 		竜巻は最大で25ヒットし、6秒間持続する
 		'''
 	LaserRifle: 敵を無限に貫通するようになったが、当たるたびにダメージが10%減少
 	MedusaHead: 攻撃範囲が拡大され、同時に5体の敵を攻撃できる
 	BubbleGun:
 		'''
-		左クリックで大きな泡を発射する
-		大きな泡が爆発すると複数の小さな泡に分裂する
+		左クリックで敵か地形に当たると複数の小さな泡に分裂する大きな泡を発射する
 		右クリックで従来の攻撃を行う
 		'''
-	AquaScepter:
-		'''
-		左クリックを押し続けるとマナを消費してチャージし、完了すれば、
-		マナを消費し続けて、水のシャワーを連射する
-		右クリックで従来の攻撃を行う
-		'''
+	AquaScepter: エフェクトが変更された
 	Vilethorn:
 		'''
 		左クリックを押し続けるとマナを消費してチャージし、完了すれば、
@@ -2264,7 +2255,52 @@ ItemDescriptions: {
 		クリンガーがカーソルに向かって高速で突進するようになるが、マナの消費量が増える
 		右クリックで従来の攻撃を行う
 		'''
-	Robe: アーケインスロットが1つ増加
+	NimbusRod:
+		'''
+		左クリックを押し続けるとマナを消費してチャージし、完了すれば、マナを消費し続けて
+		敵を貫通する電撃を連射する
+		右クリックで従来の攻撃を行う
+		'''
+	CrimsonRod:
+		'''
+		左クリックを押し続けるとマナを消費してチャージし、完了すれば、マナを消費し続けて
+		血流を複数連射する
+		右クリックで従来の攻撃を行う
+		'''
+	Robe:
+		'''
+		アーケインスロットが1つ増加
+		選択中の宝石の杖の素材と装備中のローブの素材が一致しているか、
+		ミスティックローブを装備しているなら、ダメージが4、ノックバックが1増加
+		'''
+	AmethystRobe: 全ての宝石の杖の魔法弾が敵を追尾するようになる
+	TopazRobe: 全ての宝石の杖の魔法弾が爆発するようになり、35%のダメージを与える
+	SapphireRobe:
+		'''
+		全ての宝石の杖の魔法弾のダメージが60%に減少するが、
+		螺旋状に2つ発射するようになる
+		'''
+	EmeraldRobe:
+		'''
+		全ての宝石の杖の魔法弾の弾速が大幅に上昇し、敵を1体貫通するようになり、
+		地形に当たるとそこに短時間残り、触れた敵にダメージを与えるようになる
+		'''
+	RubyRobe:
+		'''
+		全ての宝石の杖の魔法弾の連射速度が2倍になり、マナ消費量が50%になるが、
+		ダメージが60%に減少する
+		'''
+	DiamondRobe: 全ての宝石の杖の魔法弾が大きくなり、敵を1体貫通するようになる
+	AmberRobe:
+		'''
+		全ての宝石の杖の魔法弾が地形に当たると跳ね返るようになり、
+		敵を最大2体貫通するようになるが、ダメージが80%に減少する
+		'''
+	GypsyRobe:
+		'''
+		全ての宝石の杖の魔法弾が地形を無視するようになるが、
+		地形を通り抜けた後、消滅が早くなる
+		'''
 	Nebula: アーケインスロットが1つ増加
 	Spectre: 最大アーケインを30増加
 	ArcaneCapacity: 最大アーケイン
@@ -3758,6 +3794,16 @@ Configs: {
 			Label: "[i/s1:1929] チェーンガンのリワークを有効にする"
 			Tooltip: チェインガンのリワークを有効にするかどうか変更します
 		}
+
+		EnableNebulaRift: {
+			Label: "[i/OriginalWeaponResetBH/NebulaRift] ネビュラリフトを有効にする"
+			Tooltip: ネビュラリフトを有効にするかどうか変更します
+		}
+
+		EnableGemStaff: {
+			Label: "[i/s1:739] 宝石の杖のリワークを有効にする"
+			Tooltip: ""
+		}
 	}
 
 	ClientConfig: {
@@ -3830,7 +3876,7 @@ Items: {
 		Tooltip:
 			'''
 			マナ消費量が8%減少 
-			アーケインスロットが1つ増加
+			アーケインスロットが2つ増加
 			'''
 	}
 
@@ -3862,12 +3908,12 @@ Items: {
 		Tooltip:
 			'''
 			アーケインゲージが出現する
-			最大マナと最大アーケインが30増加
+			最大マナと最大アーケインが40増加
 			マナ自然回復ポーションの効果を得る
-			マナが自然回復する際、アーケインが増加する
-			魔法武器で攻撃したときアーケインを消費するが、当たるとライフが回復する
-			アーケインの消費率はマナ消費軽減に応じて変化する
-			--このアクセサリーを非表示にすると、自動でマナポーションを使用する機能を無効化できる--
+			魔法武器でマナを消費するとアーケインを得る
+			アーケインが最大時に[c/8d0ae6:{0}]でアーケインを消費してライフを回復する
+			マナポーションを自動で使用してくれる
+			このアクセサリーを非表示にすると、自動でマナポーションを使用する機能を無効化できる
 			'''
 	}
 
@@ -3877,11 +3923,10 @@ Items: {
 			'''
 			アーケインゲージが出現する
 			最大マナと最大アーケインが40増加
-			マナが自然回復する際、アーケインが増加する
-			魔法武器で攻撃したときアーケインを消費するが、神秘注入バフを得て、
-			アーケインの量に応じて魔法ダメージを増加させる
-			アーケインの消費率はマナ消費軽減に応じて変化する
-			変換率は50%
+			魔法武器でマナを消費するとアーケインを得る
+			アーケインが最大時に[c/8d0ae6:{0}]でアーケインを消費して神秘注入を得て、
+			現在のアーケインの66%分、魔法ダメージを増加させる
+			マナポーションを自動で使用してくれる
 			--このアクセサリーを非表示にすると、自動でマナポーションを使用する機能を無効化できる--
 			'''
 	}
@@ -3902,12 +3947,13 @@ Items: {
 		Tooltip:
 			'''
 			アーケインゲージが出現する
-			最大マナが100増加
-			最大アーケインが{0}増加
+			最大マナが100増加し、最大アーケインが{0}増加
 			アーケイン再生の腕輪と神秘注入の本の効果を得る
-			アーケインの獲得効率が上昇する
-			最大マナと最大アーケインの増加を除く効果は重複しない
-			--このアクセサリーを非表示にすると、自動でマナポーションを使用する機能を無効化できる--
+			魔法武器でマナを消費するとアーケインを得る
+			アーケインが最大時に[c/8d0ae6:{1}]でアーケインを消費してライフを回復し、神秘注入を得る
+			下位のアクセサリとは重複しない
+			マナポーションを自動で使用してくれる
+			このアクセサリーを非表示にすると、自動でマナポーションを使用する機能を無効化できる
 			'''
 	}
 
@@ -4198,12 +4244,14 @@ Items: {
 		Tooltip:
 			'''
 			アーケインゲージが出現する
-			最大マナが120増加
-			最大アーケインが{0}増加
+			最大マナが120増加し、最大アーケインが{0}増加
 			アーケイン再生の腕輪と神秘注入の本の効果を得る
 			アーケインの獲得効率が上昇する
+			魔法武器でマナを消費するとアーケインを得る
+			アーケインが最大時に[c/8d0ae6:{1}]でアーケインを消費してライフを回復し、神秘注入を得る
 			下位のアクセサリとは重複しない
-			--このアクセサリーを非表示にすると、自動でマナポーションを使用する機能を無効化できる--
+			マナポーションを自動で使用してくれる
+			このアクセサリーを非表示にすると、自動でマナポーションを使用する機能を無効化できる
 			'''
 	}
 
@@ -4265,6 +4313,16 @@ Items: {
 	FrostShard: {
 		DisplayName: 氷の欠片
 		Tooltip: 氷の弾丸の作成に使用する
+	}
+
+	NebulaRift: {
+		DisplayName: ネビュラリフト
+		Tooltip: ""
+	}
+
+	GemStaff: {
+		DisplayName: 宝石の杖
+		Tooltip: ""
 	}
 }
 
@@ -4439,5 +4497,9 @@ Buffs: {
 
 InfoDisplays.MageSummonInfoDisplay.DisplayName: アーケインスロット
 UI.ArcaneReserve: アーケイン {0}/{1}
-KeybindPlayer.SentryTelePort: セントリーテレポート
-Keybinds.SentryTelePort.DisplayName: セントリーテレポート
+KeybindPlayer.SentryTelePort: セントリーテレポート 
+
+Keybinds: {
+	SentryTelePort.DisplayName: セントリーテレポート
+	StoredMana.DisplayName: アーケイン使用
+}

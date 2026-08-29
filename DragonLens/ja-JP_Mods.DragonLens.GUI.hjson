@@ -1,8 +1,11 @@
 Browser: {
-	ListView: リスト表示
 	Filters: フィルター
 	Sorts: ソートモード
-
+	ListView: リスト表示
+	GridView: グリッド表示
+	GridViewDescription: グリッド表示中。クリックするとリスト表示に切り替わる
+	ListViewDescription: リスト表示中。クリックするとグリッド表示に切り替わる
+	Settings: 設定
 	Sort: {
 		ID: ID順
 		Alphabetical: アルファベット順
@@ -10,7 +13,10 @@ Browser: {
 		Defense: 防御力順
 		Value: コインの価値順
 		Life: 最大ライフ順
+		CurrentLife: 現在ライフ順
+		SessionTime: セッション時間順
 		AlphabeticalPath: パス順アルファベット順
+		Teams: チーム順
 	}
 
 	ButtonSizeSlider: {

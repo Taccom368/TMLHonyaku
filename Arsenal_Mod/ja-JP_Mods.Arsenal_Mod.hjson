@@ -267,7 +267,7 @@ Buffs: {
 	}
 
 	BeetleDartDef: {
-		DisplayName: ビートルダート
+		DisplayName: ビートルダーツ
 		Description: 被ダメージをわずかに軽減
 	}
 
@@ -3041,7 +3041,7 @@ Items: {
 	}
 
 	BeetleDart: {
-		DisplayName: ビートルダート
+		DisplayName: ビートルダーツ
 		Tooltip: 当たると、一時的に被ダメージをわずかに軽減することがある
 	}
 
@@ -3056,7 +3056,7 @@ Items: {
 	}
 
 	EchoDart: {
-		DisplayName: エコーダート
+		DisplayName: エコーダーツ
 		Tooltip: 地形に当たると2つに分裂する
 	}
 
@@ -3066,7 +3066,7 @@ Items: {
 	}
 
 	NeedleDart: {
-		DisplayName: ニードルダート
+		DisplayName: ニードルダーツ
 		Tooltip:
 			'''
 			敵に突き刺さり、しばらくしてから爆発してダメージを追加で与える
@@ -3076,7 +3076,7 @@ Items: {
 	}
 
 	OverclockDart: {
-		DisplayName: オーバークロックダート
+		DisplayName: オーバークロックダーツ
 		Tooltip: ""
 	}
 
@@ -3100,7 +3100,7 @@ Items: {
 	}
 
 	TrackerDart: {
-		DisplayName: トラッカーダート
+		DisplayName: トラッカーダーツ
 		Tooltip: 左クリックを押している間、カーソルを追尾する
 	}
 
